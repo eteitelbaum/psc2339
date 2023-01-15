@@ -1,23 +1,17 @@
 ---
 title: "Week 14"
-subtitle: "The Rise of Radical Politics"
+subtitle: "Climate Politics and Final Project Workshop"
 editor: visual
 ---
 
 ## Readings
 
-📖 John Judis, [*The Politics of Our
-Time*](https://www-jstor-org.proxygw.wrlc.org/stable/j.ctv2dzzqsn)
-
--   *For Tuesday, choose one chapter to read from Part I*
-
--   *For Thursday, choose one chapter to read from Part II or Part III*
+📖 Aklin and Matto, ["Prisoners of the Wrong
+Dilemma"](https://direct.mit.edu/glep/article/20/4/4/95068/Prisoners-of-the-Wrong-Dilemma-Why-Distributive)
 
 ## Slides
 
-🖥️ [The populist backlash in the West](/slides/lecture-14.1.html)
-
-🖥️ [The rise of nationalism and socialism](/slides/lecture-14.2.html)
+🖥️ Climate change and collective action
 
 <br><br>
 

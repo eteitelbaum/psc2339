@@ -6,7 +6,7 @@ editor: visual
 
 ::: callout-important
 "Data Assignment 2: Cleaning & Visualizing Data in Excel" is due on
-Sunday, October 16
+Sunday, March 5
 :::
 
 ## Readings
@@ -17,11 +17,6 @@ Africa"](https://www.brookings.edu/wp-content/uploads/2021/02/Washington-Consens
 
 Benería et. al., ["Markets, Globalization and
 Gender"](https://eresgw-wrlc-org.proxygw.wrlc.org/x/docs/gelm/teitelbaum_emmanuel/LourdesChapter3.pdf)
-
-## Dataquest
-
-📉 [Line, Scatter & Combo
-Charts](https://app.dataquest.io/c/131/m/670/line%2C-scatter%2C-and-combo-charts/1/introduction)
 
 ## Slides
 

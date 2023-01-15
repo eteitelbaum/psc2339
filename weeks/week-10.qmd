@@ -13,14 +13,6 @@ Capitalism*](https://blackboard.gwu.edu/bbcswebdav/pid-11924627-dt-content-rid-9
 European-Style Welfare
 State?"](https://www.brookings.edu/wp-content/uploads/2001/06/2001b_bpea_alesina.pdf)
 
-## Dataquest
-
-📉 [Get Started Building with Power
-BI](https://app.dataquest.io/c/120/m/621/get-started-building-with-power-bi/6/building-blocks-of-power-bi-datasets)
-
-📉 [Get Data in Power
-BI](https://app.dataquest.io/c/120/m/622/get-data-in-power-bi)
-
 ## Slides
 
 🖥️ [Welfare states in the OECD](/slides/lecture-10.1.html)

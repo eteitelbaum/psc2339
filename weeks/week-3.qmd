@@ -6,7 +6,7 @@ editor: visual
 
 ::: callout-important
 "Data Assignment 1: Working With Data in Excel" is due on Sunday,
-September 18
+February 5
 :::
 
 ## Readings
@@ -17,14 +17,6 @@ States"](https://doi.org/10.1017/S1537592718003377)
 📖Michael Ross, [The Oil
 Curse](https://www-jstor-org.proxygw.wrlc.org/stable/j.ctt7s3wz.10)*,*
 Chapter 3
-
-## Dataquest
-
-📉 [Importing Data into Excel
-Spreadsheets](https://app.dataquest.io/c/127/m/652/importing-data-into-excel-spreadsheets/1/welcome-to-the-course)
-
-📉 [Organizing
-Data](https://app.dataquest.io/c/127/m/653/organizing-data/1/introduction)
 
 ## Slides
 

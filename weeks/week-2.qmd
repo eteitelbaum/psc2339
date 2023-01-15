@@ -12,14 +12,6 @@ Development"](https://link-springer-com.proxygw.wrlc.org/article/10.1007/s11127-
 📖 Cheibub and Vreeland, ["Modernization
 Theory"](https://blackboard.gwu.edu/webapps/blackboard/execute/content/file?cmd=view&mode=designer&content_id=_12520836_1&course_id=_374099_1 "Cheibub and Vreeland")
 
-## Dataquest
-
-📉 [How to Use
-Data](https://app.dataquest.io/c/141/m/757/how-to-use-data/1/how-to-use-data)
-
-📉 [The Data Analysis
-Process](https://app.dataquest.io/c/141/m/758/the-data-analysis-process)
-
 ## Slides
 
 🖥️ [Institutions and Development](/slides/lecture-2.1.html)

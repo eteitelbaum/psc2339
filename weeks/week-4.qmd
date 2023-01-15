@@ -5,7 +5,7 @@ editor: visual
 ---
 
 ::: callout-important
-Exam 1 is due on Sunday, September 25
+Exam 1 is due on Sunday, February 12
 :::
 
 ## Readings
@@ -22,8 +22,7 @@ Policies"](https://www.econstor.eu/bitstream/10419/216551/1/cesifo1_wp8155.pdf)
 
 ## Assignments
 
-📘 [Exam
-1](https://blackboard.gwu.edu/webapps/blackboard/content/listContentEditable.jsp?content_id=_12520539_1&course_id=_374099_1&mode=reset "Exam 1")
+📘 Exam 1
 
 <br><br>
 

@@ -1,6 +1,6 @@
 ---
 title: "Week 6"
-subtitle: ""
+subtitle: "Distributive Politics in Developing Countries"
 editor: visual
 ---
 
@@ -11,14 +11,6 @@ Nation?"](http://www.jstor.org/stable/25054263)
 
 📖 Holland and Ben Ross Schneider, ["Easy and Hard
 Redistribution"](https://doi-org.proxygw.wrlc.org/10.1017/S1537592717002122)
-
-## Dataquest
-
-📉 [Pie, Column & Histogram
-Charts](https://app.dataquest.io/c/131/m/669/pie%2C-column%2C-and-histogram-charts/1/introduction)
-
-📉 [Line, Scatter & Combo
-Charts](https://app.dataquest.io/c/131/m/670/line%2C-scatter%2C-and-combo-charts/1/introduction)
 
 ## Slides
 

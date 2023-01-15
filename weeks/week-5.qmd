@@ -14,21 +14,11 @@ Chapter 1
 Sale*](https://ebookcentral.proquest.com/lib/gwu/reader.action?docID=5732981&ppg=112),
 Chapter 5
 
-## Dataquest
-
-📉 [Cleaning Data, Part
-I](https://app.dataquest.io/c/127/m/654/cleaning-data---part-i/1/introduction)
-
-📉 [Cleaning Data, Part
-II](https://app.dataquest.io/c/127/m/655/cleaning-data-part-ii/1/introduction)
-
 ## Slides
 
 🖥️ [Programmatic politics vs. clientelism](/slides/lecture-5.1.html)
 
 🖥️ [Vote buying](/slides/lecture-5.2.html)
-
-## Assignments
 
 <br><br>
 

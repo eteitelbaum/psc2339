@@ -5,9 +5,7 @@ editor: visual
 ---
 
 ::: callout-important
-"Data Assignment 3: Working With Power BI" is due on November 20.
-\[**Cancelled--Data assignment 3 will be folded into final project
-assignment**\]
+"Project Assignment 2: White Paper" is due on Sunday, April 9
 :::
 
 ## Readings
@@ -19,14 +17,6 @@ Shock"](https://www.annualreviews.org/doi/full/10.1146/annurev-economics-080315-
 Profits*](https://www.amazon.com/gp/product/B07P92PDLF/ref=dbs_a_def_rwt_bibl_vppi_i2)*,
 Chapter 3*
 
-## Dataquest
-
-📉 [Create a Data-driven Story With Power BI Reports
-II](https://app.dataquest.io/c/123/m/693/create-a-data-driven-story-with-power-bi-reports-ii/1/introduction-to-interactive-data-visualizations)
-
-📉 [Create Dashboards in Power
-BI](https://app.dataquest.io/c/123/m/629/create-dashboards-in-power-bi/1/introduction-to-dashboards)
-
 ## Slides
 
 🖥️ [Globalization](/slides/lecture-12.1.html)
@@ -35,8 +25,8 @@ BI](https://app.dataquest.io/c/123/m/629/create-dashboards-in-power-bi/1/introdu
 
 ## Assignments
 
-🧮 Data Assignment 3: Working With Power BI (**Cancelled--will be folded
-into final project; details provided in class**)
+✍️ [Project Assignment 2: White
+Paper](/project/project-assignment-2.html)
 
 <br><br>
 

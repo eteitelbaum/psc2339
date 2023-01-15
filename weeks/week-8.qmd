@@ -5,7 +5,7 @@ editor: visual
 ---
 
 ::: callout-important
-Exam 2 is due on Tuesday, October 25
+Exam 2 is due on Sunday, March 19
 :::
 
 ## Readings
@@ -21,8 +21,7 @@ Neoliberalism"](https://onlinelibrary-wiley-com.proxygw.wrlc.org/doi/full/10.111
 
 ## Assignments
 
-📘 [Exam
-2](https://blackboard.gwu.edu/webapps/blackboard/content/listContentEditable.jsp?content_id=_12520540_1&course_id=_374099_1&mode=reset)
+📘 Exam 2
 
 <br><br>
 

@@ -1,27 +1,25 @@
 ---
 title: "Project Assignment 3"
-subtitle: "Power BI Report"
+subtitle: "Tableau Dashboard"
 editor: visual
 ---
 
 ## Overview
 
 Now that you have your data in the right format, it is time to make your
-Power BI report. For step by step instructions on how to do this, see
-the series of YouTube videos in [this
-playlist](https://www.youtube.com/playlist?list=PLz_H8pWWERSwho0MqfYlDT46PJD6GuH20).
-Your report should include at least four visualizations. The default
-selection would include a column chart, a line chart, a map and a
-scatter plot but there can be some flexibility in terms of the exact
-composition. Ideally, the visualizations should interact with one
-another, meaning that when you click on a country represented on the map
-the data for that country is reflected in the line chart, bar chart,
-etc.
+Tableau dashboard. For step by step instructions on how to do this, see
+the series of YouTube videos in this playlist (coming soon). Your report
+should include at least four visualizations. The default selection would
+include a column chart, a line chart, a map and a scatter plot but there
+can be some flexibility in terms of the exact composition. Ideally, the
+visualizations should interact with one another, meaning that when you
+click on a country represented on the map the data for that country is
+reflected in the line chart, bar chart, etc.
 
 ## Steps
 
-1.  Create a Power BI report following the steps outlined in the videos
-    linked above.
+1.  Create a Tableau dashboard following the steps outlined in the
+    videos linked above.
 2.  Using a screen recording software like
     [Vimeo](https://vimeo.com/features/screen-recorder), submit a video
     summarizing the main insights derived from your report.
@@ -40,18 +38,14 @@ etc.
     regarding these variables in class or that you had read during the
     course of your research on this topic?
 
-3.  Sign up for a free trial of Power BI Pro so that you can share the
-    link to your app. You can share the link in the text field for the
-    assignment submission.
-4.  If this method of sharing your report fails, you can try exporting
-    your app as a .pbix file or (as a last resort) a .pdf. You should
-    really only use the .pdf option if you are submitting a video,
-    though, as I would like to see your report in operation.
+3.  Share a link to the app in the text field of the assignment
+    submission.
 
 ## What to Submit
 
-1.  Your video or written summary of your insights.
-2.  A link to your video.
+1.  Your video, a link to your video, or a written summary of your
+    insights.
+2.  A link to your dashboard.
 
 As always, if you have any questions about anything, please ask. I hope
-you enjoy the Power BI assignment!
+you enjoy the Tableau assignment!

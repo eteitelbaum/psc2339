@@ -52,19 +52,18 @@ discussions and to ask clarifying questions when the need arises.
 
 ## Assignments
 
-1.  Three data assignments (5% percent each)
+1.  Two data assignments (5% percent each)
 2.  Three exams (15% each)
-3.  Final project (40% of final grade)
+3.  Final project (45% of final grade)
     a.  Outline and sources (10%)
-    b.  White paper (10%)
+    b.  White paper (15%)
     c.  Power BI report (20%)
 
 ### Data assignments
 
-Students will complete three graded data assignments. These exercises
-will be oriented towards strengthening the student's ability to
-manipulate, visualize and communicate data with Microsoft Excel and
-Tableau.
+Students will complete two graded data assignments. These exercises will
+be oriented towards strengthening the student's ability to manipulate,
+visualize and communicate data with Microsoft Excel.
 
 ### Exams
 
@@ -96,7 +95,11 @@ minimum of 5 hours of independent learning or 7.5 hours per week.
 ### Due dates and late assignments
 
 Readings should be completed and videos watched for the day they are
-assigned. Assignment due dates are posted in the "weekly materials" page for the week that they are due. The final component of the final project is due at 11:59 p.m. on the date of the scheduled final. (Note that that **there is no final exam** for this course. This is just the due date for the Tableau assignment).
+assigned. Assignment due dates are posted in the "weekly materials" page
+for the week that they are due. The final component of the final project
+is due at 11:59 p.m. on the date of the scheduled final. (Note that that
+**there is no final exam** for this course. This is just the due date
+for the Tableau assignment).
 
 Late assignments will be accepted **with a standard penalty of three
 percentage points per day** that they are turned in after the official

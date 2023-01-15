@@ -13,11 +13,6 @@ resources](/course-support.html)
 Transformation*](https://ebookcentral.proquest.com/lib/gwu/reader.action?docID=3117969&ppg=87),
 Chapter 11
 
-## Dataquest
-
-📉 [Defining
-Data](https://app.dataquest.io/c/141/m/756/defining-data/1/introduction-to-data-foundations)
-
 ## Slides
 
 🖥[Polany's Great Transformation](/slides/lecture-1.html)

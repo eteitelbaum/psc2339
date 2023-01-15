@@ -1,5 +1,5 @@
 ---
-title: "Lecture 14.1"
+title: "Lecture 13.1"
 subtitle: "The Populist Backlash in the West"
 author: "Emmanuel Teitelbaum"
 footer: "[PSC 2339 Website](https://psc2339.com)"

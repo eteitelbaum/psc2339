@@ -1,21 +1,23 @@
 ---
 title: "Week 13"
-subtitle: "Final Project Workshop II"
+subtitle: "The Rise of Radical Politics"
 editor: visual
 ---
 
-::: callout-important
-"Project Assignment 2: White Paper" is due on Friday, December 2
-:::
+## Readings
 
-::: callout-important
-Tuesday's workshop will be held virtually on Zoom.
-:::
+📖 John Judis, [*The Politics of Our
+Time*](https://www-jstor-org.proxygw.wrlc.org/stable/j.ctv2dzzqsn)
 
-## Assignments
+-   *For Tuesday, choose one chapter to read from Part I*
 
-✍️ [Project Assignment 2: White
-Paper](/project/project-assignment-2.html)
+-   *For Thursday, choose one chapter to read from Part II or Part III*
+
+## Slides
+
+🖥️ [The populist backlash in the West](/slides/lecture-14.1.html)
+
+🖥️ [The rise of nationalism and socialism](/slides/lecture-14.2.html)
 
 <br><br>
 

@@ -42,5 +42,4 @@ plot](https://www.youtube.com/watch?v=NDszBjbvSFA&t=29s); and a
     has an appropriate title. Now below each visualization include a
     source note and write a line or two describing what you see in the
     visualization (e.g. trends, comparisons relationshsips).
-8.  Save the Word file and upload it to
-    [Blackboard](https://blackboard.gwu.edu/webapps/blackboard/content/listContentEditable.jsp?content_id=_12226807_1&course_id=_374099_1).
+8.  Save the Word file and upload it to Blackboard.

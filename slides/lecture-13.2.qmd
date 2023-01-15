@@ -1,5 +1,5 @@
 ---
-title: "Lecture 14.2"
+title: "Lecture 13.2"
 subtitle: "The Rise of Nationlism and Socialism(?)"
 author: "Emmanuel Teitelbaum"
 footer: "[PSC 2339 Website](https://psc2339.com)"

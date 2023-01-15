@@ -7,11 +7,9 @@ editor: visual
 ## Overview
 
 The purpose of this assignment is to come up with a plan for your final
-project. The final project is going to involve creating a report in
-Microsoft Power BI. If you can find the link to the online Power BI app
-[here](https://myapps.microsoft.com). And if you are a Microsoft Windows
-user, you can download the desktop version for free
-[here](https://powerbi.microsoft.com/en-us/desktop/).
+project. The final project is going to involve creating a dashboard in
+Tableau. You can find some examples of Tableau dashboards
+[here](https://www.tableau.com/data-insights/dashboard-showcase).
 
 For the next few weeks you are going to work with me and your classmates
 to come up with a proposed plan for your report. You will first write an

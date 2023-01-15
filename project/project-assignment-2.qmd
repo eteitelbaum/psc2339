@@ -8,16 +8,15 @@ editor: visual
 
 For this part of the project, you are going to download the data that
 you discussed in your outline and wrangle it. "Wrangling" means cleaning
-the data and getting it into the proper format for analysis. For Power
-BI and other commonly used data analysis applications, the data need to
-be in [long
-format](https://stefvanbuuren.name/fimd/sec-longandwide.html) so that
-each row contains values for one country or region per year and each
-column contains data for one variable. You also need to filter the data
-for the years that you want to use and select the variables that you
-want to work with. If you are working with more than one data set, then
-you have to merge the two data sets. I show you how to do all of this
-using data from the World Bank and V-Dem in [this
+the data and getting it into the proper format for analysis. For Tableau
+and other commonly used data analysis applications, the data need to be
+in [long format](https://stefvanbuuren.name/fimd/sec-longandwide.html)
+so that each row contains values for one country or region per year and
+each column contains data for one variable. You also need to filter the
+data for the years that you want to use and select the variables that
+you want to work with. If you are working with more than one data set,
+then you have to merge the two data sets. I show you how to do all of
+this using data from the World Bank and V-Dem in [this
 video](https://www.youtube.com/watch?v=yqAYuAf6zEc&t=175s).
 
 ## Steps
@@ -50,7 +49,7 @@ three is also fine.
 
 Submit a report in the form of a [white
 paper](https://www.instructionalsolutions.com/blog/how-to-write-white-paper)
-that tells your boss your plan for creating a Power BI report. The white
+that tells your boss your plan for creating a Tableau report. The white
 paper should include the following elements:
 
 1.  An abstract ($\approx$ 150 words)

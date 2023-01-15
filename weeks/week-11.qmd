@@ -14,14 +14,6 @@ Unions?"](https://journals-sagepub-com.proxygw.wrlc.org/doi/full/10.1177/0143831
 Capitalism*](https://academic.oup.com/book/301/chapter/134893294),
 Chapter 1
 
-## Dataquest
-
-📉 [Create Power BI
-Visuals](https://app.dataquest.io/c/123/m/627/create-power-bi-visuals/1/introduction-to-working-with-power-bi-visualsle-and-matrix-visualizations)
-
-📉 [Create a Data-driven Story With Power BI
-Reports](https://app.dataquest.io/c/123/m/628/create-a-data-driven-story-with-power-bi-reports---i/1/design-power-bi-reports)
-
 ## Slides
 
 🖥️ [Unions and collective bargaining](/slides/lecture-11.1.html)
