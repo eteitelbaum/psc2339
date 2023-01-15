@@ -5,13 +5,20 @@ editor: visual
 ---
 
 ::: callout-important
-Exam 2 is due on Sunday, March 19
+Exam 2 is due on Sunday, March 19.
+:::
+
+::: callout-important
+Project Assignment 1 is due on Sunday, March 19.
 :::
 
 ## Readings
 
 📖 James Putzel, ["The 'Populist' Right Challenge to
 Neoliberalism"](https://onlinelibrary-wiley-com.proxygw.wrlc.org/doi/full/10.1111/dech.12578)
+
+📖 Mary Cullen, ["How to Write and Format a White
+Paper"](https://www.instructionalsolutions.com/blog/how-to-write-white-paper)
 
 ## Slides
 
@@ -22,6 +29,9 @@ Neoliberalism"](https://onlinelibrary-wiley-com.proxygw.wrlc.org/doi/full/10.111
 ## Assignments
 
 📘 Exam 2
+
+✍️ [Project Assignment 1: Outline and
+Sources](/assignments/project-assignment-1.html)
 
 <br><br>
 
