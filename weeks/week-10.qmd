@@ -7,7 +7,7 @@ editor: visual
 ## Readings
 
 📖 Gøsta Esping-Andersen, [*The Three Worlds of Welfare
-Capitalism*](https://blackboard.gwu.edu/bbcswebdav/pid-11924627-dt-content-rid-98297654_2/xid-98297654_2)
+Capitalism*](https://blackboard.gwu.edu/webapps/blackboard/execute/content/file?cmd=view&mode=designer&content_id=_12817120_1&course_id=_380501_1)
 
 📖 Alesina et. al., ["Why Doesn't the United States Have a
 European-Style Welfare

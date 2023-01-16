@@ -7,7 +7,7 @@ editor: visual
 ## Readings
 
 📖 Stokes et. al., [*Brokers, Voters and
-Clientelism*](https://blackboard.gwu.edu/webapps/blackboard/execute/content/file?cmd=view&mode=designer&content_id=_12522450_1&course_id=_374099_1 "Stokes et. al."),
+Clientelism*](https://blackboard.gwu.edu/webapps/blackboard/execute/content/file?cmd=view&mode=designer&content_id=_12817119_1&course_id=_380501_1 "Stokes et. al."),
 Chapter 1
 
 📖 Aspinall and Berenschot, [*Democracy for

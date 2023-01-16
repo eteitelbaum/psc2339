@@ -10,7 +10,7 @@ editor: visual
 Development"](https://link-springer-com.proxygw.wrlc.org/article/10.1007/s11127-019-00645-z "Acemoglu and Robinson")
 
 📖 Cheibub and Vreeland, ["Modernization
-Theory"](https://blackboard.gwu.edu/webapps/blackboard/execute/content/file?cmd=view&mode=designer&content_id=_12520836_1&course_id=_374099_1 "Cheibub and Vreeland")
+Theory"](https://blackboard.gwu.edu/webapps/blackboard/execute/content/file?cmd=view&mode=designer&content_id=_12817118_1&course_id=_380501_1 "Cheibub and Vreeland")
 
 ## Slides
 
