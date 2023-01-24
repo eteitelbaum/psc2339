@@ -154,7 +154,9 @@ three_cases_gdp
 
 ::: notes
 Discuss in this order: Zimbabwe, South Africa and China Use China to
-transition to growth under dictatorship
+transition to growth under dictatorship. China and S. Africa represent different 
+authoritarian growth trajectories. China has inclusive economic institutions while 
+S. Africa has inclusive political institutions. 
 
 If things are going fast, do small groups; have each choose on case for
 discussion.
@@ -203,9 +205,9 @@ institutions
 ## Growth Under Repressive Regimes
 
 -   Growth under extractive institutions is possible
-    -   When elite funnel resources to high productivity areas
+    -   When elite funnel resources to high productivity areas (e.g. USSR)
     -   When authoritarian regimes permit inclusive economic
-        institutions
+        institutions (e.g. S. Korea under Park, China)
 -   But this growth is inherently *limited*
     -   Lack of incentives for innovation and production
     -   Resistance to creative destruction
