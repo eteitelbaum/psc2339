@@ -15,7 +15,10 @@ execute:
 ---
 
 ```{r, setup}
+#| label: setup
+#| include: false
 library(tidyverse)
+
 maddison_dat <- read_csv("data/mpd_2018.csv")
 three_cases_dat <- maddison_dat %>%
   filter(
@@ -140,7 +143,7 @@ slavery; the encomienda system (forced labor); child labor
 #| fig-cap: "Source: Maddison Project Database, version 2018." 
 
 three_cases_gdp <- ggplot(three_cases_dat, aes(x = year, y = rgdpnapc, color = country)) +
-  geom_line(size = 1) +
+  geom_line(linewidth = 1) +
   labs(x = NULL, y = "GDP per capita (2011 US$)", 
        title = "Economic performance of three dictatorships (1950-2016)\n") +
   scale_color_brewer(palette = "Dark2", name = "Country") +
@@ -180,7 +183,7 @@ their leadership?
 #| fig-cap: "Source: Maddison Project Database, version 2018." 
 
 dictator_gdp <- ggplot(dictator_dat, aes(x = year, y = rgdpnapc, color = country)) +
-  geom_line(size = 1) +
+  geom_line(linewidth = 1) +
   labs(x = NULL, y = "GDP per capita (2011 US$)", 
        title = "Economic performance of three dictatorships (1950-1990)\n") +
   scale_color_brewer(palette = "Dark2", name = "Country") +
@@ -212,12 +215,7 @@ institutions
 
 ## The United States
 
-![Van Ingen & Snyder, 1864](images/flogging.jpg)
-
-::: notes
-Wood carving is by Van Ingen & Snyder from a book titled *The Suppressed
-Book About Slavery!* published by G.W. Carleton and Co. in 1864.
-:::
+![National Memorial for Peace and Justice](images/peace-justice.jpg)
 
 ## The United Kingdom
 
@@ -228,7 +226,7 @@ Book About Slavery!* published by G.W. Carleton and Co. in 1864.
 ```{r}
 #| fig-cap: "Source: Maddison Project Database, version 2018." 
 india_gdp <- ggplot(india_dat, aes(x = year, y = rgdpnapc, color = country)) +
-  geom_line(size = 1) +
+  geom_line(linewidth = 1) +
   labs(x = NULL, y = "GDP per capita (2011 US$)", 
        title = "India's GDP (1600-1948)\n") +
   scale_color_brewer(palette = "Dark2", name = "Country") +
