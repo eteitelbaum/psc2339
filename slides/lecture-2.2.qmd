@@ -24,7 +24,6 @@ library(plotly)
 library(WDI)
 
 theme_set(theme_minimal())
-
 ```
 
 ```{r}
