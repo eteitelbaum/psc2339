@@ -124,7 +124,7 @@ ggplot(pct_regimes, aes(x = year, y = percent, color = regime_type)) +
     -   Civic culture
     -   Social capital and education
 
-## Hypotheses (2/3)
+## Hypotheses (2/3) {style="font-size: .75em"}
 
 -   Specific types of political institutions
     -   Presidential vs. parliamentary systems
@@ -155,7 +155,7 @@ ggplot(pct_regimes, aes(x = year, y = percent, color = regime_type)) +
 -   "No democracy was ever subverted in a country with a per capita
     income higher than Argentina in 1975: \$6,055" (Przeworski)
 
-## Inequality
+## Inequality {style="font-size: .75em"}
 
 -   "Redistributivist" theory
     -   Democracy is more durable in egalitarian societies
@@ -186,7 +186,7 @@ ggplot(pct_regimes, aes(x = year, y = percent, color = regime_type)) +
 
 # Exercise
 
-## Group Exercise
+## Group Exercise {style="font-size: .75em"}
 
 -   [V-Dem graphing tool](https://www.v-dem.net/en/online-graphing/)
 
