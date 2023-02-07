@@ -5,10 +5,10 @@ website:
   page-navigation: true
   title: "PSC 2339--Spring Schedule"
   description: "Homepage for PSC 2339 - Comparative Political Economy, George Washington University."
-  site-url: "https://psc2339/fall-2022"
+  site-url: "https://psc2339.com"
 
-  #repo-url: https://github.com/psc2339-fall
-  #repo-actions: [edit, issue]
+  repo-url: "https://github.com/psc2339-spring-2023"
+  repo-actions: [edit, issue]
 
   open-graph: true
   favicon: "images/cpe_logo.png"
