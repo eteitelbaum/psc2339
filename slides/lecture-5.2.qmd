@@ -30,7 +30,7 @@ theme_set(theme_minimal())
 clientelism <- vdem %>%
   slice_max(year) %>%
   select(country = country_name, cow = COWcode, year, clientelism = v2xnp_client) %>%
-  mutate(iso_a3 = countrycode(cow, origin = "cown", destination = "iso3c")) %>%
+  mutate(iso_a3_eh = countrycode(cow, origin = "cown", destination = "iso3c")) %>%
   drop_na()
 ```
 
@@ -61,9 +61,9 @@ clientelism <- vdem %>%
 map <- ne_countries(returnclass = "sf") %>%
   left_join(
     clientelism,
-    by = "iso_a3"
+    by = "iso_a3_eh"
   ) %>%
-  filter(iso_a3 != "ATA") %>% # remove Antarctica
+  filter(iso_a3_eh != "ATA") %>% # remove Antarctica
   ggplot(aes(fill = clientelism)) + # need ctry label for plotly to show in tool tip 
                                     # (fill = clientelism, label = country)
                                     # but couldn't get all ctry names to show, so I left it
