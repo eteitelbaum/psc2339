@@ -178,7 +178,7 @@ ne_countries(returnclass = "sf") %>%
     clientelism,
     by = "iso_a3_eh"
   ) %>%
-  filter(iso_a3_eh != "ATA") %>% # remove Antarctica
+  filter(iso_a2_eh != "ATA") %>% # remove Antarctica
   ggplot(aes(fill = clientelism)) +
   geom_sf() +
   scale_fill_viridis_c(direction = -1) +
