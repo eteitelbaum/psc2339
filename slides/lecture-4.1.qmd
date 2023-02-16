@@ -69,7 +69,7 @@ ne_countries(returnclass = "sf") %>%
       c(sex_ratio = sex_ratio), 
       mrnev = 1
     ),
-    c("iso_a3" = "iso3c")
+    c("iso_a3_eh" = "iso3c")
   ) %>%
   filter(iso_a3 != "ATA") %>% # remove Antarctica
   ggplot(aes(fill = sex_ratio)) +
@@ -108,9 +108,9 @@ ne_countries(returnclass = "sf") %>%
       c(wbl = wbl), 
       mrnev = 1
     ),
-    c("iso_a3" = "iso3c")
+    c("iso_a3_eh" = "iso3c")
   ) %>%
-  filter(iso_a3 != "ATA") %>% # remove Antarctica
+  filter(iso_a3_eh != "ATA") %>% # remove Antarctica
   ggplot(aes(fill = wbl)) +
   geom_sf() +
   scale_fill_viridis_c(labels = scales::percent_format(scale = 1)) +
@@ -143,9 +143,9 @@ ne_countries(returnclass = "sf") %>%
       c(child_marriage = child_marriage), 
       mrnev = 1
     ),
-    c("iso_a3" = "iso3c")
+    c("iso_a3_eh" = "iso3c")
   ) %>%
-  filter(iso_a3 != "ATA") %>% # remove Antarctica
+  filter(iso_a3_eh != "ATA") %>% # remove Antarctica
   ggplot(aes(fill = child_marriage)) +
   geom_sf() +
   scale_fill_viridis_c(labels = scales::percent_format(scale = 1)) +
@@ -170,9 +170,9 @@ ne_countries(returnclass = "sf") %>%
       c(domestic_violence = domestic_violence), 
       mrnev = 1
     ),
-    c("iso_a3" = "iso3c")
+    c("iso_a3_eh" = "iso3c")
   ) %>%
-  filter(iso_a3 != "ATA") %>% # remove Antarctica
+  filter(iso_a3_eh != "ATA") %>% # remove Antarctica
   ggplot(aes(fill = domestic_violence)) +
   geom_sf() +
   scale_fill_viridis_c(labels = scales::percent_format(scale = 1)) +
@@ -254,9 +254,9 @@ ne_countries(returnclass = "sf") %>%
       c(working_age_pop = working_age_pop), 
       mrnev = 1
     ),
-    c("iso_a3" = "iso3c")
+    c("iso_a3_eh" = "iso3c")
   ) %>%
-  filter(iso_a3 != "ATA") %>% # remove Antarctica
+  filter(iso_a3_eh != "ATA") %>% # remove Antarctica
   ggplot(aes(fill = working_age_pop)) +
   geom_sf() +
   scale_fill_viridis_c(labels = scales::percent_format(scale = 1)) +
@@ -287,9 +287,9 @@ ne_countries(returnclass = "sf") %>%
       c(dependency_ratio = dependency_ratio), 
       mrnev = 1
     ),
-    c("iso_a3" = "iso3c")
+    c("iso_a3_eh" = "iso3c")
   ) %>%
-  filter(iso_a3 != "ATA") %>% # remove Antarctica
+  filter(iso_a3_eh != "ATA") %>% # remove Antarctica
   ggplot(aes(fill = dependency_ratio)) +
   geom_sf() +
   scale_fill_viridis_c(labels = scales::percent_format(scale = 1)) +
@@ -324,9 +324,9 @@ ne_countries(returnclass = "sf") %>%
       c(dependency_ratio_old = dependency_ratio_old), 
       mrnev = 1
     ),
-    c("iso_a3" = "iso3c")
+    c("iso_a3_eh" = "iso3c")
   ) %>%
-  filter(iso_a3 != "ATA") %>% # remove Antarctica
+  filter(iso_a3_eh != "ATA") %>% # remove Antarctica
   ggplot(aes(fill = dependency_ratio_old)) +
   geom_sf() +
   scale_fill_viridis_c(labels = scales::percent_format(scale = 1)) +
@@ -351,9 +351,9 @@ ne_countries(returnclass = "sf") %>%
       c(dependency_ratio_yng = dependency_ratio_yng), 
       mrnev = 1
     ),
-    c("iso_a3" = "iso3c")
+    c("iso_a3_eh" = "iso3c")
   ) %>%
-  filter(iso_a3 != "ATA") %>% # remove Antarctica
+  filter(iso_a3_eh != "ATA") %>% # remove Antarctica
   ggplot(aes(fill = dependency_ratio_yng)) +
   geom_sf() +
   scale_fill_viridis_c(labels = scales::percent_format(scale = 1)) +
@@ -399,9 +399,9 @@ ne_countries(returnclass = "sf") %>%
       c(flfp = flfp), 
       mrnev = 1
     ),
-    c("iso_a3" = "iso3c")
+    c("iso_a3_eh" = "iso3c")
   ) %>%
-  filter(iso_a3 != "ATA") %>% # remove Antarctica
+  filter(iso_a3_eh != "ATA") %>% # remove Antarctica
   ggplot(aes(fill = flfp)) +
   geom_sf() +
   scale_fill_viridis_c(labels = scales::percent_format(scale = 1)) +
@@ -477,9 +477,9 @@ ne_countries(returnclass = "sf") %>%
       c(tfr = tfr), 
       mrnev = 1
     ),
-    c("iso_a3" = "iso3c")
+    c("iso_a3_eh" = "iso3c")
   ) %>%
-  filter(iso_a3 != "ATA") %>% # remove Antarctica
+  filter(iso_a3_eh != "ATA") %>% # remove Antarctica
   ggplot(aes(fill = tfr)) +
   geom_sf() +
   scale_fill_viridis_c(labels = scales::percent_format(scale = 1)) +
@@ -520,9 +520,9 @@ ne_countries(returnclass = "sf") %>%
       c(women_representation = women_representation), 
       mrnev = 1
     ),
-    c("iso_a3" = "iso3c")
+    c("iso_a3_eh" = "iso3c")
   ) %>%
-  filter(iso_a3 != "ATA") %>% # remove Antarctica
+  filter(iso_a3_eh != "ATA") %>% # remove Antarctica
   ggplot(aes(fill = women_representation)) +
   geom_sf() +
   scale_fill_viridis_c(labels = scales::percent_format(scale = 1)) +
