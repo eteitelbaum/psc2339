@@ -54,7 +54,7 @@ execute:
 
 # Economic Theories
 
-## 1. Selective Incentives
+## 1. Selective Incentives {.smaller}
 
 -   Collective action is more likely with the right set of incentives
 -   "Selective incentives" are incentives targeted at individuals to
@@ -67,7 +67,7 @@ execute:
     -   Expectations of reciprocity
     -   Ability to sanction through informal institutions
 
-## 2. Size of Groups
+## 2. Size of Groups {.smaller}
 
 -   Coordination problems are even bigger among large groups (Olson)
     -   "Action taking groups" tend to be much smaller than "non-action
@@ -82,7 +82,7 @@ execute:
     -   Think here about public provisioning at the **local** (e.g.
         village) level
 
-## 3. Contract Theory
+## 3. Contract Theory {.smaller}
 
 -   Basic problem: when 'a' contracts with 'b', how does 'a' know that
     'b' will follow through?
@@ -105,7 +105,7 @@ execute:
 -   We also see lots of sub-national variation
 -   How do we explain this variation?
 
-## Subnationalism
+## Subnationalism {.smaller}
 
 ::: columns
 ::: {.column width="50%"}
@@ -115,31 +115,31 @@ execute:
 ::: {.column width="50%"}
 -   *Subnationalism*: a form of group identification based on language
     or regional culture
--   Subnational identity increases public support for collective welfare
--   Elites then push for social services
--   State enacts social policy that promotes human development
+-   Subnational identity increases support for collective welfare
+-   State enacts social policy, promotes human development
 :::
 :::
 
-## Encompassing Ethnic Parties
+## Encompassing Ethnic Parties {.smaller}
 
 ::: columns
 ::: {.column width="50%"}
-![Thachil and Teitelbaum,
-2015](images/TT_findings.png){alt="Thachil and Teitelbaum, 2015"}
+![Source: Thachil and Teitelbaum,
+2015](images/TT_findings.png){width=60%}
 :::
 
 ::: {.column width="50%"}
 -   Narrow Ethnic Parties
     -   Small winning coalitions
     -   Politics remains clientelistic
+    
 -   Encompassing Ethnic Parties
     -   Larger winning coalitions
     -   More social spending
 :::
 :::
 
-## Sectarianism (Cammett)
+## Sectarianism (Cammett) {.smaller}
 
 ::: columns
 ::: {.column width="50%"}
@@ -154,13 +154,13 @@ execute:
 :::
 
 ::: {.column width="50%"}
-![Source: Wikimedia commons](images/lebanon.png)
+![Source: Wikimedia commons](images/lebanon.png){width=70%}
 :::
 :::
 
 # Agency
 
-## Miguel Study
+## Miguel Study {.smaller}
 
 -   So far we have talked about how structural factors condition effects of ethnicity on service provisioning.
 -   Can governments **choose** to alter incentives if they want to?
@@ -175,9 +175,9 @@ execute:
 
 ## Which Mechanisms Are Relevant?
 
-![Habyarimana et. al., 2007](images/table_1.1.png)
+![Source: Habyarimana et. al., 2007](images/table_1.1.png)
 
-## Four Types of Games
+## Four Types of Games {.smaller}
 
 -   Dictator game
     -   500 shilling (2 coins)
@@ -194,11 +194,11 @@ execute:
 
 ## Dictator Game (non-anonymous)
 
-![Habyarimana et. al., 2007](images/figure_4.1.jpg)
+![Source: Habyarimana et. al., 2007](images/figure_4.1.jpg)
 
 ## Dictator Game (anonymous)
 
-![Habyarimana et. al., 2007](images/figure_4.2.jpg)
+![Source: Habyarimana et. al., 2007](images/figure_4.2.jpg)
 
 ## Basic Findings
 
