@@ -88,9 +88,9 @@ ne_countries(returnclass = "sf") %>%
       c(poverty = poverty), 
       mrnev = 1
     ),
-    c("iso_a3" = "iso3c")
+    c("iso_a3_eh" = "iso3c")
   ) %>%
-  filter(iso_a3 != "ATA") %>% # remove Antarctica
+  filter(iso_a3_eh != "ATA") %>% # remove Antarctica
   ggplot(aes(fill = poverty)) +
   geom_sf() +
   scale_fill_viridis_c() +
@@ -145,9 +145,9 @@ ne_countries(returnclass = "sf") %>%
       c(lmic = lmic), 
       mrnev = 1
     ),
-    c("iso_a3" = "iso3c")
+    c("iso_a3_eh" = "iso3c")
   ) %>%
-  filter(iso_a3 != "ATA") %>% # remove Antarctica
+  filter(iso_a3_eh != "ATA") %>% # remove Antarctica
   ggplot(aes(fill = lmic)) +
   geom_sf() +
   scale_fill_viridis_c() +
@@ -172,9 +172,9 @@ ne_countries(returnclass = "sf") %>%
       c(umic = umic), 
       mrnev = 1
     ),
-    c("iso_a3" = "iso3c")
+    c("iso_a3_eh" = "iso3c")
   ) %>%
-  filter(iso_a3 != "ATA") %>% # remove Antarctica
+  filter(iso_a3_eh != "ATA") %>% # remove Antarctica
   ggplot(aes(fill = umic)) +
   geom_sf() +
   scale_fill_viridis_c() +
@@ -220,9 +220,9 @@ ne_countries(returnclass = "sf") %>%
       c(multidimensional = multidimensional), 
       mrnev = 1
     ),
-    c("iso_a3" = "iso3c")
+    c("iso_a3_eh" = "iso3c")
   ) %>%
-  filter(iso_a3 != "ATA") %>% # remove Antarctica
+  filter(iso_a3_eh != "ATA") %>% # remove Antarctica
   ggplot(aes(fill = multidimensional)) +
   geom_sf() +
   scale_fill_viridis_c() +
