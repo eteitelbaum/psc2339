@@ -391,7 +391,7 @@ ggplotly(education_plot) %>%
   - CCT (conditional cash transfer)
   - NCP (non-contributory pensions)
 
-## Kaufman and Haggard
+## Holland and Schneider
 
 - What is easy vs. hard redistribution? 
 - What do they want to explain? 
