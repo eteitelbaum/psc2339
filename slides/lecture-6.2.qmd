@@ -139,12 +139,12 @@ ggplotly(poverty_plot) %>%
 
 indicator_info <- filter(wb_cachelist$indicators, indicator_id == lmic)
 
+lmic_data <-  wb_data(c(lmic = lmic), mrnev = 1) %>% 
+  filter(date > 2010)
+
 ne_countries(returnclass = "sf") %>%
   left_join(
-    wb_data(
-      c(lmic = lmic), 
-      mrnev = 1
-    ),
+    lmic_data,
     c("iso_a3_eh" = "iso3c")
   ) %>%
   filter(iso_a3_eh != "ATA") %>% # remove Antarctica
@@ -166,12 +166,12 @@ ne_countries(returnclass = "sf") %>%
 
 indicator_info <- filter(wb_cachelist$indicators, indicator_id == umic)
 
+umic_data <-  wb_data(c(umic = umic), mrnev = 1) %>% 
+  filter(date > 2010)
+
 ne_countries(returnclass = "sf") %>%
   left_join(
-    wb_data(
-      c(umic = umic), 
-      mrnev = 1
-    ),
+    umic_data,
     c("iso_a3_eh" = "iso3c")
   ) %>%
   filter(iso_a3_eh != "ATA") %>% # remove Antarctica
