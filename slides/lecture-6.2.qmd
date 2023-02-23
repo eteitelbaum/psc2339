@@ -82,12 +82,12 @@ regions <- c("EAS", "ECS", "LCN", "MEA","SAS", "SSF")
 
 indicator_info <- filter(wb_cachelist$indicators, indicator_id == poverty)
 
+pov_data <-  wb_data(c(poverty = poverty), mrnev = 1) %>% 
+  filter(date > 2010)
+
 ne_countries(returnclass = "sf") %>%
   left_join(
-    wb_data(
-      c(poverty = poverty), 
-      mrnev = 1
-    ),
+    pov_data,
     c("iso_a3_eh" = "iso3c")
   ) %>%
   filter(iso_a3_eh != "ATA") %>% # remove Antarctica
