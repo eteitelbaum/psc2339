@@ -239,7 +239,7 @@ library(RColorBrewer)
 ```{r growth_graph, echo = FALSE}
 flfp <- WDI(indicator="NY.GDP.MKTP.KD.ZG", country=c('IN','CN'), start=1990) 
     
-ggplot(flfp, aes(year, NY.GDP.MKTP.KD.ZG, color=country)) + geom_line(size=1) +
+ggplot(flfp, aes(year, NY.GDP.MKTP.KD.ZG, color=country)) + geom_line(linewidth=1) +
 	xlab('Year') + ylab('GDP Growth') + scale_color_brewer(palette="Dark2") +
   labs(
     caption = "World Bank national accounts data, and OECD National

@@ -59,7 +59,7 @@ execute:
   - What does Duflo mean by "empowerment"?  
   - Is empowering women the answer for development?  
 
-## Gender Quotas (Beaman)
+## Gender Quotas (Beaman) {.smaller}
 
 - Districts randomly selected for reserved seats
 - Some districts selected more than once
