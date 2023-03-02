@@ -51,4 +51,4 @@ helpful in completing it.
     separate row.
 7.  Save your workbook.
 8.  Upload your workbook to
-    [Blackboard](https://blackboard.gwu.edu/webapps/blackboard/content/listContentEditable.jsp?content_id=_12226807_1&course_id=_374099_1&mode=reset).
+    [Blackboard](https://blackboard.gwu.edu/webapps/blackboard/content/listContentEditable.jsp?content_id=_12874847_1&course_id=_380501_1&mode=reset).
