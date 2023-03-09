@@ -8,10 +8,6 @@ editor: visual
 Exam 2 is due on Sunday, March 19
 :::
 
-::: callout-important
-Project Assignment 1 is due on Sunday, March 19.
-:::
-
 ## Readings
 
 📖 Mary Cullen, ["How to Write and Format a White
@@ -20,9 +16,6 @@ Paper"](https://www.instructionalsolutions.com/blog/how-to-write-white-paper)
 ## Assignments
 
 📘 Exam 2
-
-✍️ [Project Assignment 1: Outline and
-Sources](/assignments/project-assignment-1.html)
 
 <br><br>
 

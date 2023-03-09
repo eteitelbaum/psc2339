@@ -4,6 +4,10 @@ subtitle: "The Welfare State"
 editor: visual
 ---
 
+::: callout-important
+Project Assignment 1 is due on Sunday, March 26.
+:::
+
 ## Readings
 
 📖 Gøsta Esping-Andersen, [*The Three Worlds of Welfare
@@ -24,3 +28,8 @@ State?"](https://www.brookings.edu/wp-content/uploads/2001/06/2001b_bpea_alesina
 ::: {style="font-size: 0.875em;"}
 Back to [course schedule](/ "Course schedule") ⏎
 :::
+
+## Assignments
+
+✍️ [Project Assignment 1: Outline and
+Sources](/assignments/project-assignment-1.html)
