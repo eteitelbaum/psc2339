@@ -193,7 +193,7 @@
     "href": "project/project-assignment-1.html#what-to-submit",
     "title": "Project Assignment 1",
     "section": "What to Submit",
-    "text": "What to Submit\nYou will submit a one-page outline along with a preliminary bibliography. Your outline will consist of the following parts:\n\nA 100 word abstract outlining the importance of your topic and the need for further analysis of it.\nA statement of the specific problem to be addressed by your research and analysis.\nBackground information regarding the problem that you have identified.\nThe proposed analysis, which should consist of two elements:\n\na description of the data you will analyze; and\na description the visualizations you plan to include.\n\n\nFor the dataset, be sure to identify one that is complete and includes both a cross-sectional as well as a time series component, e.g. data that spans across countries or regions and time.\nFor the visualizations, you should describe at least four: a bar chart, a line chart, a scatter plot and a map. You don’t have to do the visualizations yet, but be specific in terms of what your plan is for them.\nYour outline can be in the form of short paragraphs or bullet points."
+    "text": "What to Submit\nYou will submit a one-page outline along with a preliminary bibliography. Your outline will consist of the following parts:\n\nA 100 word abstract outlining the importance of your topic and the need for further analysis of it.\nA statement of the specific problem to be addressed by your research and analysis.\nBackground information regarding the problem that you have identified.\nThe proposed analysis, which should consist of two elements:\n\na description of the data you will analyze; and\na description the visualizations you plan to include.\n\n\nFor the dataset, be sure to identify one that is complete and includes both a cross-sectional as well as a time series component, e.g. data that spans across countries or regions and time.\nFor the visualizations, you should describe at least four: a bar chart, a line chart, a scatter plot and a map. You don’t have to do the visualizations yet, but be specific in terms of what your plan is for them.\nYour outline can be in the form of short paragraphs or bullet points.\nPlease upload your assignment as a .pdf document to Blackboard. You will find the link to upload the assignment in the Assignments section of the Blackboard site."
   },
   {
     "objectID": "project/project-assignment-2.html",
@@ -1383,14 +1383,14 @@
     "href": "slides/lecture-3.2.html#oil-and-patriarchy-theory",
     "title": "Lecture 3.2",
     "section": "Oil and Patriarchy (Theory)",
-    "text": "Oil and Patriarchy (Theory)\n\nSource: Ross, The Oil Curse, Chapter 4"
+    "text": "Oil and Patriarchy (Theory)\n\n\n\nSource: Ross, The Oil Curse, Chapter 4"
   },
   {
     "objectID": "slides/lecture-3.2.html#oil-and-patriarchy-evidence",
     "href": "slides/lecture-3.2.html#oil-and-patriarchy-evidence",
     "title": "Lecture 3.2",
     "section": "Oil and Patriarchy (Evidence)",
-    "text": "Oil and Patriarchy (Evidence)\n\nSource: Ross, The Oil Curse, Chapter 4"
+    "text": "Oil and Patriarchy (Evidence)\n\n\n\nSource: Ross, The Oil Curse, Chapter 4"
   },
   {
     "objectID": "slides/lecture-3.2.html#oil-and-conflict-theory",
@@ -1404,21 +1404,21 @@
     "href": "slides/lecture-3.2.html#oil-and-conflict-evidence",
     "title": "Lecture 3.2",
     "section": "Oil and Conflict (Evidence)",
-    "text": "Oil and Conflict (Evidence)\n\nSource: Ross, The Oil Curse, Chapter 5"
+    "text": "Oil and Conflict (Evidence)\n\n\n\nSource: Ross, The Oil Curse, Chapter 5"
   },
   {
     "objectID": "slides/lecture-3.2.html#where-does-oil-cause-conflict",
     "href": "slides/lecture-3.2.html#where-does-oil-cause-conflict",
     "title": "Lecture 3.2",
     "section": "Where Does Oil Cause Conflict?",
-    "text": "Where Does Oil Cause Conflict?\n\nSource: Bell and Wolford 2015\nHighlight conditioning effects of ethnicity and poverty"
+    "text": "Where Does Oil Cause Conflict?\n\n\n\nSource: Bell and Wolford 2015\n\n\n\nHighlight conditioning effects of ethnicity and poverty"
   },
   {
     "objectID": "slides/lecture-3.2.html#mediating-effects-of-poverty",
     "href": "slides/lecture-3.2.html#mediating-effects-of-poverty",
     "title": "Lecture 3.2",
     "section": "Mediating Effects of Poverty",
-    "text": "Mediating Effects of Poverty\n\nSource: Ross, The Oil Curse, Chapter 5"
+    "text": "Mediating Effects of Poverty\n\n\n\nSource: Ross, The Oil Curse, Chapter 5"
   },
   {
     "objectID": "slides/lecture-4.1.html#relevance",
@@ -3043,5 +3043,12 @@
     "title": "Week 10",
     "section": "Assignments",
     "text": "Assignments\n✍️ Project Assignment 1: Outline and Sources"
+  },
+  {
+    "objectID": "slides/lecture-3.2.html",
+    "href": "slides/lecture-3.2.html",
+    "title": "Lecture 3.2",
+    "section": "",
+    "text": "What is the resource curse?\n\n“Dutch Disease”\n“Four S’s”\n\nPolicy solutions\nBreaking down the resource curse\n\nDemocracy, accountability, gender, conflict\n\nMuch of the discussion will focus on oil\n\nBut many of the arguments also apply to other resources"
   }
 ]
