@@ -127,5 +127,9 @@ Commons](images/trade_union_density.png)
 ## Discussion
 
 - How to improve union democracy?
-- How to get workers more excited about organizing? 
-- Alternatives to traditional labor unions? 
+  - How to get workers more excited about organizing? 
+  - Alternatives to traditional labor unions?
+- What kind of role should unions have?
+  - In economic governance
+  - In politics 
+  - In society
