@@ -232,7 +232,7 @@ download_wid(
 
 # Explanations
 
-## Pickety vs. Stiglitz
+## Pickety vs. Stiglitz {.smaller}
 
 - Pickety: r > g
   - There is some truth to "r > g" in the U.S.
@@ -260,7 +260,7 @@ download_wid(
 - Decline of left parties and unions
 - Lack of redistribution
 
-## Debate: Should Big Tech be Broken Up
+## Debate: Should Big Tech be Broken Up {.smaller}
 
 - Pick one of the FAANG companies 
   - Facebook (Meta)
@@ -271,5 +271,3 @@ download_wid(
 - Should it be broken up into smaller companies?
   - Winners and losers
   - Relate your argument to inequality/Stiglitz
-  
-# Power BI Lesson
