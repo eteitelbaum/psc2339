@@ -56,7 +56,6 @@ execute:
 		- From quota-based to family and skill-based immigration 
 	- Pushed for free trade agreements like NAFTA
 - Problem was that immigration and trade were not popular with most voters
-	- Created backlash that populists could exploit
 
 # Populism in the United States 
 
@@ -83,7 +82,6 @@ execute:
 		- Proposed wealth cap ($5 million per family; $1 million per individual)
 		- Use revenue to fund guaranteed income
 	- Forced Roosevelt to pass “Second New Deal” that included social security, NLRA, WPA and wealth taxes
-	- Assassinated in 1935
 - George Wallace 
   - Governor of Alabama (four terms)
   - Government "full of rich people" who wanted to give their money to the poor
@@ -123,10 +121,3 @@ execute:
 - Why was Bernie Sanders, who focused on inequality and the one percent, ultimately less successful than Trump as a presidential candidate?  
 - In your discussion, reference the chapter you read from Judis's *The Populist Explosion*
 
-# Project Discussion
-
-## Small Groups (3 or 4 on common topics)
-
-- Each person explain their project idea and data they will use
-- Questions about data, how to get
-- Work through process of downloading, organizing data in Excel Power Query Editor 

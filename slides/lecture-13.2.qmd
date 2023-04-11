@@ -1,6 +1,6 @@
 ---
 title: "Lecture 13.2"
-subtitle: "The Rise of Nationlism and Socialism(?)"
+subtitle: "The Rise of Nationlism and Socialism"
 author: "Emmanuel Teitelbaum"
 footer: "[PSC 2339 Website](https://psc2339.com)"
 logo: "images/cpe_logo.png"
@@ -81,13 +81,5 @@ execute:
 - Meet with other people who read chapter from same part of book
 - Now share findings with a group that read a chapter from different part
 - Question: should the U.S. abandon globalism? 
-
-# Project Discussion
-
-- Meet in same groups as last class
-- Make sure everyone can use the Excel Power Query Editor
-- Have you downloaded your data? 
-- Is it ready for Power BI? 
-- Where are you stuck? 
 
 

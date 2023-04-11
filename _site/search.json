@@ -2888,7 +2888,7 @@
     "href": "slides/lecture-13.1.html#neoliberal-policy-in-the-u.s.",
     "title": "Lecture 13.1",
     "section": "Neoliberal Policy in the U.S.",
-    "text": "Neoliberal Policy in the U.S.\n\nBirthplace of neoliberalism\n\nHome of “Washington Consensus”\n\nReaction to competitive challenges faced by U.S. business starting in the 1970s\n\nFactories in Western Europe and Japan\nSteel production throughout Asia\nTextile production in developing countries\n\nBusiness felt regulations and unions prevented them from competing\n\nRepressed unions\nMoved factories abroad and to “right to work” states\nHired more immigrant workers\n\n1965 Immigration and Naturalization Act (Hart-Celler)\nFrom quota-based to family and skill-based immigration\n\nPushed for free trade agreements like NAFTA\n\nProblem was that immigration and trade were not popular with most voters\n\nCreated backlash that populists could exploit"
+    "text": "Neoliberal Policy in the U.S.\n\nBirthplace of neoliberalism\n\nHome of “Washington Consensus”\n\nReaction to competitive challenges faced by U.S. business starting in the 1970s\n\nFactories in Western Europe and Japan\nSteel production throughout Asia\nTextile production in developing countries\n\nBusiness felt regulations and unions prevented them from competing\n\nRepressed unions\nMoved factories abroad and to “right to work” states\nHired more immigrant workers\n\n1965 Immigration and Naturalization Act (Hart-Celler)\nFrom quota-based to family and skill-based immigration\n\nPushed for free trade agreements like NAFTA\n\nProblem was that immigration and trade were not popular with most voters"
   },
   {
     "objectID": "slides/lecture-13.1.html#populism-in-the-u.s.-i",
@@ -2902,7 +2902,7 @@
     "href": "slides/lecture-13.1.html#populism-in-the-u.s.-ii",
     "title": "Lecture 13.1",
     "section": "Populism in the U.S. II",
-    "text": "Populism in the U.S. II\n\nHuey Long\n\nGovernor of Louisiana (1928-1932); U.S. Senator (1932-35)\nRailed against power and influence of oil companies\n“Share Our Wealth Society”\n\nProposed wealth cap ($5 million per family; $1 million per individual)\nUse revenue to fund guaranteed income\n\nForced Roosevelt to pass “Second New Deal” that included social security, NLRA, WPA and wealth taxes\nAssassinated in 1935\n\nGeorge Wallace\n\nGovernor of Alabama (four terms)\nGovernment “full of rich people” who wanted to give their money to the poor\nLed conservative backlash to Civil Rights Act, Voting Rights Act and racial integration\nFramed opposition to integration as defense against “big government”"
+    "text": "Populism in the U.S. II\n\nHuey Long\n\nGovernor of Louisiana (1928-1932); U.S. Senator (1932-35)\nRailed against power and influence of oil companies\n“Share Our Wealth Society”\n\nProposed wealth cap ($5 million per family; $1 million per individual)\nUse revenue to fund guaranteed income\n\nForced Roosevelt to pass “Second New Deal” that included social security, NLRA, WPA and wealth taxes\n\nGeorge Wallace\n\nGovernor of Alabama (four terms)\nGovernment “full of rich people” who wanted to give their money to the poor\nLed conservative backlash to Civil Rights Act, Voting Rights Act and racial integration\nFramed opposition to integration as defense against “big government”"
   },
   {
     "objectID": "slides/lecture-13.1.html#populism-in-the-u.s.-iii",
@@ -2923,7 +2923,7 @@
     "href": "slides/lecture-13.1.html#discussion",
     "title": "Lecture 13.1",
     "section": "Discussion",
-    "text": "Discussion\n\nWas Trump’s support more due to a reaction to neolibarlism or to immigration?\nWhy was Bernie Sanders, who focused on inequality and the one percent, ultimately less successful than Trump as a presidential candidate?\n\nIn your discussion, reference the chapter you read from Judis’s The Populist Explosion"
+    "text": "Discussion\n\nWas Trump’s support more due to a reaction to neolibarlism or to immigration?\nWhy was Bernie Sanders, who focused on inequality and the one percent, ultimately less successful than Trump as a presidential candidate?\n\nIn your discussion, reference the chapter you read from Judis’s The Populist Explosion\n\n\n\n\nPSC 2339 Website"
   },
   {
     "objectID": "slides/lecture-13.1.html#small-groups-3-or-4-on-common-topics",
@@ -2944,7 +2944,7 @@
     "href": "slides/lecture-13.2.html#discussion-strategy",
     "title": "Lecture 13.2",
     "section": "Discussion Strategy",
-    "text": "Discussion Strategy\n\nIdentify one chapter from Part II or Part III from Judis\nMeet with other people who read chapter from same part of book\nNow share findings with a group that read a chapter from different part\nQuestion: should the U.S. abandon globalism?"
+    "text": "Discussion Strategy\n\nIdentify one chapter from Part II or Part III from Judis\nMeet with other people who read chapter from same part of book\nNow share findings with a group that read a chapter from different part\nQuestion: should the U.S. abandon globalism?\n\n\n\n\nPSC 2339 Website"
   },
   {
     "objectID": "slides/lecture-13.2.html#golden-years-of-post-war-capitalism",
@@ -3057,5 +3057,19 @@
     "title": "Project Assignment 2",
     "section": "Overview",
     "text": "Overview\nFor this part of the project, you are going to download the data that you discussed in your outline and wrangle it. “Wrangling” means cleaning the data and getting it into the proper format for analysis. For Tableau and other commonly used data analysis applications, the data need to be in long format so that each row contains values for one country or region per year and each column contains data for one variable. You also need to filter the data for the years that you want to use and select the variables that you want to work with. If you are working with more than one data set, then you have to merge the two data sets. I show you how to do all of this using data from the World Bank and V-Dem in this video."
+  },
+  {
+    "objectID": "slides/lecture-13.1.html#section",
+    "href": "slides/lecture-13.1.html#section",
+    "title": "Lecture 13.1",
+    "section": "",
+    "text": "Business felt regulations and unions prevented them from competing\n\nRepressed unions\nMoved factories abroad and to “right to work” states\nHired more immigrant workers\n\n1965 Immigration and Naturalization Act (Hart-Celler)\nFrom quota-based to family and skill-based immigration\n\nPushed for free trade agreements like NAFTA\n\nProblem was that immigration and trade were not popular with most voters\n\nCreated backlash that populists could exploit"
+  },
+  {
+    "objectID": "slides/lecture-13.1.html#section-1",
+    "href": "slides/lecture-13.1.html#section-1",
+    "title": "Lecture 13.1",
+    "section": "",
+    "text": "George Wallace\n\nGovernor of Alabama (four terms)\nGovernment “full of rich people” who wanted to give their money to the poor\nLed conservative backlash to Civil Rights Act, Voting Rights Act and racial integration\nFramed opposition to integration as defense against “big government”"
   }
 ]
