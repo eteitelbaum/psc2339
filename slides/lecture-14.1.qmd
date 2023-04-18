@@ -1,0 +1,20 @@
+---
+title: "Lecture 14.1"
+subtitle: "The Politics of Climate Change"
+author: "Emmanuel Teitelbaum"
+footer: "[PSC 2339 Website](https://psc2339.com)"
+logo: "images/cpe_logo.png"
+format:
+  revealjs:
+    theme: moon
+    transition: fade
+    slide-number: true
+execute:
+  echo: false
+  freeze: auto
+---
+
+## Collective Action Theory
+
+![](images/examples.png)
+
