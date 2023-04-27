@@ -8,13 +8,16 @@ editor: visual
 
 Now that you have your data in the right format, it is time to make your
 Tableau dashboard. For step by step instructions on how to do this, see
-the series of YouTube videos in this playlist (coming soon). Your report
-should include at least four visualizations. The default selection would
-include a column chart, a line chart, a map and a scatter plot but there
-can be some flexibility in terms of the exact composition. Ideally, the
-visualizations should interact with one another, meaning that when you
-click on a country represented on the map the data for that country is
-reflected in the line chart, bar chart, etc.
+[this](https://www.youtube.com/watch?v=BQwm3Z39Ne8&t=1159s) YouTube
+video.
+
+Your report should include at least four visualizations. The default
+selection would include a column chart, a line chart, a map and a
+scatter plot but there can be some flexibility in terms of the exact
+composition. Ideally, the visualizations should interact with one
+another, meaning that when you click on a country represented on the map
+the data for that country is reflected in the line chart, bar chart,
+etc.
 
 ## Steps
 

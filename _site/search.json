@@ -221,7 +221,7 @@
     "href": "project/project-assignment-3.html",
     "title": "Project Assignment 3",
     "section": "",
-    "text": "Now that you have your data in the right format, it is time to make your Tableau dashboard. For step by step instructions on how to do this, see the series of YouTube videos in this playlist (coming soon). Your report should include at least four visualizations. The default selection would include a column chart, a line chart, a map and a scatter plot but there can be some flexibility in terms of the exact composition. Ideally, the visualizations should interact with one another, meaning that when you click on a country represented on the map the data for that country is reflected in the line chart, bar chart, etc."
+    "text": "Now that you have your data in the right format, it is time to make your Tableau dashboard. For step by step instructions on how to do this, see this YouTube video.\nYour report should include at least four visualizations. The default selection would include a column chart, a line chart, a map and a scatter plot but there can be some flexibility in terms of the exact composition. Ideally, the visualizations should interact with one another, meaning that when you click on a country represented on the map the data for that country is reflected in the line chart, bar chart, etc."
   },
   {
     "objectID": "project/project-assignment-3.html#steps",
@@ -2496,7 +2496,7 @@
     "href": "weeks/week-15.html#slides",
     "title": "Week 15",
     "section": "Slides",
-    "text": "Slides\n🖥️ Climate change and collective action\nExam 3 Review (Factile game)"
+    "text": "Slides\nExam 3 Review (Factile game)"
   },
   {
     "objectID": "weeks/week-15.html#assignments",
