@@ -1,6 +1,6 @@
 ---
 title: "Course Schedule"
-tbl-colwidths: [5,15,30,5,5,5,25,5]
+tbl-colwidths: [5,15,30,5,5,5,30,5]
 editor: visual
 ---
 
