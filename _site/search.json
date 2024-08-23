@@ -110,17 +110,6 @@
     ]
   },
   {
-    "objectID": "course-syllabus.html#ai-policy",
-    "href": "course-syllabus.html#ai-policy",
-    "title": "Syllabus",
-    "section": "AI Policy",
-    "text": "AI Policy\nStudents may utilize AI in an advisory capacity, as one might use Google to search for information on a topic. However, AI may not be used to compose essays, answer exam questions, or complete assignments. Students are expected to complete all assignments independently, unless otherwise instructed by the instructor.",
-    "crumbs": [
-      "Course information",
-      "Syllabus"
-    ]
-  },
-  {
     "objectID": "faq.html",
     "href": "faq.html",
     "title": "Frequently Asked Questions",
@@ -137,17 +126,6 @@
     "title": "Frequently Asked Questions",
     "section": "",
     "text": "Please be sure that you are logged into Gelman when trying to access the course readings. Most of the readings links will take you directly to the login page if you are not already logged in. But some of them require you to be logged in ahead of time. To log in to Gelman, click on the green “My Account” icon on the Gelman homepage.",
-    "crumbs": [
-      "Course information",
-      "FAQ"
-    ]
-  },
-  {
-    "objectID": "faq.html#i-am-having-trouble-viewing-the-lessons-on-dataquest.-how-do-i-get-help-with-that",
-    "href": "faq.html#i-am-having-trouble-viewing-the-lessons-on-dataquest.-how-do-i-get-help-with-that",
-    "title": "Frequently Asked Questions",
-    "section": "I am having trouble viewing the lessons on Dataquest. How do I get help with that?",
-    "text": "I am having trouble viewing the lessons on Dataquest. How do I get help with that?\nIf you cannot log in to Dataquest at all, make sure that you have responded to the invitation email that I sent you through Dataquest. Then, make that you are using the email address associated with that invitation. This address will be the Net ID listed for you in Blackboard plus the suffix “@gwu.edu.”\nSometimes people have trouble with pages loading or other errors on the site. Sometime this has to do with the browser that you are using. People have had problems with Safari, for example. So first try another browser.\nAnother issue could be that you are looking at the wrong tab. Make sure that you have clicked on the “Remote session” tab.\n\nIf you can see the lesson but not the spreadsheet, one option is to simply download the the spreadsheet and open it on your computer. To download a spreadsheet, click the tab with the spreadsheet name and then the little cloud icon.\n\nIf none of those things work, then please report the matter to Dataquest support by clicking on the question mark icon. They are usually pretty responsive.",
     "crumbs": [
       "Course information",
       "FAQ"

@@ -79,7 +79,7 @@ Late assignments will be accepted **with a standard penalty of one percentage po
 
 If you are having a personal or medical emergency and are wondering what to do, start by referencing [this
 FAQ](https://studentlife.gwu.edu/student-support-faqs) published by [GW Student Life](https://studentlife.gwu.edu/). Or just reach out to the CARE Team at [gwcares\@gwu.edu](mailto:gwcares@gwu.edu). For further
-information about different types of support available to you, see the [course support](\course-support.qmd) page.
+information about different types of support available to you, see the [course support](course-support.qmd) page.
 
 While I will always try to be a source of support to my students, please note that for privacy reasons, the Provost has asked that faculty do not attempt to verify personal or medical emergencies themselves.
 
