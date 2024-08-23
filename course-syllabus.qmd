@@ -116,6 +116,10 @@ All classes will be recorded. Recordings will be posted on the course Blackboard
 
 Please come to class on time. It is distracting to me and to other students when you enter the room late.
 
+### AI Policy
+
+Students may utilize AI in an advisory capacity, as one might use Google to search for information on a topic. However, AI may not be used to compose essays, answer exam questions, or complete assignments. Students are expected to complete all assignments independently, unless otherwise instructed by the instructor.
+
 ### Laptops and cell phones
 
 Please put away your cell phones during class. It is fine to use computers to take notes, but you should refrain from checking social media and email.
@@ -137,7 +141,7 @@ I try to respond to emails within 24 hours except on weekends. It is usually pre
 
 ### Food
 
-Students are permitted to eat light snacks, but please refrain from bringing sugary drinks, coffee or large, odiferous meals.
+GW policy prohibits food and drink in the classroom. Students are, however, permitted to drink water and eat light snacks. Please refrain from bringing anything crunchy. Large, odiferous meals are strictly prohibited.
 
 ## University policies
 
@@ -162,7 +166,3 @@ Please contact the instructor if you have questions regarding whatconstitutes pe
 
 Please contact [Disability Support Services](https://disabilitysupport.gwu.edu) if you have
 questions or need assistance in accessing electronic course materials.
-
-## AI Policy
-
-Students may utilize AI in an advisory capacity, as one might use Google to search for information on a topic. However, AI may not be used to compose essays, answer exam questions, or complete assignments. Students are expected to complete all assignments independently, unless otherwise instructed by the instructor.
