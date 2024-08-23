@@ -9,7 +9,7 @@
 <link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.3.306">
+  <meta name="generator" content="quarto-1.4.533">
 
   <meta name="author" content="Emmanuel Teitelbaum">
   <title>PSC 2339–Spring Schedule - Lecture 12.2</title>
@@ -31,7 +31,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto.css" id="theme">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -157,7 +157,8 @@
   }
 
   .callout.callout-titled .callout-body > .callout-content > :last-child {
-    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0;
   }
 
   .callout.callout-titled .callout-icon::before {
@@ -322,7 +323,7 @@
   </style>
 <meta property="og:title" content="PSC 2339–Spring Schedule - Lecture 12.2">
 <meta property="og:description" content="Globalization">
-<meta property="og:site-name" content="PSC 2339--Spring Schedule">
+<meta property="og:site_name" content="PSC 2339--Spring Schedule">
 <meta name="twitter:title" content="PSC 2339–Spring Schedule - Lecture 12.2">
 <meta name="twitter:description" content="Globalization">
 <meta name="twitter:card" content="summary">
@@ -547,10 +548,12 @@ Emmanuel Teitelbaum
 </ul>
 
 
-<img src="images/cpe_logo.png" class="slide-logo r-stretch"><div class="footer footer-default">
+</section><div class="quarto-auto-generated-content">
+<p><img src="images/cpe_logo.png" class="slide-logo"></p>
+<div class="footer footer-default">
 <p><a href="https://psc2339.com">PSC 2339 Website</a></p>
 </div>
-</section></section>
+</div></section>
     </div>
   </div>
 
@@ -577,7 +580,6 @@ Emmanuel Teitelbaum
       Reveal.initialize({
 'controlsAuto': true,
 'previewLinksAuto': false,
-'smaller': false,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
@@ -876,10 +878,9 @@ Emmanuel Teitelbaum
         // clear code selection
         e.clearSelection();
       });
-      function tippyHover(el, contentFn) {
+      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
         const config = {
           allowHTML: true,
-          content: contentFn,
           maxWidth: 500,
           delay: 100,
           arrow: false,
@@ -889,8 +890,17 @@ Emmanuel Teitelbaum
           interactive: true,
           interactiveBorder: 10,
           theme: 'light-border',
-          placement: 'bottom-start'
+          placement: 'bottom-start',
         };
+        if (contentFn) {
+          config.content = contentFn;
+        }
+        if (onTriggerFn) {
+          config.onTrigger = onTriggerFn;
+        }
+        if (onUntriggerFn) {
+          config.onUntrigger = onUntriggerFn;
+        }
           config['offset'] = [0,0];
           config['maxWidth'] = 700;
         window.tippy(el, config); 

@@ -5,13 +5,8 @@ editor: visual
 ---
 
 ::: callout-important
-Exam 2 is due on Sunday, March 19
+Exam 2 is due on Monday, October 28 at 11:59 p.m.
 :::
-
-## Readings
-
-📖 Mary Cullen, ["How to Write and Format a White
-Paper"](https://www.instructionalsolutions.com/blog/how-to-write-white-paper)
 
 ## Assignments
 
