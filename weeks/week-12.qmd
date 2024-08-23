@@ -5,7 +5,8 @@ editor: visual
 ---
 
 ::: callout-important
-"Project Assignment 2: White Paper" is due on Sunday, April 9
+"Project Assignment 2: Project Proposal" is due on Monday, November 18
+at 11:59 p.m.
 :::
 
 ## Readings
@@ -25,8 +26,8 @@ Chapter 3*
 
 ## Assignments
 
-✍️ [Project Assignment 2: White
-Paper](/project/project-assignment-2.html)
+✍️ [Project Assignment 2: Project
+Proposal](/project/project-assignment-2.html)
 
 <br><br>
 

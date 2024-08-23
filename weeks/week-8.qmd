@@ -1,0 +1,33 @@
+---
+title: "Week 8"
+subtitle: "Populism and Social Policy"
+---
+
+::: callout-important
+"Data Assignment 2: Cleaning & Visualizing Data in Excel" is due on
+Monday, October 21st at 11:59 p.m.
+:::
+
+## Readings
+
+📖 Benería et. al., ["Markets, Globalization and
+Gender"](https://eresgw-wrlc-org.proxygw.wrlc.org/x/docs/gelm/teitelbaum_emmanuel/LourdesChapter3.pdf)
+
+## Slides
+
+🖥️ [The gendered legacy of reform](/slides/lecture-7.2.html)
+
+## Video
+
+📺 [Map video](https://www.youtube.com/watch?v=ixjWeXbYVl0&t=44s)
+
+## Assignments
+
+🧮 [Data Assignment 2: Cleaning & Visualizing Data in
+Excel](/assignments/data-assignment-2.html)
+
+<br><br>
+
+::: {style="font-size: 0.875em;"}
+Back to [course schedule](/ "Course schedule") ⏎
+:::

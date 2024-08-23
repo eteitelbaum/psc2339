@@ -1,12 +1,22 @@
 ---
 title: "Week 9"
-subtitle: "No Class, Spring Break"
+subtitle: "Populism and Neoliberalism"
 editor: visual
 ---
 
 ::: callout-important
 Exam 2 is due on Monday, October 28 at 11:59 p.m.
 :::
+
+## Readings
+
+📖 James Putzel, ["The 'Populist' Right Challenge to
+Neoliberalism"](https://onlinelibrary-wiley-com.proxygw.wrlc.org/doi/full/10.1111/dech.12578)
+
+## Slides
+
+🖥️ [Populism and social policy](/slides/lecture-8.1.html)
+🖥️ [Exam 2 --> <!-- review](/slides/lecture-8.2.html)
 
 ## Assignments
 

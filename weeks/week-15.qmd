@@ -5,19 +5,17 @@ editor: visual
 ---
 
 ::: callout-important
-Exam 3 is due on Sunday, April 30.
+Exam 3 is due on Monday, December 9 at 11:59 p.m.
 :::
 
 ::: callout-important
-"Project Assignment 3: Tableau Dashboard" is due by 11:59 p.m. on day of
-the scheduled final (May 11). Note that this is just the due date for
-the Tableau assignment. There is no final for this course.
+"Project Assignment 3: Tableau Dashboard" is due by 11:59 p.m. on day of the scheduled final (TBD). Note that this is just the due date for the Tableau assignment. There is no final for this course.
 :::
 
 ## Slides
 
-[Exam 3 Review (Factile
-game)](https://www.playfactile.com/psc2339midterm)
+<!-- [Exam 3 Review (Factile -->
+<!-- game)](https://www.playfactile.com/psc2339midterm) -->
 
 ## Assignments
 

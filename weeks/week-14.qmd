@@ -1,18 +1,12 @@
 ---
-title: "Week 14"
-subtitle: "Climate Politics and Final Project Workshop"
+title: "No Class"
+subtitle: "Thanksgiving Break"
 editor: visual
 ---
 
-## Readings
+## Happy Thanksgiving!
 
-📖 Aklin and Matto, ["Prisoners of the Wrong
-Dilemma"](https://direct.mit.edu/glep/article/20/4/4/95068/Prisoners-of-the-Wrong-Dilemma-Why-Distributive)
-
-## Slides
-
-🖥️ Climate change and collective action
-
+<iframe src="https://giphy.com/embed/2UzgBibcqFZnTnSGf9" width="480" height="461" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/fallontonight-thanksgiving-full-stuffed-2UzgBibcqFZnTnSGf9">via GIPHY</a></p>
 <br><br>
 
 ::: {style="font-size: 0.875em;"}
