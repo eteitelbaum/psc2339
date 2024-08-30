@@ -63,50 +63,9 @@ Key Arguments Self-regulating market Birth of liberalism Double movement
 -   What is your view of the state of nature?
 -   Is it more similar to Karl Polanyi's or Adam Smith's?
 
-# The Birth of Liberalism
-
-## Where Did Liberalism Come From?
-
--   Does not date back to Smith or Ricardo
--   These thinkers were ahead of their time
--   Emerged out of class politics following industrial revolution
-
-::: notes
-Liberalism is a relatively recent ideology/practice
-:::
-
-## Elements of Liberalism
-
--   Unfettered labor market
-    -   Cheap labor for industry
--   Gold standard
-    -   Facilitated trade
-    -   Kept prices in check
--   Free trade
-    -   Industrialists/traders wanted to access raw materials
-    -   Facilitated by the gold standard
-
-::: notes
-Liberalism was dopted to suit needs of industry and instability in the
-international economy Needs: price stability, cheap labor, raw materials
-:::
-
-## The Gold Standard (1879-1973)
-
--   Pegging the value of the dollar to gold
--   Problems
-    -   Deflationary: could not print money in excess of gold supply
-    -   Led to dramatic boom-bust cycles
--   Reforms
-    -   1931: Roosevelt ends gold standard domestically
-    -   1971: Nixon ends Bretton Woods
-
-::: notes
-The gold standard was problematic because it prevented the government
-from undertaking monetary policy to counteract economic downturns
-:::
-
 ## 19th Century Panics
+
+<br>
 
 ```{r boom-bust}
 library(fredr)
@@ -170,7 +129,8 @@ cpr_polanyi <- ggplot(cpr, aes(x=Date, y = CPR)) +
 # build interactive plotly chart    
 
 cpr_polanyi <- ggplotly(cpr_polanyi) %>%
-  
+  # fix height
+  layout(height = 400) %>%
   # add source
   layout(annotations = list(text = "Source: NBER, Retrieved from FRED, Federal Reserve Bank of St. Louis.",  
                             font = list(size = 10), showarrow = FALSE,
@@ -186,8 +146,7 @@ cpr_polanyi <- ggplotly(cpr_polanyi) %>%
 
 cpr_polanyi
 
-saveWidget(cpr_polanyi, "cpr_polanyi.html")
-
+#saveWidget(cpr_polanyi, "cpr_polanyi.html")
 ```
 
 ## Discussion
@@ -237,3 +196,46 @@ saveWidget(cpr_polanyi, "cpr_polanyi.html")
         -   The "movement"
         -   The "countermovement"
         -   The actors involved, e.g. winners and losers
+
+# The Birth of Liberalism
+
+## Where Did Liberalism Come From?
+
+-   Does not date back to Smith or Ricardo
+-   These thinkers were ahead of their time
+-   Emerged out of class politics following industrial revolution
+
+::: notes
+Liberalism is a relatively recent ideology/practice
+:::
+
+## Elements of Liberalism
+
+-   Unfettered labor market
+    -   Cheap labor for industry
+-   Gold standard
+    -   Facilitated trade
+    -   Kept prices in check
+-   Free trade
+    -   Industrialists/traders wanted to access raw materials
+    -   Facilitated by the gold standard
+
+::: notes
+Liberalism was dopted to suit needs of industry and instability in the
+international economy Needs: price stability, cheap labor, raw materials
+:::
+
+## The Gold Standard (1879-1973)
+
+-   Pegging the value of the dollar to gold
+-   Problems
+    -   Deflationary: could not print money in excess of gold supply
+    -   Led to dramatic boom-bust cycles
+-   Reforms
+    -   1931: Roosevelt ends gold standard domestically
+    -   1971: Nixon ends Bretton Woods
+
+::: notes
+The gold standard was problematic because it prevented the government
+from undertaking monetary policy to counteract economic downturns
+:::
