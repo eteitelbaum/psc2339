@@ -166,6 +166,7 @@ cpr_polanyi
 -   Who are the actors involved?
     -   Who is affected by this "movement"
     -   What does the "counter-movement" entail?
+-   Try using ChatGPT to help interpret the text
 
 ## Description of Double Movement
 
@@ -199,16 +200,6 @@ cpr_polanyi
 
 # The Birth of Liberalism
 
-## Where Did Liberalism Come From?
-
--   Does not date back to Smith or Ricardo
--   These thinkers were ahead of their time
--   Emerged out of class politics following industrial revolution
-
-::: notes
-Liberalism is a relatively recent ideology/practice
-:::
-
 ## Elements of Liberalism
 
 -   Unfettered labor market
@@ -238,4 +229,23 @@ international economy Needs: price stability, cheap labor, raw materials
 ::: notes
 The gold standard was problematic because it prevented the government
 from undertaking monetary policy to counteract economic downturns
+:::
+
+## Small Groups
+
+- Review Chapter 12
+- What are some misconceptions about the origins of liberalism?
+- When and why did liberalism actually emerge? 
+- How does the "double movement" apply to the birth of liberalism?
+- What are some elements of the "counter-movement"?
+- Utilize ChatGPT to help interpret the text
+
+## Where Did Liberalism Come From?
+
+-   Does not date back to Smith or Ricardo
+-   These thinkers were ahead of their time
+-   Emerged out of class politics following industrial revolution
+
+::: notes
+Liberalism is a relatively recent ideology/practice
 :::
