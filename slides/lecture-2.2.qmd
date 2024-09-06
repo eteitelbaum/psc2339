@@ -124,7 +124,7 @@ biggest_ppp <- gdp_ppp %>%
 -   Based on observation by Lipset (1959)
 -   Noted that democracy is highly correlated with development
 -   Took on guise of causal argument
-    -   Wealth → development
+    -   Wealth → democaracy
     -   Led to decades of debate
 
 ## Some Stylized Facts
