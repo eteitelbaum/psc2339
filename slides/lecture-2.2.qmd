@@ -137,6 +137,8 @@ biggest_ppp <- gdp_ppp %>%
 
 ## Modernization Before 1945
 
+<br>
+
 ```{r}
 #| label: modernization1
 modernization <- ggplot(polyarchy_pre1945, aes(x = gdp_pc, y = polyarchy)) + 
@@ -148,6 +150,11 @@ modernization <- ggplot(polyarchy_pre1945, aes(x = gdp_pc, y = polyarchy)) +
        title = "Wealth and democracy, 1789 - 1945")
 
 ggplotly(modernization, tooltip = c("country", "polyarchy")) %>%   
+  # adjust size 
+  layout(
+    height = 400,
+    width = 900  # Adjust width to better fit your slide
+  ) %>%
   # add source
   layout(annotations = list(text = "Source: The V-Dem Institute, Varities of Democracy Dataset",  
                             font = list(size = 10), showarrow = FALSE,
@@ -165,6 +172,8 @@ ggplotly(modernization, tooltip = c("country", "polyarchy")) %>%
 
 ## Modernization in the Post-War Period
 
+<br> 
+
 ```{r}
 #| label: modernization2
 modernization <- ggplot(polyarchy_postwar, aes(x = gdp_pc, y = polyarchy)) + 
@@ -176,6 +185,11 @@ modernization <- ggplot(polyarchy_postwar, aes(x = gdp_pc, y = polyarchy)) +
        title = "Wealth and democracy after WWII")
 
 ggplotly(modernization, tooltip = c("country", "polyarchy")) %>%   
+  # adjust size 
+  layout(
+    height = 400,
+    width = 900  # Adjust width to better fit your slide
+  ) %>%
   # add source
   layout(annotations = list(text = "Source: The V-Dem Institute, Varities of Democracy Dataset",  
                             font = list(size = 10), showarrow = FALSE,
@@ -249,7 +263,12 @@ region_plot <- ggplot(polyarchy_postwar, aes(x = gdp_pc, y = polyarchy)) +
   labs(x= "GDP Per Capita", y = "Polyarchy Score",
        title = "Wealth and democracy by region after WWII")
 
-ggplotly(region_plot, tooltip = c("country", "polyarchy")) %>%   
+ggplotly(region_plot, tooltip = c("country", "polyarchy")) %>%  
+  # adjust size 
+  layout(
+    height = 400,
+    width = 900  # Adjust width to better fit your slide
+  ) %>%
   # add source
   layout(annotations = list(text = "Source: The V-Dem Institute, Varities of Democracy Dataset",  
                             font = list(size = 10), showarrow = FALSE,
@@ -283,6 +302,11 @@ region_plot <- ggplot(polyarchy_annual, aes(x = gdp_pc, y = polyarchy)) +
   scale_color_discrete(name = "Wave")
 
 ggplotly(region_plot, tooltip = c("year", "polyarchy")) %>%   
+  # adjust size 
+  layout(
+    height = 400,
+    width = 900  # Adjust width to better fit your slide
+  ) %>%
   # add source
   layout(annotations = list(text = "Source: The V-Dem Institute, Varities of Democracy Dataset",  
                             font = list(size = 10), showarrow = FALSE,
