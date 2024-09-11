@@ -63,6 +63,8 @@ pct_regimes <- regime_type %>%
 
 ## Democratic (or Authoritarian) Backsliding
 
+<br>
+
 "\[A\] decline in the quality of democracy, when it occurs within
 democratic regimes, or in democratic qualities of governance in
 autocracies."
@@ -108,14 +110,27 @@ ggplot(pct_regimes, aes(x = year, y = percent, color = regime_type)) +
 
 ## U.S. in Comparative Perspective
 
+<br>
+
 -   Kaufman and Haggard reading
 -   How has backsliding occurred in middle-income countries?
 -   How similar is the U.S. to these countries?
 -   Is electoral authoritarianism possible in the U.S.?
 
+## V-Dem Report
+
+<br>
+
+- Check out [the most recent](https://v-dem.net/documents/43/v-dem_dr2024_lowres.pdf) V-Dem report
+- Skim chapter 2 on regime change
+- Pick one visualization to discuss
+- What are the implications for our understanding of backsliding?
+
 # Theories of Backsliding
 
 ## Hypotheses (1/3)
+
+<br>
 
 -   Leadership
     -   State strength and autonomy (how leaders create it)
@@ -140,6 +155,8 @@ ggplot(pct_regimes, aes(x = year, y = percent, color = regime_type)) +
     
 ## Hypotheses (3/3)
 
+<br>
+
 -   Social structures
     -   Class (bourgeoisie, working class, etc.)
     -   Ethnic fragmentation
@@ -150,12 +167,16 @@ ggplot(pct_regimes, aes(x = year, y = percent, color = regime_type)) +
 
 ## Wealth
 
+<br>
+
 -   Exogenous Democratization
 -   Rising wealth makes backsliding less likely
 -   "No democracy was ever subverted in a country with a per capita
     income higher than Argentina in 1975: \$6,055" (Przeworski)
 
-## Inequality {style="font-size: .75em"}
+## Inequality {.smaller}
+
+<br>
 
 -   "Redistributivist" theory
     -   Democracy is more durable in egalitarian societies
@@ -180,29 +201,21 @@ ggplot(pct_regimes, aes(x = year, y = percent, color = regime_type)) +
 
 ## Natural resource wealth
 
+<br>
+
 -   Undermines democracy
 -   Promotes authoritarianism
 -   Focus of next week's discussion
 
 # Exercise
 
-## Group Exercise {style="font-size: .75em"}
+## Group Exercise 
 
--   [V-Dem graphing tool](https://www.v-dem.net/en/online-graphing/)
+<br>
 
--   Interactive Map Tool
+-   Explore the [Democracy Around the World](https://emmanuelteitelbaum.shinyapps.io/vdem-dashboard/) App
 
-    -   One variable multiple countries
-    -   Look at electoral democracy and one other variable
-
--   Variable Graph
-
-    -   One variable, compare two countries
-    -   Zoom in on one country from the map
-
--   Country Graph
-
-    -   One country, multiple variables
-    -   Start with electoral democracy and expand
-
-\*\* What interesting patterns/questions arise?
+- Discuss
+  - Pick a favorite country or region
+  - What patterns stand out?
+  - Can you find any non-backsliders? 
