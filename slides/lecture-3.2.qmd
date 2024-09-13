@@ -92,6 +92,8 @@ rents <- merge(world_map, oil_rents, by.x = "iso_a2", by.y = "iso2c", all = TRUE
 
 ## Oil and Electoral Democracy
 
+<br>
+
 ```{r}
 oil_democracy <- ggplot(oil_curse, aes(x = oil_inc_pc, y = polyarchy)) + 
   geom_point(aes(color = region)) + 
@@ -103,6 +105,8 @@ oil_democracy <- ggplot(oil_curse, aes(x = oil_inc_pc, y = polyarchy)) +
   guides(color=guide_legend(title="Region"))
 
 ggplotly(oil_democracy, tooltip = c("country", "polyarchy", "oil_inc_pc")) %>%   
+  # adjust width
+  layout(width = 900, height = 450) %>%
   # add source
   layout(annotations = list(text = "Source: The V-Dem Institute, Varities of Democracy Dataset",  
                             font = list(size = 10), showarrow = FALSE,
@@ -117,9 +121,11 @@ ggplotly(oil_democracy, tooltip = c("country", "polyarchy", "oil_inc_pc")) %>%
 
 ## Ross Discussion
 
+<br>
+
 -   What is a "fiscal theory of democracy" and what does it have to do
     with the oil curse?
--   See graph on previous slide
+-   Explore the [Democracy Around the World](https://emmanuelteitelbaum.shinyapps.io/vdem-dashboard/) App
   - Which country cases support Ross's theory?
   - Which countries are exceptions?  
 
@@ -159,6 +165,8 @@ For the first link, play the ranking animation. For the second, select heat map 
 
 ## Resource Production as % of GDP
 
+<br>
+
 ```{r }
 oil_rent_graph <- ggplot(data = rents) +
   geom_sf(aes(fill = oil_rents_gdp), 
@@ -188,6 +196,8 @@ oil_rent_graph + theme_map() +
 
 ## Oil and Democracy by Region
 
+<br>
+
 ```{r}
 het_effects <- ggplot(oil_curse, aes(x = oil_inc_pc, y = polyarchy)) + 
   geom_point() + 
@@ -199,7 +209,8 @@ het_effects <- ggplot(oil_curse, aes(x = oil_inc_pc, y = polyarchy)) +
        title = "The Heterogeneous Effects of Oil Wealth", 
        caption = "Source: V-Dem Institute")
 
-ggplotly(het_effects, tooltip = c("country", "polyarchy", "oil_inc_pc")) %>%   
+ggplotly(het_effects, tooltip = c("country", "polyarchy", "oil_inc_pc")) %>%   # adjust width
+  layout(width = 900, height = 450) %>%
   # add source
   layout(annotations = list(text = "Source: The V-Dem Institute, Varities of Democracy Dataset",  
                             font = list(size = 10), showarrow = FALSE,
@@ -213,6 +224,8 @@ ggplotly(het_effects, tooltip = c("country", "polyarchy", "oil_inc_pc")) %>%
 ```
 
 ## Heterogeneous Effects
+
+<br>
 
 -   Oil may have destabilizing effect in some regions but not others
 -   Theories
@@ -241,13 +254,19 @@ ggplotly(het_effects, tooltip = c("country", "polyarchy", "oil_inc_pc")) %>%
 
 ## Oil and Patriarchy (Theory)
 
+<br>
+
 ![Source: Ross, The Oil Curse, Chapter 4](images/female_influence.png)
 
 ## Oil and Patriarchy (Evidence)
 
+<br>
+
 ![*Source*: Ross, The Oil Curse, Chapter 4](images/seats_parliament.png)
 
 ## Oil and Conflict (Theory)
+
+<br>
 
 -   Costs vs. benefits of rebellion
     -   Costs: repression; opportunity costs
@@ -258,17 +277,23 @@ ggplotly(het_effects, tooltip = c("country", "polyarchy", "oil_inc_pc")) %>%
 
 ## Oil and Conflict (Evidence)
 
+<br>
+
 ![*Source*: Ross, The Oil Curse, Chapter 5](images/oil_conflict.png)
 
 ## Where Does Oil Cause Conflict?
 
-![*Source*: Bell and Wolford 2015](images/oil_poverty.png)
+<br>
+
+![*Source*: Bell and Wolford 2015](images/oil_poverty.png){width=80%}
 
 ::: notes
 Highlight conditioning effects of ethnicity and poverty
 :::
 
 ## Mediating Effects of Poverty
+
+<br>
 
 ![Source: Ross, The Oil Curse, Chapter 5](images/oil_poverty_ross.png)
 
