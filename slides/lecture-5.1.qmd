@@ -200,6 +200,8 @@ ne_countries(returnclass = "sf") %>%
 
 ## Wealth and Clientelism
 
+<br>
+
 ```{r}
 #| label: clientelism-vs-gdp
 clientelism_vs_gdppc <- ggplot(clientelism_gdp, aes(x = gdp_pc, y = clientelism)) + 
@@ -211,7 +213,12 @@ clientelism_vs_gdppc <- ggplot(clientelism_gdp, aes(x = gdp_pc, y = clientelism)
   labs(x= "GDP per Capita", y = "Clientelism Score",
        title = paste("Wealth and clientelism, ", clientelism_gdp$year[1]))
 
-ggplotly(clientelism_vs_gdppc, tooltip = c("country", "clientelism")) %>%   
+ggplotly(clientelism_vs_gdppc, tooltip = c("country", "clientelism")) %>% 
+    # adjust size 
+  layout(
+    height = 400,
+    width = 900  # Adjust width to better fit your slide
+  ) %>%
   # add source
   layout(annotations = list(text = "Source: The V-Dem Institute, Varities of Democracy Dataset",  
                             font = list(size = 10), showarrow = FALSE,
