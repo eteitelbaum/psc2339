@@ -95,16 +95,22 @@ clientelism_ts <- vdem %>%
 
 ## Development as Freedom (Sen)
 
+<br>
+
 - Poverty is “capability deprivation”
 - Governments promote development when they enhance capabilities, in turn promoting freedom
 
 ## Participatory Development/Inclusive Growth
+
+<br>
 
 - Education and health care produce a more competitive labor force (human capital)
 - Facilitates investment in industry
 - Leads to broad-based “participatory” industrialization
 
 ## Sustainable Development
+
+<br>
 
 - Minimizing impact on environment
 - Avoiding depletion of natural resources
@@ -116,12 +122,17 @@ clientelism_ts <- vdem %>%
 
 ## What is "Distributive Politics"? 
 
+<br>
+
 - The politics of how public goods and services are distributed
 	- Key to human development
 	- Some countries do better than others
 - AKA "the politics of public service provisioning"
 
 ## Stokes et. al.–two main modes
+
+<br>
+
 - Programmatic
 	- Distribution criteria are public
 	- Criteria shape distribution of resources
@@ -136,12 +147,16 @@ clientelism_ts <- vdem %>%
 
 ## Stokes et. al. examples (each group take 1)
 
+<br>
+
 - Progressa/Oportunidades
 - Emergency Food Aid, Argentina
 - La Efectiva, Mexico
 - Housing Improvement Program, Singapore
 
 ## Questions 
+
+<br>
 
 - What are characteristics of program in terms of:
 	- Criteria for distribution
@@ -153,12 +168,16 @@ clientelism_ts <- vdem %>%
 
 ## Who are brokers? 
 
+<br>
+
 - Middlemen, brokers, local political bosses
 - Inform politicians what voters want/need
 - Provide information to and mobilize voters
 - e.g. [caciques](https://www.youtube.com/watch?v=478PUtOmQCc&t=10s) (Mexico), [dalal](https://www.youtube.com/watch?v=xyoIM3JVcQY) (India), tim sukses (Indonesia)
 
 ## Problems with brokers
+
+<br>
 
 - Have their own agenda/ambitions
 - Can do "misguided" or unexpected things
@@ -178,7 +197,7 @@ ne_countries(returnclass = "sf") %>%
     clientelism,
     by = "iso_a3_eh"
   ) %>%
-  filter(iso_a2_eh != "ATA") %>% # remove Antarctica
+  filter(iso_a3_eh != "ATA") %>% # remove Antarctica
   ggplot(aes(fill = clientelism)) +
   geom_sf() +
   scale_fill_viridis_c(direction = -1) +
@@ -190,13 +209,6 @@ ne_countries(returnclass = "sf") %>%
   )
 ```
 
-## Discussion 
-
-- Are programmatic modes better for development than non-programmatic modes? 
-  - Is one or the other more efficient?
-  - Is one or the other more ethical?
-  - Are brokers helpful or harmful from a developmental standpoint? 
-- In your opinion, why might countries eventually shift to programmatic modes? 
 
 ## Wealth and Clientelism
 
@@ -206,14 +218,15 @@ ne_countries(returnclass = "sf") %>%
 #| label: clientelism-vs-gdp
 clientelism_vs_gdppc <- ggplot(clientelism_gdp, aes(x = gdp_pc, y = clientelism)) + 
   geom_point(aes(color = region)) + 
-  scale_color_discrete(name = "Region") +
   geom_smooth(method = "lm", size = 1) + 
   scale_x_log10(labels = label_dollar()) +
   aes(label = country) + # need so ggplot retains label for plotly
   labs(x= "GDP per Capita", y = "Clientelism Score",
-       title = paste("Wealth and clientelism, ", clientelism_gdp$year[1]))
+       title = paste("Wealth and clientelism, ", clientelism_gdp$year[1]),
+       color = "Region") +
+  scale_color_viridis_d(option = "plasma", end = .8)
 
-ggplotly(clientelism_vs_gdppc, tooltip = c("country", "clientelism")) %>% 
+ggplotly(clientelism_vs_gdppc, tooltip = c("country", "clientelism", "gdp_pc")) %>% 
     # adjust size 
   layout(
     height = 400,
@@ -242,6 +255,14 @@ ggplot(clientelism_ts, aes(x = year, y = clientelism, color = region)) +
        title = "Clientelism Trends by Region", 
        caption = "Source: V-Dem Institute")
 ```
+
+## Discussion 
+
+- Are programmatic modes better for development than non-programmatic modes? 
+  - Is one or the other more efficient?
+  - Is one or the other more ethical?
+  - Are brokers helpful or harmful from a developmental standpoint? 
+- In your opinion, why might countries eventually shift to programmatic modes? 
 
 # Conclusion
 

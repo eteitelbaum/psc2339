@@ -38,22 +38,26 @@ clientelism <- vdem %>%
 
 ## What is a Public Good? 
 
+<br>
+
 - **Non-excludable:** can’t restrict use once provided  
-
 - **Non-rival (jointly supplied):** once available, can be consumed by others at no additional cost
-
 - Opposite of a private good, distinct from “club goods” and “common pool resources”
 
 ## Examples
 
-![](images/examples.png)
+![](images/examples.png){fig-align="center"}
 
 ## Relevance 
+
+<br>
 
 - Public goods associated with programmatic politics
 - Clientelism associated with club goods and private benefits
 
 ## Geography of Clientelism
+
+<br>
 
 ```{r}
 #| label: clientelism-map
@@ -64,10 +68,9 @@ map <- ne_countries(returnclass = "sf") %>%
     by = "iso_a3_eh"
   ) %>%
   filter(iso_a3_eh != "ATA") %>% # remove Antarctica
-  ggplot(aes(fill = clientelism)) + # need ctry label for plotly to show in tool tip 
-                                    # (fill = clientelism, label = country)
-                                    # but couldn't get all ctry names to show, so I left it
-  geom_sf() +
+  ggplot(aes(fill = clientelism)) + # you get country label last if you put it here
+  geom_sf() + # or here
+  aes(label = country) + # you only get country label first if you put it here
   scale_fill_viridis_c(direction = -1) +
   theme(legend.position="right") +
   labs(
@@ -76,10 +79,11 @@ map <- ne_countries(returnclass = "sf") %>%
     caption = "Source: V-Dem Institute, Varieties of Democracy Dataset" 
   )
 
-plotly_map <- ggplotly(map, tooltip = c("country", "clientelism")) %>% # couldn't get all ctry names to show
-                                                         # but left code here to try in future
+plotly_map <- ggplotly(map, tooltip = c("country", "clientelism")) %>% 
   style(hoveron = "fill")  %>%
-# add source
+  # adjust width and height
+  layout(width = 900, height = 450) %>%
+  # add source
   layout(annotations = list(text = "Source: The V-Dem Institute, Varities of Democracy Dataset",  
                             font = list(size = 10), showarrow = FALSE,
                             xref = 'paper', x = 1, xanchor = 'right', xshift = 0,
@@ -129,6 +133,8 @@ in terms of social programs.
 
 ## Southeast Asia Examples 
 
+<br>
+
 - Malaysia
   - [Universal healthcare](https://bmjopen.bmj.com/content/11/5/e047126) alongside private system
   - Free primary and junior secondary education
@@ -137,6 +143,8 @@ in terms of social programs.
   - Free education through secondary school
 
 ## 
+
+<br>
 
 - Indonesia 
   - [Jaminan Kesehatan Nasional (JKN)](https://staff.ui.ac.id/system/files/users/pratiwi.sudarmono/publication/pratiwiunivesallancet2018.pdf)
@@ -147,6 +155,8 @@ in terms of social programs.
 # Vote Buying in Indonesia 
 
 ## Discussion
+
+<br>
 
 - What is a "success team"?
 - How does clientelism in Indonesia differ from clientelism in Latin America?
@@ -205,6 +215,8 @@ in terms of social programs.
 
 ## Geography of Clientelism 
 
+<br>
+
 ```{r}
 #| label: clientelism-map-2
 
@@ -214,7 +226,7 @@ plotly_map
 # Exercise
 
 - Split up into groups
-- Plan a ground war for Arief Wismansyah
+- Plan a ground war for [Arief Wismansyah](https://en.wikipedia.org/wiki/Arief_Rachadiono_Wismansyah)
 - What are your targets and expected results?
 - How would you...
   - Organize success teams
