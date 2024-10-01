@@ -40,6 +40,8 @@ execute:
 
 ## The Central Issue
 
+<br>
+
 ::: columns
 ::: {.column width="50%"}
 ![](images/examples.png)
@@ -56,6 +58,8 @@ execute:
 
 ## 1. Selective Incentives {.smaller}
 
+<br>
+
 -   Collective action is more likely with the right set of incentives
 -   "Selective incentives" are incentives targeted at individuals to
     make participation advantageous and non-participation
@@ -68,6 +72,8 @@ execute:
     -   Ability to sanction through informal institutions
 
 ## 2. Size of Groups {.smaller}
+
+<br>
 
 -   Coordination problems are even bigger among large groups (Olson)
     -   "Action taking groups" tend to be much smaller than "non-action
@@ -84,6 +90,8 @@ execute:
 
 ## 3. Contract Theory {.smaller}
 
+<br>
+
 -   Basic problem: when 'a' contracts with 'b', how does 'a' know that
     'b' will follow through?
 -   In developing countries, governments often lack enforcement capacity
@@ -98,6 +106,8 @@ execute:
 
 ## Explaining Variation
 
+<br>
+
 -   Correlation between ethnic diversity and service provisioning is not
     absolute
 -   We see substantial cross-national variation in how much ethnicity
@@ -106,6 +116,8 @@ execute:
 -   How do we explain this variation?
 
 ## Subnationalism {.smaller}
+
+<br>
 
 ::: columns
 ::: {.column width="50%"}
@@ -121,6 +133,8 @@ execute:
 :::
 
 ## Encompassing Ethnic Parties {.smaller}
+
+<br>
 
 ::: columns
 ::: {.column width="50%"}
@@ -140,6 +154,8 @@ execute:
 :::
 
 ## Sectarianism (Cammett) {.smaller}
+
+<br>
 
 ::: columns
 ::: {.column width="50%"}
@@ -161,6 +177,8 @@ execute:
 # Agency
 
 ## Miguel Study {.smaller}
+
+<br>
 
 -   So far we have talked about how structural factors condition effects of ethnicity on service provisioning.
 -   Can governments **choose** to alter incentives if they want to?
@@ -201,6 +219,8 @@ execute:
 ![Source: Habyarimana et. al., 2007](images/figure_4.2.jpg)
 
 ## Basic Findings
+
+<br>
 
 -   No evidence of preference mechanisms
 
