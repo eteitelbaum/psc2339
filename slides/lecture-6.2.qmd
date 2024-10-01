@@ -9,6 +9,8 @@ format:
     theme: moon
     transition: fade
     slide-number: true
+    view-distance: 10
+    css: custom.css
 execute:
   echo: false
   freeze: auto
@@ -43,6 +45,8 @@ regions <- c("EAS", "ECS", "LCN", "MEA","SAS", "SSF")
 
 ## Definitions
 
+<br>
+
 - Poverty--a lack of money, material possessions or means 
 	- Income-based approach (World Bank)
 	- Capabilities approach (Amartya Sen)
@@ -70,6 +74,8 @@ regions <- c("EAS", "ECS", "LCN", "MEA","SAS", "SSF")
 	- Applies mainly to high income countries (Sachs 2005)
 
 ## Poverty Lines ($ per day 2017 PPP)
+
+<br>
 
 - Extreme poverty: $2.15
 - LMIC threshold: $3.65
@@ -104,19 +110,27 @@ ne_countries(returnclass = "sf") %>%
 
 ## Regional Trends in Extreme Poverty
 
+<br>
+
+<div class="center-plotly">
 ```{r}
 #| label: regional_avg
 
 indicator_info <- filter(wb_cachelist$indicators, indicator_id == poverty)
 
-rpoverty <- wb_data(c(poverty = poverty), start_date = 1990, end_date = lubridate::year(Sys.Date()), country = regions)
+rpoverty <- wb_data(c(poverty = poverty), 
+                    start_date = 1990, 
+                    end_date = lubridate::year(Sys.Date()), 
+                    country = regions) %>%
+            rename(year = date)
 
-poverty_plot <- ggplot(rpoverty, aes(x = date, y = poverty, color = country)) + 
+poverty_plot <- ggplot(rpoverty, aes(x = year, y = poverty, color = country)) + 
   geom_line() +
   labs(
-    x = NULL, y = "Percent",
+    x = NULL, y = "",
     title = indicator_info$indicator
   ) + 
+  scale_y_continuous(labels = scales::label_percent(scale = 1)) +
   scale_color_brewer(palette = "Dark2", name = "Region")
 
 ggplotly(poverty_plot) %>%   
@@ -131,6 +145,7 @@ ggplotly(poverty_plot) %>%
                             xref = 'paper', x = .5, xanchor = 'center', xshift = 0,
                             yref = 'paper', y = 1, yanchor = 'top', yshift = 0))
 ```
+</div>
 
 ## LMIC Threshold
 
@@ -266,12 +281,19 @@ ne_countries(returnclass = "sf") %>%
 
 ## Inequality Trends
 
+<br>
+
+<div class="center-plotly">
 ```{r}
 indicator_info <- filter(wb_cachelist$indicators, indicator_id == gini)
 
-gini_ts <- wb_data(c(gini = gini), start_date = 1995, end_date = lubridate::year(Sys.Date()), country = countries)
+gini_ts <- wb_data(c(gini = gini),
+                   start_date = 1995, 
+                   end_date = lubridate::year(Sys.Date()), 
+                   country = countries) |>
+           rename(year = date) 
 
-gini_plot <- ggplot(gini_ts, aes(x = date, y = gini, color = country)) + 
+gini_plot <- ggplot(gini_ts, aes(x = year, y = gini, color = country)) + 
   geom_line() +
   labs(
     x = NULL, y = "Index",
@@ -281,6 +303,8 @@ gini_plot <- ggplot(gini_ts, aes(x = date, y = gini, color = country)) +
   scale_color_brewer(palette = "Dark2", name = "Country")
 
 ggplotly(gini_plot) %>%   
+  # responsive layout
+  #layout(autosize = TRUE) %>%
   # add source
   layout(annotations = list(text = "Source: World Bank Development Indicators",  
                             font = list(size = 10), showarrow = FALSE,
@@ -292,21 +316,30 @@ ggplotly(gini_plot) %>%
                             xref = 'paper', x = .5, xanchor = 'center', xshift = 0,
                             yref = 'paper', y = 1, yanchor = 'top', yshift = 0))
 ```
+</div>
 
 ## Poverty Trends
 
+<br>
+
+<div class="center-plotly">
 ```{r}
 indicator_info <- filter(wb_cachelist$indicators, indicator_id == poverty)
 
-poverty_ts <- wb_data(c(poverty = poverty), start_date = 1995, end_date = lubridate::year(Sys.Date()), country = countries)
+poverty_ts <- wb_data(c(poverty = poverty), 
+                      start_date = 1995, 
+                      end_date = lubridate::year(Sys.Date()), 
+                      country = countries) %>%
+           rename(year = date)
 
-poverty_plot <- ggplot(poverty_ts, aes(x = date, y = poverty, color = country)) + 
+poverty_plot <- ggplot(poverty_ts, aes(x = year, y = poverty, color = country)) + 
   geom_line() +
   labs(
-    x = NULL, y = "Percent",
+    x = NULL, y = "",
     title = indicator_info$indicator, 
     caption = paste("Source:", indicator_info$source_org)
   ) + 
+  scale_y_continuous(labels = scales::label_percent(scale = 1)) +
   scale_color_brewer(palette = "Dark2", name = "Country")
 
 ggplotly(poverty_plot) %>%   
@@ -322,21 +355,30 @@ ggplotly(poverty_plot) %>%
                             yref = 'paper', y = 1, yanchor = 'top', yshift = 0))
 
 ```
+</div>
 
 ## Health Spending
 
+<br>
+
+<div class="center-plotly">
 ```{r}
 indicator_info <- filter(wb_cachelist$indicators, indicator_id == health)
 
-health_ts <- wb_data(c(health = health), start_date = 2000, end_date = lubridate::year(Sys.Date()), country = countries)
+health_ts <- wb_data(c(health = health), 
+                     start_date = 2000, 
+                     end_date = lubridate::year(Sys.Date()), 
+                     country = countries) %>%
+           rename(year = date)
 
-health_plot <- ggplot(health_ts, aes(x = date, y = health, color = country)) + 
+health_plot <- ggplot(health_ts, aes(x = year, y = health, color = country)) + 
   geom_line() +
   labs(
-    x = NULL, y = "Percent",
+    x = NULL, y = "",
     title = indicator_info$indicator, 
     caption = paste("Source:", indicator_info$source_org)
   ) + 
+  scale_y_continuous(labels = scales::label_percent(scale = 1)) +
   scale_color_brewer(palette = "Dark2", name = "Country")
 
 ggplotly(health_plot) %>%   
@@ -352,21 +394,30 @@ ggplotly(health_plot) %>%
                             yref = 'paper', y = 1, yanchor = 'top', yshift = 0))
 
 ```
+</div>
 
 ## Education Spending
 
+<br>
+
+<div class="center-plotly">
 ```{r}
 indicator_info <- filter(wb_cachelist$indicators, indicator_id == education)
 
-education_ts <- wb_data(c(education = education), start_date = 2000, end_date = lubridate::year(Sys.Date()), country = countries)
+education_ts <- wb_data(c(education = education), 
+                        start_date = 2000, 
+                        end_date = lubridate::year(Sys.Date()), 
+                        country = countries) %>%
+           rename(year = date)
 
-education_plot <- ggplot(education_ts, aes(x = date, y = education, color = country)) + 
+education_plot <- ggplot(education_ts, aes(x = year, y = education, color = country)) + 
   geom_line() +
   labs(
-    x = NULL, y = "Percent",
+    x = NULL, y = "",
     title = indicator_info$indicator, 
     caption = paste("Source:", indicator_info$source_org)
   ) + 
+  scale_y_continuous(labels = scales::label_percent(scale = 1)) +
   scale_color_brewer(palette = "Dark2", name = "Country")
 
 ggplotly(education_plot) %>%   
@@ -381,6 +432,7 @@ ggplotly(education_plot) %>%
                             xref = 'paper', x = .5, xanchor = 'center', xshift = 0,
                             yref = 'paper', y = 1, yanchor = 'top', yshift = 0))
 ```
+</div>
 
 ## Key Concepts
 
