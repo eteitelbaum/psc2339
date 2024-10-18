@@ -63,7 +63,6 @@ execute:
 	- Reconstitution of gender inequalities
 - Describe each of these. Which effect do you think is the strongest? 
 
-
 # Policy Models
 
 ## Policy Models
@@ -112,7 +111,6 @@ execute:
 
 - Repayment based on trust
 
-
 ## Think About
 - Which Model is Most Compelling? 
 	- Development 
@@ -120,3 +118,64 @@ execute:
 	- Microcredit
 
 - Why? 
+
+# Women in the Apparel Sector
+
+## Apparel Sector in Low-Income Countries
+
+- Women making up the majority of the workforce in apparel
+- Employment is concentrated in low-income countries in Asia and Latin America
+- Workers often face exploitative working conditions, including long hours and unsafe environments
+- Wages are typically below living wage standards, trapping workers in cycles of poverty
+- The sector's reliance on low-cost labor perpetuates gender inequality and exploitation
+
+## Voluntary Compliance
+
+- A system where companies self-regulate adherence to labor and environmental standards without legal enforcement
+- Relies on corporate codes of conduct and industry standards rather than government regulations
+- Third-party audits are often used to assess compliance
+- Designed to promote ethical practices but participation is generally optional for companies
+
+## Problems with Voluntary Compliance 
+
+- Critics argue it lacks accountability and often fails to protect vulnerable workers effectively
+- Vulnerabilities have been pushed down to more informal and unregulated suppliers outside of the formal supply chain
+- Generally private governance initiatives ignore freedom of association and collective bargaining rights
+- Worker empowerment is crucial, but must be pursued within an unequal economic context
+
+## Global Apparel Pricing 
+
+![](images/apparel_pricing.png){fig-align=center}
+
+## Bangladesh Pricing
+
+<br>
+
+![](images/bangladesh_pricing.png)
+
+## Pricing and Labor Rights
+
+![](images/prices_rights_bangladesh.png){fig-align=center width=80%}
+
+## Rana Plaza Collapse
+
+![](images/rana_plaza.jpg)
+
+## Global Framework Agreements
+
+- Alliance for Bangladesh Worker Safety
+  - Mostly American companies
+  - Not legally binding
+  - Expired after five years, not renewed
+- Accord on Fire and Building Safety in Bangladesh
+  - Mostly European companies 
+  - Legally binding
+  - Renewed after 5 years but undermined by garment manufacturers in Bangladesh
+
+## Trade Unions
+
+<br>
+
+- Trade unions in developing countries male-dominated
+- Tied to political parties
+- INGOs undemocratic, lack connection to workers

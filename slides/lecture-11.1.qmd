@@ -87,43 +87,6 @@ Commons](images/trade_union_density.png)
 :::
 :::
 
-# International Labor NGOs
-
-## Rana Plaza Collapse
-
-![](images/rana_plaza.jpg)
-
-## Global Framework Agreements
-
-- Alliance for Bangladesh Worker Safety
-  - Mostly American companies
-  - Not legally binding
-  - Expired after five years, not renewed
-- Accord on Fire and Building Safety in Bangladesh
-  - Mostly European companies 
-  - Legally binding
-  - Renewed after 5 years but undermined by garment manufacturers in Bangladesh
-
-## Global Apparel Pricing 
-
-![](images\apparel_pricing.png)
-
-## Bangladesh Pricing
-
-![](images\bangladesh_pricing.png)
-
-## Pricing and Labor Rights
-
-![](images\prices_rights_bangladesh.png)
-
-## Democracy
-
-- Trade unions in developing countries male-dominated
-
-- Tied to political parties
-
-- INGOs undemocratic, lack connection to workers
-
 ## Discussion
 
 - How to improve unions?
