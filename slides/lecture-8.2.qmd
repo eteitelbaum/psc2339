@@ -43,5 +43,5 @@ execute:
 - Use slides/notes as guide to reviewing readings
   - Study main points
   
-- [Factile game](https://www.playfactile.com/l9h70uhcdi)
+- Factile game
 
