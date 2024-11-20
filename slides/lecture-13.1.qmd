@@ -34,6 +34,9 @@ execute:
 - Often spurred by laissez-faire economic policies that benefit the rich
 - Frequently the long-term result of economic crisis (1870s-1880s, 1929, late-1970s, 2008, etc.)
 	- Populists accuse mainstream parties of ignoring crisis altogether, not addressing the root causes of the crisis, or selling out ordinary voters in order to resolve crisis  
+
+## Where Does Populism Come From? {.smaller}
+
 - Most left-wing populist movements demand government intervention that will reduce inequality and restore the middle class
 - But populist demands can be coupled with demands to get the government out of the economy
 	- Usually a component of right-wing populist groups
@@ -48,6 +51,9 @@ execute:
 	- Factories in Western Europe and Japan
 	- Steel production throughout Asia
 	- Textile production in developing countries
+	
+## Neoliberal Policy in the U.S. {.smaller}
+
 - Business felt regulations and unions prevented them from competing
 	- Repressed unions 
 	- Moved factories abroad and to “right to work” states
@@ -68,6 +74,9 @@ execute:
 	- Steep fall in agricultural prices
 	- Aggravated by increased transportation costs 
 		- Railroad monopolies
+
+## Populism in the U.S. I {.smaller}
+
 - Saw themselves as representing people vs. elites
 	- People = farmers and workers
 	- Elites = capitalists, speculators and mainstream parties
@@ -82,13 +91,14 @@ execute:
 		- Proposed wealth cap ($5 million per family; $1 million per individual)
 		- Use revenue to fund guaranteed income
 	- Forced Roosevelt to pass “Second New Deal” that included social security, NLRA, WPA and wealth taxes
+	
+## Populism in the U.S. II {.smaller}
+
 - George Wallace 
   - Governor of Alabama (four terms)
   - Government "full of rich people" who wanted to give their money to the poor
   - Led conservative backlash to Civil Rights Act, Voting Rights Act and racial integration 
   - Framed opposition to integration as defense against “big government”
-
-
 
 ## Populism in the U.S. III {.smaller}
 
@@ -106,7 +116,7 @@ execute:
 
 # Populism in the U.S. Today
 
-## Trump vs. Sanders {.smaller}
+## Trump and Sanders {.smaller}
 
 - Trump
 	- Prior to running in 2016, he was a moderate on social issues (like abortion) and social spending (supported idea of universal health care)
@@ -117,7 +127,8 @@ execute:
 
 ## Discussion 
 
-- Was Trump's support more due to a reaction to neolibarlism or to immigration? 
+- Does Judis's explanation of populism help us to understand recent U.S. elections?
+- Was Trump's support more due to a reaction to neoliberalism, immigration or both? 
 - Why was Bernie Sanders, who focused on inequality and the one percent, ultimately less successful than Trump as a presidential candidate?  
 - In your discussion, reference the chapter you read from Judis's *The Populist Explosion*
 
