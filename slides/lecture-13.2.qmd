@@ -26,12 +26,15 @@ execute:
 	- Aggressive unions (in some countries, but not all)
 	- Higher oil prices (energy crisis)
 
-## Crisis and Fallout {.smaller}
+## Crisis and Fallout
 
 - Deficit spending that stimulated demand in golden years made things worse in the crisis
 	- Increased inflation
 	- Undermined investment 
 	- Increased demand for imports, worsening BOP
+	
+## Crisis and Fallout 
+
 - To cope with the crisis, leaders turned away from Keynesian policies and toward neoliberal policies
 	- Tried to limit wage increases
 	- Raised taxes to tamp down consumer demand
