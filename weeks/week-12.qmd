@@ -1,33 +1,24 @@
 ---
-title: "Week 12"
-subtitle: "Globalization and Inequality"
+title: "Week 11"
+subtitle: "The Political Economy of Labor"
 editor: visual
 ---
 
-::: callout-important
-"Project Assignment 2: Project Proposal" is due on Monday, November 18
-at 11:59 p.m.
-:::
-
 ## Readings
 
-📖 Autor, Dorn and Hanson, ["The China
-Shock"](https://www.annualreviews.org/doi/full/10.1146/annurev-economics-080315-015041)
+📖 Gumbrell-McCormick and Hyman, ["Democracy in Trade Unions, Democracy
+Through Trade
+Unions?"](https://journals-sagepub-com.proxygw.wrlc.org/doi/full/10.1177/0143831X18780327)
 
-📖 Joseph Stiglitz, [*People, Power, and
-Profits*](https://www.amazon.com/gp/product/B07P92PDLF/ref=dbs_a_def_rwt_bibl_vppi_i2)*,
-Chapter 3*
+📖 Hall and Soskice, [*Varities of
+Capitalism*](https://academic.oup.com/book/301/chapter/134893294),
+Chapter 1
 
 ## Slides
 
-🖥️ [Globalization](/slides/lecture-12.1.html)
+🖥️ [Unions and collective bargaining](/slides/lecture-11.1.html)
 
-🖥️ [Inequality](/slides/lecture-12.2.html)
-
-## Assignments
-
-✍️ [Project Assignment 2: Project
-Proposal](/project/project-assignment-2.html)
+🖥️ [Varieties of capitalism](/slides/lecture-11.2.html)
 
 <br><br>
 

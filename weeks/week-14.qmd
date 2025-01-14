@@ -1,12 +1,24 @@
 ---
-title: "No Class"
-subtitle: "Thanksgiving Break"
+title: "Week 13"
+subtitle: "The Rise of Radical Politics"
 editor: visual
 ---
 
-## Happy Thanksgiving!
+## Readings
 
-<iframe src="https://giphy.com/embed/2UzgBibcqFZnTnSGf9" width="480" height="461" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/fallontonight-thanksgiving-full-stuffed-2UzgBibcqFZnTnSGf9">via GIPHY</a></p>
+📖 John Judis, [*The Politics of Our
+Time*](https://www-jstor-org.proxygw.wrlc.org/stable/j.ctv2dzzqsn)
+
+-   *For Wednesday, choose one chapter to read from Part I*
+
+-   *For Friday, choose one chapter to read from Part II or Part III*
+
+## Slides
+
+🖥️ [The populist backlash in the West](/slides/lecture-13.1.html)
+
+🖥️ [The rise of nationalism and socialism](/slides/lecture-13.2.html)
+
 <br><br>
 
 ::: {style="font-size: 0.875em;"}

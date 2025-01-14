@@ -6,7 +6,7 @@ title: "Syllabus"
 
 | Course: PSC 2339-Comparative Political Economy
 | Lecture: WF 9:35-10:50 a.m.
-| Classroom: [Corcoran Hall](https://maps.app.goo.gl/PMnCbiq7P1jcoiaX9) Rm 204
+| Classroom: [Monroe Hall](https://maps.app.goo.gl/QrqspEoiMKkMgFNb6) Rm 353
 
 ## Prerequisites
 
@@ -72,8 +72,7 @@ In a 15-week semester, including exam week, students are expected to spend a min
 
 ### Due dates and late assignments
 
-Readings should be completed and videos watched for the day they are assigned. Assignment due dates are posted in the "weekly materials" page for the week that they are due. The final component of the final project is due at 11:59 p.m. on the date of the scheduled final. (Note that that
-**there is no final exam** for this course. This is just the due date for the Tableau assignment).
+Readings should be completed and videos watched for the day they are assigned. Assignment due dates are posted in the "weekly materials" page for the week that they are due. The final component of the final project is due at 11:59 p.m. on the last day of the reading period.
 
 Late assignments will be accepted **with a standard penalty of one percentage points per day** that they are turned in after the official due date. Late assignments will not be accepted after 7 calendar days. No exceptions will be made to this policy.
 
@@ -150,8 +149,7 @@ GW policy prohibits food and drink in the classroom. Students are, however, perm
 By taking this course, you are agreeing to abide by the [GWU code of Academic
 Integrity](http://studentconduct.gwu.edu/code-academic-integrity).
 
-According to this code, academic dishonesty is defined as "cheating of any kind, including misrepresenting one's own work, taking credit for the work of others without crediting them and without appropriate authorization, and the fabrication of information." Note that this is not a comprehensive list. Other types of academic dishonesty include providing false or misleading information in an effort to postpone an
-exam or to get an extension on an assignment and providing substantially similar material for a writing assignment for assignments in two different courses without the prior permission of the faculty members teaching those courses. The minimum penalty for academic dishonesty is a failing grade on the assignment in question and the maximum penalty is failure of the class. Furthermore, the violation will be reported to
+According to this code, academic dishonesty is defined as "cheating of any kind, including misrepresenting one's own work, taking credit for the work of others without crediting them and without appropriate authorization, and the fabrication of information." Note that this is not a comprehensive list. Other types of academic dishonesty include providing false or misleading information in an effort to postpone an exam or to get an extension on an assignment and providing substantially similar material for a writing assignment for assignments in two different courses without the prior permission of the faculty members teaching those courses. The minimum penalty for academic dishonesty is a failing grade on the assignment in question and the maximum penalty is failure of the class. Furthermore, the violation will be reported to
 GW's Office of Academic Integrity, which can impose additional penalties beyond those I may impose.
 
 ### Religious holidays
