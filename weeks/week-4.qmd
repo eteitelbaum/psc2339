@@ -5,14 +5,12 @@ editor: visual
 ---
 
 ::: callout-important
-Exam 1 is due on Monday, September 23 at 11:59 p.m.
+Exam 1 is due on Monday, February 10 at 11:59 p.m.
 :::
 
 ## Readings
 
-📖 Hessami and Lopes da Fonseca, ["Female Political Representation and
-Substantive Effects on
-Policies"](https://www.econstor.eu/bitstream/10419/216551/1/cesifo1_wp8155.pdf)
+📖 Hessami and Lopes da Fonseca, ["Female Political Representation and Substantive Effects on Policies"](https://www.econstor.eu/bitstream/10419/216551/1/cesifo1_wp8155.pdf)
 
 ## Slides
 

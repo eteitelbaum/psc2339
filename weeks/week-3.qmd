@@ -5,18 +5,14 @@ editor: visual
 ---
 
 ::: callout-important
-"Data Assignment 1: Working With Data in Excel" is due on Monday,
-September 16 at 11:59 p.m.
+"Data Assignment 1: Working With Data in Excel" is due on Monday, February 4 at 11:59 p.m.
 :::
 
 ## Readings
 
-📖Kaufman and Haggard, ["Democratic Decline in the United
-States"](https://doi.org/10.1017/S1537592718003377)
+📖Kaufman and Haggard, ["Democratic Decline in the United States"](https://doi.org/10.1017/S1537592718003377)
 
-📖Michael Ross, [The Oil
-Curse](https://www-jstor-org.proxygw.wrlc.org/stable/j.ctt7s3wz.10)*,*
-Chapter 3
+📖Michael Ross, [The Oil Curse](https://www-jstor-org.proxygw.wrlc.org/stable/j.ctt7s3wz.10)*,* Chapter 3
 
 ## Slides
 

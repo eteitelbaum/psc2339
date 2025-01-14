@@ -6,11 +6,9 @@ editor: visual
 
 ## Readings
 
-📖 Acemoglu and Robinson, ["Rents and Economic
-Development"](https://link-springer-com.proxygw.wrlc.org/article/10.1007/s11127-019-00645-z "Acemoglu and Robinson")
+📖 Acemoglu and Robinson, ["Rents and Economic Development"](https://link-springer-com.proxygw.wrlc.org/article/10.1007/s11127-019-00645-z "Acemoglu and Robinson")
 
-📖 Cheibub and Vreeland, ["Modernization
-Theory"](https://www.dropbox.com/scl/fi/h6ezbidqo8451s5kcj2y0/Cheibub-and-Vreeland-2015.pdf?rlkey=98hz9smiosb8mj6y8nd0lq200&dl=0 "Cheibub and Vreeland")
+📖 Cheibub and Vreeland, ["Modernization Theory"](https://www.dropbox.com/scl/fi/h6ezbidqo8451s5kcj2y0/Cheibub-and-Vreeland-2015.pdf?rlkey=98hz9smiosb8mj6y8nd0lq200&dl=0 "Cheibub and Vreeland")
 
 ## Slides
 

@@ -6,9 +6,7 @@ editor: visual
 
 ## Readings
 
-Archibong et. al., ["Washington Consensus Reforms and Economic
-Performance in Sub-Saharan
-Africa"](https://www.brookings.edu/wp-content/uploads/2021/02/Washington-Consensus-Reforms.pdf)
+Archibong et. al., ["Washington Consensus Reforms and Economic Performance in Sub-Saharan Africa"](https://www.brookings.edu/wp-content/uploads/2021/02/Washington-Consensus-Reforms.pdf)
 
 ## Slides
 
@@ -16,8 +14,7 @@ Africa"](https://www.brookings.edu/wp-content/uploads/2021/02/Washington-Consens
 
 ## Video
 
-📺 [Scatter plot
-video](https://www.youtube.com/watch?v=NDszBjbvSFA&t=24s)
+📺 [Scatter plot video](https://www.youtube.com/watch?v=NDszBjbvSFA&t=24s)
 
 <br><br>
 

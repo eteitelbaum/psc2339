@@ -4,7 +4,7 @@ subtitle: "The Welfare State"
 ---
 
 ::: callout-important
-Project Assignment 1 is due on Monday, November 4th at 11:59 p.m.
+Project Assignment 1 is due on Monday, March 31 at 11:59 p.m.
 :::
 
 ## Readings

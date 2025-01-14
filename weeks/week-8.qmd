@@ -5,7 +5,7 @@ subtitle: "Populism and Social Policy"
 
 ::: callout-important
 "Data Assignment 2: Cleaning & Visualizing Data in Excel" is due on
-Monday, October 21st at 11:59 p.m.
+Monday, March 17 at 11:59 p.m.
 :::
 
 ## Readings
