@@ -156,6 +156,26 @@ cpr_polanyi
 -   Looking at the graph, do you see the connection?
 -   Can you also find evidence challenging Polanyi's view?
 
+## The Gold Standard
+
+- **Origins (1821-1870s)**: UK first adopted it (1821), followed by other major economies
+- **Purpose**: Ensured monetary stability, prevented inflation, and facilitated international trade
+
+## Phases & Decline
+
+- **Classical Gold Standard (1870s–1914)**: Stable but rigid
+- **WWI & Interwar Period (1914–1930s)**: Suspension, economic instability, and deflation
+- **Bretton Woods (1944–1971)**: USD pegged to gold; collapsed in 1971 under Nixon
+
+## Why It Ended
+
+- **Economic Rigidity**: Limited crisis response
+- **Deflation & Trade Imbalances**: Led to recessions
+- **War & Government Spending**: Required more flexibility
+- **USD as Reserve Currency**: Fixed peg unsustainable due to dwindling gold reserves
+
+**Legacy**: No country uses it today, but debates over its return persist.
+
 # The "Double Movement"
 
 ## Small Groups
