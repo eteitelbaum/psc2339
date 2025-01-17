@@ -23,8 +23,8 @@ for the semester.
 ::: column-screen-inset-right
 | Week | Date | Topic | Reading | Video | Slides | Skill | Assignment |
 |:-------:|---------|---------|:-------:|:-------:|:-------:|---------|:-------:|
-| [1](/weeks/week-1.html) | `r advdate(wed,1)` | The economy and society | [📖](https://ebookcentral.proquest.com/lib/gwu/reader.action?docID=3117969&ppg=87 "Polanyi, Ch. 4") [📖](https://ebookcentral.proquest.com/lib/gwu/reader.action?docID=3117969&ppg=178 "Polanyi, Ch. 11") |  | [🖥️](/slides/lecture-1.html "Lecture 1 slides") | MS 365 GWU |  |
-|  | `r advdate(fri,1)` | Economic Liberalism | [📖](https://ebookcentral.proquest.com/lib/gwu/reader.action?docID=3117969&ppg=183 "Polanyi, Ch. 12") |  | 🖥️ | Explore Tableau |  |
+| [1](/weeks/week-1.html) | `r advdate(wed,1)` | The economy and society | [📖](https://ebookcentral.proquest.com/lib/gwu/reader.action?docID=3117969&ppg=87 "Polanyi, Ch. 4") [📖](https://ebookcentral.proquest.com/lib/gwu/reader.action?docID=3117969&ppg=178 "Polanyi, Ch. 11") |  |  | MS 365 GWU |  |
+|  | `r advdate(fri,1)` | Economic Liberalism | [📖](https://ebookcentral.proquest.com/lib/gwu/reader.action?docID=3117969&ppg=183 "Polanyi, Ch. 12") |  | [🖥️](/slides/lecture-1.html "Lecture 1 slides") | Explore Tableau |  |
 | [2](/weeks/week-2.html) | `r advdate(wed,2)` | Institutions and development | [📖](https://link-springer-com.proxygw.wrlc.org/article/10.1007/s11127-019-00645-z "Acemoglu and Robinson") |  | [🖥️](/slides/lecture-2.1.html "Lecture 2.1 slides") | Install Excel |  |
 |  | `r advdate(fri,2)` | Modernization theory | [📖](https://www.dropbox.com/scl/fi/h6ezbidqo8451s5kcj2y0/Cheibub-and-Vreeland-2015.pdf?rlkey=98hz9smiosb8mj6y8nd0lq200&dl=0 "Cheibub and Vreeland") |  | [🖥️](/slides/lecture-2.2.html "Lecture 2.2 slides") | Analyzing data |  |
 | [3](/weeks/week-3.html) | `r advdate(wed,3)` | Democratic backsliding | [📖](https://doi.org/10.1017/S1537592718003377 "Kaufman and Haggard") | [📺](https://www.youtube.com/watch?v=jSl9rydcd7k "Data Assignment 1 Video") | [🖥️](/slides/lecture-3.1.html "Lecture 3.1 slides") | Importing data |  |
