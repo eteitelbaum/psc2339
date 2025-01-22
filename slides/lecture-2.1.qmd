@@ -213,6 +213,15 @@ institutions
     -   Resistance to creative destruction
     -   Infighting among the elite
 
+## Data Exercise
+
+- Visit the [World Development Indicators](https://databank.worldbank.org/source/world-development-indicators)
+- Select a country or countries
+- Select GDP in constant US$
+- Select all the years
+- Update and select "Chart"
+- Do your countries fit A&R's theory?
+
 # Remaining Challenges
 
 ## The United States
