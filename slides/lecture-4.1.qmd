@@ -206,18 +206,6 @@ ne_countries(returnclass = "sf") %>%
 
 ![Source: OECD SIGI](images/sigi-world.jpg)
 
-## Five Minute Challenge
-
--   Go to [SIGI Policy
-    Simulator](https://sim.oecd.org/Default.ashx?lang=En&ds=SIGI)
--   Choose a region
--   Choose a country
-    -   How does your country rank relative to others in the region?
--   Select "View table"
-    -   Compare to best country in the region
-    -   What changes need to be made for your country to achieve similar
-        score?
-
 # Labor Force Participation
 
 ## What Causes Economic Growth?
