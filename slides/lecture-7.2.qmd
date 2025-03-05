@@ -14,36 +14,6 @@ execute:
   freeze: auto
 ---
 
-# Economic Crises
-
-## Sri Lanka
-
-- Swimming in the [president's pool](https://www.bbc.com/news/av/world-asia-62105698)
-- Causes of the crisis
-  - Years of economic mismanagement under Rajapaksas
-  - Rajapaksa govt. cut taxes after it came to power in 2019
-  - Banned fertilizer which decimated rice crop (staple)
-  - COVID-19 killed demand for tourism and remittances
-  - Then war in Ukraine led to grain shortages
-  - Sri Lanka ran out of money couldn't by fuel or medicine
-  
-## Discussion
-
-- Where is Sri Lanka [now](https://www.nytimes.com/2023/01/31/business/sri-lanka-economy.html)?
-  - What is the IMF doing?
-- What is the World Bank [doing](https://blogs.worldbank.org/endpovertyinsouthasia/sri-lankas-crisis-offers-opportunity-reset-its-development-model)?  
-- In what ways is the Bank's approach similar to or different from the one proposed by the Washington Consensus? 
- 
-## Lebanon
-
-- When robbing a bank seems [perfectly justified](https://www.nytimes.com/2023/02/28/opinion/lebanon-crisis-economy-bank-robbers.html)
-
-- Read about the [World Bank's](https://www.worldbank.org/en/country/lebanon/overview#1) assistance to Lebanon
-
-- How is the Bank's strategy similar to or different from its strategy in Sri Lanka?
-
-- Which strategy is better, the one being pursued in Sri Lanka or the one being pursued in Lebanon?
-
 # Women and the Washington Consensus
 
 ## Discussion 1

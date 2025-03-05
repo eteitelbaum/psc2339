@@ -258,8 +258,6 @@ Accounts data files"
 :::
 :::
 
-# Discussion
-
 ## Archibong et. al. 
 
 - What is the main hypothesis?
@@ -269,6 +267,30 @@ Accounts data files"
   - Is it convincing
 - Case studies, each group take one 
 
+# Contemporary Reform Initiatives
+
+## Sri Lanka
+
+- Swimming in the [president's pool](https://www.bbc.com/news/av/world-asia-62105698)
+- Causes of the crisis
+  - Years of economic mismanagement under Rajapaksas
+  - Rajapaksa govt. cut taxes after it came to power in 2019
+  - Banned fertilizer which decimated rice crop (staple)
+  - COVID-19 killed demand for tourism and remittances
+  - Then war in Ukraine led to grain shortages
+  - Sri Lanka ran out of money couldn't by fuel or medicine
+  
+## Discussion
+
+- What is the IMF [doing](https://www.nytimes.com/2023/01/31/business/sri-lanka-economy.html)?
+- What is the World Bank [doing](https://www.worldbank.org/en/country/srilanka/overview)?  
+- In what ways is the Bank's approach in Sri Lanka similar to or different from the one proposed by the Washington Consensus? 
+ 
+## Lebanon
+
+- When robbing a bank seems [perfectly justified](https://www.nytimes.com/2023/02/28/opinion/lebanon-crisis-economy-bank-robbers.html)
+- Read about the [World Bank's](https://www.worldbank.org/en/country/lebanon/overview#1) assistance to Lebanon
+- How is the Bank's strategy similar to or different from the original Washington Consensus Policies?
 
 
 
