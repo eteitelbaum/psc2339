@@ -31,4 +31,4 @@ Back to [course schedule](/ "Course schedule") ⏎
 ## Assignments
 
 ✍️ [Project Assignment 1: Outline and
-Sources](/assignments/project-assignment-1.html)
+Sources](/project/project-assignment-1.qmd)
