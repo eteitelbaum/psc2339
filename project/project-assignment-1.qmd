@@ -19,7 +19,7 @@ So the first thing to do is to have a look at the syllabus and see what topic mo
 1)  Choose a topic.
 2)  Find a [dataset](/project/project-datasets.html) to work with.
 3)  Gather sources relevant to your topic and generate a preliminary bibliography.
-4)  Write an outline for a proposal describing the need for and purpose of your Power BI report.
+4)  Write an outline for a proposal describing the need for and purpose of your Tableau dashboard.
 
 ## What to Submit
 
