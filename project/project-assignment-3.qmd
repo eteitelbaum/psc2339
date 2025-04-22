@@ -25,9 +25,9 @@ Your report should include at least four visualizations. The default selection w
 3.  Share a link to the app in the text field of the assignment
     submission.
 
-## What to Submit
+## What to Submit to Blackboard
 
 1.  Your video, a link to your video, or a written summary of your insights.
-2.  A link to your dashboard.
+2.  A link to your Tableau dashboard (*please post the link to the Discord server as well*).
 
 As always, if you have any questions about anything, please ask. I hope you enjoy the Tableau assignment!
