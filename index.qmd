@@ -7,8 +7,8 @@ editor: visual
 ```{r setup, include = FALSE}
 library(lubridate)
 
-wed <- as_date("2025-01-15")
-fri <- wed+days(2)
+tue <- as_date("2025-01-13")
+thur <- tue+days(2)
 
 advdate <- function(day, week) {
   date <- (day + weeks(week-1))
@@ -21,36 +21,433 @@ This page displays an outline of the topics, content, and assignments
 for the semester.
 
 ::: column-screen-inset-right
-| Week | Date | Topic | Reading | Video | Slides | Skill | Assignment |
-|:-------:|---------|---------|:-------:|:-------:|:-------:|---------|:-------:|
-| [1](/weeks/week-1.html) | `r advdate(wed,1)` | The economy and society | [📖](https://ebookcentral.proquest.com/lib/gwu/reader.action?docID=3117969&ppg=87 "Polanyi, Ch. 4") [📖](https://ebookcentral.proquest.com/lib/gwu/reader.action?docID=3117969&ppg=178 "Polanyi, Ch. 11") |  |  | MS 365 GWU |  |
-|  | `r advdate(fri,1)` | Economic Liberalism | [📖](https://ebookcentral.proquest.com/lib/gwu/reader.action?docID=3117969&ppg=183 "Polanyi, Ch. 12") |  | [🖥️](/slides/lecture-1.qmd "Lecture 1 slides") | Explore Tableau |  |
-| [2](/weeks/week-2.html) | `r advdate(wed,2)` | Institutions and development | [📖](https://link-springer-com.proxygw.wrlc.org/article/10.1007/s11127-019-00645-z "Acemoglu and Robinson") |  | [🖥️](/slides/lecture-2.1.html "Lecture 2.1 slides") | Install Excel |  |
-|  | `r advdate(fri,2)` | Modernization theory | [📖](https://www.dropbox.com/scl/fi/h6ezbidqo8451s5kcj2y0/Cheibub-and-Vreeland-2015.pdf?rlkey=98hz9smiosb8mj6y8nd0lq200&dl=0 "Cheibub and Vreeland") |  | [🖥️](/slides/lecture-2.2.html "Lecture 2.2 slides") | Analyzing data |  |
-| [3](/weeks/week-3.html) | `r advdate(wed,3)` | Democratic backsliding | [📖](https://doi.org/10.1017/S1537592718003377 "Kaufman and Haggard") | [📺](https://www.youtube.com/watch?v=jSl9rydcd7k "Data Assignment 1 Video") | [🖥️](/slides/lecture-3.1.html "Lecture 3.1 slides") | Importing data |  |
-|  | `r advdate(fri,3)` | The resource curse | [📖](https://www-jstor-org.proxygw.wrlc.org/stable/j.ctt7s3wz.10 "Ross") | [📺](https://www.youtube.com/watch?v=y7ESq_O3Odw) | [🖥️](/slides/lecture-3.2.html "Lecture 3.2 slides") | Organizing data | [🧮](/assignments/data-assignment-1.html "Data assignment 1") |
-| [4](/weeks/week-4.html) | `r advdate(wed,4)` | Women's empowerment | [📖](https://www.econstor.eu/bitstream/10419/216551/1/cesifo1_wp8155.pdf "Hassami and Lopes da Fonseca") |  | [🖥️](/slides/lecture-4.1.html "Lecture 4.1 slides") | Bar charts |  |
-|  | `r advdate(fri,4)` | Exam 1 review |  |  | [🖥️](/slides/lecture-4.2.html "Lecture 4.2 slides") | Line charts | 📘 |
-| [5](/weeks/week-5.html) | `r advdate(wed,5)` | Programmatic politics vs. clientelism | [📖](https://www.dropbox.com/scl/fi/is8fh9zzrftysvyk5r7ut/Stokes_et_al.pdf?rlkey=ykuxejjcai5sc2jqlgi8b3hom&dl=0 "Stokes et. al.") |  | [🖥️](/slides/lecture-5.1.html "Distributive politics") | Scatter plots |  |
-|  | `r advdate(fri,5)` | Vote buying | [📖](https://ebookcentral.proquest.com/lib/gwu/reader.action?docID=5732981&ppg=112) |  | [🖥️](/slides/lecture-5.2.html "Lecture 5.2 slides") | Maps |  |
-| [6](/weeks/week-6.html) | `r advdate(wed,6)` | Ethnicity and public goods | [📖](http://www.jstor.org/stable/25054263 "Miguel") | [📺](https://www.youtube.com/watch?v=G9vKgrtDZ-w&t=72s "Bar chart video") | [🖥️](/slides/lecture-6.1.html "Lecture 6.1 slides") | Creating bar charts in Excel |  |
-|  | `r advdate(fri,6)` | Democracy and redistribution | [📖](https://doi-org.proxygw.wrlc.org/10.1017/S1537592717002122 "Holland and Ross Schneider") | [📺](https://www.youtube.com/watch?v=YOpwcihO-iY&t=39s "Line chart video") | [🖥️](/slides/lecture-6.2.html "Lecture 6.2 slides") | Creating line charts in Excel |  |
-| [7](/weeks/week-7.html) | `r advdate(wed,7)` | Washington consensus reforms | [📖](https://www.brookings.edu/wp-content/uploads/2021/02/Washington-Consensus-Reforms.pdf "Archibong et. al.") | [📺](https://www.youtube.com/watch?v=NDszBjbvSFA "Scatter plot video") | [🖥️](/slides/lecture-7.1.html "Lecture 7.1 slides") | Creating scatter plots in Excel |  |
-|  | `r advdate(fri,7)` | The gendered legacy of reform | [📖](https://www.dropbox.com/scl/fi/ff8k3clpoucuux94t2yw4/LourdesChapter3.pdf?rlkey=jdsrouh6u080ob4ew83oiqb9v&dl=0 "Beneria et. al.") | [📺](https://www.youtube.com/watch?v=ixjWeXbYVl0 "Mapping video") | [🖥️](/slides/lecture-7.2.html "Lecture 7.2 slides") | Creating Maps in Excel |  |
-| [8](/weeks/week-8.html) | `r advdate(wed,8)` | Labor and development | 📖 |  | 🖥️ |  |  |
-|  | `r advdate(fri,8)` | Sustainable development |  |  |  |  | [🧮](/assignments/data-assignment-2.html "Data assignment 2") |
-| [9](/weeks/week-9.html) | `r advdate(wed,9)` | Spring Break |  |  |  | 🏄‍♂️ 🌴 🏖️ |  |
-|  | `r advdate(fri,9)` | Spring Beak |  |  |  |  |  |
-| [10](/weeks/week-10.html) | `r advdate(wed,10)` | Populism and social policy | [📖](https://onlinelibrary-wiley-com.proxygw.wrlc.org/doi/full/10.1111/dech.12578 "Putzel") |  | [🖥️](/slides/lecture-8.1.html "Lecture 8.1 slides") | Writing with Zotero |  |
-|  | `r advdate(fri,10)` | Exam 2 review |  |  | [🖥️](/slides/lecture-8.2.html "Lecture 8.2 slides") | Install Tableau | 📘 |
-| [11](/weeks/week-11.html) | `r advdate(wed,11)` | Welfare states in the OECD | [📖](https://www.dropbox.com/scl/fi/6dzqaunx2ign36pc9h89y/Esping-Andersen.pdf?rlkey=wthtign31vv1cxaak1u13vrez&dl=0 "Epsing-Andersen") |  | [🖥️](/slides/lecture-10.1.html "Lecture 10.1 slides") | Wrangling data in Power Query |  |
-|  | `r advdate(fri,11)` | U.S. exceptionalism | [📖](https://www.brookings.edu/wp-content/uploads/2001/06/2001b_bpea_alesina.pdf "Alesina et. al.") |  | [🖥️](/slides/lecture-10.2.html "Lecture 10.2 slides") |  | [✍️](/project/project-assignment-1.qmd "Project Assignment 1") |
-| [12](/weeks/week-12.html) | `r advdate(wed,12)` | Unions and collective bargaining | [📖](https://journals-sagepub-com.proxygw.wrlc.org/doi/full/10.1177/0143831X18780327 "Gumbrell-McCormick and Hyman") |  | [🖥️](/slides/lecture-11.1.html "Lecture 11.1 slides") | Create visualizations in Tableau |  |
-|  | `r advdate(fri,12)` | Varieties of capitalism | [📖](https://academic.oup.com/book/301/chapter/134893294 "Hall and Soskice") |  | [🖥️](/slides/lecture-11.2.html "Lecture 11.2 slides") |  |  |
-| [13](/weeks/week-13.html) | `r advdate(wed,13)` | Globalization | [📖](https://www.annualreviews.org/doi/full/10.1146/annurev-economics-080315-015041 "Autor et. al.") |  | [🖥️](/slides/lecture-12.1.html "Lecture 12.1 slides") |  |  |
-|  | `r advdate(fri,13)` | Inequality | [📖](https://www.amazon.com/gp/product/B07P92PDLF/ref=dbs_a_def_rwt_bibl_vppi_i2 "Stiglitz") | [📺](https://www.youtube.com/watch?v=yqAYuAf6zEc&t=175s "Wrangling Video") | [🖥️](/slides/lecture-12.2.html "Lecture 12.2 slides") |  | [✍️](/project/project-assignment-2.html "Project Assignment 2") |
-| [14](/weeks/week-14.html) | `r advdate(wed,14)` | The populist backlash | [📖](https://www-jstor-org.proxygw.wrlc.org/stable/j.ctv2dzzqsn "Judis") |  | [🖥️](/slides/lecture-13.1.html "Lecture 13.1 slides") |  |  |
-|  | `r advdate(fri,14)` | Extremist politics | [📖](https://www-jstor-org.proxygw.wrlc.org/stable/j.ctv2dzzqsn "Judis") |  | [🖥️](/slides/lecture-13.2.html "Lecture 13.2 slides") | Tableau Demo (**class online**) |  |
-| [15](/weeks/week-15.html) | `r advdate(wed,15)` | Final project work session |  | [📺](https://youtu.be/BQwm3Z39Ne8 "Tableau dashboard") |  |  |  |
-|  | `r advdate(fri,15)` | Exam 3 review |  |  |  |  | 📘 [✍️](/project/project-assignment-3.html "Project Assignment 3") |
+<table style="width:99%;">
+<colgroup>
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: center;"><p>Week</p></th>
+<th><p>Date</p></th>
+<th><p>Topic</p></th>
+<th style="text-align: center;"><p>Reading</p></th>
+<th style="text-align: center;"><p>Video</p></th>
+<th style="text-align: center;"><p>Slides</p></th>
+<th><p>Skill</p></th>
+<th style="text-align: center;"><p>Assignment</p></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><p><a
+href="/weeks/week-1.html">1</a></p></td>
+<td><p><code>r advdate(tue,1)</code></p></td>
+<td><p>The economy and society</p></td>
+<td style="text-align: center;"><p><a
+href="https://ebookcentral.proquest.com/lib/gwu/reader.action?docID=3117969&amp;ppg=87"
+title="Polanyi, Ch. 4">📖</a> <a
+href="https://ebookcentral.proquest.com/lib/gwu/reader.action?docID=3117969&amp;ppg=178"
+title="Polanyi, Ch. 11">📖</a></p></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td><p>NotebookLM</p></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td><p><code>r advdate(thur,1)</code></p></td>
+<td><p>Economic liberalism</p></td>
+<td style="text-align: center;"><p><a
+href="https://ebookcentral.proquest.com/lib/gwu/reader.action?docID=3117969&amp;ppg=183"
+title="Polanyi, Ch. 12">📖</a></p></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><p><a href="/slides/lecture-1.qmd"
+title="Lecture 1 slides">🖥️</a></p></td>
+<td><p><a href="https://it.gwu.edu/microsoft-365"
+title="Microsoft 365">MS 365 GWU</a></p></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><p><a
+href="/weeks/week-2.html">2</a></p></td>
+<td><p><code>r advdate(tue,2)</code></p></td>
+<td><p>Institutions and development</p></td>
+<td style="text-align: center;"><p><a
+href="https://link-springer-com.proxygw.wrlc.org/article/10.1007/s11127-019-00645-z"
+title="Acemoglu and Robinson">📖</a></p></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><p><a href="/slides/lecture-2.1.html"
+title="Lecture 2.1 slides">🖥️</a></p></td>
+<td><p>Install Excel</p></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td><p><code>r advdate(thur,2)</code></p></td>
+<td><p>Modernization theory</p></td>
+<td style="text-align: center;"><p><a
+href="https://www.dropbox.com/scl/fi/h6ezbidqo8451s5kcj2y0/Cheibub-and-Vreeland-2015.pdf?rlkey=98hz9smiosb8mj6y8nd0lq200&amp;dl=0"
+title="Cheibub and Vreeland">📖</a></p></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><p><a href="/slides/lecture-2.2.html"
+title="Lecture 2.2 slides">🖥️</a></p></td>
+<td><p>Importing data</p></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><p><a
+href="/weeks/week-3.html">3</a></p></td>
+<td><p><code>r advdate(tue,3)</code></p></td>
+<td><p>Democratic backsliding</p></td>
+<td style="text-align: center;"><p><a
+href="https://doi.org/10.1017/S1537592718003377"
+title="Kaufman and Haggard">📖</a></p></td>
+<td style="text-align: center;"><p><a
+href="https://www.youtube.com/watch?v=jSl9rydcd7k"
+title="Basic Functions and Cell Reference">📺</a></p></td>
+<td style="text-align: center;"><p><a href="/slides/lecture-3.1.html"
+title="Lecture 3.1 slides">🖥️</a></p></td>
+<td><p>Basic functions and cell reference</p></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td><p><code>r advdate(thur,3)</code></p></td>
+<td><p>The resource curse</p></td>
+<td style="text-align: center;"><p><a
+href="https://www-jstor-org.proxygw.wrlc.org/stable/j.ctt7s3wz.10"
+title="Ross">📖</a></p></td>
+<td style="text-align: center;"><p><a
+href="https://www.youtube.com/watch?v=y7ESq_O3Odw">📺</a></p></td>
+<td style="text-align: center;"><p><a href="/slides/lecture-3.2.html"
+title="Lecture 3.2 slides">🖥️</a></p></td>
+<td></td>
+<td style="text-align: center;"><p><a
+href="/assignments/data-assignment-1.html"
+title="Data assignment 1">🧮</a></p></td>
+</tr>
+<tr>
+<td style="text-align: center;"><p><a
+href="/weeks/week-4.html">4</a></p></td>
+<td><p><code>r advdate(tue,4)</code></p></td>
+<td><p>Womens empowerment</p></td>
+<td style="text-align: center;"><p><a
+href="https://www.econstor.eu/bitstream/10419/216551/1/cesifo1_wp8155.pdf"
+title="Hassami and Lopes da Fonseca">📖</a></p></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><p><a href="/slides/lecture-4.1.html"
+title="Lecture 4.1 slides">🖥️</a></p></td>
+<td></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td><p><code>r advdate(thur,4)</code></p></td>
+<td><p>Exam 1 </p></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td></td>
+<td style="text-align: center;"><p>📘</p></td>
+</tr>
+<tr>
+<td style="text-align: center;"><p><a
+href="/weeks/week-5.html">5</a></p></td>
+<td><p><code>r advdate(tue,5)</code></p></td>
+<td><p>Programmatic politics vs. clientelism</p></td>
+<td style="text-align: center;"><p><a
+href="https://www.dropbox.com/scl/fi/is8fh9zzrftysvyk5r7ut/Stokes_et_al.pdf?rlkey=ykuxejjcai5sc2jqlgi8b3hom&amp;dl=0"
+title="Stokes et. al.">📖</a></p></td>
+<td style="text-align: center;"><p><a
+href="https://www.youtube.com/watch?v=G9vKgrtDZ-w&amp;t=72s"
+title="Bar chart video">📺</a></p></td>
+<td style="text-align: center;"><p><a href="/slides/lecture-5.1.html"
+title="Distributive politics">🖥️</a></p></td>
+<td><p>Bar charts</p></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td><p><code>r advdate(thur,5)</code></p></td>
+<td><p>Vote buying</p></td>
+<td style="text-align: center;"><p><a
+href="https://ebookcentral.proquest.com/lib/gwu/reader.action?docID=5732981&amp;ppg=112">📖</a></p></td>
+<td style="text-align: center;"><p><a
+href="https://www.youtube.com/watch?v=YOpwcihO-iY&amp;t=39s"
+title="Line chart video">📺</a></p></td>
+<td style="text-align: center;"><p><a href="/slides/lecture-5.2.html"
+title="Lecture 5.2 slides">🖥️</a></p></td>
+<td><p>Line charts</p></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><p><a
+href="/weeks/week-6.html">6</a></p></td>
+<td><p><code>r advdate(tue,6)</code></p></td>
+<td><p>Ethnicity and public goods</p></td>
+<td style="text-align: center;"><p><a
+href="http://www.jstor.org/stable/25054263"
+title="Miguel">📖</a></p></td>
+<td style="text-align: center;"><p><a
+href="https://www.youtube.com/watch?v=NDszBjbvSFA"
+title="Scatter plot video">📺</a></p></td>
+<td style="text-align: center;"><p><a href="/slides/lecture-6.1.html"
+title="Lecture 6.1 slides">🖥️</a></p></td>
+<td><p>Scatter plots</p></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td><p><code>r advdate(thur,6)</code></p></td>
+<td><p>Democracy and redistribution</p></td>
+<td style="text-align: center;"><p><a
+href="https://doi-org.proxygw.wrlc.org/10.1017/S1537592717002122"
+title="Holland and Ross Schneider">📖</a></p></td>
+<td style="text-align: center;"><p><a
+href="https://www.youtube.com/watch?v=ixjWeXbYVl0"
+title="Mapping video">📺</a></p></td>
+<td style="text-align: center;"><p><a href="/slides/lecture-6.2.html"
+title="Lecture 6.2 slides">🖥️</a></p></td>
+<td><p>Maps</p></td>
+<td style="text-align: center;"><p><a
+href="/assignments/data-assignment-2.html"
+title="Data assignment 2">🧮</a></p></td>
+</tr>
+<tr>
+<td style="text-align: center;"><p><a
+href="/weeks/week-7.html">7</a></p></td>
+<td><p><code>r advdate(tue,7)</code></p></td>
+<td><p>Washington consensus reforms</p></td>
+<td style="text-align: center;"><p><a
+href="https://www.brookings.edu/wp-content/uploads/2021/02/Washington-Consensus-Reforms.pdf"
+title="Archibong et. al.">📖</a></p></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><p><a href="/slides/lecture-7.1.html"
+title="Lecture 7.1 slides">🖥️</a></p></td>
+<td></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td><p><code>r advdate(thur,7)</code></p></td>
+<td><p>The gendered legacy of reform</p></td>
+<td style="text-align: center;"><p><a
+href="https://www.dropbox.com/scl/fi/ff8k3clpoucuux94t2yw4/LourdesChapter3.pdf?rlkey=jdsrouh6u080ob4ew83oiqb9v&amp;dl=0"
+title="Beneria et. al.">📖</a></p></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><p><a href="/slides/lecture-7.2.html"
+title="Lecture 7.2 slides">🖥️</a></p></td>
+<td></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><p><a
+href="/weeks/week-8.html">8</a></p></td>
+<td><p><code>r advdate(tue,8)</code></p></td>
+<td><p>Populism and social policy</p></td>
+<td style="text-align: center;"><p><a
+href="https://onlinelibrary-wiley-com.proxygw.wrlc.org/doi/full/10.1111/dech.12578"
+title="Putzel">📖</a></p></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><p><a href="/slides/lecture-8.1.html"
+title="Lecture 8.1 slides">🖥️</a></p></td>
+<td></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td><p><code>r advdate(thur,8)</code></p></td>
+<td><p>Exam 2 </p></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td></td>
+<td style="text-align: center;"><p>📘</p></td>
+</tr>
+<tr>
+<td style="text-align: center;"><p><a
+href="/weeks/week-9.html">9</a></p></td>
+<td><p><code>r advdate(tue,9)</code></p></td>
+<td><p>Spring Break</p></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td><p>🏄‍♂️ 🌴 🏖️</p></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td><p><code>r advdate(thur,9)</code></p></td>
+<td><p>Spring Beak</p></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><p><a
+href="/weeks/week-10.html">10</a></p></td>
+<td><p><code>r advdate(tue,10)</code></p></td>
+<td><p>Final paper research clinic</p></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><p><a
+href="https://www.youtube.com/watch?v=yqAYuAf6zEc&amp;t=175s"
+title="Wrangling Video">📺</a></p></td>
+<td style="text-align: center;"></td>
+<td><p>Wrangling data in Power Query</p></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td><p><code>r advdate(thur,10)</code></p></td>
+<td><p>Final paper research clinic</p></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td><p>Writing with Zotero</p></td>
+<td style="text-align: center;"><p><a
+href="/project/project-assignment-1.qmd"
+title="Project Assignment 1">✍️</a></p></td>
+</tr>
+<tr>
+<td style="text-align: center;"><p><a
+href="/weeks/week-11.html">11</a></p></td>
+<td><p><code>r advdate(tue,11)</code></p></td>
+<td><p>Welfare states in the OECD</p></td>
+<td style="text-align: center;"><p><a
+href="https://www.dropbox.com/scl/fi/6dzqaunx2ign36pc9h89y/Esping-Andersen.pdf?rlkey=wthtign31vv1cxaak1u13vrez&amp;dl=0"
+title="Epsing-Andersen">📖</a></p></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><p><a href="/slides/lecture-10.1.html"
+title="Lecture 10.1 slides">🖥️</a></p></td>
+<td></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td><p><code>r advdate(thur,11)</code></p></td>
+<td><p>U.S. exceptionalism</p></td>
+<td style="text-align: center;"><p><a
+href="https://www.brookings.edu/wp-content/uploads/2001/06/2001b_bpea_alesina.pdf"
+title="Alesina et. al.">📖</a></p></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><p><a href="/slides/lecture-10.2.html"
+title="Lecture 10.2 slides">🖥️</a></p></td>
+<td></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><p><a
+href="/weeks/week-12.html">12</a></p></td>
+<td><p><code>r advdate(tue,12)</code></p></td>
+<td><p>Varieties of capitalism</p></td>
+<td style="text-align: center;"><p><a
+href="https://academic.oup.com/book/301/chapter/134893294"
+title="Hall and Soskice">📖</a></p></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><p><a href="/slides/lecture-11.2.html"
+title="Lecture 11.2 slides">🖥️</a></p></td>
+<td></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td><p><code>r advdate(thur,12)</code></p></td>
+<td><p>Central bank independence</p></td>
+<td style="text-align: center;"><p>TBA</p></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><p><a
+href="/weeks/week-13.html">13</a></p></td>
+<td><p><code>r advdate(tue,13)</code></p></td>
+<td><p>Globalization</p></td>
+<td style="text-align: center;"><p><a
+href="https://www.annualreviews.org/doi/full/10.1146/annurev-economics-080315-015041"
+title="Autor et. al.">📖</a></p></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><p><a href="/slides/lecture-12.1.html"
+title="Lecture 12.1 slides">🖥️</a></p></td>
+<td></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td><p><code>r advdate(thur,13)</code></p></td>
+<td><p>Inequality</p></td>
+<td style="text-align: center;"><p><a
+href="https://www.amazon.com/gp/product/B07P92PDLF/ref=dbs_a_def_rwt_bibl_vppi_i2"
+title="Stiglitz">📖</a></p></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><p><a href="/slides/lecture-12.2.html"
+title="Lecture 12.2 slides">🖥️</a></p></td>
+<td></td>
+<td style="text-align: center;"><p><a
+href="/project/project-assignment-2.html"
+title="Project Assignment 2">✍️</a></p></td>
+</tr>
+<tr>
+<td style="text-align: center;"><p><a
+href="/weeks/week-14.html">14</a></p></td>
+<td><p><code>r advdate(tue,14)</code></p></td>
+<td><p>AI and automation</p></td>
+<td style="text-align: center;"><p>TBA</p></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><p><a href="/slides/lecture-11.1.html"
+title="Lecture 11.1 slides">🖥️</a></p></td>
+<td></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td><p><code>r advdate(thur,14)</code></p></td>
+<td><p>The populist backlash</p></td>
+<td style="text-align: center;"><p><a
+href="https://www-jstor-org.proxygw.wrlc.org/stable/j.ctv2dzzqsn"
+title="Judis">📖</a></p></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><p><a href="/slides/lecture-13.1.html"
+title="Lecture 13.1 slides">🖥️</a></p></td>
+<td></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><p><a
+href="/weeks/week-15.html">15</a></p></td>
+<td><p><code>r advdate(tue,15)</code></p></td>
+<td><p>Extremist politics</p></td>
+<td style="text-align: center;"><p><a
+href="https://www-jstor-org.proxygw.wrlc.org/stable/j.ctv2dzzqsn"
+title="Judis">📖</a></p></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><p><a href="/slides/lecture-13.2.html"
+title="Lecture 13.2 slides">🖥️</a></p></td>
+<td></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td><p><code>r advdate(thur,15)</code></p></td>
+<td><p>Exam 3 </p></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td></td>
+<td style="text-align: center;"><p>📘 <a
+href="/project/project-assignment-3.html"
+title="Project Assignment 3">✍️</a></p></td>
+</tr>
+</tbody>
+</table>
 :::
