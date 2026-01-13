@@ -22,7 +22,7 @@ for the semester.
 
 ::: column-screen-inset-right
 | Week | Date | Topic | Reading | Video | Slides | Skill | Assignment |
-|:-------:|---------|---------|:-------:|:-------:|:-------:|---------|:-------:|
+|:--:|----|----|:--:|:--:|:--:|----|:--:|
 | [1](/weeks/week-1.html) | `r advdate(tue,1)` | The economy and society |  |  |  | NotebookLM |  |
 |  | `r advdate(thur,1)` | Economic liberalism | [📖](https://ebookcentral.proquest.com/lib/gwu/reader.action?docID=3117969&ppg=87 "Polanyi, Ch. 4") [📖](https://ebookcentral.proquest.com/lib/gwu/reader.action?docID=3117969&ppg=178 "Polanyi, Ch. 11")<br>[📖](https://ebookcentral.proquest.com/lib/gwu/reader.action?docID=3117969&ppg=183 "Polanyi, Ch. 12") |  | [🖥️](/slides/lecture-1.qmd "Lecture 1 slides") | [MS 365 GWU](https://it.gwu.edu/microsoft-365 "Microsoft 365") |  |
 | [2](/weeks/week-2.html) | `r advdate(tue,2)` | Institutions and development | [📖](https://link-springer-com.proxygw.wrlc.org/article/10.1007/s11127-019-00645-z "Acemoglu and Robinson") |  | [🖥️](/slides/lecture-2.1.html "Lecture 2.1 slides") | Install Excel |  |

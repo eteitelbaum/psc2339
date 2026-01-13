@@ -1,43 +1,72 @@
 ---
 title: "Project Assignment 1"
-subtitle: "Outline and Sources"
+subtitle: "Research Proposal and Annotated Bibliography"
 ---
 
 ## Overview
 
-The purpose of this assignment is to come up with a plan for your final project. The final project is going to involve creating a dashboard in Tableau. You can find some examples of Tableau dashboards [here](https://www.tableau.com/data-insights/dashboard-showcase).
+The purpose of this assignment is to develop a plan for your final research paper. Over the course of three assignments, you will write an extended research paper that integrates data analysis and visualizations with a clear argumentative framework. This is your opportunity to engage deeply with one of the topics we've explored in class and to develop your own evidence-based argument about an important question in comparative political economy.
 
-For the next few weeks you are going to work with members of your group to come up with a proposed plan for your report. You will first write an outline of your plan (this assignment) and then write a proposal that will flesh out the details.
+Your final paper can take the form of either an academic research paper or a policy report/memo, but regardless of format, it must include a clear thesis, engagement with existing scholarship, consideration of counterarguments, and data-driven evidence supporting your major claims. The data visualizations you create should not simply illustrate facts—they should serve as evidence in support of your argument.
 
-The topic of your proposal and the Tableau dashboard should be
-related to of the topics that we cover during the course (democracy and development, women's empowerment, clientelism, the welfare state, etc.).
+The topic of your research should be directly related to one of the topics we cover during the course: democracy and development, women's empowerment, clientelism, the welfare state, political regimes and economic growth, trade and globalization, or any other major theme from the syllabus. Your paper should use the course readings as a point of departure, building on what scholars have already established while developing your own perspective on the issue.
 
-So the first thing to do is to have a look at the syllabus and see what topic most appeals to you.
+So the first thing to do is to have a look at the syllabus and see what topic most appeals to you. Which questions from class have stayed with you? What debates did you find most compelling? What do you want to understand better?
 
 ## Steps
 
-1)  Choose a topic.
-2)  Find a [dataset](/project/project-datasets.html) to work with.
-3)  Gather sources relevant to your topic and generate a preliminary bibliography.
-4)  Write an outline for a proposal describing the need for and purpose of your Tableau dashboard.
+The goal of this first assignment is to lay the groundwork for your research. You'll identify a topic, formulate a preliminary research question and thesis, gather scholarly sources, and begin thinking about what data can help you make your case.
+
+1)  **Choose a topic.** Look through the syllabus and identify a topic that interests you. It should be specific enough to explore in depth but broad enough that there's existing scholarship and available data.
+
+2)  **Develop a research question and preliminary thesis.** Your research question should be something genuinely debatable—not just a descriptive question like "How has inequality changed?" but rather something like "Does trade liberalization increase or decrease income inequality in developing countries?" Your preliminary thesis is your tentative answer to that question. It's okay if this evolves as you do more research, but you need a working argument to guide your initial work.
+
+3)  **Find a [dataset](/project/project-datasets.html) to work with.** Your argument will need empirical support, so identify a dataset that can provide evidence for or against your thesis. The dataset should include both cross-sectional (across countries or regions) and time-series (over time) components.
+
+4)  **Gather sources and create an annotated bibliography using Zotero.** You'll need to ground your argument in existing scholarship. Start by identifying relevant course readings, then branch out to find additional academic sources. You should have at least 8-10 sources for this assignment. Set up a Zotero library for this project (if you haven't used Zotero before, see the resources below) and create an annotated bibliography where you briefly summarize each source and explain its relevance to your argument.
+
+5)  **Write a research proposal outline.** This will be a brief (2-3 page) document that sketches out your planned argument, explains why it matters, and describes how you'll use data to support your thesis.
 
 ## What to Submit
 
-You will submit a one-page outline along with a preliminary
-bibliography. Your outline will consist of the following parts:
+You will submit a research proposal (2-3 pages) along with an annotated bibliography. Your proposal should be written in clear, engaging prose—this is an opportunity to convince someone that your research question matters and that you have a compelling argument to make. The proposal should include the following elements:
 
-1)  A 100 word abstract outlining the importance of your topic and the need for further analysis of it.
-2)  A statement of the specific problem to be addressed by your research and analysis.
-3)  Background information regarding the problem that you have
-    identified.
-4)  The proposed analysis, which should consist of two elements:
-    1.  a description of the data you will analyze; and
-    2.  a description the visualizations you plan to include.
+**1) Introduction and Research Question (approximately 150-200 words)**
 
-For the dataset, be sure to identify one that is complete and includes both a *cross-sectional* as well as a *time series* component, e.g. data that spans across countries or regions and time.
+Start by introducing your topic. Why does it matter? What makes it interesting or important? Then present your specific research question clearly. This should be a question that can be answered with empirical evidence and logical argument, not just description.
 
-For the visualizations, you should describe at least four: a bar chart, a line chart, a scatter plot and a map. You don't have to do the visualizations yet, but be specific in terms of what your plan is for them.
+**2) Preliminary Thesis Statement**
 
-Your outline can be in the form of short paragraphs or bullet points.
+State your argument clearly and concisely. This is your answer to the research question. What do you expect to find? What claim will you defend? Remember that a good thesis is specific, debatable, and grounded in evidence. For example: "I argue that democratic institutions mediate the relationship between trade openness and inequality, such that trade liberalization increases inequality in autocracies but not in democracies."
 
-Please upload your assignment as a .pdf document to Blackboard. You will find the link to upload the assignment in the Assignments section of the Blackboard site.
+**3) Background and Context (approximately 300-400 words)**
+
+Provide the necessary background information to understand your research question. What do we already know about this topic from the course readings and your preliminary research? What debates exist in the literature? This is where you begin to situate your argument in relation to existing scholarship.
+
+You should also acknowledge the complexity of your topic. Are there important counterarguments or alternative explanations you'll need to address? Briefly note these—you don't need to fully engage with them yet, but show that you're aware of the intellectual landscape.
+
+**4) Proposed Data and Analysis (approximately 300-400 words)**
+
+Describe the dataset you plan to use. Where does it come from? What time period and countries/regions does it cover? What are the key variables you'll analyze?
+
+Then explain how you plan to use this data to support your argument. What kind of visualizations will you create? You should plan to include at least four data visualizations in your final paper. For this proposal, describe what these might be and explain what each visualization would demonstrate. For example: "A scatter plot showing the relationship between trade openness and the Gini coefficient across 120 countries would allow me to test whether increased trade correlates with higher inequality. A line chart tracking these variables over time in selected case study countries would reveal whether this relationship holds within countries as well as across them."
+
+Be specific about what will be on the x and y axes of your charts, what time periods you'll focus on, and how each visualization serves your argument. The data should provide evidence for your major claims, not just decoration.
+
+**5) Annotated Bibliography**
+
+Using Zotero (or another citation management system), create an annotated bibliography with at least 8-10 sources. At least 4-5 of these should be course readings relevant to your topic, and the rest should be additional academic sources (journal articles, books, or reports from reputable organizations like the World Bank, IMF, or OECD).
+
+For each source, provide the full citation in a consistent format (APA, Chicago, or MLA—be consistent) followed by a 2-3 sentence annotation that summarizes the main argument or findings and explains how this source relates to your research. For example:
+
+> Rodrik, Dani. 1997. "Has Globalization Gone Too Far?" *California Management Review* 39(3): 29-53.
+>
+> Rodrik argues that increased economic integration can exacerbate domestic social conflicts and inequalities, particularly in countries with weak safety nets. This article provides theoretical grounding for my argument about the differential effects of trade liberalization depending on domestic institutions.
+
+## Formatting and Submission
+
+Please export your bibliography from Zotero and include it at the end of your proposal document. The entire submission (proposal plus annotated bibliography) should be approximately 4-6 pages total. Upload your assignment as a .pdf document to Blackboard.
+
+## Getting Started with Zotero
+
+If you haven't used Zotero before, don't worry—it's free and relatively straightforward. Download it from [zotero.org](https://www.zotero.org/) and install both the desktop application and the browser extension. The browser extension allows you to save sources directly from library databases, Google Scholar, or journal websites with a single click. You can then organize your sources, add notes, and generate formatted bibliographies automatically. There are many tutorials available online, and I'm happy to help if you run into any issues.

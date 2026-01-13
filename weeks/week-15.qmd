@@ -1,30 +1,30 @@
 ---
 title: "Week 15"
-subtitle: "Final Project Workshop and Exam Review"
+subtitle: "Extremist Politics"
 editor: visual
 ---
 
 ::: callout-important
-Exam 3 is due on Tuesday, April 29 at 11:59 p.m.
+Exam 3 is on Thursday, April 23.
 :::
 
 ::: callout-important
-"Project Assignment 3: Tableau Dashboard" is due by 11:59 p.m. on
-Monday, May 5.
+Project Assignment 3 (Final Research Paper) is due on Monday, April 28 at 11:59 p.m.
 :::
+
+## Readings
+
+📖 John Judis, [*The Politics of Our Time*](https://www-jstor-org.proxygw.wrlc.org/stable/j.ctv2dzzqsn)
 
 ## Slides
 
-<!-- [Exam 3 Review (Factile -->
-
-<!-- game)](https://www.playfactile.com/psc2339midterm) -->
+🖥️ [Extremist politics](/slides/lecture-13.2.html)
 
 ## Assignments
 
 📘 Exam 3
 
-✍️ [Project Assignment 3: Tableau
-Dashboard](/project/project-assignment-3.html)
+✍️ [Project Assignment 3](/project/project-assignment-3.html)
 
 <br><br>
 

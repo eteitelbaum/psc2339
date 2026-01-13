@@ -1,33 +1,109 @@
 ---
 title: "Project Assignment 3"
-subtitle: "Tableau Dashboard"
+subtitle: "Final Research Paper"
 ---
 
 ## Overview
 
-Now that you have your data in the right format, it is time to make your Tableau dashboard. For step by step instructions on how to do this, see [this](https://www.youtube.com/watch?v=BQwm3Z39Ne8&t=1159s) YouTube video.
+This is it—the culmination of your research over the semester. You've developed a research question, engaged with the scholarly literature, cleaned and analyzed your data, and created visualizations that illuminate important patterns. Now you'll bring all of these elements together into a polished, well-argued research paper that makes an original contribution to our understanding of comparative political economy.
 
-Your report should include at least four visualizations. The default selection would include a column chart, a line chart, a map and a scatter plot but there can be some flexibility in terms of the exact composition. Ideally, the visualizations should interact with one another, meaning that when you click on a country represented on the map the data for that country is reflected in the line chart, bar chart, etc.
+Your final paper should present a clear thesis supported by both theoretical reasoning and empirical evidence. The data visualizations you've created should be integrated into your argument—not just included as appendices, but woven into the text where they provide evidence for specific claims. Every major claim in your paper should be supported by evidence, whether that's citations to scholarly work, logical reasoning, or your data analysis.
+
+Your paper can take the form of either an academic research paper or a policy report/memo. Whichever format you choose, it should demonstrate sophisticated thinking about your topic, honest engagement with counterarguments and limitations, and clear, compelling writing.
 
 ## Steps
 
-1.  Create a Tableau dashboard following the steps outlined in the videos linked above.
+**1. Revise and polish your draft based on feedback**
 
-2.  Using a screen recording software like
-    [Vimeo](https://vimeo.com/features/screen-recorder), submit a video summarizing the main insights derived from your report. Alternatively, you can submit a two to three page written summary covering the same material. Here are some things to talk about in your video:
+Take the feedback you received on Assignment 2 seriously. Where was your argument unclear? Where did you need more evidence? Where did the logic break down? Use this feedback to strengthen your paper.
 
--   What are some of the country-level trends in the data? Did any countries stand out in terms of dramatic upward or downward trends?
--   How do countries compare to one another in terms of average values of your variables of interst? Did any countries stand out or surprise you in terms of average levels?
--   What interesting relationships did you find between your key
-    variable of interest and another variable (or variables)?
--   What connections did you make to things that we read or discussed regarding these variables in class or that you had read during the course of your research on this topic?
+You may also find that your thinking has evolved since Assignment 2. That's good! Don't be afraid to refine your thesis or adjust your argument if your analysis has led you to new insights. Just make sure that your final paper presents a coherent, well-supported argument.
 
-3.  Share a link to the app in the text field of the assignment
-    submission.
+**2. Complete your data analysis and finalize your visualizations**
 
-## What to Submit to Blackboard
+By now you should have a clear sense of what your data shows. Create at least four polished visualizations that provide evidence for your argument. These might include line charts showing trends over time, scatter plots revealing relationships between variables, bar charts comparing countries or regions, maps displaying geographic patterns, or other visualization types appropriate to your research question.
 
-1.  Your video, a link to your video, or a written summary of your insights.
-2.  A link to your Tableau dashboard (*please post the link to the Discord server as well*).
+Each visualization should be clearly labeled with titles, axis labels, legends, and—crucially—figure numbers and captions that explain what the visualization shows and why it matters. The visualizations should be integrated into your paper at the appropriate points in your argument, not just dumped in an appendix.
 
-As always, if you have any questions about anything, please ask. I hope you enjoy the Tableau assignment!
+**3. Write a complete, well-structured paper**
+
+Your final paper should tell a coherent story from beginning to end. The introduction should hook the reader and establish why your question matters. The literature review should set up your argument by showing what we already know and what gaps remain. Your theoretical framework should explain the logic of your argument. Your data analysis should provide empirical evidence. And your conclusion should reflect on what you've learned, what questions remain, and what the implications of your findings are.
+
+Throughout the paper, make sure every major claim is supported by evidence. When you make an empirical claim, back it up with data. When you make a theoretical claim, provide reasoning and cite relevant scholarship. When you acknowledge counterarguments or limitations, explain how they affect (or don't affect) your overall argument.
+
+**4. Ensure proper citation throughout using Zotero**
+
+By this point you should have a substantial bibliography—likely 15-20 sources or more. Make sure every source you cite in the text appears in your references, and vice versa. Use Zotero to generate your bibliography in a consistent format (APA, Chicago, or MLA). Check that all citations are complete and properly formatted.
+
+**5. Proofread carefully**
+
+Don't let typos and grammatical errors undermine your hard work. Read through your paper carefully, ideally more than once. Better yet, have someone else read it too. Does your argument flow logically? Are there awkward transitions? Are your visualizations clearly integrated into the text?
+
+## What to Submit
+
+Submit your final research paper as a .pdf document to Blackboard. The paper should be 12-15 pages of main text (not counting title page, references, or any appendices), double-spaced, in a standard 12-point font. It should include the following sections:
+
+**1. Title Page**
+
+Include your title, your name, the course information, and the date. If you're writing a policy memo or report, format the title page appropriately for that genre.
+
+**2. Abstract (approximately 150-200 words)**
+
+Provide a concise summary of your research question, argument, methods, and main findings. Someone should be able to read your abstract and understand what your paper is about and what you conclude.
+
+**3. Introduction (approximately 2-3 pages)**
+
+Hook the reader with an engaging opening that establishes why your topic matters. Present your research question clearly. State your thesis prominently—what is your main argument? Provide a roadmap for the rest of the paper, briefly outlining what each section will do.
+
+**4. Literature Review (approximately 3-4 pages)**
+
+Synthesize the existing scholarship on your topic. Organize this thematically or by argument, not source-by-source. Show how different scholars approach your question and where debates exist. Most importantly, position your own argument in relation to this literature. How does your thesis build on, challenge, or refine existing work?
+
+**5. Theoretical Framework (approximately 1.5-2 pages)**
+
+Explain the logic of your argument. What is the causal mechanism or theoretical reasoning that leads you to expect the patterns you predict? Why should your thesis be true? This section provides the conceptual foundation for your empirical analysis.
+
+**6. Counterarguments and Alternative Explanations (approximately 1-1.5 pages)**
+
+Engage seriously with potential objections to your argument. What are the main alternative explanations for the patterns you're studying? What evidence might challenge your thesis? How do you respond to these concerns? Strong papers don't ignore their weaknesses—they address them directly and honestly.
+
+**7. Data and Methods (approximately 1.5-2 pages)**
+
+Describe your dataset, variables, and analytical approach. Where does your data come from? What are its strengths and limitations? How are key variables measured? What time period and countries does your analysis cover? Be transparent about data quality issues or measurement challenges.
+
+**8. Analysis and Findings (approximately 3-4 pages)**
+
+This is where you present your empirical evidence. Integrate your data visualizations into this section, using them to support specific claims. Each visualization should have a figure number and caption, and should be referenced in the text ("As Figure 1 shows...").
+
+Walk the reader through what your data reveals. What patterns do you observe? How do these patterns support (or complicate) your thesis? Be honest about unexpected findings or puzzles in the data. Connect your empirical findings back to your theoretical argument throughout.
+
+You should include at least four visualizations, but the exact number should be determined by what your argument needs. Don't include a visualization just to hit a quota—include visualizations that actually illuminate important patterns.
+
+**9. Discussion (approximately 1-2 pages)**
+
+Step back from the specific findings and reflect on what they mean. How do your results contribute to the broader debates you discussed in the literature review? What are the implications for theory, policy, or future research? Are there important limitations to your findings that readers should keep in mind?
+
+**10. Conclusion (approximately 1 page)**
+
+Summarize your argument and main findings. What have we learned? What questions remain unanswered? Where might future research go from here? End with some reflections on the broader significance of your work.
+
+**11. References**
+
+Include a complete bibliography of all sources cited in your paper, formatted consistently using Zotero. You should have at least 15-20 sources, with a good mix of course readings and additional scholarship.
+
+## Format Flexibility
+
+As noted earlier, you may write this as either an academic research paper or as a policy report/memo. If you choose the policy format:
+
+- Your introduction might frame the issue as a policy problem requiring solutions
+- Your analysis might emphasize policy implications more explicitly
+- Your conclusion might include specific policy recommendations
+- Your tone might be somewhat less academic and more action-oriented
+
+However, the intellectual requirements remain the same: a clear thesis, engagement with evidence and scholarship, acknowledgment of counterarguments and limitations, and data-driven analysis supporting your major claims.
+
+## Final Thoughts
+
+This paper represents a semester's worth of thinking, reading, and analysis. It should demonstrate not just what you've learned about your specific topic, but also your growth as a researcher and writer. You've learned to engage with scholarly literature, work with real-world data, create meaningful visualizations, and construct evidence-based arguments. This is work you should be proud of.
+
+As always, if you have any questions as you're working on your final paper, please don't hesitate to ask. I'm happy to discuss your ideas, provide feedback on draft sections, or help troubleshoot any issues that arise. Good luck!

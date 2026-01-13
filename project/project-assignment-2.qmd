@@ -1,65 +1,102 @@
 ---
 title: "Project Assignment 2"
-subtitle: "Proposal"
+subtitle: "Literature Review and Data Analysis Draft"
 ---
 
 ## Overview
 
-For this part of the project, you are going to download the data that you discussed in your outline and wrangle it. "Wrangling" means cleaning the data and getting it into the proper format for analysis. For Tableau and other commonly used data analysis applications, the data need to be in [long format](https://stefvanbuuren.name/fimd/sec-longandwide.html)
-so that each row contains values for one country or region per year and each column contains data for one variable. You also need to filter the data for the years that you want to use and select the variables that you want to work with. If you are working with more than one data set, then you have to merge the two data sets. I show you how to do all of this using data from the World Bank and V-Dem in [this
-video](https://www.youtube.com/watch?v=yqAYuAf6zEc&t=175s).
+For this assignment, you will build on your initial proposal by developing a more substantial draft of your research paper. This is where you deepen your engagement with the scholarly literature, refine your argument in conversation with that literature, and begin the work of data analysis that will provide empirical support for your thesis.
+
+By now you should have a clearer sense of your research question and argument. You've read through your sources and identified the key debates and findings in the literature. You've also looked at your data and have a sense of what it can tell you. This assignment asks you to bring these pieces together into a coherent draft that demonstrates how your argument contributes to existing scholarship and how your data analysis will support your claims.
+
+You'll also need to do the practical work of preparing your data for analysis. This means downloading your dataset, cleaning it, and getting it into the proper format. For most data analysis tools, including Excel, R, and others we've used in class, the data need to be in [long format](https://stefvanbuuren.name/fimd/sec-longandwide.html) so that each row contains values for one country or region per year and each column contains data for one variable. You'll need to filter the data for the years that you want to use and select the variables that you want to work with. If you are working with more than one data set, then you may need to merge them. I show you how to do all of this using data from the World Bank and V-Dem in [this video](https://www.youtube.com/watch?v=yqAYuAf6zEc&t=175s).
 
 ## Steps
 
-1.  Download the data that you want to work with.
-2.  Open the file in Excel's Power Query Editor and see what the data look like.
+This assignment has both intellectual and practical components. You need to develop your argument through engagement with the literature while also doing the technical work of data preparation.
 
--   Are the data in long format or will you need to reshape them?
--   How many years are there in the data and what will you need to filter out?
--   Which variables do you want to work with?
+**1. Expand and deepen your literature review**
 
-3.  If you want to work with more than one dataset, you will need to merge the two datasets if you want to display variables from the two datasets in the same visualization (like a scatter plot).
+Go beyond the annotated bibliography you created for Assignment 1. Read your sources carefully and identify the main debates, theoretical frameworks, and empirical findings. How do different scholars approach your topic? Where do they agree and disagree? What gaps exist in the literature that your research might address?
 
-4.  Follow the steps discussed in class to clean the data and prepare it for analysis.
+As you write your literature review, don't just summarize each source one by one. Instead, organize the literature thematically or by argument. Show how different scholars are in conversation with each other, and position your own argument in relation to these debates.
+
+**2. Refine your thesis and engage with counterarguments**
+
+Based on your deeper engagement with the literature and your preliminary look at the data, you may need to refine or adjust your thesis. That's normal and good—it shows you're thinking carefully about your topic.
+
+Identify the main counterarguments or alternative explanations to your thesis. Who would disagree with you and why? What evidence might challenge your argument? You don't need to fully resolve these tensions yet, but you should demonstrate awareness of them and begin thinking about how you'll address them in your final paper.
+
+**3. Download and clean your data**
+
+Now it's time to get your hands dirty with the actual data. Download the dataset you identified in Assignment 1 and open it in Excel's Power Query Editor (or another tool if you prefer) to see what you're working with.
+
+Ask yourself these questions:
+- Are the data in long format or will you need to reshape them?
+- How many years are there in the data and what will you need to filter out?
+- Which variables are most relevant to your argument?
+- Are there missing values or data quality issues you need to address?
+
+Follow the steps we discussed in class to clean the data and prepare it for analysis. If you're working with more than one dataset, you'll need to merge them—particularly if you want to examine relationships between variables from different sources.
 
 ::: callout-note
-I recommend working with just a handful of variables for this
-assignment. You need at least two for the scatter plot. You can then choose whether you want to also display one or both of those in the other visualizations. If you have four visualizations in your report, then you should have a maximum of five variables. But just using two or three is also fine.
+I recommend working with just a handful of variables for this assignment. Focus on the 3-5 variables that are most essential to your argument. You can always add more later if needed, but it's better to do a thorough job with a few key variables than to spread yourself too thin.
 :::
+
+**4. Create preliminary visualizations**
+
+Using the tools we've learned in class—Excel, Power BI, R, or whatever you're most comfortable with—create 2-3 preliminary data visualizations. These don't need to be polished or publication-ready yet, but they should be clear enough to give you (and me) a sense of what patterns exist in your data.
+
+Think about what story each visualization tells and how it relates to your argument. Does it provide evidence for your thesis? Does it reveal complexities or exceptions you'll need to address?
 
 ## What to Submit
 
-Submit a report in the form of a [white
-paper](https://www.instructionalsolutions.com/blog/how-to-write-white-paper)
-that tells your boss your plan for creating a Tableau report. The white
-paper should include the following elements:
+You will submit a draft of your research paper (6-8 pages, not including references or appendices) along with your cleaned dataset and preliminary visualizations. This draft should include the following sections:
 
-1.  An abstract ($\approx$ 150 words)
-2.  Problem statement ($\approx$ 100 words)
-3.  Background ($\approx$ 250 words)
-4.  Solution ($\approx$ 250 words)
-5.  Conclusion ($\approx$ 100 words)
-6.  Reference list (include at least five sources)
+**1. Introduction (approximately 1-1.5 pages)**
 
-In the solution section, include a brief description of each variable
-included in your dataset. Then talk in detail about the visualizations
-you will build using these variables. The default number of
-visualizations is four: a line chart; a bar chart; a scatter plot and a
-map. What will be on the x and y axis of each visualization? How many
-countries or regions will you include in each?
+Your introduction should draw the reader in and establish why your research question matters. Present your research question clearly and state your thesis. This should be more polished and compelling than your initial proposal—you've done more reading and thinking by now, so your argument should be sharper and more sophisticated.
 
-Please take this opportunity to also note any problems that you had in 
-cleaning the data and any unresolved questions about your data. It is better 
-to admit your limitations and try to find a solution than to simply turn 
-something in that is not going to work.
+**2. Literature Review (approximately 2-3 pages)**
 
-Along with your report, please be sure to **include a .csv or Excel file
-with your data**. I want to make sure that you are ready to produce the
-visualizations in Power BI. You may even want to take some time and see
-that the data re ready for that as well.
+This is the heart of this assignment. Your literature review should synthesize existing scholarship on your topic, organizing it thematically or by argument rather than simply summarizing each source. Identify the main debates and theoretical frameworks scholars use to understand your topic. Where do scholars agree? Where do they disagree?
 
-Don't overdo it. The final length of your white paper should be
-approximately 4-5 pages including references. No visualizations of the
-data are required at this time, however you are welcome to include any
-preliminary visualizations you have done in an appendix if you would
-like some feedback on them.
+Crucially, your literature review should set up your own argument. Show where there are gaps in the literature, unresolved questions, or new contexts that merit further investigation. Position your thesis in relation to this existing scholarship. How does your argument build on, challenge, or refine what others have found?
+
+**3. Theoretical Framework and Counterarguments (approximately 1-1.5 pages)**
+
+Lay out the logic of your argument more fully. What is the causal mechanism or theoretical reasoning that supports your thesis? Why should we expect to see the pattern you predict?
+
+This is also where you should engage seriously with counterarguments. What are the main alternative explanations for the patterns you're studying? What evidence might challenge your thesis? Be honest about the limitations and complexities. Strong arguments acknowledge their weaknesses and explain how they'll address them—they don't pretend those weaknesses don't exist.
+
+**4. Data and Methods (approximately 1.5-2 pages)**
+
+Describe your dataset in detail. Where does it come from? What time period and countries does it cover? How reliable is it? If there are known limitations or measurement issues, acknowledge them.
+
+Describe the key variables you're analyzing and explain how they're measured. Then discuss your planned visualizations and analyses. You should plan to create at least four visualizations for your final paper. For this draft, describe what these will be and explain what each will demonstrate. Be specific: What will be on each axis? What countries or time periods will you focus on? How will each visualization provide evidence for your argument?
+
+If you've already created 2-3 preliminary visualizations (as recommended), describe what they show and what you learned from creating them. Include these visualizations in an appendix.
+
+Also use this section to be honest about any challenges you encountered in preparing the data. Did you discover data quality issues? Are there missing values that concern you? Are there limitations in the dataset that might affect your ability to test your argument? It's much better to identify these issues now and think about how to address them than to discover them at the last minute.
+
+**5. Brief Conclusion (approximately 1/2 page)**
+
+Wrap up this draft by summarizing where you are in your research process. What are your next steps? What additional analysis do you need to do? What parts of your argument need further development?
+
+**6. References**
+
+Include a complete reference list using Zotero (or your chosen citation management system). You should have expanded your bibliography beyond Assignment 1—aim for at least 12-15 sources, with a good mix of course readings and additional scholarship. Use a consistent citation format throughout (APA, Chicago, or MLA).
+
+**7. Appendices**
+
+Include your cleaned dataset as a .csv or Excel file. Also include any preliminary visualizations you've created, with brief captions explaining what each shows.
+
+## A Note on Format
+
+You can write this draft as an academic research paper, or if you prefer, you can frame it as a policy report or policy memo. If you choose the policy format, the tone may be somewhat different—more directed toward a specific policy audience and actionable recommendations—but the intellectual requirements are the same. You still need a clear thesis, engagement with evidence and scholarship, consideration of counterarguments, and data-driven analysis.
+
+## Final Thoughts
+
+Don't overdo it, but also don't shortchange yourself. This draft should be approximately 6-8 pages of main text (not counting references and appendices). The goal is to do serious intellectual work while also being realistic about what you can accomplish. I'd rather see a thoughtful, well-argued draft that honestly engages with the complexity of your topic than a longer paper that's superficial or overreaches.
+
+Please upload your assignment as a .pdf document to Blackboard, along with your dataset file.

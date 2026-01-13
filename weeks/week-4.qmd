@@ -5,7 +5,7 @@ editor: visual
 ---
 
 ::: callout-important
-Exam 1 is due on Monday, February 10 at 11:59 p.m.
+Exam 1 is on Thursday, February 6.
 :::
 
 ## Readings

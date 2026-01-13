@@ -1,6 +1,6 @@
 ---
 title: "Week 14"
-subtitle: "The Rise of Radical Politics"
+subtitle: "Technology and Politics"
 editor: visual
 ---
 
@@ -8,15 +8,11 @@ editor: visual
 
 📖 John Judis, [*The Politics of Our Time*](https://www-jstor-org.proxygw.wrlc.org/stable/j.ctv2dzzqsn)
 
--   *For Wednesday, choose one chapter to read from Part I*
-
--   *For Friday, choose one chapter to read from Part II or Part III*
-
 ## Slides
 
-🖥️ [The populist backlash in the West](/slides/lecture-13.1.html)
+🖥️ [AI and automation](/slides/lecture-11.1.html)
 
-🖥️ [The rise of nationalism and socialism](/slides/lecture-13.2.html)
+🖥️ [The populist backlash](/slides/lecture-13.1.html)
 
 <br><br>
 

@@ -5,7 +5,7 @@ editor: visual
 ---
 
 ::: callout-important
-"Data Assignment 1: Working With Data in Excel" is due on Monday, February 3 at 11:59 p.m.
+Data Assignment 1 is due on Friday, January 30 at 11:59 p.m.
 :::
 
 ## Readings

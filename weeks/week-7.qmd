@@ -6,15 +6,15 @@ editor: visual
 
 ## Readings
 
-Archibong et. al., ["Washington Consensus Reforms and Economic Performance in Sub-Saharan Africa"](https://www.brookings.edu/wp-content/uploads/2021/02/Washington-Consensus-Reforms.pdf)
+📖 Archibong et. al., ["Washington Consensus Reforms and Economic Performance in Sub-Saharan Africa"](https://www.brookings.edu/wp-content/uploads/2021/02/Washington-Consensus-Reforms.pdf)
+
+📖 Benería et. al., ["Markets, Globalization and Gender"](https://www.dropbox.com/scl/fi/ff8k3clpoucuux94t2yw4/LourdesChapter3.pdf?rlkey=jdsrouh6u080ob4ew83oiqb9v&dl=0)
 
 ## Slides
 
 🖥️ [Washington consensus reforms](/slides/lecture-7.1.html)
 
-## Video
-
-📺 [Scatter plot video](https://www.youtube.com/watch?v=NDszBjbvSFA&t=24s)
+🖥️ [The gendered legacy of reform](/slides/lecture-7.2.html)
 
 <br><br>
 

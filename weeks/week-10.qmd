@@ -1,27 +1,22 @@
 ---
 title: "Week 10"
-subtitle: "Populism and Neoliberalism"
+subtitle: "Final Paper Research Clinic"
 editor: visual
 ---
 
 ::: callout-important
-Exam 2 is due on Monday, March 24 at 11:59 p.m.
+Project Assignment 1 is due on Monday, March 24 at 11:59 p.m.
 :::
 
-## Readings
+## Skills and Resources
 
-📖 James Putzel, ["The 'Populist' Right Challenge to
-Neoliberalism"](https://onlinelibrary-wiley-com.proxygw.wrlc.org/doi/full/10.1111/dech.12578)
+📺 [Wrangling data in Power Query](https://www.youtube.com/watch?v=yqAYuAf6zEc&t=175s)
 
-## Slides
-
-🖥️ [Populism and social policy](/slides/lecture-8.1.html) 🖥️ [Exam
-review](/slides/lecture-8.2.html)
+This week we'll focus on helping you get started with your research papers. Come to class with questions about your topic, data sources, or research design.
 
 ## Assignments
 
-📘 [Exam
-2](https://blackboard.gwu.edu/webapps/blackboard/content/listContentEditable.jsp?course_id=_380501_1&content_id=_12817116_1&mode=reset)
+✍️ [Project Assignment 1](/project/project-assignment-1.html)
 
 <br><br>
 

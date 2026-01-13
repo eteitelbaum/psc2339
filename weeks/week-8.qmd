@@ -1,30 +1,24 @@
 ---
 title: "Week 8"
 subtitle: "Populism and Social Policy"
+editor: visual
 ---
 
 ::: callout-important
-"Data Assignment 2: Cleaning & Visualizing Data in Excel" is due on
-Monday, March 17 at 11:59 p.m.
+Exam 2 is on Thursday, March 5.
 :::
 
 ## Readings
 
-📖 Benería et. al., ["Markets, Globalization and
-Gender"](https://eresgw-wrlc-org.proxygw.wrlc.org/x/docs/gelm/teitelbaum_emmanuel/LourdesChapter3.pdf)
+📖 Putzel, ["The 'Populist' Right Challenge to Neoliberalism"](https://onlinelibrary-wiley-com.proxygw.wrlc.org/doi/full/10.1111/dech.12578)
 
 ## Slides
 
-🖥️ [The gendered legacy of reform](/slides/lecture-7.2.html)
-
-## Video
-
-📺 [Map video](https://www.youtube.com/watch?v=ixjWeXbYVl0&t=44s)
+🖥️ [Populism and social policy](/slides/lecture-8.1.html)
 
 ## Assignments
 
-🧮 [Data Assignment 2: Cleaning & Visualizing Data in
-Excel](/assignments/data-assignment-2.html)
+📘 Exam 2
 
 <br><br>
 
