@@ -58,10 +58,140 @@ Key Arguments Self-regulating market Birth of liberalism Double movement
     -   Redistribution
     -   Householding
 
-## Discussion
+## Debate: The State of Nature
 
--   What is your view of the state of nature?
--   Is it more similar to Karl Polanyi's or Adam Smith's?
+-   **Choose a side**: Are humans naturally self-interested traders (Smith) or communal cooperators (Polanyi)?
+-   **Small groups**: Discuss your position and prepare arguments
+    -   Smith camp: Find evidence from your own experience/observations
+    -   Polanyi camp: Find counter-examples to the "truck, barter, trade" view
+-   **Class debate**: Each side presents their strongest argument
+
+## The Submerged Economy
+
+-   Historically, the economy was "submerged" in social relationships
+-   People acted to safeguard social standing, not individual material gain
+-   Markets existed but were not dominant
+-   The market economy "disembedded" the economy from society
+    -   Made the economy autonomous
+    -   Subordinated society to economic logic
+
+## Three Forms of Integration
+
+-   **Reciprocity**: exchanges based on mutual obligation
+    -   Institutional pattern: symmetry (kinship groups, tribal societies)
+-   **Redistribution**: centralized collection and distribution
+    -   Institutional pattern: centricity (chiefdoms, ancient empires)
+-   **Householding**: production for one's own use
+    -   Institutional pattern: autarky (self-sufficiency)
+-   **Market exchange**: controlled by prices (unprecedented dominance)
+
+## The Unprecedented Market System
+
+-   A system controlled by markets is "entirely unprecedented"
+-   Gain and profit never played an important role in human economy
+-   Aristotle distinguished:
+    -   *Oeconomia*: managing the household
+    -   *Chrematistics*: money-making for gain (unnatural)
+-   The 19th century inverted this hierarchy
+
+# The Fictional Commodities
+
+## Three Elements Treated as Commodities
+
+-   For a self-regulating market to function, three things must be bought and sold:
+    -   **Labor**: man under the name of labor
+    -   **Land**: nature under the name of land  
+    -   **Money**: purchasing power/capitalist organization itself
+-   But none are actually produced for sale
+-   Polanyi calls this the "commodity fiction"
+
+## Why They Are "Fictional"
+
+-   **Commodities** are produced to be sold on the market
+-   **Labor** is human activity, inseparable from life itself
+    -   Cannot be stored, moved around freely like goods
+-   **Land** is nature, not produced by humans
+    -   Includes natural resources, environment
+-   **Money** is a token of purchasing power
+    -   Created by banking/government, not produced for sale
+
+## The Danger of the Commodity Fiction {.smaller}
+
+<br>
+
+-   Treating these as "real" commodities is socially destructive
+-   **Labor**: Reducing humans to commodities destroys social bonds
+    -   Unemployment = human beings without purpose or livelihood
+-   **Land**: Treating nature as commodity leads to environmental degradation
+-   **Money**: Unregulated money supply causes financial instability
+-   Leaving their "fate to the market would be tantamount to annihilating them"
+
+# The "Double Movement"
+
+## Description of Double Movement
+
+-   Movement: expansion of liberalism and self-regulating markets
+-   Counter-movement: reaction of society against dislocation caused by
+    markets
+-   New regulations emerged to protect the fictional commodities
+    -   Shelter land, labor and money from market forces
+    -   Protect society from "devastating effects" of commodification
+    -   Importance of class dynamics: winners and losers
+
+## Who are the Opponents of Liberalism?
+
+-   Not a unified, hegemonic left or an anti-liberal ideology
+-   Responses are rather piecemeal
+    -   Regulation arises in many areas
+    -   Across many countries
+    -   In response to similar problems
+-   Regulation is a result of liberalism's failure, not its cause
+
+## Small Groups
+
+-   Think of a modern application of the Double Movement
+-   One person argues in favor of a market expansion
+-   A second provides a potential regulatory response
+-   Others represent interests of people and factors affected by the expansion (winners and losers)
+    -   Can be workers, capitalists, environment, ect.
+-   Can there be a "winner" in this debate?
+
+# The Birth of Liberalism
+
+## Elements of Liberalism
+
+-   Unfettered labor market
+    -   Cheap labor for industry
+-   Gold standard
+    -   Facilitated trade
+    -   Kept prices in check
+-   Free trade
+    -   Industrialists/traders wanted to access raw materials
+    -   Facilitated by the gold standard
+
+::: notes
+Liberalism was adopted to suit needs of industry and instability in the
+international economy Needs: price stability, cheap labor, raw materials
+:::
+
+## The Gold Standard: Origins
+
+-   **Origins (1821-1870s)**: UK first adopted it (1821), followed by other major economies
+-   **Purpose**: Pegging currency value to gold
+    -   Ensured monetary stability and prevented inflation
+    -   Facilitated international trade
+-   **Classical Gold Standard (1870s–1914)**: Stable but rigid
+-   Part of the liberal project to create self-regulating markets
+
+## The Gold Standard: A Fictional Commodity
+
+-   Remember: money is a fictional commodity
+    -   Not produced for sale
+    -   A token of purchasing power created by government/banks
+-   The gold standard attempted to make money "self-regulating"
+    -   Remove government discretion over money supply
+    -   Let market forces automatically adjust prices and trade
+-   But this created severe economic and social problems
 
 ## 19th Century Panics
 
@@ -149,116 +279,26 @@ cpr_polanyi
 #saveWidget(cpr_polanyi, "cpr_polanyi.html")
 ```
 
-## Discussion
+## The Gold Standard's Problems
 
--   Polanyi argues that economic liberalism generates political
-    instability
--   Looking at the graph, do you see the connection?
--   Can you also find evidence challenging Polanyi's view?
+-   **Deflationary**: Could not print money in excess of gold supply
+-   **Boom-bust cycles**: Limited government response to economic crises
+-   **Trade imbalances**: Countries lost gold, forced into austerity
+-   The chart shows dramatic financial instability under the gold standard
+-   Economic liberalism created political instability
 
-## The Gold Standard
+## The Gold Standard's Decline
 
-- **Origins (1821-1870s)**: UK first adopted it (1821), followed by other major economies
-- **Purpose**: Ensured monetary stability, prevented inflation, and facilitated international trade
-
-## Phases & Decline
-
-- **Classical Gold Standard (1870s–1914)**: Stable but rigid
-- **WWI & Interwar Period (1914–1930s)**: Suspension, economic instability, and deflation
-- **Bretton Woods (1944–1971)**: USD pegged to gold; collapsed in 1971 under Nixon
-
-## Why It Ended
-
-- **Economic Rigidity**: Limited crisis response
-- **Deflation & Trade Imbalances**: Led to recessions
-- **War & Government Spending**: Required more flexibility
-- **USD as Reserve Currency**: Fixed peg unsustainable due to dwindling gold reserves
-
-**Legacy**: No country uses it today, but debates over its return persist.
-
-# The "Double Movement"
-
-## Small Groups
-
--   Review the concept of the double movement as it is presented in
-    Chapter 11 of *The Great Transformation*
--   What does Polanyi mean by a "movement" and a "counter-movement"?
--   Who are the actors involved?
-    -   Who is affected by this "movement"
-    -   What does the "counter-movement" entail?
--   Try using ChatGPT to help interpret the text
-
-## Description of Double Movement
-
--   Movement: expansion of liberalism and self-regulating markets
--   Counter-movement: reaction of society against dislocation caused by
-    markets
--   New regulations
-    -   Purpose is to shelter land, labor and the money supply against
-        "devastating effects" of policies used to sustain
-        self-regulating markets
-    -   Importance of class dynamics: winners and losers
-
-## Who are the Opponents of Liberalism?
-
--   Not a unified, hegemonic left or an anti-liberal ideology
--   Responses are rather piecemeal
-    -   Regulation arises in many areas
-    -   Across many countries
-    -   In response to similar problems
--   Regulation is a result of liberalism's failure, not its cause
-
-## Small Groups
-
--   Can Polanyi's theory of the "double movement" be applied to
-    contemporary politics?
--   Provide at least two concrete examples to support your view
-    -   Be sure to identify
-        -   The "movement"
-        -   The "countermovement"
-        -   The actors involved, e.g. winners and losers
-
-# The Birth of Liberalism
-
-## Elements of Liberalism
-
--   Unfettered labor market
-    -   Cheap labor for industry
--   Gold standard
-    -   Facilitated trade
-    -   Kept prices in check
--   Free trade
-    -   Industrialists/traders wanted to access raw materials
-    -   Facilitated by the gold standard
-
-::: notes
-Liberalism was dopted to suit needs of industry and instability in the
-international economy Needs: price stability, cheap labor, raw materials
-:::
-
-## The Gold Standard (1879-1973)
-
--   Pegging the value of the dollar to gold
--   Problems
-    -   Deflationary: could not print money in excess of gold supply
-    -   Led to dramatic boom-bust cycles
--   Reforms
-    -   1931: Roosevelt ends gold standard domestically
-    -   1971: Nixon ends Bretton Woods
+-   **WWI & Interwar Period (1914–1930s)**: Suspension during war, economic instability, deflation
+-   **Bretton Woods (1944–1971)**: USD pegged to gold; other currencies pegged to USD
+-   **1971**: Nixon ends Bretton Woods (gold peg unsustainable)
+-   **Legacy**: No country uses it today
+-   Society protected itself from the money commodity fiction
 
 ::: notes
 The gold standard was problematic because it prevented the government
 from undertaking monetary policy to counteract economic downturns
 :::
-
-## Small Groups
-
-- Review Chapter 12
-- What are some misconceptions about the origins of liberalism?
-- When and why did liberalism actually emerge? 
-- How does the "double movement" apply to the birth of liberalism?
-- What are some elements of the "counter-movement"?
-- Utilize ChatGPT to help interpret the text
 
 ## Where Did Liberalism Come From?
 
@@ -269,3 +309,99 @@ from undertaking monetary policy to counteract economic downturns
 ::: notes
 Liberalism is a relatively recent ideology/practice
 :::
+
+## The Paradox: Laissez-Faire Was Planned
+
+-   Free markets did not emerge naturally
+-   Required deliberate, organized political intervention
+-   Creating "free" markets demanded massive state action
+    -   Factory Acts
+    -   Poor Laws
+    -   Enclosure Acts
+-   Irony: laissez-faire required extensive government planning
+
+## The Benthamite State
+
+-   Creating free markets **increased** need for administration
+-   Required enormous bureaucratic apparatus:
+    -   Factory inspectors
+    -   Poor law administration  
+    -   Labor market regulation
+    -   Enforcement of contracts
+-   "Laissez-faire was not a natural process but an artificial achievement"
+
+## Spontaneous vs. Planned
+
+-   **The market**: Deliberately planned and imposed from above
+    -   Required legislation, coercion, state power
+-   **Protective regulations**: Spontaneous, unplanned reaction
+    -   Emerged pragmatically across different countries
+    -   Different ideologies, same protective response
+-   Reverses the liberal narrative
+
+## The Liberal Defense
+
+-   Economic liberals blame market failure on "interference"
+    -   Trade unions restricted labor markets
+    -   Social legislation distorted prices
+    -   Protectionist tariffs prevented adjustment
+-   Claim: the self-regulating market would have worked if left alone
+
+## Polanyi's Rebuttal {.smaller}
+
+-   Protective measures arose **everywhere** regardless of ideology:
+    -   Prussia (conservative)
+    -   England (liberal)
+    -   France (revolutionary)
+-   This proves regulations were a necessary response to market perils
+-   The "economistic fallacy": blaming social protection for market failures
+-   Society protected itself because the market system was unsustainable
+
+## Small Groups: Evaluating Polanyi {.smaller}
+
+**Question 1: How free should markets be?**
+-   Does Polanyi prove that self-regulating markets are impossible/dangerous?
+-   What are the **strengths** of his argument? What evidence supports it?
+-   What are the **weaknesses**? What might critics say?
+
+**Question 2: Do free markets lead to populism/fascism?**
+-   Is Polanyi right that economic liberalism caused fascism?
+-   What other factors might explain the rise of fascism in the 1930s?
+-   Does this argument apply to today's populist movements?
+
+# The Path to Fascism
+
+## Institutional Strain
+
+-   Two organizing principles in conflict:
+    -   **Economic liberalism**: Demands self-regulating markets
+    -   **Social protection**: Demands shelter from market forces
+-   Both became "sectional weapons" in class struggle:
+    -   Working class used the state for protection
+    -   Trading/industrial classes used economic power
+-   Created a dangerous political deadlock
+
+## The Perilous Deadlock
+
+-   Cannot have both full market freedom and social protection
+-   Each class able to block the other
+-   Democratic institutions paralyzed by irreconcilable demands
+-   Market economy vs. social stability: an impossible tension
+
+## The Fascist "Solution"
+
+-   Fascism emerged as authoritarian response to this impasse
+-   Promised to:
+    -   Maintain capitalist economy
+    -   Provide social stability and protection  
+    -   Suppress working-class demands through force
+-   Eliminated democratic deadlock by eliminating democracy
+-   This is how economic liberalism led to fascism
+
+## Conclusion: Polanyi's Warning
+
+-   The self-regulating market is a "dangerous fantasy"
+-   Commodifying labor, land, and money destroys society
+-   Society will always protect itself (double movement)
+-   If democratic protection is blocked, society turns to authoritarianism
+-   Market regulation is not "leftist" but necessary for social survival
