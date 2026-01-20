@@ -193,6 +193,13 @@ international economy Needs: price stability, cheap labor, raw materials
     -   Let market forces automatically adjust prices and trade
 -   But this created severe economic and social problems
 
+## The Gold Standard's Problems
+
+-   **Deflationary**: Could not print money in excess of gold supply
+-   **Boom-bust cycles**: Limited government response to economic crises
+-   **Trade imbalances**: Countries lost gold, forced into austerity
+-   Economic liberalism created political instability
+
 ## 19th Century Panics
 
 <br>
@@ -279,14 +286,6 @@ cpr_polanyi
 #saveWidget(cpr_polanyi, "cpr_polanyi.html")
 ```
 
-## The Gold Standard's Problems
-
--   **Deflationary**: Could not print money in excess of gold supply
--   **Boom-bust cycles**: Limited government response to economic crises
--   **Trade imbalances**: Countries lost gold, forced into austerity
--   The chart shows dramatic financial instability under the gold standard
--   Economic liberalism created political instability
-
 ## The Gold Standard's Decline
 
 -   **WWI & Interwar Period (1914–1930s)**: Suspension during war, economic instability, deflation
@@ -349,6 +348,8 @@ Liberalism is a relatively recent ideology/practice
 
 ## Polanyi's Rebuttal {.smaller}
 
+<br>
+
 -   Protective measures arose **everywhere** regardless of ideology:
     -   Prussia (conservative)
     -   England (liberal)
@@ -356,18 +357,6 @@ Liberalism is a relatively recent ideology/practice
 -   This proves regulations were a necessary response to market perils
 -   The "economistic fallacy": blaming social protection for market failures
 -   Society protected itself because the market system was unsustainable
-
-## Small Groups: Evaluating Polanyi {.smaller}
-
-**Question 1: How free should markets be?**
--   Does Polanyi prove that self-regulating markets are impossible/dangerous?
--   What are the **strengths** of his argument? What evidence supports it?
--   What are the **weaknesses**? What might critics say?
-
-**Question 2: Do free markets lead to populism/fascism?**
--   Is Polanyi right that economic liberalism caused fascism?
--   What other factors might explain the rise of fascism in the 1930s?
--   Does this argument apply to today's populist movements?
 
 # The Path to Fascism
 
@@ -398,10 +387,22 @@ Liberalism is a relatively recent ideology/practice
 -   Eliminated democratic deadlock by eliminating democracy
 -   This is how economic liberalism led to fascism
 
-## Conclusion: Polanyi's Warning
+## Polanyi's Warning
 
 -   The self-regulating market is a "dangerous fantasy"
 -   Commodifying labor, land, and money destroys society
 -   Society will always protect itself (double movement)
 -   If democratic protection is blocked, society turns to authoritarianism
 -   Market regulation is not "leftist" but necessary for social survival
+
+## Small Groups: Evaluating Polanyi 
+
+**Question 1: How free should markets be?**
+-   Does Polanyi prove that self-regulating markets are impossible/dangerous?
+-   What are the **strengths** of his argument? What evidence supports it?
+-   What are the **weaknesses**? What might critics say?
+
+**Question 2: Do free markets lead to populism/fascism?**
+-   Is Polanyi right that economic liberalism caused fascism?
+-   What other factors might explain the rise of fascism in the 1930s?
+-   Does this argument apply to today's populist movements?
