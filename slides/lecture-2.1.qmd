@@ -41,6 +41,8 @@ india_dat <- maddison_dat %>%
 
 ## What is an Institution?
 
+<br>
+
 "Humanly devised constraints that structure political, economic and
 social interaction. They consist of both informal constraints
 (sanctions, taboos, customs, traditions and codes of conduct), and
@@ -133,7 +135,7 @@ slavery; the encomienda system (forced labor); child labor
 ![Nogales Sonora (left), Nogales Arizona (right) in
 2021](images/nogales.jpg)
 
-## Other Cases
+## Regime Shifts
 
 ![Acemoglu & Robinson, figure 4](images/AR_fig4.png){width="70%"}
 
@@ -157,9 +159,6 @@ Discuss in this order: Zimbabwe, South Africa and China Use China to
 transition to growth under dictatorship. China and S. Africa represent different 
 authoritarian growth trajectories. China has inclusive economic institutions while 
 S. Africa has inclusive political institutions. 
-
-If things are going fast, do small groups; have each choose on case for
-discussion.
 :::
 
 # Growth Under Dictators
@@ -213,24 +212,34 @@ institutions
     -   Resistance to creative destruction
     -   Infighting among the elite
 
-## Data Exercise
+## Discussion {.smaller}
 
+- Pick one country that you think has inclusive institutions and one with extractive institutions
+- Based on that country's history and A&R's theory, what do you expect it economic performance to have been over the past half century? 
 - Visit the [World Development Indicators](https://databank.worldbank.org/source/world-development-indicators)
-- Select a country or countries
-- Select GDP in constant US$
+- Select your countries
+- Select GDP per capita in constant US$
 - Select all the years
 - Update and select "Chart"
-- Do your countries fit A&R's theory?
+- Do your countries fit your expectations? A&R's theory? 
+- If there are discrepancies, why do you think that is?
 
 # Remaining Challenges
 
-## The United States
+## Extractive Institutions in the U.S.
 
 ![National Memorial for Peace and Justice](images/peace-justice.jpg)
 
-## The United Kingdom
+## What About Colonialism? 
 
 ![Girls rolling roads in India, 1930](images/child_labor.jpg)
+
+::: notes
+- How does colonialism factor into A&R's theory of institutions and
+development? 
+- If a country engages in colonialism, can we really call it "inclusive"? How much of Britain's wealth can be attributed to its colonies? 
+- This is a crucial question because Britain lies at the heart of A&R's theory. 
+:::
 
 ## Economic Impact of Colonialism
 
@@ -247,6 +256,7 @@ india_gdp
 ```
 
 ::: notes
+-   Relatedly, India is an interesting case because it the British ruled with extractive institutions but also established some inclusive political and economic institutions (e.g. railroads, legal system, property rights, parliament)
 -   India's fortunes as a global power declined under the British
 -   India had the world's leading economy until the 18th century
 -   India's share of the global economy feel from 24% of global GDP to
@@ -257,7 +267,7 @@ india_gdp
 -   India's economy stagnated because the British extracted raw
     materials and sold finished products (mainly textiles and garments)
     back to India as a captive market
--   The British eenacted laws that prevented Indian industry from
+-   The British enacted laws that prevented Indian industry from
     competing with British imports, killing India's textile sector,
     which it had a huge comparative advantage in before the British
     arrived
@@ -280,10 +290,3 @@ india_gdp
 -   But could inclusive institutions be the result of development?
 -   Or could there be a third factor driving both?
     -   What are some possibilities?
-
-## Exercise
-
--   Write two or three sentences on what you found convincing about
-    A&R's theory
--   Write two or three sentences on what you found problematic
--   Discuss with a neighbor

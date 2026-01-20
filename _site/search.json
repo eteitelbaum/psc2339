@@ -2580,7 +2580,7 @@
     "href": "slides/lecture-2.1.html#what-is-an-institution",
     "title": "Lecture 2.1",
     "section": "What is an Institution?",
-    "text": "What is an Institution?\n“Humanly devised constraints that structure political, economic and social interaction. They consist of both informal constraints (sanctions, taboos, customs, traditions and codes of conduct), and formal rules (constitutions, laws, property rights).”\n    - Douglas North"
+    "text": "What is an Institution?\n\n“Humanly devised constraints that structure political, economic and social interaction. They consist of both informal constraints (sanctions, taboos, customs, traditions and codes of conduct), and formal rules (constitutions, laws, property rights).”\n    - Douglas North"
   },
   {
     "objectID": "slides/lecture-2.1.html#inclusive-institutions",
@@ -2650,7 +2650,7 @@
     "href": "slides/lecture-2.1.html#zimbabwe-south-africa-china",
     "title": "Lecture 2.1",
     "section": "Zimbabwe, South Africa & China",
-    "text": "Zimbabwe, South Africa & China\n\nSource: Maddison Project Database, version 2018.\nDiscuss in this order: Zimbabwe, South Africa and China Use China to transition to growth under dictatorship. China and S. Africa represent different authoritarian growth trajectories. China has inclusive economic institutions while S. Africa has inclusive political institutions.\nIf things are going fast, do small groups; have each choose on case for discussion."
+    "text": "Zimbabwe, South Africa & China\n\nSource: Maddison Project Database, version 2018.\nDiscuss in this order: Zimbabwe, South Africa and China Use China to transition to growth under dictatorship. China and S. Africa represent different authoritarian growth trajectories. China has inclusive economic institutions while S. Africa has inclusive political institutions."
   },
   {
     "objectID": "slides/lecture-2.1.html#some-famous-dictators",
@@ -2699,7 +2699,7 @@
     "href": "slides/lecture-2.1.html#economic-impact-of-colonialism",
     "title": "Lecture 2.1",
     "section": "Economic Impact of Colonialism",
-    "text": "Economic Impact of Colonialism\n\nSource: Maddison Project Database, version 2018.\n\nIndia’s fortunes as a global power declined under the British\nIndia had the world’s leading economy until the 18th century\nIndia’s share of the global economy feel from 24% of global GDP to around 4% when the British left\nIndia saw a decline under the British until the middle of the 19th century, at which point it began to grow again, but the growth was uneven and steady upward growth only resumed after the British left\nIndia’s economy stagnated because the British extracted raw materials and sold finished products (mainly textiles and garments) back to India as a captive market\nThe British eenacted laws that prevented Indian industry from competing with British imports, killing India’s textile sector, which it had a huge comparative advantage in before the British arrived\nThere are some caveats:\n\nAlthough its GDP was lower, India grew at a faster pace under the British than under the Mughals\nMughals were also pretty brutal as far as rulers go and hoarded most of India’s wealth\nThe Mughal empire was already on the decline when the British came\n\nHowever the fact remains that the British adoped and heavily relied upon extractive institutions to transfer wealth back to Britain"
+    "text": "Economic Impact of Colonialism\n\nSource: Maddison Project Database, version 2018.\n\nRelatedly, India is an interesting case because it the British ruled with extractive institutions but also established some inclusive political and economic institutions (e.g. railroads, legal system, property rights, parliament)\nIndia’s fortunes as a global power declined under the British\nIndia had the world’s leading economy until the 18th century\nIndia’s share of the global economy feel from 24% of global GDP to around 4% when the British left\nIndia saw a decline under the British until the middle of the 19th century, at which point it began to grow again, but the growth was uneven and steady upward growth only resumed after the British left\nIndia’s economy stagnated because the British extracted raw materials and sold finished products (mainly textiles and garments) back to India as a captive market\nThe British enacted laws that prevented Indian industry from competing with British imports, killing India’s textile sector, which it had a huge comparative advantage in before the British arrived\nThere are some caveats:\n\nAlthough its GDP was lower, India grew at a faster pace under the British than under the Mughals\nMughals were also pretty brutal as far as rulers go and hoarded most of India’s wealth\nThe Mughal empire was already on the decline when the British came\n\nHowever the fact remains that the British adoped and heavily relied upon extractive institutions to transfer wealth back to Britain"
   },
   {
     "objectID": "slides/lecture-2.1.html#endogeneity",
@@ -3504,5 +3504,40 @@
     "title": "Lecture 1",
     "section": "The Gold Standard’s Decline",
     "text": "The Gold Standard’s Decline\n\nWWI & Interwar Period (1914–1930s): Suspension during war, economic instability, deflation\nBretton Woods (1944–1971): USD pegged to gold; other currencies pegged to USD\n1971: Nixon ends Bretton Woods (gold peg unsustainable)\nLegacy: No country uses it today\nSociety protected itself from the money commodity fiction\n\n\nThe gold standard was problematic because it prevented the government from undertaking monetary policy to counteract economic downturns"
+  },
+  {
+    "objectID": "slides/lecture-2.1.html#regime-shifts",
+    "href": "slides/lecture-2.1.html#regime-shifts",
+    "title": "Lecture 2.1",
+    "section": "Regime Shifts",
+    "text": "Regime Shifts\n\nAcemoglu & Robinson, figure 4"
+  },
+  {
+    "objectID": "slides/lecture-2.1.html#discussion",
+    "href": "slides/lecture-2.1.html#discussion",
+    "title": "Lecture 2.1",
+    "section": "Discussion",
+    "text": "Discussion\n\nPick one country that you think has inclusive institutions and one with extractive institutions\nBased on that country’s history and A&R’s theory, what do you expect it economic performance to have been over the past half century?\nVisit the World Development Indicators\nSelect your countries\nSelect GDP per capita in constant US$\nSelect all the years\nUpdate and select “Chart”\nDo your countries fit your expectations? A&R’s theory?\nIf there are discrepancies, why do you think that is?"
+  },
+  {
+    "objectID": "slides/lecture-2.1.html#extractive-institutions-in-the-u.s.",
+    "href": "slides/lecture-2.1.html#extractive-institutions-in-the-u.s.",
+    "title": "Lecture 2.1",
+    "section": "Extractive Institutions in the U.S.",
+    "text": "Extractive Institutions in the U.S.\n\nNational Memorial for Peace and Justice"
+  },
+  {
+    "objectID": "slides/lecture-2.1.html#what-about-colonailism",
+    "href": "slides/lecture-2.1.html#what-about-colonailism",
+    "title": "Lecture 2.1",
+    "section": "What About Colonailism?",
+    "text": "What About Colonailism?\n\nGirls rolling roads in India, 1930\n\nHow does colonialism factor into A&R’s theory of institutions and development?\nIf a country engages in colonialism, can we really call it “inclusive”? How much of Britain’s wealth can be attributed to its colonies?\nThis is a crucial question because Britain lies at the heart of A&R’s theory."
+  },
+  {
+    "objectID": "slides/lecture-2.1.html#what-about-colonialism",
+    "href": "slides/lecture-2.1.html#what-about-colonialism",
+    "title": "Lecture 2.1",
+    "section": "What About Colonialism?",
+    "text": "What About Colonialism?\n\nGirls rolling roads in India, 1930\n\nHow does colonialism factor into A&R’s theory of institutions and development?\nIf a country engages in colonialism, can we really call it “inclusive”? How much of Britain’s wealth can be attributed to its colonies?\nThis is a crucial question because Britain lies at the heart of A&R’s theory."
   }
 ]
