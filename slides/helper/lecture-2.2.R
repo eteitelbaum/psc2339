@@ -153,7 +153,7 @@ modernization2 <- ggplot(polyarchy_postwar, aes(x = gdp_pc, y = polyarchy)) +
   labs(x= "GDP Per Capita", y = "Polyarchy Score",
        title = "Wealth and democracy after WWII")
 
-modernization_plot2 <- ggplotly(modernization, tooltip = c("country", "polyarchy")) %>% 
+modernization_plot2 <- ggplotly(modernization2, tooltip = c("country", "polyarchy")) %>% 
   # adjust size 
   layout(
     height = 400,
