@@ -9,6 +9,7 @@ format:
     theme: moon
     transition: fade
     slide-number: true
+    css: custom.css
 execute:
   echo: false
   freeze: auto
@@ -24,97 +25,93 @@ library(plotly)
 library(WDI)
 
 theme_set(theme_minimal())
+
+source("helper/lecture-2.2.R")
 ```
 
+# Measuring Wealth
+
+## GDP and GDP per Capita
+
+-  Gross Domestic Product (GDP)
+    -   Total value of goods and services produced within a country
+-   GDP per capita
+    -   GDP divided by total population
+- Generally speaking, we use GDP per capita to measure wealth of
+  individual countries 
+- Whereas GDP may be more of a measure of power or influence 
+
+## World's Largest Economies 
+
+<br>
+
 ```{r}
-#| label: vdem_setup
-#| include: false
+#| label: wealthiest1
 
-## v-dem dataset, summarizing by country up to end of WWII
-
-polyarchy_pre1945 <- vdem %>%
-  rename(country = country_name) %>%
-  filter(year < 1945) %>%
-  group_by(country_id, country) %>%
-  summarize(
-    polyarchy = mean(v2x_polyarchy, na.rm = TRUE),
-    gdp_pc = mean(e_gdppc, na.rm = TRUE), 
-    region = max(e_regionpol_6C, na.rm = TRUE)
-  ) %>%
-  mutate(
-    region = recode(region, `1` = "Eastern Europe", 
-                    `2` = "Latin America", 
-                    `3` = "Middle East", 
-                    `4` = "Africa", 
-                    `5` = "The West", 
-                    `6` = "Asia")
-  )
-
-# v-dem dataset, summarizing by country for post-WWII period
-
-polyarchy_postwar <- vdem %>%
-  rename(country = country_name) %>%
-  filter(year >= 1945) %>%
-  group_by(country_id, country) %>%
-  summarize(
-    polyarchy = mean(v2x_polyarchy, na.rm = TRUE),
-    gdp_pc = mean(e_gdppc, na.rm = TRUE), 
-    region = max(e_regionpol_6C, na.rm = TRUE)
-  ) %>%
-  mutate(
-    region = recode(region, `1` = "Eastern Europe", 
-                    `2` = "Latin America", 
-                    `3` = "Middle East", 
-                    `4` = "Africa", 
-                    `5` = "The West", 
-                    `6` = "Asia")
-  )
-
-## v-dem dataset, summarizing by year with codings for different time periods
-
-polyarchy_annual <- vdem %>%
-  group_by(year) %>%
-  summarize(
-    polyarchy = mean(v2x_polyarchy, na.rm = TRUE),
-    gdp_pc = mean(e_gdppc, na.rm = TRUE)
-  ) %>%
-  mutate(
-    wave = case_when(year <= 1827 ~ "pre 1st wave",
-                       year > 1827 & year <= 1926 ~ "1st wave", 
-                       year > 1926 & year <= 1945 ~ "1st rev. wave",
-                       year > 1945 & year <= 1962 ~ "2nd wave", 
-                       year > 1962 & year <= 1973 ~ "2nd rev. wave", 
-                       year > 1973 & year <= 2010 ~ "3rd wave", 
-                       year > 2010 ~ "3rd rev. wave") %>%
-      factor(levels = c("pre 1st wave", "1st wave", "1st rev. wave",
-                        "2nd wave", "2nd rev. wave", "3rd wave", "3rd rev. wave"))
-  ) %>%
-  drop_na()
+ggplot(biggest_ppp, aes(y = fct_reorder(country, gdp_ppp), x = gdp_ppp)) +
+  geom_col(fill = "red3") +
+  scale_x_continuous(labels = function(x) paste0("$", x/1000000000000, " ", "Trillion")) +
+  labs(x = "\nGDP, PPP (constant 2017 International $)", y = NULL,
+       title = "The fifteen largest economies by GDP in terms of PPP",
+       subtitle = "Most recent available year",
+       caption = "\nSource: The World Bank, World Development Indicators")
 ```
 
+## World's Wealthiest Countries
+
+<br>
+
 ```{r}
-#| label: wb_setup
-#| include: false
+#| label: wealthiest2
 
-## largest economies by GDP in nominal terms
+ggplot(wealthiest_pc_ppp, aes(y = fct_reorder(country, gdp_pc_ppp), x = gdp_pc_ppp)) +
+  geom_col(fill = "red3") +
+  scale_x_continuous(labels = scales::label_dollar()) +
+  labs(x = "\nGDP per capita, PPP (constant 2017 International $)", y = NULL,
+       title = "The fifteen wealthiest countries by GDP per capita (PPP)",
+       subtitle = "Most recent available year",
+       caption = "\nSource: The World Bank, World Development Indicators") 
+```
 
-gdp = WDI(indicator='NY.GDP.MKTP.KD', country = 'all', 
-          start=2021, end=2021, extra = TRUE)
+# Measuring Democracy
 
-biggest <- gdp %>%
-  select(country, gdp = NY.GDP.MKTP.KD, region) %>%
-  filter(region != "Aggregates") %>% 
-  slice_max(order_by = gdp, n = 15) 
+## The V-Dem Institute
 
-## largest economies by GDP in PPP
+-   Varieties of Democracy (V-Dem)
+-   Polyarchy score
+    -   Robert Dahl
+    -   Polyarch--form of government in which power is vested in
+        multiple people
+-   V-Dem's polyarch index is based on concept of electoral democracy
 
-gdp_ppp = WDI(indicator='NY.GDP.MKTP.PP.KD', country = 'all', 
-          start=2021, end=2021, extra = TRUE)
+## Polyarchy (Electoral Democracy)
 
-biggest_ppp <- gdp_ppp %>%
-  select(country, gdp_ppp = NY.GDP.MKTP.PP.KD, region) %>%
-  filter(region != "Aggregates") %>% 
-  slice_max(order_by = gdp_ppp, n = 15) 
+<br>
+
+**Polyarchy:** "seeks to embody the core value of making rulers responsive
+to citizens, achieved through electoral competition...\[P\]olitical and
+civil society organizations can operate freely, elections are clean..and
+affect the composition of the chief executive."
+
+## Other V-Dem Indices
+
+- **Liberal:** checks on executive power, rights protections, rule of law
+- **Participatory:** citizen participation beyond elections
+- **Deliberative:** reasoned public debate and justification
+- **Egalitarian:** equal political access and influence
+
+## Most Democratic Countries (Polyarchy)
+
+<br>
+
+```{r}
+#| label: polyarchy_top15
+ggplot(polyarchy_top15, aes(y = fct_reorder(country, polyarchy), x = polyarchy)) +
+  geom_col(fill = "steelblue1") +
+  scale_x_continuous(labels = scales::label_number(accuracy = 0.01)) +
+  labs(x = "\nPolyarchy score", y = NULL,
+       title = paste0("Top 15 countries by polyarchy (", latest_vdem_year, ")"),
+       caption = "\nSource: V-Dem")
 ```
 
 # Modernization Theory
@@ -125,7 +122,6 @@ biggest_ppp <- gdp_ppp %>%
 -   Noted that democracy is highly correlated with development
 -   Took on guise of causal argument
     -   Wealth → democaracy
-    -   Led to decades of debate
 
 ## Some Stylized Facts
 
@@ -139,255 +135,105 @@ biggest_ppp <- gdp_ppp %>%
 
 <br>
 
+<div class="center-plotly">
 ```{r}
 #| label: modernization1
-modernization <- ggplot(polyarchy_pre1945, aes(x = gdp_pc, y = polyarchy)) + 
-  geom_point() + 
-  geom_smooth(method = "lm", size = 1) + 
-  scale_x_log10(labels = scales::label_dollar(suffix = "k")) +
-  aes(label = country) + # need so ggplot retains label for plotly
-  labs(x= "GDP Per Capita", y = "Polyarchy Score",
-       title = "Wealth and democracy, 1789 - 1945")
 
-ggplotly(modernization, tooltip = c("country", "polyarchy")) %>%   
-  # adjust size 
-  layout(
-    height = 400,
-    width = 900  # Adjust width to better fit your slide
-  ) %>%
-  # add source
-  layout(annotations = list(text = "Source: The V-Dem Institute, Varities of Democracy Dataset",  
-                            font = list(size = 10), showarrow = FALSE,
-                            xref = 'paper', x = 1, xanchor = 'right', xshift = 0,
-                            yref = 'paper', y = -.1, yanchor = 'auto', yshift = 0)) %>%
-  # add web address
-  layout(annotations = list(text = "www.psc2339.com", 
-                            font = list(size = 10, color = 'grey'), showarrow = FALSE,
-                            xref = 'paper', x = .5, xanchor = 'center', xshift = 0,
-                            yref = 'paper', y = 1, yanchor = 'top', yshift = 0)) %>%
-  # edit tooltip
-  style(hoverinfo="skip", traces = 2) %>%
-  style(hoverinfo="skip", traces = 3)
+modernization_plot1
 ```
+</div>
 
 ## Modernization in the Post-War Period
 
 <br> 
 
+<div class="center-plotly">
 ```{r}
 #| label: modernization2
-modernization <- ggplot(polyarchy_postwar, aes(x = gdp_pc, y = polyarchy)) + 
-  geom_point() + 
-  geom_smooth(method = "lm", size = 1) + 
-  scale_x_log10(labels = scales::label_dollar(suffix = "k")) +
-  aes(label = country) +
-  labs(x= "GDP Per Capita", y = "Polyarchy Score",
-       title = "Wealth and democracy after WWII")
 
-ggplotly(modernization, tooltip = c("country", "polyarchy")) %>%   
-  # adjust size 
-  layout(
-    height = 400,
-    width = 900  # Adjust width to better fit your slide
-  ) %>%
-  # add source
-  layout(annotations = list(text = "Source: The V-Dem Institute, Varities of Democracy Dataset",  
-                            font = list(size = 10), showarrow = FALSE,
-                            xref = 'paper', x = 1, xanchor = 'right', xshift = 0,
-                            yref = 'paper', y = -.1, yanchor = 'auto', yshift = 0)) %>%
-  # add web address
-  layout(annotations = list(text = "www.psc2339.com", 
-                            font = list(size = 10, color = 'grey'), showarrow = FALSE,
-                            xref = 'paper', x = .5, xanchor = 'center', xshift = 0,
-                            yref = 'paper', y = 1, yanchor = 'top', yshift = 0)) %>%
-  # edit tooltip
-  style(hoverinfo="skip", traces = 2) %>%
-  style(hoverinfo="skip", traces = 3)
+modernization_plot2
 ```
+</div>
 
-## Thinking About the Data
-
--   Which countries fall on the line in the two graphs?
--   Which are outliers?
--   Which countries move into the southeast quadrant?
-    -   Why is that significant?
--   Find your favorite country.
-    -   Is it where you thought it would be?
-
-# Detour: Measuring Democracy
-
-## The V-Dem Institute
-
--   Varieties of Democracy (V-Dem)
--   Polyarchy score
-    -   Robert Dahl
-    -   Polyarch--form of government in which power is vested in
-        multiple people
--   V-Dem's polyarch index is based on concept of electoral democracy
-
-## Electoral Democracy
-
-Electoral Democracy: "seeks to embody the core value of making rulers
-responsive to citizens, achieved through electoral
-competition...\[P\]olitical and civil society organizations can operate
-freely, elections are clean..and affect the composition of the chief
-executive."
-
-## Other Ways to Think About Democracy
-
-Liberal Democracy: "emphasizes the importance of protecting individual
-and minority rights against the tyranny of the state and the tyranny of
-the majority...judges the quality of democracy by the limits placed on
-government."
-
-<br>
-
-Participatory Democracy: "emphasizes active participation by citizens in
-all political processes, electoral and non-electoral.." and "engagement
-in civil society organizations, direct democracy, and subnational
-elected bodies."
-
-# Back to the Data
-
-## Democracy and Development by Region
-
-```{r}
-#| label: by_region
-region_plot <- ggplot(polyarchy_postwar, aes(x = gdp_pc, y = polyarchy)) + 
-  geom_point() + 
-  geom_smooth(method = "lm", se = FALSE, size = .75) + 
-  facet_wrap(~ region) + 
-  scale_x_log10() +
-  aes(label = country) + # need to retain label to give to plotly
-  #geom_text(hjust = 0, nudge_x = .2, size = 1.5, aes(label = country_name)) +
-  labs(x= "GDP Per Capita", y = "Polyarchy Score",
-       title = "Wealth and democracy by region after WWII")
-
-ggplotly(region_plot, tooltip = c("country", "polyarchy")) %>%  
-  # adjust size 
-  layout(
-    height = 400,
-    width = 900  # Adjust width to better fit your slide
-  ) %>%
-  # add source
-  layout(annotations = list(text = "Source: The V-Dem Institute, Varities of Democracy Dataset",  
-                            font = list(size = 10), showarrow = FALSE,
-                            xref = 'paper', x = 1, xanchor = 'right', xshift = 0,
-                            yref = 'paper', y = -.1, yanchor = 'auto', yshift = 0)) %>%
-  # add web address
-  layout(annotations = list(text = "www.psc2339.com", 
-                            font = list(size = 10, color = 'grey'), showarrow = FALSE,
-                            xref = 'paper', x = .5, xanchor = 'center', xshift = 0,
-                            yref = 'paper', y = 1, yanchor = 'top', yshift = 0))
-```
-
-## Thinking About the Data
-
--   Where is the relationship strongest?
--   Where is it weakest?
--   Why is the relationship stronger or weaker in some places?
--   What are some regional outliers? Why are they different?
-
-## Democracy and Development Over Time
-
-```{r}
-#| label: over_time2
-region_plot <- ggplot(polyarchy_annual, aes(x = gdp_pc, y = polyarchy)) + 
-  geom_point(aes(color = wave)) + 
-  geom_smooth(method = "lm", se = FALSE, size = .75) + 
-  scale_x_log10() +
-  aes(label = year) +
-  labs(x= "GDP Per Capita", y = "Polyarchy Score",
-       title = "Democracy, development and Huntington's three waves") +
-  scale_color_discrete(name = "Wave")
-
-ggplotly(region_plot, tooltip = c("year", "polyarchy")) %>%   
-  # adjust size 
-  layout(
-    height = 400,
-    width = 900  # Adjust width to better fit your slide
-  ) %>%
-  # add source
-  layout(annotations = list(text = "Source: The V-Dem Institute, Varities of Democracy Dataset",  
-                            font = list(size = 10), showarrow = FALSE,
-                            xref = 'paper', x = 1, xanchor = 'right', xshift = 100,
-                            yref = 'paper', y = -.1, yanchor = 'auto', yshift = 0)) %>%
-  # add web address
-  layout(annotations = list(text = "www.psc2339.com", 
-                            font = list(size = 10, color = 'grey'), showarrow = FALSE,
-                            xref = 'paper', x = .5, xanchor = 'center', xshift = 0,
-                            yref = 'paper', y = 1, yanchor = 'top', yshift = 0))
-```
-
-## Thinking About the Data
-
--   Pick your favorite era
--   Was this era more or less democratic than modernization theory would
-    predict?
--   Does this surprise you?
-
-# More Theory
-
-## Endogenous Democratization
+## "Endogenous Democratization"
 
 -   Democracy is a direct *consequence* of economic development
--   Synonymous with modernization theory
+-   Przeworski's term for modernization theory
     -   *Endogenous*--coming from within
     -   Democracy is a result of wealth
--   Mechanisms
-    -   Industrialization
-    -   Urbanization
-    -   Rise of middle class
-    -   Education
+    
+## Proposed Mechanisms
+
+-   Industrialization
+-   Urbanization
+-   Rise of middle class
+-   Education
 
 ## Exogenous Democratization
 
 -   *Exogenous*--resulting from an external cause
 -   Wealth does not cause democracy
 -   But democracy is more easily sustained in wealthy countries
-    (Przeworski et. al.)
--   Mechanisms unclear (Boix & Stokes)
+-   Przeworski's argument against modernization theory
 
-# More Recent Trends
+## Democratic Survival and Income {.smaller}
 
-## Are the Wealthiest Countries Democratic?
+<br>
 
+> “No democracy has ever fallen in a country with a per capita income higher than that of Argentina in 1975.”
+
+— Adam Przeworski et al., *Democracy and Development* (2000)
+
+<br>
+
+Empirical threshold
+- ≈ $6,000 GDP per capita (1990 PPP dollars)
+- Above this level, democracies are observed to be ‘immortal’ in the data
+
+<br>
+
+**Key point:** income predicts **democratic survival**, not democratic transition
+
+# Breaking it Down
+
+## Democracy and Development by Region
+
+<br>
+
+<div class="center-plotly">
 ```{r}
-#| label: wealthiest1 
-ggplot(biggest, aes(y = fct_reorder(country, gdp), x = gdp)) +  
-  geom_col(fill = "red") +
-  scale_x_continuous(labels = function(x) paste0("$", x/1000000000000, " ", "Trillion")) +
-  labs(x = "\nGDP (constant 2015 US$)", y = NULL, 
-       title = "The fifteen largest economies by GDP", 
-       caption = "\nSource: The World Bank, World Development Indicators, Retrieved from DataBank")
+#| label: by_region
+
+modernization_by_region
 ```
+</div>
 
-## In terms of Purchasing Power Parity...
+## Democracy and Development Over Time
 
+<br>
+
+<div class="center-plotly">
 ```{r}
-#| label: wealthiest2 
-ggplot(biggest_ppp, aes(y = fct_reorder(country, gdp_ppp), x = gdp_ppp)) +  
-  geom_col(fill = "red") +
-  scale_x_continuous(labels = function(x) paste0("$", x/1000000000000, " ", "Trillion")) +
-  labs(x = "\nGDP, PPP (constant 2017 International $)", y = NULL, 
-       title = "The fifteen largest economies by GDP in terms of PPP", 
-       caption = "\nSource: The World Bank, World Development Indicators, Retrieved from DataBank") 
+#| label: over_time2
+
+modernization_over_time
 ```
+</div>
 
-## Thinking About the Data
+# Discussion
 
--   Discuss the differences between GDP and nominal terms
--   Do you think the most recent data support modernization theory?
--   Or is exogenous theory more convincing?
+## Three Theories
 
-## Squaring the Circle
+- Modernization; exogenous; and inclusive institutions (A&R)
+- Sketch the causal arrow for each theory
+- Choose a country (your favorite or from the list)
 
-![Acemoglu & Robinson, figure 4](images/AR_fig4.png){width="70%"}
+Possible cases (pick one): South Korea, Chile, Ghana, India, Singapore, Nigeria, Poland, Mexico, China
 
-::: notes
-How would we make sense of A&R's cases in light of today's discussion?
-A&R clearly want to discount modernization theory: institutions come
-first for A&R But then how do inclusive institutions and strong states
-emerge? Can we resolve the contradictions among these three theories:
-A&R, modernization, endogenous democratization?
-:::
+## Discussion Prompts
+
+- Which theory fits your case best? Which fits worst?
+- What evidence would change your mind?
+- Is it "deviant" relative to any theory?
+- How does your case fit to the "universe" of cases?
+  - e.g. all of the countries for all of the years

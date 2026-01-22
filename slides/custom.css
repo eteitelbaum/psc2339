@@ -2,3 +2,10 @@
   display: flex;
   justify-content: center;
 }
+.center-plotly .cell-output-display {
+  display: flex;
+  justify-content: center;
+}
+.center-plotly .html-widget {
+  margin: 0 auto;
+}

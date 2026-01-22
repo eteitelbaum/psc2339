@@ -2720,7 +2720,7 @@
     "href": "slides/lecture-2.2.html#what-is-modernization-theory",
     "title": "Lecture 2.2",
     "section": "What is Modernization Theory?",
-    "text": "What is Modernization Theory?\n\nBased on observation by Lipset (1959)\nNoted that democracy is highly correlated with development\nTook on guise of causal argument\n\nWealth → democaracy\nLed to decades of debate"
+    "text": "What is Modernization Theory?\n\nBased on observation by Lipset (1959)\nNoted that democracy is highly correlated with development\nTook on guise of causal argument\n\nWealth → democaracy"
   },
   {
     "objectID": "slides/lecture-2.2.html#some-stylized-facts",
@@ -2762,7 +2762,7 @@
     "href": "slides/lecture-2.2.html#electoral-democracy",
     "title": "Lecture 2.2",
     "section": "Electoral Democracy",
-    "text": "Electoral Democracy\nElectoral Democracy: “seeks to embody the core value of making rulers responsive to citizens, achieved through electoral competition…[P]olitical and civil society organizations can operate freely, elections are clean..and affect the composition of the chief executive.”"
+    "text": "Electoral Democracy\n\nElectoral Democracy: “seeks to embody the core value of making rulers responsive to citizens, achieved through electoral competition…[P]olitical and civil society organizations can operate freely, elections are clean..and affect the composition of the chief executive.”"
   },
   {
     "objectID": "slides/lecture-2.2.html#other-ways-to-think-about-democracy",
@@ -2803,15 +2803,15 @@
     "objectID": "slides/lecture-2.2.html#endogenous-democratization",
     "href": "slides/lecture-2.2.html#endogenous-democratization",
     "title": "Lecture 2.2",
-    "section": "Endogenous Democratization",
-    "text": "Endogenous Democratization\n\nDemocracy is a direct consequence of economic development\nSynonymous with modernization theory\n\nEndogenous–coming from within\nDemocracy is a result of wealth\n\nMechanisms\n\nIndustrialization\nUrbanization\nRise of middle class\nEducation"
+    "section": "“Endogenous Democratization”",
+    "text": "“Endogenous Democratization”\n\nDemocracy is a direct consequence of economic development\nPrzeworski’s term for modernization theory\n\nEndogenous–coming from within\nDemocracy is a result of wealth"
   },
   {
     "objectID": "slides/lecture-2.2.html#exogenous-democratization",
     "href": "slides/lecture-2.2.html#exogenous-democratization",
     "title": "Lecture 2.2",
     "section": "Exogenous Democratization",
-    "text": "Exogenous Democratization\n\nExogenous–resulting from an external cause\nWealth does not cause democracy\nBut democracy is more easily sustained in wealthy countries (Przeworski et. al.)\nMechanisms unclear (Boix & Stokes)"
+    "text": "Exogenous Democratization\n\nExogenous–resulting from an external cause\nWealth does not cause democracy\nBut democracy is more easily sustained in wealthy countries\nPrzeworski’s argument against modernization theory"
   },
   {
     "objectID": "slides/lecture-2.2.html#are-the-wealthiest-countries-democratic",
@@ -2839,7 +2839,7 @@
     "href": "slides/lecture-2.2.html#squaring-the-circle",
     "title": "Lecture 2.2",
     "section": "Squaring the Circle",
-    "text": "Squaring the Circle\n\nAcemoglu & Robinson, figure 4\nHow would we make sense of A&R’s cases in light of today’s discussion? A&R clearly want to discount modernization theory: institutions come first for A&R But then how do inclusive institutions and strong states emerge? Can we resolve the contradictions among these three theories: A&R, modernization, endogenous democratization?"
+    "text": "Squaring the Circle\n\nAcemoglu & Robinson, Figure 4\nHow would we make sense of A&R’s cases in light of today’s discussion? A&R clearly want to discount modernization theory: institutions come first for A&R But then how do inclusive institutions and strong states emerge? Can we resolve the contradictions among these three theories: A&R, modernization, endogenous democratization?"
   },
   {
     "objectID": "slides/lecture-10.2.html#three-theories",
@@ -3510,7 +3510,7 @@
     "href": "slides/lecture-2.1.html#regime-shifts",
     "title": "Lecture 2.1",
     "section": "Regime Shifts",
-    "text": "Regime Shifts\n\nAcemoglu & Robinson, figure 4"
+    "text": "Regime Shifts\n\nAcemoglu & Robinson, Figure 4"
   },
   {
     "objectID": "slides/lecture-2.1.html#discussion",
@@ -3546,5 +3546,110 @@
     "title": "Lecture 1",
     "section": "Polanyi’s Warning",
     "text": "Polanyi’s Warning\n\nThe self-regulating market is a “dangerous fantasy”\nCommodifying labor, land, and money destroys society\nSociety will always protect itself (double movement)\nIf democratic protection is blocked, society turns to authoritarianism\nMarket regulation is not “leftist” but necessary for social survival"
+  },
+  {
+    "objectID": "slides/lecture-2.2.html#endogenous-democratization-theory",
+    "href": "slides/lecture-2.2.html#endogenous-democratization-theory",
+    "title": "Lecture 2.2",
+    "section": "Endogenous Democratization (Theory)",
+    "text": "Endogenous Democratization (Theory)\n\nDemocracy is a direct consequence of economic development\nSynonymous with modernization theory\n\nEndogenous–coming from within\nDemocracy is a result of wealth"
+  },
+  {
+    "objectID": "slides/lecture-2.2.html#endogenous-democratization-mechanisms",
+    "href": "slides/lecture-2.2.html#endogenous-democratization-mechanisms",
+    "title": "Lecture 2.2",
+    "section": "Endogenous Democratization (Mechanisms)",
+    "text": "Endogenous Democratization (Mechanisms)\n\nIndustrialization\nUrbanization\nRise of middle class\nEducation"
+  },
+  {
+    "objectID": "slides/lecture-2.2.html#are-the-wealthiest-countries-democratic-ppp",
+    "href": "slides/lecture-2.2.html#are-the-wealthiest-countries-democratic-ppp",
+    "title": "Lecture 2.2",
+    "section": "Are the Wealthiest Countries Democratic? (PPP)",
+    "text": "Are the Wealthiest Countries Democratic? (PPP)"
+  },
+  {
+    "objectID": "slides/lecture-2.2.html#wealth-per-capita-ppp",
+    "href": "slides/lecture-2.2.html#wealth-per-capita-ppp",
+    "title": "Lecture 2.2",
+    "section": "Wealth per capita (PPP)",
+    "text": "Wealth per capita (PPP)"
+  },
+  {
+    "objectID": "slides/lecture-2.2.html#gdp-and-gdp-per-capita",
+    "href": "slides/lecture-2.2.html#gdp-and-gdp-per-capita",
+    "title": "Lecture 2.2",
+    "section": "GDP and GDP per Capita",
+    "text": "GDP and GDP per Capita\n\nGross Domestic Product (GDP)\n\nTotal value of goods and services produced within a country\n\nGDP per capita\n\nGDP divided by total population\n\nGenerally speaking, we use GDP per capita to measure wealth of individual countries\nWhereas GDP may be more of a measure of power or influence"
+  },
+  {
+    "objectID": "slides/lecture-2.2.html#worlds-largest-economies",
+    "href": "slides/lecture-2.2.html#worlds-largest-economies",
+    "title": "Lecture 2.2",
+    "section": "World’s Largest Economies",
+    "text": "World’s Largest Economies"
+  },
+  {
+    "objectID": "slides/lecture-2.2.html#worlds-wealthiest-countries",
+    "href": "slides/lecture-2.2.html#worlds-wealthiest-countries",
+    "title": "Lecture 2.2",
+    "section": "World’s Wealthiest Countries",
+    "text": "World’s Wealthiest Countries"
+  },
+  {
+    "objectID": "slides/lecture-2.2.html#polyarchy-electoral-democracy",
+    "href": "slides/lecture-2.2.html#polyarchy-electoral-democracy",
+    "title": "Lecture 2.2",
+    "section": "Polyarchy (Electoral Democracy)",
+    "text": "Polyarchy (Electoral Democracy)\n\nPolyarchy: “seeks to embody the core value of making rulers responsive to citizens, achieved through electoral competition…[P]olitical and civil society organizations can operate freely, elections are clean..and affect the composition of the chief executive.”"
+  },
+  {
+    "objectID": "slides/lecture-2.2.html#other-v-dem-indices",
+    "href": "slides/lecture-2.2.html#other-v-dem-indices",
+    "title": "Lecture 2.2",
+    "section": "Other V-Dem Indices",
+    "text": "Other V-Dem Indices\n\nLiberal: checks on executive power, rights protections, rule of law\nParticipatory: citizen participation beyond elections\nDeliberative: reasoned public debate and justification\nEgalitarian: equal political access and influence"
+  },
+  {
+    "objectID": "slides/lecture-2.2.html#most-democratic-countries-polyarchy",
+    "href": "slides/lecture-2.2.html#most-democratic-countries-polyarchy",
+    "title": "Lecture 2.2",
+    "section": "Most Democratic Countries (Polyarchy)",
+    "text": "Most Democratic Countries (Polyarchy)"
+  },
+  {
+    "objectID": "slides/lecture-2.2.html#proposed-mechanisms",
+    "href": "slides/lecture-2.2.html#proposed-mechanisms",
+    "title": "Lecture 2.2",
+    "section": "Proposed Mechanisms",
+    "text": "Proposed Mechanisms\n\nIndustrialization\nUrbanization\nRise of middle class\nEducation"
+  },
+  {
+    "objectID": "slides/lecture-2.2.html#discussion",
+    "href": "slides/lecture-2.2.html#discussion",
+    "title": "Lecture 2.2",
+    "section": "Discussion",
+    "text": "Discussion"
+  },
+  {
+    "objectID": "slides/lecture-2.2.html#democratic-survival-and-income",
+    "href": "slides/lecture-2.2.html#democratic-survival-and-income",
+    "title": "Lecture 2.2",
+    "section": "Democratic Survival and Income",
+    "text": "Democratic Survival and Income\n\n\n“No democracy has ever fallen in a country with a per capita income higher than that of Argentina in 1975.”\n\n— Adam Przeworski et al., Democracy and Development (2000)\n\nEmpirical threshold - ≈ $6,000 GDP per capita (1990 PPP dollars) - Above this level, democracies are observed to be ‘immortal’ in the data\n\nKey point: income predicts democratic survival, not democratic transition"
+  },
+  {
+    "objectID": "slides/lecture-2.2.html#three-theories",
+    "href": "slides/lecture-2.2.html#three-theories",
+    "title": "Lecture 2.2",
+    "section": "Three Theories",
+    "text": "Three Theories\n\nModernization; exogenous; and inclusive institutions (A&R)\nSketch the causal arrow for each theory\nChoose a country (your favorite or from the list)\n\nPossible cases (pick one): South Korea, Chile, Ghana, India, Singapore, Nigeria, Poland, Mexico, China"
+  },
+  {
+    "objectID": "slides/lecture-2.2.html#discussion-prompts",
+    "href": "slides/lecture-2.2.html#discussion-prompts",
+    "title": "Lecture 2.2",
+    "section": "Discussion Prompts",
+    "text": "Discussion Prompts\n\nWhich theory fits your case best? Which fits worst?\nWhat evidence would change your mind?\nIs it “deviant” relative to any theory?\nHow does your case fit to the “universe” of cases?\n\ne.g. all of the countries for all of the years"
   }
 ]

@@ -137,7 +137,7 @@ slavery; the encomienda system (forced labor); child labor
 
 ## Regime Shifts
 
-![Acemoglu & Robinson, figure 4](images/AR_fig4.png){width="70%"}
+![Acemoglu & Robinson, Figure 4](images/AR_fig4.png){width="70%"}
 
 ## Zimbabwe, South Africa & China
 
