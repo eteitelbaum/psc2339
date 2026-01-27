@@ -114,6 +114,9 @@ top10_autocratizing |>
   tab_source_note(
     source_note = "Source: V-Dem Institute, Varieties of Democracy Dataset"
   ) |>
+  tab_source_note(
+    source_note = "Note: Regime types are based on passing separate thresholds for elections and liberal rights (not the LDI score)."
+  ) |>
   tab_style(
     style = cell_text(weight = "bold"),
     locations = cells_title()
