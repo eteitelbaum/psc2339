@@ -14,37 +14,17 @@ execute:
   freeze: auto
 ---
 
-```{r, setup}
+```{r}
 #| label: setup
-#| include: false 
+#| include: false
+
 library(tidyverse)
 library(vdemdata)
+library(gt)
 
 theme_set(theme_minimal())
 
-regime_type <- vdem %>%
-  filter(year >= 1975) %>%
-  select(country = country_name, year, regime_type = v2x_regime) %>%
-  mutate(
-    closed = if_else(regime_type == 0, 1, 0),
-    electoral_a = if_else(regime_type == 1, 1, 0),
-    electoral_d = if_else(regime_type == 2, 1, 0),
-    lib_dem = if_else(regime_type == 3, 1, 0),
-    num_ctrs = n_distinct(country)
-  ) 
-
-pct_regimes <- regime_type %>%
-  group_by(year, regime_type) %>%
-  summarize(n = n()) %>%
-  mutate(percent = 100*(n / sum(n))) %>%
-  select(!n) %>%
-  arrange(regime_type) %>%
-  mutate(regime_type = recode(regime_type, 
-                              `0` = "closed",
-                              `1` = "electoral_auth",
-                              `2` = "electoral_dem",
-                              `3` = "liberal_dem")) %>%
-  drop_na()
+source("helper/lecture-3.1.R")
 ```
 
 # What is Backsliding
@@ -76,16 +56,88 @@ autocracies."
 ```{r}
 ggplot(pct_regimes, aes(x = year, y = percent, color = regime_type)) +
   geom_line(linewidth = 1) +
-  labs(x = NULL, y = "Percent", 
-       title = "Trends in Regime Type, 1975 - Present\n") +
-  scale_color_brewer(palette = "Dark2", name = "Regime Type") 
+  labs(x = NULL, y = "Percent",
+       title = paste0("Trends in Regime Type, 1975 - ", latest_vdem_year, "\n")) +
+  scale_color_brewer(palette = "Dark2", name = "Regime Type")
 ```
 
-## Examples
+## The Biggest Backsliders
 
-![](images/top10.png){width="50%"}
+<br>
 
-## Common Mechanisms
+```{r}
+top10_autocratizing |>
+  gt() |>
+  tab_header(
+    title = paste0("Top 10 Autocratizing Countries, ", start_year, " - ", latest_vdem_year)
+  ) |>
+  fmt_number(
+    columns = c(Change, `LDI Start`, `LDI End`),
+    decimals = 2
+  ) |>
+  tab_style(
+    style = list(cell_fill(color = "#9970ab"), cell_text(color = "white", size = px(14))),
+    locations = cells_body(columns = `Regime Start`, rows = `Regime Start` == "Liberal Democracy")
+  ) |>
+  tab_style(
+    style = list(cell_fill(color = "#de77ae"), cell_text(color = "white", size = px(14))),
+    locations = cells_body(columns = `Regime Start`, rows = `Regime Start` == "Electoral Democracy")
+  ) |>
+  tab_style(
+    style = list(cell_fill(color = "#fdb863"), cell_text(color = "white", size = px(14))),
+    locations = cells_body(columns = `Regime Start`, rows = `Regime Start` == "Electoral Autocracy")
+  ) |>
+  tab_style(
+    style = list(cell_fill(color = "#8c510a"), cell_text(color = "white", size = px(14))),
+    locations = cells_body(columns = `Regime Start`, rows = `Regime Start` == "Closed Autocracy")
+  ) |>
+  tab_style(
+    style = list(cell_fill(color = "#9970ab"), cell_text(color = "white", size = px(14))),
+    locations = cells_body(columns = `Regime End`, rows = `Regime End` == "Liberal Democracy")
+  ) |>
+  tab_style(
+    style = list(cell_fill(color = "#de77ae"), cell_text(color = "white", size = px(14))),
+    locations = cells_body(columns = `Regime End`, rows = `Regime End` == "Electoral Democracy")
+  ) |>
+  tab_style(
+    style = list(cell_fill(color = "#fdb863"), cell_text(color = "white", size = px(14))),
+    locations = cells_body(columns = `Regime End`, rows = `Regime End` == "Electoral Autocracy")
+  ) |>
+  tab_style(
+    style = list(cell_fill(color = "#8c510a"), cell_text(color = "white", size = px(14))),
+    locations = cells_body(columns = `Regime End`, rows = `Regime End` == "Closed Autocracy")
+  ) |>
+  tab_footnote(
+    footnote = "LDI = Liberal Democracy Index",
+    locations = cells_column_labels(columns = c(`LDI Start`, `LDI End`))
+  ) |>
+  tab_source_note(
+    source_note = "Source: V-Dem Institute, Varieties of Democracy Dataset"
+  ) |>
+  tab_style(
+    style = cell_text(weight = "bold"),
+    locations = cells_title()
+  ) |>
+  tab_style(
+    style = cell_text(weight = "bold"),
+    locations = cells_column_labels()
+  ) |>
+  tab_style(
+    style = cell_text(align = "center"),
+    locations = cells_body(columns = c(Change, `LDI Start`, `LDI End`))
+  ) |>
+  tab_style(
+    style = cell_text(align = "center"),
+    locations = cells_column_labels(columns = c(Change, `LDI Start`, `LDI End`))
+  ) |>
+  tab_options(
+    table.font.size = px(14),
+    heading.title.font.size = px(16),
+    table.width = pct(80)
+  )
+```
+
+## Common Mechanisms of Backsliding
 
 -   Constitutional amendments to enhance executive authority
 -   Elimination of checks and balances, reduction of accountability
@@ -115,16 +167,7 @@ ggplot(pct_regimes, aes(x = year, y = percent, color = regime_type)) +
 -   Kaufman and Haggard reading
 -   How has backsliding occurred in middle-income countries?
 -   How similar is the U.S. to these countries?
--   Is electoral authoritarianism possible in the U.S.?
-
-## V-Dem Report
-
-<br>
-
-- Check out [the most recent](https://v-dem.net/documents/43/v-dem_dr2024_lowres.pdf) V-Dem report
-- Skim chapter 2 on regime change
-- Pick one visualization to discuss
-- What are the implications for our understanding of backsliding?
+-   What kind of regime is the U.S.? 
 
 # Theories of Backsliding
 
@@ -216,6 +259,5 @@ ggplot(pct_regimes, aes(x = year, y = percent, color = regime_type)) +
 -   Explore the [Democracy Around the World](https://emmanuelteitelbaum.shinyapps.io/vdem-dashboard/) App
 
 - Discuss
-  - Pick a favorite country or region
-  - What patterns stand out?
-  - Can you find any non-backsliders? 
+  - Pick a backsliding country
+  - How would you explain its democratic decline 

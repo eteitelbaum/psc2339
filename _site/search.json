@@ -1247,7 +1247,7 @@
     "href": "slides/lecture-3.1.html#examples",
     "title": "Lecture 3.1",
     "section": "Examples",
-    "text": "Examples"
+    "text": "Examples\n\n\n\n\n\n\n\n\nTop 10 Autocratizing Countries, 2010 - 2024\n\n\nCountry\nChange\nLDI Start\nLDI End\nRegime Start\nRegime End\n\n\n\n\nHungary\n−0.36\n0.68\n0.32\nElectoral Democracy\nElectoral Autocracy\n\n\nEl Salvador\n−0.33\n0.43\n0.09\nElectoral Democracy\nElectoral Autocracy\n\n\nSerbia\n−0.29\n0.51\n0.22\nLiberal Democracy\nElectoral Autocracy\n\n\nMauritius\n−0.29\n0.66\n0.37\nLiberal Democracy\nElectoral Autocracy\n\n\nMali\n−0.26\n0.41\n0.15\nElectoral Democracy\nClosed Autocracy\n\n\nTürkiye\n−0.26\n0.37\n0.12\nElectoral Democracy\nElectoral Autocracy\n\n\nIndia\n−0.25\n0.54\n0.29\nElectoral Democracy\nElectoral Autocracy\n\n\nGreece\n−0.24\n0.81\n0.58\nLiberal Democracy\nElectoral Democracy\n\n\nBurkina Faso\n−0.22\n0.35\n0.13\nElectoral Democracy\nClosed Autocracy\n\n\nMexico\n−0.22\n0.47\n0.25\nElectoral Democracy\nElectoral Democracy\n\n\n\nSource: V-Dem Institute, Varieties of Democracy Dataset"
   },
   {
     "objectID": "slides/lecture-3.1.html#common-mechanisms",
@@ -1268,7 +1268,7 @@
     "href": "slides/lecture-3.1.html#u.s.-in-comparative-perspective",
     "title": "Lecture 3.1",
     "section": "U.S. in Comparative Perspective",
-    "text": "U.S. in Comparative Perspective\n\n\nKaufman and Haggard reading\nHow has backsliding occurred in middle-income countries?\nHow similar is the U.S. to these countries?\nIs electoral authoritarianism possible in the U.S.?"
+    "text": "U.S. in Comparative Perspective\n\n\nKaufman and Haggard reading\nHow has backsliding occurred in middle-income countries?\nHow similar is the U.S. to these countries?\nWhat kind of regime is the U.S.?"
   },
   {
     "objectID": "slides/lecture-3.1.html#v-dem-report",
@@ -1331,7 +1331,7 @@
     "href": "slides/lecture-3.1.html#group-exercise",
     "title": "Lecture 3.1",
     "section": "Group Exercise",
-    "text": "Group Exercise\n\n\nExplore the Democracy Around the World App\nDiscuss\n\nPick a favorite country or region\nWhat patterns stand out?\nCan you find any non-backsliders?"
+    "text": "Group Exercise\n\n\nExplore the Democracy Around the World App\nDiscuss\n\nPick a backsliding country\nHow would you explain its democratic decline"
   },
   {
     "objectID": "slides/lecture-1.html#polanyis-obejctives",
@@ -3651,5 +3651,19 @@
     "title": "Lecture 2.2",
     "section": "Discussion Prompts",
     "text": "Discussion Prompts\n\nWhich theory fits your case best? Which fits worst?\nWhat evidence would change your mind?\nIs it “deviant” relative to any theory?\nHow does your case fit to the “universe” of cases?\n\ne.g. all of the countries for all of the years"
+  },
+  {
+    "objectID": "slides/lecture-3.1.html#the-biggest-backsliders",
+    "href": "slides/lecture-3.1.html#the-biggest-backsliders",
+    "title": "Lecture 3.1",
+    "section": "The Biggest Backsliders",
+    "text": "The Biggest Backsliders\n\n\n\n\n\n\n  \n    \n      Top 10 Autocratizing Countries, 2010 - 2024\n    \n    \n    \n      Country\n      Change\n      LDI Start1\n      LDI End1\n      Regime Start\n      Regime End\n    \n  \n  \n    Hungary\n−0.36\n0.68\n0.32\nElectoral Democracy\nElectoral Autocracy\n    El Salvador\n−0.33\n0.43\n0.09\nElectoral Democracy\nElectoral Autocracy\n    Serbia\n−0.29\n0.51\n0.22\nLiberal Democracy\nElectoral Autocracy\n    Mauritius\n−0.29\n0.66\n0.37\nLiberal Democracy\nElectoral Autocracy\n    Mali\n−0.26\n0.41\n0.15\nElectoral Democracy\nClosed Autocracy\n    Türkiye\n−0.26\n0.37\n0.12\nElectoral Democracy\nElectoral Autocracy\n    India\n−0.25\n0.54\n0.29\nElectoral Democracy\nElectoral Autocracy\n    Greece\n−0.24\n0.81\n0.58\nLiberal Democracy\nElectoral Democracy\n    Burkina Faso\n−0.22\n0.35\n0.13\nElectoral Democracy\nClosed Autocracy\n    Mexico\n−0.22\n0.47\n0.25\nElectoral Democracy\nElectoral Democracy\n  \n  \n    \n      Source: V-Dem Institute, Varieties of Democracy Dataset\n    \n  \n  \n    \n      1 LDI = Liberal Democracy Index"
+  },
+  {
+    "objectID": "slides/lecture-3.1.html#common-mechanisms-of-backsliding",
+    "href": "slides/lecture-3.1.html#common-mechanisms-of-backsliding",
+    "title": "Lecture 3.1",
+    "section": "Common Mechanisms of Backsliding",
+    "text": "Common Mechanisms of Backsliding\n\nConstitutional amendments to enhance executive authority\nElimination of checks and balances, reduction of accountability\nCentralization of executive power through purges\nIntimidation of media and civil society\nElimination of political competition\n\nattacks on competitors\nrigged elections"
   }
 ]
