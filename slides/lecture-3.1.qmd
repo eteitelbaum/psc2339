@@ -259,7 +259,7 @@ top10_autocratizing |>
 
 <br>
 
--   Explore the [Democracy Around the World](https://emmanuelteitelbaum.shinyapps.io/vdem-dashboard/) App
+-   Explore the [Democracy Around the World](https://emmanuelteitelbaum.shinyapps.io/vdemdashboard/) App
 
 - Discuss
   - Pick a backsliding country

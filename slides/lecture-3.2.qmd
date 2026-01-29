@@ -125,7 +125,7 @@ ggplotly(oil_democracy, tooltip = c("country", "polyarchy", "oil_inc_pc")) %>%
 
 -   What is a "fiscal theory of democracy" and what does it have to do
     with the oil curse?
--   Explore the [Democracy Around the World](https://emmanuelteitelbaum.shinyapps.io/vdem-dashboard/) App
+-   Explore the [Democracy Around the World](https://emmanuelteitelbaum.shinyapps.io/vdemdashboard/) App
   - Which country cases support Ross's theory?
   - Which countries are exceptions?  
 
