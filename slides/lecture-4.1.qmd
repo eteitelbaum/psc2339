@@ -23,7 +23,7 @@ library(wbstats)
 library(rnaturalearth)
 library(plotly)
 
-theme_set(theme_minimal())
+theme_set(theme_minimal() + theme(plot.caption = element_text(hjust = 0)))
 flfp <- "SL.TLF.CACT.FE.ZS" 
 gdp_pc <- "NY.GDP.PCAP.KD"
 tfr <- "SP.DYN.TFRT.IN"
@@ -36,6 +36,51 @@ dependency_ratio_old <- "SP.POP.DPND.OL"
 dependency_ratio_yng <- "SP.POP.DPND.YG"
 women_representation <- "SG.GEN.PARL.ZS"
 domestic_violence <- "SG.VAW.1549.ZS"
+
+year_note <- function(dates) {
+  years <- if (is.numeric(dates)) dates else suppressWarnings(as.integer(dates))
+  years <- years[!is.na(years)]
+  if (length(years) == 0) {
+    return("Data are from the most recent available year (n/a)")
+  }
+  if (min(years) == max(years)) {
+    return(paste("Data are from the most recent available year (", max(years), ")", sep = ""))
+  }
+  paste0(
+    "Data are from the most recent available year (",
+    min(years),
+    "-",
+    max(years),
+    ", varies by country)"
+  )
+}
+
+wrap_caption <- function(text) {
+  stringr::str_wrap(text, width = 110)
+}
+
+source_overrides <- c(
+  SP.POP.BRTH.MF = "World Bank staff estimates (UN World Population Prospects 2019 Revision)",
+  SP.POP.1564.TO.ZS = "World Bank staff estimates (UN World Population Prospects 2019 Revision)",
+  SP.POP.DPND = "World Bank staff estimates (UN World Population Prospects 2019 Revision)",
+  SP.POP.DPND.OL = "World Bank staff estimates (UN World Population Prospects 2019 Revision)",
+  SP.POP.DPND.YG = "World Bank staff estimates (UN World Population Prospects 2019 Revision)",
+  SP.DYN.TFRT.IN = "UN Population Division, World Population Prospects 2019 Revision",
+  SL.TLF.CACT.FE.ZS = "International Labour Organization, ILOSTAT database",
+  SG.GEN.PARL.ZS = "Inter-Parliamentary Union (IPU)",
+  SG.LAW.INDX = "World Bank, Women, Business and the Law",
+  SP.M18.2024.FE.ZS = "World Bank, World Development Indicators",
+  SG.VAW.1549.ZS = "World Bank, World Development Indicators"
+)
+
+build_caption <- function(indicator_id, source_org, dates) {
+  source_text <- source_org
+  if (indicator_id %in% names(source_overrides)) {
+    source_text <- source_overrides[[indicator_id]]
+  }
+  source_line <- wrap_caption(paste("Source:", source_text))
+  paste(source_line, year_note(dates), sep = "\n")
+}
 ```
 
 # Overview
@@ -62,13 +107,14 @@ domestic_violence <- "SG.VAW.1549.ZS"
 #| label: sex_ratios
 
 indicator_info <- filter(wb_cachelist$indicators, indicator_id == sex_ratio)
+sex_ratio_data <- wb_data(
+  c(sex_ratio = sex_ratio), 
+  mrnev = 1
+)
 
 ne_countries(returnclass = "sf") %>%
   left_join(
-    wb_data(
-      c(sex_ratio = sex_ratio), 
-      mrnev = 1
-    ),
+    sex_ratio_data,
     c("iso_a3_eh" = "iso3c")
   ) %>%
   filter(iso_a3 != "ATA") %>% # remove Antarctica
@@ -79,7 +125,7 @@ ne_countries(returnclass = "sf") %>%
   labs(
     title = indicator_info$indicator,
     fill = NULL,
-    caption = paste("Source:", indicator_info$source_org) 
+    caption = build_caption(indicator_info$indicator_id, indicator_info$source_org, sex_ratio_data$date)
   )
 ```
 
@@ -101,13 +147,14 @@ ne_countries(returnclass = "sf") %>%
 #| label: wbl
 
 indicator_info <- filter(wb_cachelist$indicators, indicator_id == wbl)
+wbl_data <- wb_data(
+  c(wbl = wbl), 
+  mrnev = 1
+)
 
 ne_countries(returnclass = "sf") %>%
   left_join(
-    wb_data(
-      c(wbl = wbl), 
-      mrnev = 1
-    ),
+    wbl_data,
     c("iso_a3_eh" = "iso3c")
   ) %>%
   filter(iso_a3_eh != "ATA") %>% # remove Antarctica
@@ -118,7 +165,7 @@ ne_countries(returnclass = "sf") %>%
   labs(
     title = indicator_info$indicator,
     fill = NULL,
-    caption = paste("Source:", indicator_info$source_org) 
+    caption = build_caption(indicator_info$indicator_id, indicator_info$source_org, wbl_data$date)
   )
 ```
 
@@ -136,13 +183,14 @@ possible score.
 #| label: child_marriage
 
 indicator_info <- filter(wb_cachelist$indicators, indicator_id == child_marriage)
+child_marriage_data <- wb_data(
+  c(child_marriage = child_marriage), 
+  mrnev = 1
+)
 
 ne_countries(returnclass = "sf") %>%
   left_join(
-    wb_data(
-      c(child_marriage = child_marriage), 
-      mrnev = 1
-    ),
+    child_marriage_data,
     c("iso_a3_eh" = "iso3c")
   ) %>%
   filter(iso_a3_eh != "ATA") %>% # remove Antarctica
@@ -153,7 +201,7 @@ ne_countries(returnclass = "sf") %>%
   labs(
     title = indicator_info$indicator,
     fill = NULL,
-    caption = paste("Source:", indicator_info$source_org) 
+    caption = build_caption(indicator_info$indicator_id, indicator_info$source_org, child_marriage_data$date)
   )
 ```
 
@@ -163,13 +211,14 @@ ne_countries(returnclass = "sf") %>%
 #| label: domestic_violence
 
 indicator_info <- filter(wb_cachelist$indicators, indicator_id == domestic_violence)
+domestic_violence_data <- wb_data(
+  c(domestic_violence = domestic_violence), 
+  mrnev = 1
+)
 
 ne_countries(returnclass = "sf") %>%
   left_join(
-    wb_data(
-      c(domestic_violence = domestic_violence), 
-      mrnev = 1
-    ),
+    domestic_violence_data,
     c("iso_a3_eh" = "iso3c")
   ) %>%
   filter(iso_a3_eh != "ATA") %>% # remove Antarctica
@@ -180,7 +229,7 @@ ne_countries(returnclass = "sf") %>%
   labs(
     title = indicator_info$indicator,
     fill = NULL,
-    caption = paste("Source:", indicator_info$source_org) 
+    caption = build_caption(indicator_info$indicator_id, indicator_info$source_org, domestic_violence_data$date)
   )
 ```
 
@@ -235,13 +284,14 @@ labor-augmenting technology (knowledge), and $H$ = human capital
 #| label: working_age_pop
 
 indicator_info <- filter(wb_cachelist$indicators, indicator_id == working_age_pop)
+working_age_pop_data <- wb_data(
+  c(working_age_pop = working_age_pop), 
+  mrnev = 1
+)
 
 ne_countries(returnclass = "sf") %>%
   left_join(
-    wb_data(
-      c(working_age_pop = working_age_pop), 
-      mrnev = 1
-    ),
+    working_age_pop_data,
     c("iso_a3_eh" = "iso3c")
   ) %>%
   filter(iso_a3_eh != "ATA") %>% # remove Antarctica
@@ -252,7 +302,7 @@ ne_countries(returnclass = "sf") %>%
   labs(
     title = indicator_info$indicator,
     fill = NULL,
-    caption = paste("Source:", indicator_info$source_org) 
+    caption = build_caption(indicator_info$indicator_id, indicator_info$source_org, working_age_pop_data$date)
   )
 ```
 
@@ -268,13 +318,14 @@ relative to the total population.
 #| label: dependency
 
 indicator_info <- filter(wb_cachelist$indicators, indicator_id == dependency_ratio)
+dependency_ratio_data <- wb_data(
+  c(dependency_ratio = dependency_ratio), 
+  mrnev = 1
+)
 
 ne_countries(returnclass = "sf") %>%
   left_join(
-    wb_data(
-      c(dependency_ratio = dependency_ratio), 
-      mrnev = 1
-    ),
+    dependency_ratio_data,
     c("iso_a3_eh" = "iso3c")
   ) %>%
   filter(iso_a3_eh != "ATA") %>% # remove Antarctica
@@ -285,7 +336,7 @@ ne_countries(returnclass = "sf") %>%
   labs(
     title = indicator_info$indicator,
     fill = NULL,
-    caption = paste("Source:", indicator_info$source_org) 
+    caption = build_caption(indicator_info$indicator_id, indicator_info$source_org, dependency_ratio_data$date)
   )
 ```
 
@@ -305,13 +356,14 @@ ne_countries(returnclass = "sf") %>%
 #| label: dependency_old
 
 indicator_info <- filter(wb_cachelist$indicators, indicator_id == dependency_ratio_old)
+dependency_ratio_old_data <- wb_data(
+  c(dependency_ratio_old = dependency_ratio_old), 
+  mrnev = 1
+)
 
 ne_countries(returnclass = "sf") %>%
   left_join(
-    wb_data(
-      c(dependency_ratio_old = dependency_ratio_old), 
-      mrnev = 1
-    ),
+    dependency_ratio_old_data,
     c("iso_a3_eh" = "iso3c")
   ) %>%
   filter(iso_a3_eh != "ATA") %>% # remove Antarctica
@@ -322,7 +374,7 @@ ne_countries(returnclass = "sf") %>%
   labs(
     title = indicator_info$indicator,
     fill = NULL,
-    caption = paste("Source:", indicator_info$source_org) 
+    caption = build_caption(indicator_info$indicator_id, indicator_info$source_org, dependency_ratio_old_data$date)
   )
 ```
 
@@ -332,13 +384,14 @@ ne_countries(returnclass = "sf") %>%
 #| label: dependency_young
 
 indicator_info <- filter(wb_cachelist$indicators, indicator_id == dependency_ratio_yng)
+dependency_ratio_yng_data <- wb_data(
+  c(dependency_ratio_yng = dependency_ratio_yng), 
+  mrnev = 1
+)
 
 ne_countries(returnclass = "sf") %>%
   left_join(
-    wb_data(
-      c(dependency_ratio_yng = dependency_ratio_yng), 
-      mrnev = 1
-    ),
+    dependency_ratio_yng_data,
     c("iso_a3_eh" = "iso3c")
   ) %>%
   filter(iso_a3_eh != "ATA") %>% # remove Antarctica
@@ -349,7 +402,7 @@ ne_countries(returnclass = "sf") %>%
   labs(
     title = indicator_info$indicator,
     fill = NULL,
-    caption = paste("Source:", indicator_info$source_org) 
+    caption = build_caption(indicator_info$indicator_id, indicator_info$source_org, dependency_ratio_yng_data$date)
   )
 ```
 
@@ -380,13 +433,14 @@ over the last 30 years.
 #| label: flfp_map
 
 indicator_info <- filter(wb_cachelist$indicators, indicator_id == flfp)
+flfp_data <- wb_data(
+  c(flfp = flfp), 
+  mrnev = 1
+)
 
 ne_countries(returnclass = "sf") %>%
   left_join(
-    wb_data(
-      c(flfp = flfp), 
-      mrnev = 1
-    ),
+    flfp_data,
     c("iso_a3_eh" = "iso3c")
   ) %>%
   filter(iso_a3_eh != "ATA") %>% # remove Antarctica
@@ -397,7 +451,7 @@ ne_countries(returnclass = "sf") %>%
   labs(
     title = indicator_info$indicator,
     fill = NULL,
-    caption = paste("Source:", indicator_info$source_org) 
+    caption = build_caption(indicator_info$indicator_id, indicator_info$source_org, flfp_data$date)
   )
 ```
 
@@ -408,10 +462,13 @@ this graph? Do the patterns surprise you?
 
 ## Development and FLFP
 
+<br>
+
 ```{r}
 #| label: flfp_gdp
 
 flfp_gdp <- wb_data(c(flfp = flfp, gdp_pc = gdp_pc), mrnev = 1)
+flfp_gdp_note <- paste("Source: World Bank Development Indicators.", year_note(flfp_gdp$date))
 
 flfp_vs_gdp <- flfp_gdp %>%
   left_join(select(wb_countries(), c(iso3c, region)), by = "iso3c") %>%
@@ -426,10 +483,13 @@ flfp_vs_gdp <- flfp_gdp %>%
 
 ggplotly(flfp_vs_gdp, tooltip = c("country", "flfp", "gdp_pc")) %>%   
   # add source
-  layout(annotations = list(text = "Source: World Bank Development Indicators",  
+  layout(annotations = list(text = flfp_gdp_note,
                             font = list(size = 10), showarrow = FALSE,
-                            xref = 'paper', x = 1, xanchor = 'right', xshift = 0,
-                            yref = 'paper', y = -.1, yanchor = 'auto', yshift = 0)) %>%
+                            xref = 'paper', x = 0, xanchor = 'left',
+                            yref = 'paper', y = -.1, yanchor = 'auto', yshift = 0,
+                            align = 'left')) %>%
+  layout(margin = list(l = 60, r = 40, t = 40, b = 110)) %>%
+  layout(xaxis = list(title = list(standoff = 20))) %>%
   # add web address
   layout(annotations = list(text = "www.psc2339.com", 
                             font = list(size = 10, color = 'grey'), showarrow = FALSE,
@@ -458,13 +518,14 @@ ggplotly(flfp_vs_gdp, tooltip = c("country", "flfp", "gdp_pc")) %>%
 #| label: tfr
 
 indicator_info <- filter(wb_cachelist$indicators, indicator_id == tfr)
+tfr_data <- wb_data(
+  c(tfr = tfr), 
+  mrnev = 1
+)
 
 ne_countries(returnclass = "sf") %>%
   left_join(
-    wb_data(
-      c(tfr = tfr), 
-      mrnev = 1
-    ),
+    tfr_data,
     c("iso_a3_eh" = "iso3c")
   ) %>%
   filter(iso_a3_eh != "ATA") %>% # remove Antarctica
@@ -475,7 +536,7 @@ ne_countries(returnclass = "sf") %>%
   labs(
     title = indicator_info$indicator,
     fill = NULL,
-    caption = paste("Source:", indicator_info$source_org) 
+    caption = build_caption(indicator_info$indicator_id, indicator_info$source_org, tfr_data$date)
   )
 ```
 
@@ -501,13 +562,14 @@ contributes to lower growth.
 #| label: women_represenatation
 
 indicator_info <- filter(wb_cachelist$indicators, indicator_id == women_representation)
+women_representation_data <- wb_data(
+  c(women_representation = women_representation), 
+  mrnev = 1
+)
 
 ne_countries(returnclass = "sf") %>%
   left_join(
-    wb_data(
-      c(women_representation = women_representation), 
-      mrnev = 1
-    ),
+    women_representation_data,
     c("iso_a3_eh" = "iso3c")
   ) %>%
   filter(iso_a3_eh != "ATA") %>% # remove Antarctica
@@ -518,7 +580,7 @@ ne_countries(returnclass = "sf") %>%
   labs(
     title = indicator_info$indicator,
     fill = NULL,
-    caption = "Source: Inter-Parliamentary Union (IPU) (www.ipu.org). Most recent values retrieved from World Bank Development Indicators." 
+    caption = build_caption(indicator_info$indicator_id, indicator_info$source_org, women_representation_data$date)
   )
 ```
 
