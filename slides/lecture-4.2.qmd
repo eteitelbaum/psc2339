@@ -1,45 +1,122 @@
 ---
-title: "Lecture 4.2"
-subtitle: "Exam 1 review"
+title: "Exam 1 Review Sheet"
+subtitle: "Through Week 4 (Women's Empowerment)"
 author: "Emmanuel Teitelbaum"
 footer: "[PSC 2339 Website](https://psc2339.com)"
 logo: "images/cpe_logo.png"
 format:
-  revealjs:
-    theme: moon
-    transition: fade
-    slide-number: true
+  html:
+    toc: true
+    toc-depth: 2
 execute:
   echo: false
   freeze: auto
 ---
 
-## Format, etc. 
+## Exam Format
 
-- Format
-  - multiple choice
-  - T/F explanation
-  - Essay
-  
-- Time
-  - 1hr 30 mins.
-  
-- Open book/open note
+- Open book / open notes
+- Essay-based exam (open-ended)
+- Focus on synthesis across lectures and readings through Week 4
 
-## Topics
+## Key Terms and Concepts (Lectures + Readings)
 
-- Polanyi
-- Institutions and development
-- Modernization theory
-- Backsliding
+### Polanyi (Lecture 1)
+
+- Self-regulating market
+- Embeddedness / disembedded economy
+- Fictional commodities (land, labor, money)
+- Double movement
+- Reciprocity, redistribution, householding, market exchange
+- Gold standard and economic liberalism
+
+### Institutions and Development (Lecture 2.1; Acemoglu & Robinson)
+
+- Institutions (formal vs informal)
+- Inclusive vs extractive institutions
+- Political vs economic institutions
+- Critical junctures and path dependence
+- Reversal of fortunes
+- Creative destruction (and resistance to it)
+
+### Modernization Theory (Lecture 2.2; Cheibub & Vreeland)
+
+- GDP and GDP per capita
+- V-Dem / polyarchy
+- Modernization theory (wealth → democracy)
+- Endogenous vs exogenous democratization
+- Democratic survival vs democratic transition
+
+### Democratic Backsliding (Lecture 3.1; Kaufman & Haggard)
+
+- Regime types (democracy, hybrid, authoritarian)
+- Backsliding / autocratization
+- Executive aggrandizement
+- Strategic harassment and manipulation
+- Checks and balances; judicial/legislative constraints
+
+### Resource Curse (Lecture 3.2; Ross)
+
 - Resource curse
-- Women's empowerment
+- Rentier effect; fiscal theory of democracy
+- Dutch disease
+- Oil rents and revenue volatility
+- Repression vs redistribution tradeoffs
 
-## Prep 
+### Women’s Empowerment (Lecture 4.1; Hessami & Lopes da Fonseca)
 
-- In-class exercise questions
+- Women, Business and the Law (WBL) index
+- Female labor force participation (FLFP)
+- Sex ratios; “missing women”
+- Child marriage
+- Women’s political representation
+- Gender-based violence and legal protections
 
-- Use slides/notes as guide to reviewing readings
-  - Study main points
-  
-- Factile game
+## Key Arguments and Takeaways (by Reading)
+
+### Polanyi, *The Great Transformation* (selected chapters)
+
+- Market liberalism creates social dislocation because land, labor, and money are treated as commodities.
+- The “double movement” describes market expansion followed by social and political pushback.
+- The economy is historically embedded in social relations; modern markets disembed it.
+
+### Acemoglu & Robinson
+
+- Inclusive political institutions support inclusive economic institutions, which foster growth.
+- Extractive institutions limit broad-based growth and tend to persist unless disrupted by critical junctures.
+- Institutional change is shaped by power distribution and coalitions.
+
+### Cheibub & Vreeland
+
+- The relationship between wealth and democracy is not purely causal in the modernization sense.
+- Income levels may explain democratic survival more than transitions to democracy.
+- Distinguish between endogenous and exogenous democratization arguments.
+
+### Kaufman & Haggard
+
+- Backsliding often unfolds through legal and institutional changes rather than coups.
+- Institutional checks, party systems, and elite strategies shape the risk of erosion.
+- Compare patterns in middle-income cases to the U.S. discussion in lecture.
+
+### Ross
+
+- Oil wealth can reduce accountability by substituting taxes with rents.
+- Resource income enables repression and patronage, undermining democracy.
+- Effects are heterogeneous across regions and institutions.
+
+### Hessami & Lopes da Fonseca
+
+- Women’s descriptive representation can translate into substantive policy change.
+- Representation affects policy priorities and outcomes in areas tied to gender and social welfare.
+- The magnitude of effects depends on institutions and context.
+
+## Synthesis Prompts (Essay-Style)
+
+::: callout-caution
+These are example prompts meant to guide your studying and preparation, not actual questions that will appear on the exam. Please use them accordingly.
+:::
+
+Choose one of the following and build a structured essay that draws on Polanyi plus at least two other readings, along with lecture material.
+
+1. To what extent do countries become more inclusive, stable, and democratic as they become wealthier? Discuss with reference to Polanyi and at least two other readings from this section of the course (Acemoglu & Robinson, Cheibub & Vreeland, Kaufman & Haggard, Ross, or Hessami & Lopes da Fonseca).
+2. Broadly speaking, what forces push societies toward inclusion and what forces push them away? Use Polanyi’s framework and at least two other readings to explain the political and economic mechanisms at work, and illustrate with at least one case discussed in lecture.
