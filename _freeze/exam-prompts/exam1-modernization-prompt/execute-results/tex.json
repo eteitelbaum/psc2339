@@ -1,0 +1,17 @@
+{
+  "hash": "efacfcf95fb59bba80a5a50ebc4d6e06",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Exam 1 Essay Prompt\"\nsubtitle: \"PSC 2339: Comparative Political Economy\"\nauthor: \"Professor Teitelbaum\"\nformat:\n  pdf:\n    toc: false\nexecute:\n  echo: false\n  warning: false\n  message: false\n---\n\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](exam1-modernization-prompt_files/figure-pdf/modernization-plot-1.pdf)\n:::\n:::\n\n\n## Instructions\n\nBuild a structured essay that engages the observed pattern in the figure above and the core debates in this section of the course. Your essay should:\n\n- Use course readings and lecture material.\n- Cite specific country cases discussed in class and/or readings.\n- Make explicit causal arguments and justify them with evidence.\n\nYou will have the full class period to write. Read all of the sub-prompts first. Then budget 30 minutes for Part I and about 30 minutes for Part II. *Don't get bogged down in Part I!*\n\n## Prompt (Multi-Part)\n\n*Respond to each component in order; however, treat them as parts of a single, integrated essay rather than separate mini-essays.*\n\n### Part I\n\n**Answer all of these:**\n\n1. Describe the overall relationship between wealth and democracy in the figure. What is the general pattern? What kinds of countries tend to fall above or below the trend line?\n\n2. Apply the core institutional claim from Acemoglu & Robinson that inclusive institutions promote economic development. Use this framework to explain the wealth–democracy pattern. Which country cases best support their argument?\n\n3. Now evaluate modernization theory. If wealth causes democracy, what mechanisms are supposed to connect the two? Use the figure and at least one country case to illustrate where this logic fits well.\n\n4. Cheibub & Vreeland argue that, rather than causing democratic transitions, wealth primarily stabilizes regimes. How does that claim change your interpretation of the scatterplot? \n\n5. Identify at least two exceptions to the general pattern. Why do these cases fall away from the trend line? Use Ross and/or other course readings to explain the mechanisms.\n\n### Part II\n\n**Choose one of these:** \n\n6. Consider the three explanations (A&R, modernization, exogenous) in comparison to one another. Do you think one is the \"best\" at explaining the pattern in the plot or can they be fruitfully combined? Be sure to back up your answer with specific arguments and evidence from at least two country cases discussed in the readings and in class. \n\n7. How does women’s political representation change the story about wealth and democracy? Using Hessami & Lopes da Fonseca, explain whether gendered inclusion is best viewed as a cause, a consequence, or a\n  separate dimension of democratic development. Support with at least two country cases.\n\n**Reminder:** Your goal is not to summarize each reading separately. Instead, use the theories to explain the empirical pattern, highlight their tensions, and make a defensible argument for the most persuasive causal story with respect to your chosen prompt.\n",
+    "supporting": [
+      "exam1-modernization-prompt_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": null,
+    "postProcess": false
+  }
+}

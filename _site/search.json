@@ -806,7 +806,7 @@
     "href": "slides/lecture-5.1.html#what-is-a-developing-country",
     "title": "Lecture 5.1",
     "section": "What is a “Developing Country?”",
-    "text": "What is a “Developing Country?”\n\nWorld Bank Income Thresholds (GNI per capita, current US$)\n\nLow-income: $1,045 or less\nLower middle-income: $1,046 - $4,095\nUpper middle-income: $4,096 - $12,695\nHigh income: &gt; $12,696\n\nCountries that are still making rapid strides in terms of economic and human development"
+    "text": "What is a “Developing Country?”\n\nWorld Bank Income Thresholds (GNI per capita, current US$)\n\nLow-income: $1,135 or less\nLower middle-income: $1,136 - $4,495\nUpper middle-income: $4,496 - $13,935\nHigh income: &gt; $13,935\n\nCountries that are still making rapid strides in terms of economic and human development"
   },
   {
     "objectID": "slides/lecture-5.1.html#map-of-income-classifications-2020",
@@ -3699,6 +3699,27 @@
     "href": "slides/lecture-4.2.html#synthesis-prompts-essay-style",
     "title": "Exam 1 Review Sheet",
     "section": "Synthesis Prompts (Essay-Style)",
-    "text": "Synthesis Prompts (Essay-Style)\n\n\n\n\n\n\nCaution\n\n\n\nThese are example prompts meant to guide your studying and preparation, not actual questions that will appear on the exam. Please use them accordingly.\n\n\nChoose one of the following and build a structured essay that draws on Polanyi plus at least two other readings, along with lecture material.\n\nTo what extent do countries become more inclusive, stable, and democratic as they become wealthier? Discuss with reference to Polanyi and at least two other readings from this section of the course (Acemoglu & Robinson, Cheibub & Vreeland, Kaufman & Haggard, Ross, or Hessami & Lopes da Fonseca).\nBroadly speaking, what forces push societies toward inclusion and what forces push them away? Use Polanyi’s framework and at least two other readings to explain the political and economic mechanisms at work, and illustrate with at least one case discussed in lecture."
+    "text": "Synthesis Prompts (Essay-Style)\nChoose one of the following and build a structured essay that draws on at least three readings plus lecture material.\n\nCompare how Polanyi’s “double movement” and Acemoglu & Robinson’s institutions framework explain pressures for (and resistance to) reform. Use at least one contemporary example to illustrate the mechanisms.\nExplain why development does not always lead to democracy. Use modernization theory debates plus at least one case from the backsliding or resource curse lectures to show how institutions and incentives can block or reverse democratization."
+  },
+  {
+    "objectID": "slides/lecture-5.1.html#what-is-development",
+    "href": "slides/lecture-5.1.html#what-is-development",
+    "title": "Lecture 5.1",
+    "section": "What is Development?",
+    "text": "What is Development?\n\nEconomic Development: change in overall levels of wealth (growth)\n\n% increase in GDP or GDP per capita\n\nHuman Development: change in overall levels of well-being\n\nLife expectancy\nLiteracy\nInfant mortality"
+  },
+  {
+    "objectID": "slides/lecture-5.1.html#map-of-income-classifications",
+    "href": "slides/lecture-5.1.html#map-of-income-classifications",
+    "title": "Lecture 5.1",
+    "section": "Map of Income Classifications",
+    "text": "Map of Income Classifications\n\n\n\n\nSource: World Bank blog post"
+  },
+  {
+    "objectID": "slides/lecture-5.1.html#world-bank-income-classifications",
+    "href": "slides/lecture-5.1.html#world-bank-income-classifications",
+    "title": "Lecture 5.1",
+    "section": "World Bank Income Classifications",
+    "text": "World Bank Income Classifications\n\n\n\n\nSource: World Bank blog post"
   }
 ]

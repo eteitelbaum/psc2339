@@ -27,15 +27,23 @@ library(scales)
 
 theme_set(theme_minimal())
 
+latest_year_clientelism <- vdem %>%
+  summarize(latest = max(year, na.rm = TRUE)) %>%
+  pull(latest)
+
+latest_year_gdp_client <- vdem %>%
+  filter(!is.na(e_gdppc), !is.na(v2xnp_client)) %>%
+  summarize(latest = max(year, na.rm = TRUE)) %>%
+  pull(latest)
+
 clientelism <- vdem %>%
-  slice_max(year) %>%
+  filter(year == latest_year_clientelism) %>%
   select(country = country_name, cow = COWcode, year, clientelism = v2xnp_client) %>%
   mutate(iso_a3_eh = countrycode(cow, origin = "cown", destination = "iso3c")) %>%
   drop_na()
 
 clientelism_gdp <- vdem %>%
-  drop_na(e_gdppc) %>% # so that you can get most recent year where gdppc is not missing
-  slice_max(year) %>% 
+  filter(year == latest_year_gdp_client) %>%
   select(country = country_name, year, region = e_regionpol_6C, gdp_pc = e_gdppc, clientelism = v2xnp_client) %>%
   mutate(
     gdp_pc = gdp_pc*1000,
@@ -66,21 +74,7 @@ clientelism_ts <- vdem %>%
   filter(region != "The West")
 ```
 
-# What is Development?
-
-## What is a "Developing Country?"
-
-- World Bank Income Thresholds (GNI per capita, current US$)
-	- Low-income: $1,045 or less
-	- Lower middle-income: $1,046 - $4,095
-	- Upper middle-income: $4,096 - $12,695
-	- High income: > $12,696
-- Countries that are still making rapid strides in terms of economic and human development
-
-## Map of Income Classifications (2020)
-
-
-<iframe src="https://datatopics.worldbank.org/world-development-indicators/the-world-by-income-and-region.html" width="960" height="500" data-external="1"></iframe>
+# Development
 
 ## What is Development? 
 
@@ -91,7 +85,33 @@ clientelism_ts <- vdem %>%
 	- Literacy 
 	- Infant mortality
 
-# Common Approaches
+## What is a "Developing Country?"
+
+- World Bank Income Thresholds (GNI per capita, current US$)
+	- Low-income: $1,135 or less
+	- Lower middle-income: $1,136 - $4,495
+	- Upper middle-income: $4,496 - $13,935
+	- High income: > $13,935
+- Countries that are still making rapid strides in terms of economic and human development
+
+## World Bank Income Classifications
+
+<div style="width: 960px; height: 520px; overflow: hidden; margin: 0 auto;">
+  <iframe
+    src="https://datatopics.worldbank.org/world-development-indicators/the-world-by-income-and-region.html"
+    width="960"
+    height="1200"
+    style="border: 0; margin-top: -350px;"
+    scrolling="no"
+    data-external="1"
+  ></iframe>
+</div>
+
+<div style="font-size: 0.6em; text-align: right; margin-top: 0.6em;">
+  Source: <a href="https://blogs.worldbank.org/en/opendata/understanding-country-income--world-bank-group-income-classifica">World Bank blog post</a>
+</div>
+
+# Other Approaches
 
 ## Development as Freedom (Sen)
 
@@ -203,9 +223,9 @@ ne_countries(returnclass = "sf") %>%
   scale_fill_viridis_c(direction = -1) +
   theme(legend.position="right") +
   labs(
-    title = paste("V-Dem Clientelism Index", clientelism$year[1]),
+    title = paste("V-Dem Clientelism Index", latest_year_clientelism),
     fill = NULL,
-    caption = "Source: V-Dem Institute, Varieties of Democracy Dataset" 
+    caption = paste("Source: V-Dem Institute, Varieties of Democracy Dataset (", latest_year_clientelism, ")", sep = "")
   )
 ```
 
@@ -222,7 +242,7 @@ clientelism_vs_gdppc <- ggplot(clientelism_gdp, aes(x = gdp_pc, y = clientelism)
   scale_x_log10(labels = label_dollar()) +
   aes(label = country) + # need so ggplot retains label for plotly
   labs(x= "GDP per Capita", y = "Clientelism Score",
-       title = paste("Wealth and clientelism, ", clientelism_gdp$year[1]),
+       title = paste("Wealth and clientelism, ", latest_year_gdp_client),
        color = "Region") +
   scale_color_viridis_d(option = "plasma", end = .8)
 
@@ -233,7 +253,7 @@ ggplotly(clientelism_vs_gdppc, tooltip = c("country", "clientelism", "gdp_pc")) 
     width = 900  # Adjust width to better fit your slide
   ) %>%
   # add source
-  layout(annotations = list(text = "Source: The V-Dem Institute, Varities of Democracy Dataset",  
+  layout(annotations = list(text = paste("Source: The V-Dem Institute, Varities of Democracy Dataset (", latest_year_gdp_client, ")", sep = ""),  
                             font = list(size = 10), showarrow = FALSE,
                             xref = 'paper', x = 1.2, xanchor = 'right', xshift = 0,
                             yref = 'paper', y = -.08, yanchor = 'auto', yshift = 0)) %>%
