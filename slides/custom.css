@@ -1,11 +1,16 @@
+/* this is supposed to be how you center plotly charts in Quarto, 
+but t doesn't appear to work for revealjs slides. So I use an 
+htmltools solution instead for reveal */
+
 .center-plotly {
-  display: flex;
-  justify-content: center;
+  display: flex !important;
+  justify-content: center !important;
+  width: 100%;
 }
 .center-plotly .cell-output-display {
-  display: flex;
-  justify-content: center;
+  display: flex !important;
+  justify-content: center !important;
 }
 .center-plotly .html-widget {
-  margin: 0 auto;
+  margin: 0 auto !important;
 }

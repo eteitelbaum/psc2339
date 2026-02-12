@@ -7,6 +7,7 @@ logo: "images/cpe_logo.png"
 format:
   revealjs:
     theme: moon
+    styles: custom.css
     transition: fade
     slide-number: true
 execute:
@@ -234,8 +235,10 @@ ne_countries(returnclass = "sf") %>%
 
 <br>
 
+::: {.center-plotly}
 ```{r}
 #| label: clientelism-vs-gdp
+
 clientelism_vs_gdppc <- ggplot(clientelism_gdp, aes(x = gdp_pc, y = clientelism)) + 
   geom_point(aes(color = region)) + 
   geom_smooth(method = "lm", size = 1) + 
@@ -246,7 +249,7 @@ clientelism_vs_gdppc <- ggplot(clientelism_gdp, aes(x = gdp_pc, y = clientelism)
        color = "Region") +
   scale_color_viridis_d(option = "plasma", end = .8)
 
-ggplotly(clientelism_vs_gdppc, tooltip = c("country", "clientelism", "gdp_pc")) %>% 
+plotly_chart <- ggplotly(clientelism_vs_gdppc, tooltip = c("country", "clientelism", "gdp_pc")) %>% 
     # adjust size 
   layout(
     height = 400,
@@ -262,7 +265,16 @@ ggplotly(clientelism_vs_gdppc, tooltip = c("country", "clientelism", "gdp_pc")) 
                             font = list(size = 10, color = 'grey'), showarrow = FALSE,
                             xref = 'paper', x = .5, xanchor = 'center', xshift = 0,
                             yref = 'paper', y = 1, yanchor = 'top', yshift = 0)) 
+
+library(htmltools)
+
+# center chart
+htmltools::div(
+  style = "width: 900px; margin: 0 auto;",
+  plotly_chart
+)
 ```
+:::
 
 ## Changes Over Time
 
