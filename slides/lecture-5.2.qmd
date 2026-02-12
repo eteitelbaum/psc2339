@@ -27,8 +27,10 @@ library(scales)
 
 theme_set(theme_minimal())
 
+latest_year <- max(vdem$year, na.rm = TRUE)
+
 clientelism <- vdem %>%
-  slice_max(year) %>%
+  filter(year == latest_year) %>%
   select(country = country_name, cow = COWcode, year, clientelism = v2xnp_client) %>%
   mutate(iso_a3_eh = countrycode(cow, origin = "cown", destination = "iso3c")) %>%
   drop_na()
@@ -74,7 +76,7 @@ map <- ne_countries(returnclass = "sf") %>%
   scale_fill_viridis_c(direction = -1) +
   theme(legend.position="right") +
   labs(
-    title = paste("V-Dem Clientelism Index", clientelism$year[1]),
+    title = paste("V-Dem Clientelism Index", latest_year),
     fill = NULL,
     caption = "Source: V-Dem Institute, Varieties of Democracy Dataset" 
   )
@@ -94,7 +96,10 @@ plotly_map <- ggplotly(map, tooltip = c("country", "clientelism")) %>%
                             xref = 'paper', x = .5, xanchor = 'center', xshift = 0,
                             yref = 'paper', y = 1, yanchor = 'top', yshift = 0))
 
-plotly_map
+htmltools::div(
+  style = "width: 900px; margin: 0 auto;",
+  plotly_map
+)
 ```
 
 ::: notes
@@ -102,55 +107,6 @@ plotly_map
 in terms of social programs. 
 - Lets take a moment to explore some of these. 
 :::
-
-# Social Spending in SE Asia
-
-## Embedded Liberalism  
-
-- *Embedded liberalism*: spending on social programs to generate and maintain popular support for liberal economic policies
-- 1990s—emphasis on neoliberal “Washington Consensus” policies
-	- Get the macroeconomics right, rest will follow
-	- “Trickle down” economics
-- This consensus was challenged by Asian Financial Crisis of 1997
-
-## Asian Financial Crisis
-
-- Showed that even in rapidly growing region, poor remained vulnerable to economic shocks
-- In Indonesia, half the population was vulnerable to food price shocks and rising unemployment
-- Since the turn of millennium, policymakers have focused on building safety nets for the vulnerable
-- Shift in thinking affected policy affected almost every region: Latin America, Africa, South and SE Asia
-
-## Welfare States in Developing Countries
-
-- Noncontributory social assistance
-	- Direct transfers, frequently conditional
-- Social insurance
-	- Protection against loss of employment
-- Health care schemes
-- Labor market policies
-	- Minimum wage, terms and conditions of work, resolution of industrial disputes, etc.
-- Education spending
-
-## Southeast Asia Examples 
-
-<br>
-
-- Malaysia
-  - [Universal healthcare](https://bmjopen.bmj.com/content/11/5/e047126) alongside private system
-  - Free primary and junior secondary education
-- Thailand
-  - ["30-bhat scheme"](https://www.weforum.org/agenda/2019/04/thailand-gave-healthcare-to-its-entire-population-and-the-results-were-dramatic/)
-  - Free education through secondary school
-
-## 
-
-<br>
-
-- Indonesia 
-  - [Jaminan Kesehatan Nasional (JKN)](https://staff.ui.ac.id/system/files/users/pratiwi.sudarmono/publication/pratiwiunivesallancet2018.pdf)
-  - Universal healthcare scheme introduced in 2014
-  - Covers > 200 million people, largest single payer scheme in the world (Augustina et. al. 2019)
-
 
 # Vote Buying in Indonesia 
 
@@ -162,6 +118,7 @@ in terms of social programs.
 - How does clientelism in Indonesia differ from clientelism in Latin America?
   - What changed in 1999?
 - What is a "ground war" and how is it fought? 
+- What does "margin error" refer to?
 - When is vote buying successful? What does it achieve?
 
 # Electoral Systems
@@ -213,35 +170,45 @@ in terms of social programs.
   - Similar variation
 - Hypothesis: clientelism is stronger where parties are weaker
 
-## Geography of Clientelism 
+# Exercise
+
+- [Bobby Nasution](https://en.wikipedia.org/wiki/Bobby_Nasution) is running for governor of North Sumatra.
+- You are his *tim sukses* (success team). How will you...
+  - Manage brokers?
+  - Decide where to focus your resources?
+  - Choose what *types* of gifts to give (individual vs. community)?
+  - Minimize "margin error"
+  - Prevent rivals from poaching your resources?
+
+# Welfare States in SE Asia
+
+## Welfare States in Developing Countries
+
+- Noncontributory social assistance
+	- Direct transfers, frequently conditional
+- Social insurance
+	- Protection against loss of employment
+- Health care schemes
+- Labor market policies
+	- Minimum wage, terms and conditions of work, resolution of industrial disputes, etc.
+- Education spending
+
+## Southeast Asia Examples 
 
 <br>
 
-```{r}
-#| label: clientelism-map-2
+- Malaysia
+  - [Universal healthcare](https://bmjopen.bmj.com/content/11/5/e047126) alongside private system
+  - Free primary and junior secondary education
+- Thailand
+  - ["30-bhat scheme"](https://www.weforum.org/agenda/2019/04/thailand-gave-healthcare-to-its-entire-population-and-the-results-were-dramatic/)
+  - Free education through secondary school
 
-plotly_map
-```
+## 
 
-# Exercise
+<br>
 
-- Split up into groups
-- Plan a ground war for [Arief Wismansyah](https://en.wikipedia.org/wiki/Arief_Rachadiono_Wismansyah)
-- What are your targets and expected results?
-- How would you...
-  - Organize success teams
-  - Decide on number of brokers to recruit
-  - Pay and manage brokers
-  - Choose level of funding and types of gifts
-
-# Conclusion
-
-## Conclusion
-
-- Public goods
-- Social spending in SE Asia
-- Indonesia case
-	- Electoral system
-	- Vote-buying vs. club goods
-	- Success of clientelist strategies
-- Discussion/Q&A 
+- Indonesia 
+  - [Jaminan Kesehatan Nasional (JKN)](https://staff.ui.ac.id/system/files/users/pratiwi.sudarmono/publication/pratiwiunivesallancet2018.pdf)
+  - Universal healthcare scheme introduced in 2014
+  - Covers > 200 million people, largest single payer scheme in the world (Augustina et. al. 2019)
