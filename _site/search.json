@@ -428,7 +428,7 @@
     "href": "slides/lecture-6.2.html#u.s.-extreme-poverty",
     "title": "Lecture 6.2",
     "section": "U.S. Extreme Poverty",
-    "text": "U.S. Extreme Poverty\n\n\n\n\n\nAngus Deaton\n\n“The U.S. Can No Longer Hide from Its Deep Poverty Problem”\n$4/day poverty line\n\nLife expectancy of poorest Americans less than Bangladesh or Vietnam\nHealth indicators declining, not getting better"
+    "text": "U.S. Extreme Poverty\n\n\n\n\n\n\nAngus Deaton\n\n“The U.S. Can No Longer Hide from Its Deep Poverty Problem”\nRoughly $4/day deep-poverty line (close to today’s $4.20 LMIC line)\n\nLife expectancy of poorest Americans less than Bangladesh or Vietnam\nHealth indicators declining, not getting better"
   },
   {
     "objectID": "slides/lecture-6.2.html#discussion",
@@ -3728,5 +3728,12 @@
     "title": "Lecture 6.1",
     "section": "",
     "text": "Source: Habyarimana et. al., 2007"
+  },
+  {
+    "objectID": "slides/lecture-6.2.html#poverty-lines-per-day-2021-ppp",
+    "href": "slides/lecture-6.2.html#poverty-lines-per-day-2021-ppp",
+    "title": "Lecture 6.2",
+    "section": "Poverty Lines ($ per day 2021 PPP)",
+    "text": "Poverty Lines ($ per day 2021 PPP)\n\n\nExtreme poverty: $3.00\nLMIC threshold: $4.20\nUMIC threshold: $8.30"
   }
 ]

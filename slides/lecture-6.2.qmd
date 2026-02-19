@@ -27,6 +27,11 @@ library(plotly)
 
 theme_set(theme_minimal())
 
+poverty_title_extreme <- "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+poverty_title_lmic <- "Poverty headcount ratio at $4.20 a day (2021 PPP) (% of population)"
+poverty_title_umic <- "Poverty headcount ratio at $8.30 a day (2021 PPP) (% of population)"
+wb_caption <- "Source: World Bank Data API (WDI/PIP)"
+
 gini <- "SI.POV.GINI"
 poverty <- "SI.POV.DDAY"
 lmic <- "SI.POV.LMIC"
@@ -39,6 +44,35 @@ education <- "SE.XPD.TOTL.GD.ZS"
 countries_all <- c("ARG", "BRA", "CHL", "COL", "MEX", "PER", "PRY", "URY", "VEN")
 countries <- c("ARG", "BRA", "COL", "PER", "PRY", "URY")
 regions <- c("EAS", "ECS", "LCN", "MEA","SAS", "SSF")
+
+wb_data_retry <- function(..., attempts = 5, base_wait = 2) {
+  last_error <- NULL
+
+  for (i in seq_len(attempts)) {
+    result <- tryCatch(
+      wb_data(...),
+      error = function(e) e
+    )
+
+    if (!inherits(result, "error")) {
+      return(result)
+    }
+
+    last_error <- result
+    if (i < attempts) {
+      wait_seconds <- base_wait * (2 ^ (i - 1))
+      message(
+        sprintf(
+          "wb_data attempt %d/%d failed: %s. Retrying in %ds...",
+          i, attempts, conditionMessage(result), wait_seconds
+        )
+      )
+      Sys.sleep(wait_seconds)
+    }
+  }
+
+  stop(last_error)
+}
 ```
 
 # Poverty
@@ -73,22 +107,20 @@ regions <- c("EAS", "ECS", "LCN", "MEA","SAS", "SSF")
 	- Lack access to tools for upward social mobility
 	- Applies mainly to high income countries (Sachs 2005)
 
-## Poverty Lines ($ per day 2017 PPP)
+## Poverty Lines ($ per day 2021 PPP)
 
 <br>
 
-- Extreme poverty: $2.15
-- LMIC threshold: $3.65
-- UMIC threshold: $6.85
+- Extreme poverty: $3.00
+- LMIC threshold: $4.20
+- UMIC threshold: $8.30
 
 ## Extreme Poverty
 
 ```{r}
 #| label: extreme_poverty_map
 
-indicator_info <- filter(wb_cachelist$indicators, indicator_id == poverty)
-
-pov_data <-  wb_data(c(poverty = poverty), mrnev = 1) %>% 
+pov_data <-  wb_data_retry(c(poverty = poverty), mrnev = 1) %>% 
   filter(date > 2010)
 
 ne_countries(returnclass = "sf") %>%
@@ -102,9 +134,9 @@ ne_countries(returnclass = "sf") %>%
   scale_fill_viridis_c() +
   theme(legend.position="right") +
   labs(
-    title = indicator_info$indicator,
+    title = poverty_title_extreme,
     fill = NULL,
-    caption = paste("Source:", indicator_info$source_org) 
+    caption = wb_caption
   )
 ```
 
@@ -116,9 +148,7 @@ ne_countries(returnclass = "sf") %>%
 ```{r}
 #| label: regional_avg
 
-indicator_info <- filter(wb_cachelist$indicators, indicator_id == poverty)
-
-rpoverty <- wb_data(c(poverty = poverty), 
+rpoverty <- wb_data_retry(c(poverty = poverty), 
                     start_date = 1990, 
                     end_date = lubridate::year(Sys.Date()), 
                     country = regions) %>%
@@ -128,7 +158,7 @@ poverty_plot <- ggplot(rpoverty, aes(x = year, y = poverty, color = country)) +
   geom_line() +
   labs(
     x = NULL, y = "",
-    title = indicator_info$indicator
+    title = poverty_title_extreme
   ) + 
   scale_y_continuous(labels = scales::label_percent(scale = 1)) +
   scale_color_brewer(palette = "Dark2", name = "Region")
@@ -152,9 +182,7 @@ ggplotly(poverty_plot) %>%
 ```{r}
 #| label: lmic_map
 
-indicator_info <- filter(wb_cachelist$indicators, indicator_id == lmic)
-
-lmic_data <-  wb_data(c(lmic = lmic), mrnev = 1) %>% 
+lmic_data <-  wb_data_retry(c(lmic = lmic), mrnev = 1) %>% 
   filter(date > 2010)
 
 ne_countries(returnclass = "sf") %>%
@@ -168,9 +196,9 @@ ne_countries(returnclass = "sf") %>%
   scale_fill_viridis_c() +
   theme(legend.position="right") +
   labs(
-    title = indicator_info$indicator,
+    title = poverty_title_lmic,
     fill = NULL,
-    caption = paste("Source:", indicator_info$source_org) 
+    caption = wb_caption
   )
 ```
 
@@ -179,9 +207,7 @@ ne_countries(returnclass = "sf") %>%
 ```{r}
 #| label: umic_map
 
-indicator_info <- filter(wb_cachelist$indicators, indicator_id == umic)
-
-umic_data <-  wb_data(c(umic = umic), mrnev = 1) %>% 
+umic_data <-  wb_data_retry(c(umic = umic), mrnev = 1) %>% 
   filter(date > 2010)
 
 ne_countries(returnclass = "sf") %>%
@@ -195,9 +221,9 @@ ne_countries(returnclass = "sf") %>%
   scale_fill_viridis_c() +
   theme(legend.position="right") +
   labs(
-    title = indicator_info$indicator,
+    title = poverty_title_umic,
     fill = NULL,
-    caption = paste("Source:", indicator_info$source_org) 
+    caption = wb_caption
   )
 ```
 
@@ -206,7 +232,7 @@ ne_countries(returnclass = "sf") %>%
 ```{r}
 #| label: three_thresholds
 
-wld_poverty <- wb_data(c(threshold = thresholds), start_date = 1990, end_date = lubridate::year(Sys.Date()), country = "WLD")
+wld_poverty <- wb_data_retry(c(threshold = thresholds), start_date = 1990, end_date = lubridate::year(Sys.Date()), country = "WLD")
 
 wld_poverty <- wld_poverty %>%
   select(c(4:7)) %>%
@@ -217,9 +243,9 @@ ggplot(wld_poverty, aes(x = date, y = percent, color = pov_line)) +
   labs(
     x = NULL, y = "Percent",
     title = "Headcount ratio at varying income thresholds, global averages", 
-    caption = "Source: World Bank Develpment Indicators"
+    caption = wb_caption
   ) + 
-  scale_color_brewer(palette = "Dark2", name = "2017 $ PPP",  labels = c("$2.15", "$3.65", "$6.85"))
+  scale_color_brewer(palette = "Dark2", name = "2021 $ PPP", labels = c("$3.00", "$4.20", "$8.30"))
 ```
 
 ## Multidimensional Poverty
@@ -231,7 +257,7 @@ indicator_info <- filter(wb_cachelist$indicators, indicator_id == multidimension
 
 ne_countries(returnclass = "sf") %>%
   left_join(
-    wb_data(
+    wb_data_retry(
       c(multidimensional = multidimensional), 
       mrnev = 1
     ),
@@ -245,11 +271,13 @@ ne_countries(returnclass = "sf") %>%
   labs(
     title = indicator_info$indicator,
     fill = NULL,
-    caption = paste("Source:", indicator_info$source_org) 
+    caption = wb_caption
   )
 ```
 
-## U.S. Extreme Poverty
+## U.S. Extreme Poverty {.smaller}
+
+<br>
 
 ::: columns
 :::: column
@@ -260,7 +288,7 @@ ne_countries(returnclass = "sf") %>%
 :::: column
 - Angus Deaton
 	- [“The U.S. Can No Longer Hide from Its Deep Poverty Problem”](https://www.nytimes.com/2018/01/24/opinion/poverty-united-states.html)
-	- $4/day poverty line 
+	- Roughly $4/day deep-poverty line (close to today’s $4.20 LMIC line)
 - Life expectancy of poorest Americans less than Bangladesh or Vietnam
 - Health indicators declining, not getting better
 ::::
@@ -287,7 +315,7 @@ ne_countries(returnclass = "sf") %>%
 ```{r}
 indicator_info <- filter(wb_cachelist$indicators, indicator_id == gini)
 
-gini_ts <- wb_data(c(gini = gini),
+gini_ts <- wb_data_retry(c(gini = gini),
                    start_date = 1995, 
                    end_date = lubridate::year(Sys.Date()), 
                    country = countries) |>
@@ -298,7 +326,7 @@ gini_plot <- ggplot(gini_ts, aes(x = year, y = gini, color = country)) +
   labs(
     x = NULL, y = "Index",
     title = indicator_info$indicator, 
-    caption = paste("Source:", indicator_info$source_org)
+    caption = wb_caption
   ) + 
   scale_color_brewer(palette = "Dark2", name = "Country")
 
@@ -324,9 +352,7 @@ ggplotly(gini_plot) %>%
 
 <div class="center-plotly">
 ```{r}
-indicator_info <- filter(wb_cachelist$indicators, indicator_id == poverty)
-
-poverty_ts <- wb_data(c(poverty = poverty), 
+poverty_ts <- wb_data_retry(c(poverty = poverty), 
                       start_date = 1995, 
                       end_date = lubridate::year(Sys.Date()), 
                       country = countries) %>%
@@ -336,8 +362,8 @@ poverty_plot <- ggplot(poverty_ts, aes(x = year, y = poverty, color = country)) 
   geom_line() +
   labs(
     x = NULL, y = "",
-    title = indicator_info$indicator, 
-    caption = paste("Source:", indicator_info$source_org)
+    title = poverty_title_extreme,
+    caption = wb_caption
   ) + 
   scale_y_continuous(labels = scales::label_percent(scale = 1)) +
   scale_color_brewer(palette = "Dark2", name = "Country")
@@ -365,7 +391,7 @@ ggplotly(poverty_plot) %>%
 ```{r}
 indicator_info <- filter(wb_cachelist$indicators, indicator_id == health)
 
-health_ts <- wb_data(c(health = health), 
+health_ts <- wb_data_retry(c(health = health), 
                      start_date = 2000, 
                      end_date = lubridate::year(Sys.Date()), 
                      country = countries) %>%
@@ -376,7 +402,7 @@ health_plot <- ggplot(health_ts, aes(x = year, y = health, color = country)) +
   labs(
     x = NULL, y = "",
     title = indicator_info$indicator, 
-    caption = paste("Source:", indicator_info$source_org)
+    caption = wb_caption
   ) + 
   scale_y_continuous(labels = scales::label_percent(scale = 1)) +
   scale_color_brewer(palette = "Dark2", name = "Country")
@@ -404,7 +430,7 @@ ggplotly(health_plot) %>%
 ```{r}
 indicator_info <- filter(wb_cachelist$indicators, indicator_id == education)
 
-education_ts <- wb_data(c(education = education), 
+education_ts <- wb_data_retry(c(education = education), 
                         start_date = 2000, 
                         end_date = lubridate::year(Sys.Date()), 
                         country = countries) %>%
@@ -415,7 +441,7 @@ education_plot <- ggplot(education_ts, aes(x = year, y = education, color = coun
   labs(
     x = NULL, y = "",
     title = indicator_info$indicator, 
-    caption = paste("Source:", indicator_info$source_org)
+    caption = wb_caption
   ) + 
   scale_y_continuous(labels = scales::label_percent(scale = 1)) +
   scale_color_brewer(palette = "Dark2", name = "Country")
@@ -453,4 +479,3 @@ ggplotly(education_plot) %>%
   - Partisan ideology
 - What is their explanation?
 - Come up with one good question about the reading
-
