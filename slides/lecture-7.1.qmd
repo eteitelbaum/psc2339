@@ -22,13 +22,23 @@ library(WDI)
 library(RColorBrewer)
 ```
 
-# The Washington Consensus 
+# The Washington Consensus
 
-## 10 Policy Prescriptions {style="font-size: .75em"}
+## What Is It?
+
+-   A policy framework associated with market-oriented reform in the
+    1980s-1990s
+-   Originally a list of policy prescriptions (often linked to IMF /
+    World Bank reform programs)
+-   Not the same thing as "all neoliberalism" in every context
+-   Important in this course because it shaped how crises and reform
+    were understood in many countries
+
+## 10 Policy Prescriptions {.smaller}
 
 1.  Fiscal discipline
-2.  Public expenditure (investment vs consumption)
-3.  Tax reform (expand tax base, cut marginal rates)
+2.  Public expenditure priorities (investment vs consumption)
+3.  Tax reform (broader base, lower marginal rates)
 4.  Financial liberalization
 5.  Competitive exchange rates
 6.  Trade liberalization
@@ -37,202 +47,143 @@ library(RColorBrewer)
 9.  Deregulation of markets
 10. Secure property rights
 
-# Economic Crisis
+## Reform Elements 
 
-## Elements of an Economic Crisis {style="font-size: .75em"}
+-   Stabilization
+    -   Fiscal discipline, inflation control, exchange rate policy
+-   Liberalization / opening markets
+    -   Trade, finance, FDI, deregulation
+-   State restructuring
+    -   Privatization, public spending reprioritization, tax reform
+-   Longer-run institutional reform
+    -   Property rights, regulatory capacity, state capability
 
--   Recession
-    -   Low or negative growth rates
-    -   High unemployment
--   Hyperinflation & shortages
-    -   Government prints money to cover debts
-    -   Hoarding
+# Crisis and Reform
+
+## Why Crisis Creates Reform Windows
+
+-   Recession, inflation, shortages, and debt make the status quo
+    politically costly
+-   Balance of payments crises create immediate external financing
+    pressure
+-   International lenders often condition support on reform packages
+-   Reformers frame crisis as proof that "the old model" has failed
+
+## Elements of an Economic Crisis
+
+<br>
+
+-   Recession / unemployment
+-   Inflation (sometimes hyperinflation)
 -   Balance of payments crisis
-    -   Sudden stops or reversals of capital inflows
 -   Debt crisis
-    -   Proliferation of public debt relative to GDP
--   Financial crisis
-    -   Assets bubbles
+-   Financial crisis / banking instability
 
-## Causes of Crisis (Neoliberal Diagnosis)
-
--   "Bloated" public sector
-    -   Inefficient/wasteful
-    -   Crowds out private sector investment
--   Corruption
-    -   Deters investment generally
--   Over-regulation of private sector
-    -   Impedes expansion of formal sector
--   Government spending and debt
-    -   Drives inflation
-
-# Crisis in Eastern Europe
-
-## Economic Organization Under Communism
-
--   Centralized planning
-    -   Bureaucratically established quotas and targets
-    -   No market dynamics of supply and demand
--   Key economic goals
-    -   Full employment
-    -   State ownership and control
--   International isolation/autarchy
-
-## Pitfalls of Central Planning {style="font-size: .8em"}
-
--   Information
-    -   No price mechanisms
-    -   Government is not omniscient
-    -   No way to regulate supply and demand
-    -   Barter economy, black markets and shortages
--   Perverse incentives
-    -   No profit-maximizing behavior
-    -   Lack of innovation
-    -   Soft budget constraints in public sector: waste, theft, poor
-        quality of goods
-
-## Adverse Results
+## 
 
 ::: columns
 ::: {.column width="50%"}
--   Widespread theft and embezzlement of state property
--   Centralized planning system stops working
--   Escalating inflation because counties keep printing money
--   Mass shortages of even basic goods
+### Eastern Europe
+
+- Collapse of communist systems
+- Price distortions, shortages, inflation
+- Push for rapid transition to market economies
+- Big external role for international experts / IFIs
 :::
 
 ::: {.column width="50%"}
-![Breadline in the USSR](images/breadlines.jpg)
+### India (1991)
+
+- Balance of payments crisis
+- Trade shock after Soviet collapse
+- Oil shock from Gulf War
+- Capital flight and currency pressure
+- Reform under crisis, but without full system collapse
 :::
 :::
 
-# Crisis in India 
-
-## India's Economic System {style="font-size: .8em"}
-
--   "Nehruvian" industrial policy rather than central planning
--   Import substitution
-    -   Protection of domestic industry
-    -   High tariffs
--   Market controls
-    -   'License-Quota Raj'
--   Dominance of the public sector
-    -   Low quality goods
-    -   Shortages
-    -   Inefficiency
-    -   End result: inflation and decreased trade
-
-## 1991 Economic Crisis
-
--   Proximate cause: balance of payments (BOP) crisis
--   Occurs when the total amount of receipts is less than the amount of
-    total payments
--   Causes of crisis in India
-    -   Collapse of Soviet Union (Trade)
-    -   Gulf War (Oil)
--   Capital flight, speculative attack on credit, balance of payments
-    and currency crisis
-
-# Neoliberal Reforms
+# Reform Packages
 
 ## Reform #1: Stabilization
 
--   Goal: prevent hyperinflation from escalating out of control
--   Austerity regime meant to curb inflation
-    -   Reduce or halt public spending
-    -   Curb public expectations
--   Devalue currency
--   Raise taxes and government revenue
--   Can't print money to solve the problem
+-   Goal: stop inflation / currency crisis from spiraling
+-   Typical tools
+    -   Cut or restrain public spending
+    -   Raise revenue / taxes
+    -   Devalue currency
+    -   Tighten monetary policy
+-   Political problem: immediate pain, delayed gains
 
 ## Reform #2: Liberalization
 
--   End price controls, production quotas, reservations, etc.
--   Encourage foreign trade and investment
-    -   Reduce tariff barriers
-    -   Lift curbs on foreign direct investment
-    -   Goals
-        -   Attract real money, which is in short supply
-        -   Increase competition and innovation
-        -   Spur investment in industry and high-end services
+<br>
 
-##
-
--   Reduce state subsidies (expensive, interfere with market forces)
-    -   Cash, tax breaks, loan guarantees, procurement prices, stock
-        purchases
-    -   Farm, oil, housing, export, etc.
+-   End controls (prices, licenses, quotas, reservations)
+-   Reduce tariffs and trade barriers
+-   Expand FDI access
 -   Financial sector reforms
-    -   Allow private and foreign banks freedom to operate
+-   Logic: competition, investment, innovation, and export growth
 
-## Reform #3: Privatization
+## Reform #3 Privatization 
 
--   Selling off of state assets to private actors
--   Develop greater efficiency and increase output
-    -   Better managers
-    -   Better incentives
--   Create markets and entrepreneurs
--   Generate revenue for the state
+<br>
 
-## Reform #4: Structural Adjustment
+-   Transfer state assets to private actors
+-   Improve incentives and efficiency (in theory)
+-   Raise state revenue
 
--   Long-term structural reform
-    -   Extending neoliberal reforms
-    -   Reducing government role in economy
-    -   Liberalizing factor markets
-        -   Land, labor, capital
--   The ultimate goal is to boost productivity
-    -   Not just removing price controls or privatizing
-    -   Making institutions growth-enhancing
-        -   Industrial policy, investment policy, governance, etc.
+## Reform #4 Structural adjustment
+
+<br>
+
+-   Longer-term restructuring of how the economy is governed
+-   Labor, land, capital markets; industrial and investment policy
+-   Core debate: market reform without state capacity can backfire
 
 # Shock Therapy vs. Gradualism
 
-## "Shock Therapy"
+## 
 
--   Quick moves to stabilize the economy through an evolutionary
-    approach
--   Goal of remaking economies quickly
--   Internationally-renowned teams experts sent to oversee reforms
--   Eastern Europe is a good example
+::: columns
+::: {.column width="50%"}
+### Shock Therapy
 
-## Gradualism {style="font-size: .8em"}
+-   Rapid, broad reforms
+-   Front-load stabilization and liberalization
+-   Goal: break old system quickly
+-   Commonly associated with Eastern Europe
+:::
 
--   Step-by-step implementation of reforms
--   Put correct political institutions in place before revamping the
-    economy
-    -   Courts, tax inspectors, regulatory agencies, and financial
-        intermediaries
--   Advocated by other prominent economists (Joseph Stiglitz) and
-    intellectuals
--   India is a good example
-    -   Fast on trade, investment and license quota raj
-    -   Slow on privatization, labor law and other contentious reforms
+::: {.column width="50%"}
+### Gradualism
 
-## "Partial Reform Equilibrium"
+-   Sequenced reforms over time
+-   Build institutions while opening markets
+-   Slower on politically costly reforms
+-   India is a key example
+:::
+:::
 
--   Winners of early reforms blocked further progress:
-    -   Benefited from access to legislation and coveted assets
-    -   Created a system in between capitalism and communism where a
-        select few benefitted
--   State Capture
-    -   Powerful private interests asset control over both the economy
-        and political decisions
-    -   Think oligarchs!
+## India vs. Eastern Europe (Sequencing)
 
-## Businesses Corrupting the State
+-   India moved relatively quickly on trade / investment liberalization
+-   India moved more slowly on privatization and labor reform
+-   Eastern Europe often attempted broader reforms much faster
+-   Key question for us:
+    -   When does speed solve problems?
+    -   When does speed outpace institutions?
 
--   Innovative ways of wielding influence
-    -   Buying laws outright
-    -   Running for elected office
-    -   Hiring the relatives of politicians
-    -   Mobilizing their workers to act politically
+## Risk: "Partial Reform Equilibrium"
 
-# Effectiveness of Reforms
+<br>
 
-## Transition Progress in Eastern Europe
+-   Early winners from reform may block later reforms
+-   Privatization without strong institutions can create asset capture
+-   Result can be a hybrid system:
+    -   Neither effective markets nor accountable states
+-   This is one reason "reform" outcomes vary so much
 
-![EBRD TPI](images/ebrd.jpg)
+# Outcomes and Debate
 
 ## Growth Rates in India and China
 
@@ -246,51 +197,76 @@ ggplot(flfp, aes(year, NY.GDP.MKTP.KD.ZG, color=country)) + geom_line(linewidth=
 Accounts data files"
   )
 ```
-## Poverty and Inequality in India
 
-::: columns
-::: column
-![Source: oxfamblogs.org](images/india_poverty.png)
-:::
+## What Growth Rates Tell Us
 
-::: column
-![Source: Livemint](images/india_inequality.png)
-:::
-:::
+<br>
 
-## Archibong et. al. 
+-   Shows growth performance over time (and volatility)
+-   Does not tell us by itself:
+    -   Which reforms caused growth
+    -   Who benefited
+    -   What social costs occurred during transition
+-   This is why we need comparative and historical analysis
 
-- What is the main hypothesis?
-- What reforms are they examining in the African context?
-- Quantitative analysis
-  - What are they trying to show?
-  - Is it convincing
-- Case studies, each group take one 
+# Legacies of Reform 
 
-# Contemporary Reform Initiatives
+## Reading Focus (Archibong et al.)
 
-## Sri Lanka
+<br>
 
-- Swimming in the [president's pool](https://www.bbc.com/news/av/world-asia-62105698)
-- Causes of the crisis
-  - Years of economic mismanagement under Rajapaksas
-  - Rajapaksa govt. cut taxes after it came to power in 2019
-  - Banned fertilizer which decimated rice crop (staple)
-  - COVID-19 killed demand for tourism and remittances
-  - Then war in Ukraine led to grain shortages
-  - Sri Lanka ran out of money couldn't by fuel or medicine
-  
-## Discussion
+-   Reading for today:
+    [Washington Consensus Reforms and Lessons for Economic Performance in
+    sub-Saharan Africa](https://www.brookings.edu/wp-content/uploads/2021/02/Washington-Consensus-Reforms.pdf)
+-   Main question:
+    -   What were the long-run effects and limits of Washington
+        Consensus-style reforms in Africa?
+-   Working distinction:
+    -   Reform adoption is not the same as reform success
 
-- What is the IMF [doing](https://www.nytimes.com/2023/01/31/business/sri-lanka-economy.html)?
-- What is the World Bank [doing](https://www.worldbank.org/en/country/srilanka/overview)?  
-- In what ways is the Bank's approach in Sri Lanka similar to or different from the one proposed by the Washington Consensus? 
- 
-## Lebanon
+## Discussion Questions (Small Groups)
 
-- When robbing a bank seems [perfectly justified](https://www.nytimes.com/2023/02/28/opinion/lebanon-crisis-economy-bank-robbers.html)
-- Read about the [World Bank's](https://www.worldbank.org/en/country/lebanon/overview#1) assistance to Lebanon
-- How is the Bank's strategy similar to or different from the original Washington Consensus Policies?
+-   What is the authors' main argument about the legacy of reforms in
+    Africa?
+-   Which reforms seem most important in their account, and why?
+-   What role do state capacity and political institutions play?
+-   How do the authors treat short-run pain vs. long-run gains?
+-   What are the limits of the evidence (quantitative and case-based)?
 
+## Group Report-Out
+
+<br>
+
+-   Each group: one claim from the reading the class should take
+    seriously
+-   Each group: one claim you are skeptical about (and why)
+-   Connect back to today:
+    -   Does your evidence support shock therapy, gradualism, or "it
+        depends"?
+
+# Contemporary Application
+
+## Lebanon: Crisis and Reform in Practice
+
+-   [When robbing a bank seems perfectly justified](https://www.nytimes.com/2023/02/28/opinion/lebanon-crisis-economy-bank-robbers.html)
+-   Ongoing recovery / reform context:
+    [World Bank on Lebanon](https://www.worldbank.org/en/country/lebanon/overview#1)
+-   Use Lebanon as an application exercise:
+    -   Crisis diagnosis
+    -   Reform package design
+    -   Political feasibility
+
+## Lebanon Discussion {.smaller}
+
+<br>
+
+-   Is Lebanon's crisis mainly a macroeconomic crisis, a banking /
+    financial crisis, a governance crisis, or all three?
+-   Which Washington Consensus-style reforms might help in Lebanon?
+-   Which reforms could deepen social pain without protections?
+-   What sequencing would you propose:
+    -   Stabilization first?
+    -   Institutional repair first?
+    -   Both in parallel?
 
 
