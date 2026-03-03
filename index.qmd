@@ -38,7 +38,7 @@ for the semester.
 | [7](/weeks/week-7.html) | `r advdate(tue,7)` | Washington consensus reforms | [📖](https://www.brookings.edu/wp-content/uploads/2021/02/Washington-Consensus-Reforms.pdf "Archibong et. al.") |  | [🖥️](/slides/lecture-7.1.html "Lecture 7.1 slides") |  |  |
 |  | `r advdate(thur,7)` | The gendered legacy of reform | [📖](https://www.dropbox.com/scl/fi/ff8k3clpoucuux94t2yw4/LourdesChapter3.pdf?rlkey=jdsrouh6u080ob4ew83oiqb9v&dl=0 "Beneria et. al.") |  | [🖥️](/slides/lecture-7.2.html "Lecture 7.2 slides") |  |  |
 | [8](/weeks/week-8.html) | `r advdate(tue,8)` | Populism and social policy | [📖](https://onlinelibrary-wiley-com.proxygw.wrlc.org/doi/full/10.1111/dech.12578 "Putzel") |  | [🖥️](/slides/lecture-8.1.html "Lecture 8.1 slides") |  |  |
-|  | `r advdate(thur,8)` | Exam 2 |  |  |  |  | 📘 |
+|  | `r advdate(thur,8)` | Exam 2 |  |  | [📝](/slides/lecture-8.2.html "Exam 2 review sheet") |  | 📘 |
 | [9](/weeks/week-9.html) | `r advdate(tue,9)` | Spring Break |  |  |  | 🏄‍♂️ 🌴 🏖️ |  |
 |  | `r advdate(thur,9)` | Spring Beak |  |  |  |  |  |
 | [10](/weeks/week-10.html) | `r advdate(tue,10)` | Final paper research clinic |  | [📺](https://www.youtube.com/watch?v=yqAYuAf6zEc&t=175s "Wrangling Video") |  | Wrangling data in Power Query |  |

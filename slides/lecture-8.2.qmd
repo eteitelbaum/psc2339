@@ -1,47 +1,174 @@
 ---
-title: "Lecture 8.2"
-subtitle: "Exam 2 review"
+title: "Exam 2 Review Sheet"
+subtitle: "Weeks 5–8 (Distributive Politics through Populism)"
 author: "Emmanuel Teitelbaum"
 footer: "[PSC 2339 Website](https://psc2339.com)"
 logo: "images/cpe_logo.png"
 format:
-  revealjs:
-    theme: moon
-    transition: fade
-    slide-number: true
+  html:
+    toc: true
+    toc-depth: 2
 execute:
   echo: false
   freeze: auto
 ---
 
-## Format, etc. 
+## Exam Format
 
-- Format
-  - multiple choice
-  - T/F explanation
-  - Essay
-  
-- Time
-  - 1hr 30 mins.
-  
-- Open book/open note
+- Open book / open notes
+- **5–6 True/False with explanation** — each item states a claim; you indicate whether it is true or false and explain your reasoning in 2–4 sentences
+- **1 Essay** — a deep dive into a reading of your choice (see below)
 
-## Topics
+::: callout-tip
+## Bring a printed reading
 
-- Programmatic politics vs. clientelism
+The essay asks you to engage closely with one assigned reading. Before the exam, choose the reading you know best, **print it out, and bring it with you**. You will be expected to cite specific arguments, evidence, and passages from the text in your essay response.
+:::
+
+## Key Terms and Concepts
+
+### Programmatic Politics vs. Clientelism (Lecture 5.1; Stokes et al.)
+
+- Distributive politics
+- Programmatic vs. nonprogrammatic distribution
+- Clientelism / contingent exchange
+- Targeted vs. universal benefits
+- Brokers and agency problems
+- Geography of clientelism
+- Wealth, education, and clientelism
+
+### Vote Buying (Lecture 5.2; Aspinall & Berenschot)
+
+- Public goods vs. private goods
 - Vote buying
-- Ethnicity and public goods
-- Democracy and redistribution
-- Washington consensus reforms
-- Gendered legacy of reforms
-- Populism and social policy
+- Open-list vs. closed-list proportional representation
+- Electoral accountability
+- *Tim sukses* (success teams)
+- Welfare states in developing countries
 
-## Prep 
+### Ethnicity and Public Goods (Lecture 6.1; Miguel)
 
-- In-class exercise questions
+- Collective action problem
+- Public goods provisioning
+- Ethnic diversity and cooperation
+- Selective incentives
+- Contract theory
+- Subnationalism
+- Encompassing ethnic parties
+- Sectarianism
 
-- Use slides/notes as guide to reviewing readings
-  - Study main points
-  
-- Factile game
+### Democracy and Redistribution (Lecture 6.2; Holland & Schneider)
 
+- Poverty (extreme, moderate, relative)
+- Purchasing power parity (PPP) / poverty lines
+- Multidimensional poverty
+- Inequality trends
+- Easy vs. hard redistribution
+- Social spending (health and education)
+- Median voter theorem
+
+### Washington Consensus Reforms (Lecture 7.1; Archibong et al.)
+
+- Washington Consensus
+- Stabilization, liberalization, privatization, structural adjustment
+- Reform sequencing
+- Partial reform equilibrium
+- Crisis as reform window
+- Sub-Saharan African reform experience
+
+### The Gendered Legacy of Reform (Lecture 7.2; Benería et al.)
+
+- Structural adjustment and gender
+- Female labor force participation (FLFP)
+- Export-led growth / apparel sector
+- Voluntary compliance / codes of conduct
+- Global framework agreements
+- Trade unions and labor rights
+- Rana Plaza collapse
+
+### Populism and Social Policy (Lecture 8.1; Putzel)
+
+- Populism (left vs. right)
+- Neoliberalism
+- "The people" vs. "the elite" framing
+- In-group social protection / out-group exclusion
+- Social policy under populism
+- Responses of international organizations
+
+## Key Arguments and Takeaways
+
+### Stokes et al., *Brokers, Voters and Clientelism*, Ch. 1
+
+- What distinguishes programmatic from nonprogrammatic distribution?
+- What makes clientelism a distinct form of nonprogrammatic politics (the quid pro quo, explicit or implied)?
+- Patronage vs. vote buying — how do they differ?
+- Study the full typology of distributive politics and the examples Stokes et al. use to illustrate each form.
+
+### Aspinall & Berenschot, *Democracy for Sale*, Ch. 5
+
+- Vote buying is widespread in Indonesian elections and reflects a transactional political culture rooted in patronage networks
+- Open-list proportional representation increases individual candidates' incentives to buy votes because they compete directly against co-partisans.
+- Informal "success teams" (*tim sukses*) function as localized broker networks, linking candidates to voters at the community level.
+- Vote buying takes different forms in different places, depending on the candidate's connections to the local community (what are these forms).
+- Vote buying is more prevalent in some types of elections relative to others (which ones?).
+- Is vote buying a "successful" strategy in terms of actually buying votes?
+
+### Miguel, "Tribe or Nation?"
+
+- Tests whether ethnic diversity undermines public goods provision by comparing school funding in Kenya and Tanzania.
+- Finds that Tanzania's post-independence nation-building policies fostered a shared national identity (*subnationalism*) that sustained cross-ethnic cooperation better than Kenya's ethnically competitive system.
+- Ethnic diversity does not automatically reduce collective action; what matters is the political and institutional context in which diversity is managed.
+- What are the specific policy choices that Tanzania made to promote human development? 
+- Updating to 2026, is the analysis still relevant? 
+
+### Holland & Schneider, "Easy and Hard Redistribution"
+
+- Distinguishes two types of redistribution: "easy" (non-contributory schemes like CCTs) and "hard" (contributory benefits like traditional pensions).
+- Democracy more reliably expands easy redistribution because it faces weaker elite resistance and broader coalitional support.
+- Hard redistribution is politically costly and therefore rare even in democratic settings, especially where organized interests are strong.
+- Latin American cases illustrate that expansion of social spending under democracy does not necessarily reduce underlying inequality.
+- What is Holland & Schneider's main argument for why easy redistribution persists (hint: it has to do with certain coaltions and entrenched interests).
+
+### Archibong et al., "Washington Consensus Reforms and Economic Performance in Sub-Saharan Africa"
+
+- Reform adopters performed worse than non-adopters in the 1980s–90s but experienced improved per capita growth in the post-2000 period — what explains the reversal?
+- Pairing market-oriented reforms with pro-poor policies was central to successful outcomes.
+- What do the country case studies (Ethiopia, Nigeria, Uganda, Senegal) reveal about the conditions for reform success?
+- What does the paper recommend in terms of reform design, social safety nets, and local ownership?
+
+### Benería, "Markets, Globalization and Gender"
+
+- Neoliberal structural adjustment increased female labor force participation, particularly in export-oriented manufacturing, but often in precarious, low-wage conditions.
+- Cuts to social services under structural adjustment disproportionately burdened women, who shoulder the majority of unpaid care work.
+- Global supply chains in sectors like apparel rely on female labor while diffusing accountability for labor standards across multiple tiers of suppliers.
+- Identifies three related effects of globalization on gender equity (liberating, intensifying, reconstitution)
+- Which of these does Benería challenge and which does she endorse?
+
+### Putzel, "The 'Populist' Right Challenge to Neoliberalism"
+
+- Putzel identifies a "mature phase" of neoliberalism that differs from the original Washington Consensus by incorporating rights-based social policies.
+- Policies such as promoting gender equality, inclusion of minorities, migrants, and the poor became a source of resentment among middle-class and working people experiencing economic decline.
+- Voters also resented the idea that these policies were the product of elite bargains between national leaders and international organizations rather than social consensus.
+- What is the "commodification of politics" and austerity in public services that contributes to mass cynicism toward neoliberal elites?
+- What is the "rock and a hard place" that social policy finds itself between, and what does Putzel recommend?
+
+## Essay Guidance
+
+The essay question will ask you to engage in depth with **one reading of your choice** from the weeks covered on this exam.
+
+::: callout-caution
+The essay prompt you receive on exam day will be different from any practice prompts below. These are examples meant to guide your preparation.
+:::
+
+You should be prepared to:
+
+- Summarize the reading's **central argument** clearly and accurately
+- Explain the **evidence or logic** the author uses to support the argument
+- Connect the argument to **broader course themes** (e.g., distributive politics, development, gender, populism)
+- **Evaluate or apply** the argument — does it hold up? What are its limits? How does it relate to other readings or cases from lecture?
+
+**Practice prompts:**
+
+1. Choose one reading from this unit and explain its central argument. What evidence does the author use? What are the argument's strengths and limitations?
+2. Drawing closely on one reading, explain how political institutions or historical context shape economic or distributional outcomes in developing countries.
+3. Using one reading as your primary source, discuss how globalization has created new challenges for democratic governance or social welfare.
