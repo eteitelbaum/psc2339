@@ -47,6 +47,8 @@ execute:
 
 ## Definitions and Concepts {.smaller}
 
+<br>
+
 -   *Welfare state*--system of public benefits and services that address
     human welfare needs
     -   Cash benefits
@@ -60,6 +62,8 @@ execute:
 
 ## Welfare State Regimes ("Three Worlds") {.smaller}
 
+<br>
+
 -   Liberal---emphasize means tested social assistance
     -   Anglo-American countries
     -   Examples: U.S., UK, Canada, Australia...
@@ -70,10 +74,6 @@ execute:
 -   Social Democratic---universalistic, emphasis on full employment and
     broad provisioning (Nordic countries)
     -   Examples: Denmark, Norway, Sweden
-    
-::: notes
-Would be great to have a visualization of the three worlds
-:::
 
 ## Social Spending in OECD
 
@@ -106,6 +106,8 @@ Would be nice to update this one. Could I do it myself?
     -   How they work together to support the system
 
 ## Origins of Three Worlds of Welfare Capitalism
+
+<br>
 
 -   Where do the three worlds come from?
 
@@ -145,6 +147,8 @@ Would be nice to update this one. Could I do it myself?
 -   Rationale: equality depends on changing men
 
 ## Discussion
+
+<br>
 
 - [OECD data](https://data.oecd.org/socialexp/social-spending.htm#indicator-chart)
 
