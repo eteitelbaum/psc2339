@@ -45,7 +45,7 @@ execute:
 
 # Three Worlds of Welfare Capitalism
 
-## Definitions and Concepts
+## Definitions and Concepts {.smaller}
 
 -   *Welfare state*--system of public benefits and services that address
     human welfare needs
@@ -58,7 +58,7 @@ execute:
 -   *Universalism* ---the degree to which everyone has an equal right to
     publicly provided benefits and services
 
-## Welfare State Regimes ("Three Worlds")
+## Welfare State Regimes ("Three Worlds") {.smaller}
 
 -   Liberal---emphasize means tested social assistance
     -   Anglo-American countries
@@ -116,17 +116,11 @@ Would be nice to update this one. Could I do it myself?
         -   ethnicity
         -   religion
 
-## Discussion
-
-- [OECD data](https://data.oecd.org/socialexp/social-spending.htm#indicator-chart)
-
-- Explore various categories with a neighbor
-
-- How do spending patterns relate to "three worlds" concept? 
-
 # Gender and the Welfare State
 
 ## Gender and the Three Worlds
+
+<br>
 
 -   LMEs (Anglo-American countries): free market approach
 
@@ -152,12 +146,11 @@ Would be nice to update this one. Could I do it myself?
 
 ## Discussion
 
--   Read [this study](https://www.unicef-irc.org/family-friendly), about
-    family-friendly policies among wealth countries.
+- [OECD data](https://data.oecd.org/socialexp/social-spending.htm#indicator-chart)
 
--   Countries without any requirement for paid maternity leave: Papua
-    New Guinea, Swaziland, Lesotho, Liberia, the United States and some
-    island nations in the South Pacific
+- Explore various categories with a neighbor
 
--   How do we get to Denmark? 
+- How do spending patterns relate to "three worlds" concept? 
+
+- What world would you prefer to live in?
 
