@@ -8,7 +8,7 @@ editor: visual
 
 📖 Hall and Soskice, [*Varieties of Capitalism*](https://academic.oup.com/book/301/chapter/134893294), Chapter 1
 
-📖 Alesina and Summers, [Central Bank Independence and Macroeconomic Performance](https://www.jstor.org/stable/2077833?if_data=e30%3D&seq=1)
+📖 Alesina and Summers, [Central Bank Independence and Macroeconomic Performance](https://www.jstor.org/stable/2077833)
 
 ## Slides
 
