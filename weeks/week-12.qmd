@@ -14,6 +14,8 @@ editor: visual
 
 🖥️ [Varieties of capitalism](/slides/lecture-11.2.html)
 
+🖥️ [Central bank independence](/slides/lecture-12.2.html)
+
 <br><br>
 
 ::: {style="font-size: 0.875em;"}

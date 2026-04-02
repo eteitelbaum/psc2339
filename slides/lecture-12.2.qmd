@@ -1,6 +1,6 @@
 ---
 title: "Lecture 12.2"
-subtitle: "Globalization"
+subtitle: "Central Bank Independence"
 author: "Emmanuel Teitelbaum"
 footer: "[PSC 2339 Website](https://psc2339.com)"
 logo: "images/cpe_logo.png"
@@ -19,255 +19,322 @@ execute:
 #| include: false
 
 library(tidyverse)
-library(scales)
-library(wid)
-library(WDI)
-library(wbstats)
+library(ggrepel)
 
-theme_set(theme_minimal())
+# Data from Alesina & Summers (1993), 16 OECD countries, 1955-1988
+# CBI index from Table 1 (average of BP and GMT scales)
+# Inflation and GNP growth approximated from Figures 1a and 2a
+
+cbi_data <- tibble(
+  country = c("AUS", "BEL", "CAN", "DEN", "FRA", "GER", "ITA", "JAP",
+              "NET", "NOR", "NZ",  "SPA", "SWE", "SWI", "UK",  "USA"),
+  cbi     = c(2.0,   2.0,   2.5,   2.5,   2.0,   4.0,   1.75,  2.5,
+              2.5,   2.0,   1.0,   1.5,   2.0,   4.0,   2.0,   3.5),
+  avg_inf = c(6.5,   4.1,   4.6,   6.8,   6.6,   3.0,   7.5,   5.1,
+              4.3,   6.7,   7.9,   9.3,   6.5,   3.2,   6.7,   4.2),
+  avg_gnp = c(3.8,   3.1,   4.0,   3.1,   3.6,   3.3,   4.0,   6.5,
+              3.3,   3.6,   1.5,   4.2,   2.5,   2.3,   2.2,   3.2)
+)
+
+dark_theme <- theme_minimal(base_size = 13) +
+  theme(
+    plot.background  = element_rect(fill = "#191919", color = NA),
+    panel.background = element_rect(fill = "#191919", color = NA),
+    panel.grid.major = element_line(color = "#333333"),
+    panel.grid.minor = element_line(color = "#2a2a2a"),
+    text             = element_text(color = "white"),
+    axis.text        = element_text(color = "white"),
+    axis.title       = element_text(color = "white"),
+    plot.caption     = element_text(color = "grey60", size = 9)
+  )
 ```
 
-# Inequality
+# The Fed Under Fire
 
-## Illustrative statistics from Stiglitz 
+## "Mr. Too Late"
 
-- 20% of wage earners earn as much as bottom 80%
-- Top 1% earn in a week what bottom 20% earns in a year
-- Top .1% earn in a day what bottom 90% earns in a year
-- Walton family controls as much wealth as is owned by bottom 30% of society (~$238 billion)
+> "There can almost be no inflation, but there can be a SLOWING of the economy unless **Mr. Too Late**, a major loser, lowers interest rates, **NOW**."
 
-## Common Inequality Measures {.smaller}
+— Donald Trump, Truth Social, April 21, 2025
 
-- Income/wealth shares
-	-What share a given subpopulation accounts for 
-- Ratios
-	- 20/20 ratio (highest 20/lowest 20)
-	- Palma ratio (highest 10/lowest 40)
-	- 90/10 ratio (lowest 90/highest 10)
-- Gini coefficient
-	- Based on the “Lorenz” curve
-	- Varies from 0 to 1
-- Others
-	- e.g. Thiel, Hoover
+<br>
 
-## Lorenze Curve and Gini Coefficient
+::: {.fragment}
+Trump subsequently threatened to fire Fed Chair Jerome Powell. Markets fell ~2.4% the day of the post; the dollar also fell. Powell said he would not resign and Trump later backed off: "I have no intention of firing him."
+:::
+
+## What Does the Fed Do?
+
+<br>
+
+- Sets the **federal funds rate** (the benchmark interest rate)
+- Controls the money supply and credit conditions
+- Acts as lender of last resort to the banking system
+- Mandated by Congress to pursue **price stability** *and* **maximum employment**
+- Operates independently of the White House (by design)
+
+## An Old Debate
+
+- Politicians have *always* been tempted to pressure central banks
+  - Lower rates → cheaper credit → short-term boost to growth and jobs
+  - But expansionary monetary policy can cause inflation
+- **Political business cycle** theory (Nordhaus 1975): governments inflate before elections
+- Nixon's pressure on Fed Chair Arthur Burns before 1972 election (a classic case)
+- Should monetary policy be insulated from politics?
+
+# Alesina & Summers Framework
+
+## Two Central Questions
+
+::: {.fragment}
+1. Does **central bank independence (CBI)** reduce inflation?
+2. If so, is there a **cost** to real economic performance, e.g. growth & unemployment?
+:::
+
+::: {.incremental}
+- If the answer to (1) is **yes** and (2) is **no** — that is a **"free lunch"**
+- Alesina and Summers argue this is exactly what the data show
+:::
+
+## Why Might Politicians Want Easy Money?
+
+- Real output *can* be temporarily boosted by loose monetary policy
+  - Lower rates → cheaper borrowing → more investment and consumption
+- **Political business cycles**: rate cuts before elections inflate short-term growth
+- Classic example: Nixon pressuring Fed Chair Aurthor Burns before 1972 presidential election
+
+## The Problem
+
+<br>
+
+- **Dynamic inconsistency** (Kydland & Prescott 1977; Barro & Gordon 1983)
+  - Governments face a short-term temptation to inflate: boost output and cut unemployment before elections
+  - But if people *expect* inflation, they demand higher wages → prices rise with no lasting output gain
+  - A government that cannot commit to low inflation ends up with high inflation *and* no output benefit
+
+## The Solution: Central Bank Independence
+
+<br>
+
+  - Delegate monetary policy to a conservative, independent central banker
+  - Independent central bankers are more inflation-averse than the median voter
+  - Can *credibly commit* to price stability in a way that elected governments cannot
+  - Political insulation = credible commitment = lower inflation expectations 
+
+## The Counter-Argument
+
+<br>
+
+  - Politically responsive central banks may better stabilize output
+  - Independent central banks may tolerate higher unemployment to fight inflation 
+  - Primarily research by Rogoff (1985) 
+
+## Measuring Central Bank Independence {.smaller}
+
+<br>
+
+- Not straightforward because independence is multi-dimensional
+- Two main indices:
+  - **Bade-Parkin (BP)**: 1–4 scale based on *political* independence — relationship with the executive, appointment procedures, government representation on the board
+  - **Grilli-Masciandaro-Tabellini (GMT)**: adds *economic* independence — can the government force the central bank to finance deficits?
+- Alesina & Summers average the two into a single 1–4 scale (higher = more independent)
+- Sample: **16 OECD countries, 1955–1988**
+
+## Who Is Most (and Least) Independent? {.smaller}
+
+<br>
+
+| Least Independent | CBI | Most Independent | CBI |
+|:---|:---:|:---|:---:|
+| New Zealand | 1.0 | Germany | 4.0 |
+| Spain | 1.5 | Switzerland | 4.0 |
+| Italy | 1.75 | United States | 3.5 |
+| Australia, Belgium, France, Norway, Sweden, UK | 2.0 | Japan, Canada, Netherlands, Denmark | 2.5 |
+
+<br>
+
+## Discussion: Before We Look at the Data
+
+<br>
+
+- Given these rankings, what do you *expect* the relationship to be between CBI and inflation?
+
+- What about CBI and economic growth?
+
+- Does the ranking of any country surprise you?
+
+# The Evidence
+
+## CBI and Average Inflation {.smaller}
+
+```{r}
+#| fig-width: 9
+#| fig-height: 5.2
+
+ggplot(cbi_data, aes(x = cbi, y = avg_inf, label = country)) +
+  geom_smooth(method = "lm", se = FALSE, color = "#e07b54", linewidth = 0.9) +
+  geom_point(color = "coral4", size = 3) +
+  geom_text_repel(color = "darkgreen", size = 3.5,
+                  box.padding = 0.5, point.padding = 0.3,
+                  segment.color = "grey50", max.overlaps = 20) +
+  scale_x_continuous(limits = c(0.5, 4.7), breaks = 1:4) +
+  scale_y_continuous(limits = c(2, 11)) +
+  labs(x = "Index of Central Bank Independence",
+       y = "Average Inflation (%)",
+       caption = "Source: Alesina & Summers (1993). Data: 1955–1988.") +
+  theme_minimal()
+```
+
+## CBI and Average Real GNP Growth {.smaller}
+
+```{r}
+#| fig-width: 9
+#| fig-height: 5.2
+
+ggplot(cbi_data, aes(x = cbi, y = avg_gnp, label = country)) +
+  geom_smooth(method = "lm", se = FALSE, color = "#e07b54", linewidth = 0.9) +
+  geom_point(color = "coral4", size = 3) +
+  geom_text_repel(color = "darkgreen", size = 3.5,
+                  box.padding = 0.5, point.padding = 0.3,
+                  segment.color = "grey50", max.overlaps = 20) +
+  scale_x_continuous(limits = c(0.5, 4.7), breaks = 1:4) +
+  scale_y_continuous(limits = c(0.5, 8)) +
+  labs(x = "Index of Central Bank Independence",
+       y = "Average Real GNP Growth (%)",
+       caption = "Source: Alesina & Summers (1993). Data: 1955–1988.") +
+  theme_minimal()
+```
+
+## What Do You See?
+
+<br>
+
+- What pattern do you see in the **inflation chart**?
+
+- What pattern do you see in the **GNP growth chart**?
+
+- What is the implication if *both* patterns are true simultaneously?
+
+- Any outliers that stand out? What might explain Japan? New Zealand?
+
+## The "Free Lunch" Result
+
+- **CBI strongly associated with lower inflation** — near-perfect negative correlation
+  - Also holds for inflation *variability* (more independent banks → more stable prices too)
+
+- **CBI has no measurable effect on real output** — flat relationship with GNP growth, unemployment, and real interest rates
+
+- **Implication**: CBI delivers price stability at *no cost* to economic performance (free lunch!)
+
+# Subsequent Research
+
+## What's Wrong with the Alesina & Summers Study? {.smaller}
+
+- **Small N, no controls**: only 16 countries; simple scatter plots with no regression or confounders
+  - What if something *else* — trade openness, fiscal discipline — explains both higher CBI and lower inflation?
+
+- **Endogeneity**: does CBI *cause* low inflation, or do countries with pre-existing low-inflation preferences simply grant more independence?
+  - Germany: 1920s hyperinflation trauma → public aversion to inflation → independent Bundesbank
+  - The correlation could run in reverse
+
+- **De jure ≠ de facto**: indices measure central bank *laws*, not actual behavior (laws can be ignored)
+
+- **Historical period**: all data from 1955–1988; the world has changed substantially since
+
+## What Has Research Found Since? {.smaller}
+
+<br>
+
+- **Klomp & de Haan (2010)** — meta-regression of 59 studies: the negative CBI–inflation link is real even correcting for publication bias, but the size of the effect varies across specifications
+
+- **Bodea & Hicks (2015)** — panel data with instrumental variables: CBI lowers inflation and the "free lunch" holds, *but mainly in democracies* where legal commitments are credible
+
+- **Acemoglu et al. (2008)** — most important challenge: CBI is largely **endogenous to political institutions**; where executive power is unconstrained, CBI reform is ineffective because politicians find other ways to inflate (fiscal dominance, financial repression)
+
+- **Bottom line**: for developed democracies, Alesina & Summers holds reasonably well with modern methods; for developing countries, institutional context is everything
+
+## Developing Countries: The De Jure / De Facto Gap {.smaller}
+
+<br>
+
+- In many developing countries, central banks are legally independent but not *actually* independent
+
+- **Cukierman et al. (1992)**: use central bank **governor turnover** as a proxy for de facto independence
+  - High turnover = governors being fired = low real independence
+  - Legal CBI predicts little in developing countries; actual behavior predicts more
+
+- **Garriga (2016)**: 182-country panel shows that CBI reduces inflation in developing countries, but only where **rule of law** is strong
+
+- **Key insight** (Acemoglu et al.): CBI may be a *symptom* of good institutions rather than a cause of good outcomes
+
+## Post-2008: New Pressures {.smaller}
+
+<br>
+
+- **Quantitative easing (QE)**: central banks purchased government bonds at massive scale to fight the financial crisis and COVID recession
+  - Blurs the monetary/fiscal line
+  - Risk of **fiscal dominance**: central banks that hold large amounts of government debt may be unable to raise rates without triggering sovereign debt crises
+
+- **Distributional politics**: near-zero rates and asset purchases benefited asset-holders and debtors; savers and pensioners lost
+  - Made central banks politically visible in a new way, i.e. harder to claim "apolitical" status
+
+- **Post-COVID inflation surge**: central banks were slow to raise rates in 2021–22; accusations of political influence resurfaced
+
+# A Natural Experiment: Turkey
+
+## When Central Bank Independence Breaks Down {.smaller}
+
+- President Erdogan dismissed **six central bank governors** between 2016 and 2023
+- Governors were fired for resisting pressure to cut rates despite rising inflation
+- Erdogan's unorthodox theory: high interest rates *cause* inflation (mainstream economics says the opposite)
+
+. . .
+
+| Year | Inflation |
+|:-----|----------:|
+| 2019 | ~11% |
+| 2021 | ~21% |
+| 2022 | **~85%** |
+| 2023 | ~65% (after policy reversal) |
+
+. . .
+
+- Turkey eventually reversed course; a new governor hiked rates and inflation fell
+- But credibility damage was lasting (near perfect test of A&S logic)
+
+# The Bigger Debate
+
+## Two Camps {.smaller}
 
 ::: columns
-:::: column
-- Gini coefficient is A/(A+B)
-- Varies from 0 (perfect equality) and 1 (perfect inequality)
-::::
-:::: column
-![](images/gini.jpg)
-::::
+::: {.column width="50%"}
+**CBI as technocratic solution**
+
+- Elected politicians have short-term incentives; monetary policy requires a long view
+- Evidence: CBI lowers inflation at no output cost (for developed economies)
+- Turkey shows what happens when independence is removed
+- Insulating the central bank from electoral cycles is simply good institutional design
 :::
 
-## Income vs. Wealth Inequality
+::: {.column width="50%"}
+**CBI as democratic problem**
 
-- Income: what people earn from work and *returns* from investments like stocks, bonds and investment properties 
-- Wealth: value of everything a person or family owns minus any debts
-	- Net worth: marketable assets minus debts
-	- Financial wealth: non-home wealth
-	
-# Wealth Inequality
-
-## Bottom 90% vs. Top 10% Wealth Shares (U.S.)
-
-```{r}
-#| label: us-ineq3
-download_wid(
-	indicators = "shweal", # Shares of personal wealth
-	areas = "US", # In the U.S.
-	perc = c("p0p90", "p90p100"), # Bottom 90% and top 10%
-	ages = "992", 
-	pop = "j"
-  ) %>% 
-  ggplot(aes(x=year, y=value, color=percentile)) +
-  	geom_line() +
-  	scale_y_continuous(label=percent) +
-  	scale_color_discrete(labels=c("p0p90"= "bottom 90%", "p90p100"="top 10%")) +
-  	labs(title = "Bottom 90% and Top 10% Personal Wealth Shares in the U.S.", 
-  		 caption = "Source: World Inequality Database",  
-  		 x = "Year", y = "Top Share")
-```
-
-## The Problem of the 1% 
-
-```{r}
-#| label: us-ineq4
-download_wid(
-	indicators = "shweal", # Shares of personal wealth
-	areas = "US", # In the U.S.
-	perc = c("p0p50", "p99p100"), # Bottom 50% and top 1%
-	ages = "992", 
-	pop = "j"
-) %>% 
-  ggplot(aes(x=year, y=value, color=percentile)) +
-  	geom_line() +
-  	scale_y_continuous(label=percent) +
-  	scale_color_discrete(labels=c("p0p50"="bottom 50%", "p99p100"="top 1%")) +
-  	labs(title = "Bottom 50% and Top 1% Personal Wealth Shares in the U.S.", 
-  		 caption = "Source: World Inequality Database",  
-  		 x = "Year", y = "Top Share")
-```
-
-## Decomposing the 1%
-
-```{r}
-#| label:  us-ineq5
-download_wid(
-	indicators = "shweal", # Shares of personal wealth
-	areas = "US", # In France
-	perc = c("p99p100", "p99.5p100", "p99.9p100", "p99.99p100"), # Shares of 1%
-	ages = 992, 
-	pop = "j"
-) %>%
-  ggplot(aes(x=year, y=value, color=percentile)) +
-  	geom_line() +
-  	scale_y_continuous(label=percent) +
-  	scale_color_discrete(
-  	  breaks = c("p99p100", "p99.5p100", "p99.9p100", "p99.99p100"), # to change order
-  	  labels=c("p99p100"="top 1%", "p99.5p100"="top 0.5%",
-  	           "p99.9p100"="top 0.1%", "p99.99p100"="top 0.01%")
-  	           ) + 
-      labs(title = "Top Wealth Shares in the U.S.", 
-  		  caption = "Source: World Inequality Database",  
-  		  x = "Year", y = "Top Share")
-```
-
-::: {.notes}
-Top 1% as a whole see increased wealth shares of about 15% from 1975 to now, 
-while top .5% doubles its wealth share; .1% and .01% tripple their wealth shares. 
+- Unelected officials make decisions with large distributional consequences
+  - High rates hurt debtors, workers, homebuyers
+  - Low rates hurt savers, pensioners
+- "Insulated from politics" often means insulated from accountability
+- QE and the 2008 crisis showed central banks are never truly apolitical
+:::
 :::
 
-## Wealth Shares in France
+## Discussion
 
-```{r}
-#| label: france-ineq
-download_wid(
-	indicators = "shweal", # Shares of personal wealth
-	areas = "FR", # In France
-	perc = c("p90p100", "p99p100") # Top 10% and top 1%
-) %>%
-  ggplot(aes(x=year, y=value, color=percentile)) +
-  	geom_line() +
-  	scale_y_continuous(label=percent) +
-  	scale_color_discrete(labels=c("p90p100"="top 10%", "p99p100"="top 1%")) +
-  	labs(title = "Top 1% and Top 10% Personal Wealth Shares in France", 
-  		 caption = "Source: World Inequality Database",  
-  		 x = "Year", y = "Top Share")
-```
+<br>
 
-# Income Inequality
+- Should central banks be independent of political control?
 
-## United States Gini Coefficient
+- Who wins and who loses when interest rates are *high*? When they are *low*?
 
-```{r}
-#| label: us_gini
-WDI(indicator="SI.POV.GINI", country='USA', start=1990) %>%
-  ggplot(aes(year, SI.POV.GINI)) + 
-    geom_line(color = "deepskyblue") +
-  	labs(title = "Gini Index of Inequality in the U.S.", 
-		 caption = "Source: World Bank",  
-		 x = "Year", y = "Gini Index")
-```
+- Does the Trump-Powell conflict change your view? Does the Turkey case?
 
-## United States Median Household Income
-
-![](images/median_income.png)
-
-## Bottom 90% vs. Top 10% Income Shares (U.S.)
-
-```{r us-ineq1, out.width="100%", echo = FALSE}
-download_wid(
-	indicators = "sptinc", # Shares of pre-tax national income
-	areas = "US", # In the U.S.
-	perc = c("p0p90", "p90p100"), # Bottom 90% and top 10%  
-	pop = "j"
-) %>%
-  ggplot(aes(x=year, y=value, color=percentile)) +
-  	geom_line() +
-  	scale_y_continuous(label=percent) +
-  	scale_color_discrete(labels=c("p0p90"="bottom 90%", "p90p100"="top 10%")) +
-  	labs(title = "Bottom 90% and Top 10% Income Shares in the U.S.", 
-  		 caption = "Source: World Inequality Database",  
-  		 x = "Year", y = "Top Share")
-```
-
-## United States Average Incomes
-
-```{r}
-#| label: us-ineq2
-download_wid(
-	indicators = "aptinc", # Average pre-tax national income
-	areas = "US", # In the U.S.
-	perc = c("p0p50", "p50p60", "p60p70", "p70p80", "p80p90", "p90p100"), # Percentiles
-	pop = "j",
-	ages = "992",
-	years = 1970:2022
-) %>%
-  ggplot(aes(x=year, y=value, color=percentile)) +
-	  geom_line() +
-  	scale_y_continuous(label=comma) +
-  	scale_color_discrete(
-  	  labels=c("p0p50"="bottom 50%", "p50p60"="6th decile", "p60p70"="7th decile", "p70p80"="8th decile", "p80p90"="9th decile", "p90p100"="top 10%")) +
-	  labs(title = "Average Income by Percentile", 
-	    caption = "Source: World Inequality Database", x = "Year", y = "Dollars")
-```
-
-## Exercise {.smaller}
-
-- Go to [wid.world](https://wid.world) 
-- Country graphs section
-- Select a country
-	- Canada
-	- United Kingdom
-	- Germany
-	- France
-	- Sweden
-	- China
-	- India
-- How have pre-tax income shares changed over time? 
-- How does your country compare to the world and the U.S. in terms of shares of top 10%
-
-# Explanations
-
-## Pickety vs. Stiglitz {.smaller}
-
-- Pickety: r > g
-  - There is some truth to "r > g" in the U.S.
-    - Most people do not have a lot of non-home wealth
-  - But upward slope of inequality sharper in U.S.
-- Stiglitz: "rent seeking"
-  - CEOs pay themselves rather than paying workers
-  - Rent is drawing income by capturing something 
-    - As opposed to producing something of value
-    - Grabbing wealth vs. creating wealth
-
-## Other Explanations {.smaller}
-
-- Economic globalization
-	- Trade
-	- Internationalization of finance 
-- Conservative economic policy (Regan revolution)
-	- Removal of capital controls 
-	- Deregulation
-	- Shifts in tax policy
-- Technology and skill development 
-	- Reduced demand for low-skilled workers
-- Immigration
-- Social norms and reward system
-- Decline of left parties and unions
-- Lack of redistribution
-
-## Debate: Should Big Tech be Broken Up {.smaller}
-
-- Pick one of the FAANG companies 
-  - Facebook (Meta)
-  - Amazon
-  - Apple
-  - Netflix
-  - Google (Alphabet)
-- Should it be broken up into smaller companies?
-  - Winners and losers
-  - Relate your argument to inequality/Stiglitz
+- Is there a middle ground between full independence and full political control?

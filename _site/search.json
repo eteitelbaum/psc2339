@@ -2085,7 +2085,7 @@
     "href": "weeks/week-12.html#slides",
     "title": "Week 12",
     "section": "Slides",
-    "text": "Slides\n🖥️ Varieties of capitalism\n\n\nBack to course schedule ⏎",
+    "text": "Slides\n🖥️ Varieties of capitalism\n🖥️ Central bank independence\n\n\nBack to course schedule ⏎",
     "crumbs": [
       "Weekly materials",
       "Week 12"
@@ -3406,5 +3406,292 @@
       "Course information",
       "Syllabus"
     ]
+  },
+  {
+    "objectID": "slides/lecture-12.2.html#mr.-too-late",
+    "href": "slides/lecture-12.2.html#mr.-too-late",
+    "title": "Lecture 12.2",
+    "section": "“Mr. Too Late”",
+    "text": "“Mr. Too Late”\n\n“There can almost be no inflation, but there can be a SLOWING of the economy unless Mr. Too Late, a major loser, lowers interest rates, NOW.”\n\n— Donald Trump, Truth Social, April 21, 2025\n\n\nTrump subsequently threatened to fire Fed Chair Jerome Powell. Markets fell ~2.4% the day of the post; the dollar also fell. Powell said he would not resign and Trump later backed off: “I have no intention of firing him.”"
+  },
+  {
+    "objectID": "slides/lecture-12.2.html#what-does-the-fed-do",
+    "href": "slides/lecture-12.2.html#what-does-the-fed-do",
+    "title": "Lecture 12.2",
+    "section": "What Does the Fed Do?",
+    "text": "What Does the Fed Do?\n\n\nSets the federal funds rate (the benchmark interest rate)\nControls the money supply and credit conditions\nActs as lender of last resort to the banking system\nMandated by Congress to pursue price stability and maximum employment\nOperates independently of the White House (by design)"
+  },
+  {
+    "objectID": "slides/lecture-12.2.html#an-old-debate",
+    "href": "slides/lecture-12.2.html#an-old-debate",
+    "title": "Lecture 12.2",
+    "section": "An Old Debate",
+    "text": "An Old Debate\n\nPoliticians have always been tempted to pressure central banks\n\nLower rates → cheaper credit → short-term boost to growth and jobs\nBut expansionary monetary policy can cause inflation\n\nPolitical business cycle theory (Nordhaus 1975): governments inflate before elections\nNixon’s pressure on Fed Chair Arthur Burns before 1972 election (a classic case)\nShould monetary policy be insulated from politics?"
+  },
+  {
+    "objectID": "slides/lecture-12.2.html#two-central-questions",
+    "href": "slides/lecture-12.2.html#two-central-questions",
+    "title": "Lecture 12.2",
+    "section": "Two Central Questions",
+    "text": "Two Central Questions\n\n\nDoes central bank independence (CBI) reduce inflation?\nIf so, is there a cost to real economic performance, e.g. growth & unemployment?\n\n\n\nIf the answer to (1) is yes and (2) is no — that is a “free lunch”\nAlesina and Summers argue this is exactly what the data show"
+  },
+  {
+    "objectID": "slides/lecture-12.2.html#why-might-independence-lower-inflation",
+    "href": "slides/lecture-12.2.html#why-might-independence-lower-inflation",
+    "title": "Lecture 12.2",
+    "section": "Why Might Independence Lower Inflation?",
+    "text": "Why Might Independence Lower Inflation?\n\n\nDynamic inconsistency (Kydland & Prescott 1977; Barro & Gordon 1983)\n\nGovernments face a short-term temptation to inflate: boost output and cut unemployment before elections\nBut if people expect inflation, they demand higher wages → prices rise with no lasting output gain\nA government that cannot commit to low inflation ends up with high inflation and no output benefit"
+  },
+  {
+    "objectID": "slides/lecture-12.2.html#why-might-politicians-want-easy-money",
+    "href": "slides/lecture-12.2.html#why-might-politicians-want-easy-money",
+    "title": "Lecture 12.2",
+    "section": "Why Might Politicians Want Easy Money?",
+    "text": "Why Might Politicians Want Easy Money?\n\nReal output can be temporarily boosted by loose monetary policy\n\nLower rates → cheaper borrowing → more investment and consumption\n\nPolitical business cycles: rate cuts before elections inflate short-term growth\nClassic example: Nixon pressuring Fed Chair Aurthor Burns before 1972 presidential election"
+  },
+  {
+    "objectID": "slides/lecture-12.2.html#measuring-central-bank-independence",
+    "href": "slides/lecture-12.2.html#measuring-central-bank-independence",
+    "title": "Lecture 12.2",
+    "section": "Measuring Central Bank Independence",
+    "text": "Measuring Central Bank Independence\n\n\nNot straightforward because independence is multi-dimensional\nTwo main indices:\n\nBade-Parkin (BP): 1–4 scale based on political independence — relationship with the executive, appointment procedures, government representation on the board\nGrilli-Masciandaro-Tabellini (GMT): adds economic independence — can the government force the central bank to finance deficits?\n\nAlesina & Summers average the two into a single 1–4 scale (higher = more independent)\nSample: 16 OECD countries, 1955–1988"
+  },
+  {
+    "objectID": "slides/lecture-12.2.html#who-is-most-and-least-independent",
+    "href": "slides/lecture-12.2.html#who-is-most-and-least-independent",
+    "title": "Lecture 12.2",
+    "section": "Who Is Most (and Least) Independent?",
+    "text": "Who Is Most (and Least) Independent?\n\n\n\n\n\n\n\n\n\n\nLeast Independent\nCBI\nMost Independent\nCBI\n\n\n\n\nNew Zealand\n1.0\nGermany\n4.0\n\n\nSpain\n1.5\nSwitzerland\n4.0\n\n\nItaly\n1.75\nUnited States\n3.5\n\n\nAustralia, Belgium, France, Norway, Sweden, UK\n2.0\nJapan, Canada, Netherlands, Denmark\n2.5"
+  },
+  {
+    "objectID": "slides/lecture-12.2.html#discussion-before-we-look-at-the-data",
+    "href": "slides/lecture-12.2.html#discussion-before-we-look-at-the-data",
+    "title": "Lecture 12.2",
+    "section": "Discussion: Before We Look at the Data",
+    "text": "Discussion: Before We Look at the Data\n\n\nGiven these rankings, what do you expect the relationship to be between CBI and inflation?\nWhat about CBI and economic growth?\nDoes the ranking of any country surprise you?"
+  },
+  {
+    "objectID": "slides/lecture-12.2.html#cbi-and-average-inflation",
+    "href": "slides/lecture-12.2.html#cbi-and-average-inflation",
+    "title": "Lecture 12.2",
+    "section": "CBI and Average Inflation",
+    "text": "CBI and Average Inflation"
+  },
+  {
+    "objectID": "slides/lecture-12.2.html#cbi-and-average-real-gnp-growth",
+    "href": "slides/lecture-12.2.html#cbi-and-average-real-gnp-growth",
+    "title": "Lecture 12.2",
+    "section": "CBI and Average Real GNP Growth",
+    "text": "CBI and Average Real GNP Growth"
+  },
+  {
+    "objectID": "slides/lecture-12.2.html#discussion-what-do-you-see",
+    "href": "slides/lecture-12.2.html#discussion-what-do-you-see",
+    "title": "Lecture 12.2",
+    "section": "Discussion: What Do You See?",
+    "text": "Discussion: What Do You See?\n\n\nWhat pattern do you see in the inflation chart?\nWhat pattern do you see in the GNP growth chart?\nWhat is the implication if both patterns are true simultaneously?\nAny outliers that stand out? What might explain Japan? New Zealand?"
+  },
+  {
+    "objectID": "slides/lecture-12.2.html#the-free-lunch-result",
+    "href": "slides/lecture-12.2.html#the-free-lunch-result",
+    "title": "Lecture 12.2",
+    "section": "The “Free Lunch” Result",
+    "text": "The “Free Lunch” Result\n\nCBI strongly associated with lower inflation — near-perfect negative correlation\n\nAlso holds for inflation variability (more independent banks → more stable prices too)\n\nCBI has no measurable effect on real output — flat relationship with GNP growth, unemployment, and real interest rates\nImplication: CBI delivers price stability at no cost to economic performance (free lunch!)"
+  },
+  {
+    "objectID": "slides/lecture-12.2.html#whats-wrong-with-the-alesina-summers-study",
+    "href": "slides/lecture-12.2.html#whats-wrong-with-the-alesina-summers-study",
+    "title": "Lecture 12.2",
+    "section": "What’s Wrong with the Alesina & Summers Study?",
+    "text": "What’s Wrong with the Alesina & Summers Study?\n\nSmall N, no controls: only 16 countries; simple scatter plots with no regression or confounders\n\nWhat if something else — trade openness, fiscal discipline — explains both higher CBI and lower inflation?\n\nEndogeneity: does CBI cause low inflation, or do countries with pre-existing low-inflation preferences simply grant more independence?\n\nGermany: 1920s hyperinflation trauma → public aversion to inflation → independent Bundesbank\nThe correlation could run in reverse\n\nDe jure ≠ de facto: indices measure central bank laws, not actual behavior (laws can be ignored)\nHistorical period: all data from 1955–1988; the world has changed substantially since"
+  },
+  {
+    "objectID": "slides/lecture-12.2.html#what-has-research-found-since",
+    "href": "slides/lecture-12.2.html#what-has-research-found-since",
+    "title": "Lecture 12.2",
+    "section": "What Has Research Found Since?",
+    "text": "What Has Research Found Since?\n\n\nKlomp & de Haan (2010) — meta-regression of 59 studies: the negative CBI–inflation link is real even correcting for publication bias, but the size of the effect varies across specifications\nBodea & Hicks (2015) — panel data with instrumental variables: CBI lowers inflation and the “free lunch” holds, but mainly in democracies where legal commitments are credible\nAcemoglu et al. (2008) — most important challenge: CBI is largely endogenous to political institutions; where executive power is unconstrained, CBI reform is ineffective because politicians find other ways to inflate (fiscal dominance, financial repression)\nBottom line: for developed democracies, Alesina & Summers holds reasonably well with modern methods; for developing countries, institutional context is everything"
+  },
+  {
+    "objectID": "slides/lecture-12.2.html#developing-countries-the-de-jure-de-facto-gap",
+    "href": "slides/lecture-12.2.html#developing-countries-the-de-jure-de-facto-gap",
+    "title": "Lecture 12.2",
+    "section": "Developing Countries: The De Jure / De Facto Gap",
+    "text": "Developing Countries: The De Jure / De Facto Gap\n\n\nIn many developing countries, central banks are legally independent but not actually independent\nCukierman et al. (1992): use central bank governor turnover as a proxy for de facto independence\n\nHigh turnover = governors being fired = low real independence\nLegal CBI predicts little in developing countries; actual behavior predicts more\n\nGarriga (2016): 182-country panel shows that CBI reduces inflation in developing countries, but only where rule of law is strong\nKey insight (Acemoglu et al.): CBI may be a symptom of good institutions rather than a cause of good outcomes"
+  },
+  {
+    "objectID": "slides/lecture-12.2.html#post-2008-new-pressures",
+    "href": "slides/lecture-12.2.html#post-2008-new-pressures",
+    "title": "Lecture 12.2",
+    "section": "Post-2008: New Pressures",
+    "text": "Post-2008: New Pressures\n\n\nQuantitative easing (QE): central banks purchased government bonds at massive scale to fight the financial crisis and COVID recession\n\nBlurs the monetary/fiscal line\nRisk of fiscal dominance: central banks that hold large amounts of government debt may be unable to raise rates without triggering sovereign debt crises\n\nDistributional politics: near-zero rates and asset purchases benefited asset-holders and debtors; savers and pensioners lost\n\nMade central banks politically visible in a new way, i.e. harder to claim “apolitical” status\n\nPost-COVID inflation surge: central banks were slow to raise rates in 2021–22; accusations of political influence resurfaced"
+  },
+  {
+    "objectID": "slides/lecture-12.2.html#when-central-bank-independence-breaks-down",
+    "href": "slides/lecture-12.2.html#when-central-bank-independence-breaks-down",
+    "title": "Lecture 12.2",
+    "section": "When Central Bank Independence Breaks Down",
+    "text": "When Central Bank Independence Breaks Down\n\nPresident Erdogan dismissed six central bank governors between 2016 and 2023\nGovernors were fired for resisting pressure to cut rates despite rising inflation\nErdogan’s unorthodox theory: high interest rates cause inflation (mainstream economics says the opposite)\n\n\n\n\n\nYear\nInflation\n\n\n\n\n2019\n~11%\n\n\n2021\n~21%\n\n\n2022\n~85%\n\n\n2023\n~65% (after policy reversal)\n\n\n\n\n\n\nTurkey eventually reversed course; a new governor hiked rates and inflation fell\nBut credibility damage was lasting (near perfect test of A&S logic)"
+  },
+  {
+    "objectID": "slides/lecture-12.2.html#two-camps",
+    "href": "slides/lecture-12.2.html#two-camps",
+    "title": "Lecture 12.2",
+    "section": "Two Camps",
+    "text": "Two Camps\n\n\nCBI as technocratic solution\n\nElected politicians have short-term incentives; monetary policy requires a long view\nEvidence: CBI lowers inflation at no output cost (for developed economies)\nTurkey shows what happens when independence is removed\nInsulating the central bank from electoral cycles is simply good institutional design\n\n\nCBI as democratic problem\n\nUnelected officials make decisions with large distributional consequences\n\nHigh rates hurt debtors, workers, homebuyers\nLow rates hurt savers, pensioners\n\n“Insulated from politics” often means insulated from accountability\nQE and the 2008 crisis showed central banks are never truly apolitical"
+  },
+  {
+    "objectID": "slides/lecture-12.2.html#discussion",
+    "href": "slides/lecture-12.2.html#discussion",
+    "title": "Lecture 12.2",
+    "section": "Discussion",
+    "text": "Discussion\n\n\nShould central banks be independent of political control?\nWho wins and who loses when interest rates are high? When they are low?\nDoes the Trump-Powell conflict change your view? Does the Turkey case?\nIs there a middle ground between full independence and full political control?"
+  },
+  {
+    "objectID": "slides/lecture-12.2.html#the-solution-central-bank-independence",
+    "href": "slides/lecture-12.2.html#the-solution-central-bank-independence",
+    "title": "Lecture 12.2",
+    "section": "The Solution: Central Bank Independence",
+    "text": "The Solution: Central Bank Independence\n\n\nDelegate monetary policy to a conservative, independent central banker\nIndependent central bankers are more inflation-averse than the median voter\nCan credibly commit to price stability in a way that elected governments cannot\nPolitical insulation = credible commitment = lower inflation expectations"
+  },
+  {
+    "objectID": "slides/lecture-12.2.html#what-do-you-see",
+    "href": "slides/lecture-12.2.html#what-do-you-see",
+    "title": "Lecture 12.2",
+    "section": "What Do You See?",
+    "text": "What Do You See?\n\n\nWhat pattern do you see in the inflation chart?\nWhat pattern do you see in the GNP growth chart?\nWhat is the implication if both patterns are true simultaneously?\nAny outliers that stand out? What might explain Japan? New Zealand?"
+  },
+  {
+    "objectID": "slides/lecture-12.2.html#traditional-arguments-against-cbi",
+    "href": "slides/lecture-12.2.html#traditional-arguments-against-cbi",
+    "title": "Lecture 12.2",
+    "section": "Traditional arguments Against CBI",
+    "text": "Traditional arguments Against CBI\n\n\nPolitically responsive central banks may better stabilize output\nIndependent central banks may tolerate higher unemployment to fight inflation\nPrimarily research by Rogoff (1985)"
+  },
+  {
+    "objectID": "slides/lecture-12.2.html#the-problem",
+    "href": "slides/lecture-12.2.html#the-problem",
+    "title": "Lecture 12.2",
+    "section": "The Problem",
+    "text": "The Problem\n\n\nDynamic inconsistency (Kydland & Prescott 1977; Barro & Gordon 1983)\n\nGovernments face a short-term temptation to inflate: boost output and cut unemployment before elections\nBut if people expect inflation, they demand higher wages → prices rise with no lasting output gain\nA government that cannot commit to low inflation ends up with high inflation and no output benefit"
+  },
+  {
+    "objectID": "slides/lecture-12.2.html#the-counter-argument",
+    "href": "slides/lecture-12.2.html#the-counter-argument",
+    "title": "Lecture 12.2",
+    "section": "The Counter-Argument",
+    "text": "The Counter-Argument\n\n\nPolitically responsive central banks may better stabilize output\nIndependent central banks may tolerate higher unemployment to fight inflation\nPrimarily research by Rogoff (1985)"
+  },
+  {
+    "objectID": "slides/lecture-13.2.html#illustrative-statistics-from-stiglitz",
+    "href": "slides/lecture-13.2.html#illustrative-statistics-from-stiglitz",
+    "title": "Lecture 13.2",
+    "section": "Illustrative statistics from Stiglitz",
+    "text": "Illustrative statistics from Stiglitz\n\n20% of wage earners earn as much as bottom 80%\nTop 1% earn in a week what bottom 20% earns in a year\nTop .1% earn in a day what bottom 90% earns in a year\nWalton family controls as much wealth as is owned by bottom 30% of society (~$238 billion)"
+  },
+  {
+    "objectID": "slides/lecture-13.2.html#common-inequality-measures",
+    "href": "slides/lecture-13.2.html#common-inequality-measures",
+    "title": "Lecture 13.2",
+    "section": "Common Inequality Measures",
+    "text": "Common Inequality Measures\n\nIncome/wealth shares -What share a given subpopulation accounts for\nRatios\n\n20/20 ratio (highest 20/lowest 20)\nPalma ratio (highest 10/lowest 40)\n90/10 ratio (lowest 90/highest 10)\n\nGini coefficient\n\nBased on the “Lorenz” curve\nVaries from 0 to 1\n\nOthers\n\ne.g. Thiel, Hoover"
+  },
+  {
+    "objectID": "slides/lecture-13.2.html#lorenze-curve-and-gini-coefficient",
+    "href": "slides/lecture-13.2.html#lorenze-curve-and-gini-coefficient",
+    "title": "Lecture 13.2",
+    "section": "Lorenze Curve and Gini Coefficient",
+    "text": "Lorenze Curve and Gini Coefficient\n\n\n\nGini coefficient is A/(A+B)\nVaries from 0 (perfect equality) and 1 (perfect inequality)"
+  },
+  {
+    "objectID": "slides/lecture-13.2.html#income-vs.-wealth-inequality",
+    "href": "slides/lecture-13.2.html#income-vs.-wealth-inequality",
+    "title": "Lecture 13.2",
+    "section": "Income vs. Wealth Inequality",
+    "text": "Income vs. Wealth Inequality\n\nIncome: what people earn from work and returns from investments like stocks, bonds and investment properties\nWealth: value of everything a person or family owns minus any debts\n\nNet worth: marketable assets minus debts\nFinancial wealth: non-home wealth"
+  },
+  {
+    "objectID": "slides/lecture-13.2.html#bottom-90-vs.-top-10-wealth-shares-u.s.",
+    "href": "slides/lecture-13.2.html#bottom-90-vs.-top-10-wealth-shares-u.s.",
+    "title": "Lecture 13.2",
+    "section": "Bottom 90% vs. Top 10% Wealth Shares (U.S.)",
+    "text": "Bottom 90% vs. Top 10% Wealth Shares (U.S.)"
+  },
+  {
+    "objectID": "slides/lecture-13.2.html#the-problem-of-the-1",
+    "href": "slides/lecture-13.2.html#the-problem-of-the-1",
+    "title": "Lecture 13.2",
+    "section": "The Problem of the 1%",
+    "text": "The Problem of the 1%"
+  },
+  {
+    "objectID": "slides/lecture-13.2.html#decomposing-the-1",
+    "href": "slides/lecture-13.2.html#decomposing-the-1",
+    "title": "Lecture 13.2",
+    "section": "Decomposing the 1%",
+    "text": "Decomposing the 1%\n\n\nTop 1% as a whole see increased wealth shares of about 15% from 1975 to now, while top .5% doubles its wealth share; .1% and .01% tripple their wealth shares."
+  },
+  {
+    "objectID": "slides/lecture-13.2.html#wealth-shares-in-france",
+    "href": "slides/lecture-13.2.html#wealth-shares-in-france",
+    "title": "Lecture 13.2",
+    "section": "Wealth Shares in France",
+    "text": "Wealth Shares in France"
+  },
+  {
+    "objectID": "slides/lecture-13.2.html#united-states-gini-coefficient",
+    "href": "slides/lecture-13.2.html#united-states-gini-coefficient",
+    "title": "Lecture 13.2",
+    "section": "United States Gini Coefficient",
+    "text": "United States Gini Coefficient"
+  },
+  {
+    "objectID": "slides/lecture-13.2.html#united-states-median-household-income",
+    "href": "slides/lecture-13.2.html#united-states-median-household-income",
+    "title": "Lecture 13.2",
+    "section": "United States Median Household Income",
+    "text": "United States Median Household Income"
+  },
+  {
+    "objectID": "slides/lecture-13.2.html#bottom-90-vs.-top-10-income-shares-u.s.",
+    "href": "slides/lecture-13.2.html#bottom-90-vs.-top-10-income-shares-u.s.",
+    "title": "Lecture 13.2",
+    "section": "Bottom 90% vs. Top 10% Income Shares (U.S.)",
+    "text": "Bottom 90% vs. Top 10% Income Shares (U.S.)"
+  },
+  {
+    "objectID": "slides/lecture-13.2.html#united-states-average-incomes",
+    "href": "slides/lecture-13.2.html#united-states-average-incomes",
+    "title": "Lecture 13.2",
+    "section": "United States Average Incomes",
+    "text": "United States Average Incomes"
+  },
+  {
+    "objectID": "slides/lecture-13.2.html#exercise",
+    "href": "slides/lecture-13.2.html#exercise",
+    "title": "Lecture 13.2",
+    "section": "Exercise",
+    "text": "Exercise\n\nGo to wid.world\nCountry graphs section\nSelect a country\n\nCanada\nUnited Kingdom\nGermany\nFrance\nSweden\nChina\nIndia\n\nHow have pre-tax income shares changed over time?\nHow does your country compare to the world and the U.S. in terms of shares of top 10%"
+  },
+  {
+    "objectID": "slides/lecture-13.2.html#pickety-vs.-stiglitz",
+    "href": "slides/lecture-13.2.html#pickety-vs.-stiglitz",
+    "title": "Lecture 13.2",
+    "section": "Pickety vs. Stiglitz",
+    "text": "Pickety vs. Stiglitz\n\nPickety: r &gt; g\n\nThere is some truth to “r &gt; g” in the U.S.\n\nMost people do not have a lot of non-home wealth\n\nBut upward slope of inequality sharper in U.S.\n\nStiglitz: “rent seeking”\n\nCEOs pay themselves rather than paying workers\nRent is drawing income by capturing something\n\nAs opposed to producing something of value\nGrabbing wealth vs. creating wealth"
+  },
+  {
+    "objectID": "slides/lecture-13.2.html#other-explanations",
+    "href": "slides/lecture-13.2.html#other-explanations",
+    "title": "Lecture 13.2",
+    "section": "Other Explanations",
+    "text": "Other Explanations\n\nEconomic globalization\n\nTrade\nInternationalization of finance\n\nConservative economic policy (Regan revolution)\n\nRemoval of capital controls\nDeregulation\nShifts in tax policy\n\nTechnology and skill development\n\nReduced demand for low-skilled workers\n\nImmigration\nSocial norms and reward system\nDecline of left parties and unions\nLack of redistribution"
+  },
+  {
+    "objectID": "slides/lecture-13.2.html#debate-should-big-tech-be-broken-up",
+    "href": "slides/lecture-13.2.html#debate-should-big-tech-be-broken-up",
+    "title": "Lecture 13.2",
+    "section": "Debate: Should Big Tech be Broken Up",
+    "text": "Debate: Should Big Tech be Broken Up\n\nPick one of the FAANG companies\n\nFacebook (Meta)\nAmazon\nApple\nNetflix\nGoogle (Alphabet)\n\nShould it be broken up into smaller companies?\n\nWinners and losers\nRelate your argument to inequality/Stiglitz"
   }
 ]
