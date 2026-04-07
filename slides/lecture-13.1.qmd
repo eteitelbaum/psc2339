@@ -1,6 +1,6 @@
 ---
 title: "Lecture 13.1"
-subtitle: "The Populist Backlash in the West"
+subtitle: "Globalization and the China Shock"
 author: "Emmanuel Teitelbaum"
 footer: "[PSC 2339 Website](https://psc2339.com)"
 logo: "images/cpe_logo.png"
@@ -14,121 +14,299 @@ execute:
   freeze: auto
 ---
 
-# The Origins of Populism
+```{r}
+#| label: setup
+#| include: false
 
-## What is Populism? {.smaller}
+library(tidyverse)
+library(fredr)
 
-- A political movement that champions the people against the establishment 
-- Left-wing populism: dyadic and vertical, mobilized along class lines
-	- Government/elites have forgotten about the ordinary people
-	- "Ordinary people" could be the middle class or the poor, depending on the country or region
-- Right-wing populism: triadic and horizontal, mobilized along class and ethnic lines
-	- Government/elites have forgotten about the ordinary people in the racial or ethnic majority 
-	- Attacks establishment for siphoning resources to immigrants and minorities
--	Crucially, populists operate inside of a democratic system
-	- As opposed to fascists or left-wing extremists in Europe or Latin America
+fredr_set_key(Sys.getenv("FRED_API_KEY"))
 
-## Where Does Populism Come From? {.smaller}
+# IMPCH: US imports of goods from China, monthly, millions of dollars
+# Aggregate to annual and convert to billions
+# Exclude the current incomplete year so partial data doesn't distort the chart
+china_imports <- fredr(
+  series_id = "IMPCH",
+  observation_start = as.Date("1990-01-01")
+) |>
+  mutate(year = year(date)) |>
+  filter(year < year(Sys.Date())) |>
+  group_by(year) |>
+  summarise(imports_bn = sum(value, na.rm = TRUE) / 1000)
 
-- Reaction to changes in the economy (and immigration)
-- Often spurred by laissez-faire economic policies that benefit the rich
-- Frequently the long-term result of economic crisis (1870s-1880s, 1929, late-1970s, 2008, etc.)
-	- Populists accuse mainstream parties of ignoring crisis altogether, not addressing the root causes of the crisis, or selling out ordinary voters in order to resolve crisis  
+```
 
-## Where Does Populism Come From? {.smaller}
+# America First & The New Protectionism
 
-- Most left-wing populist movements demand government intervention that will reduce inequality and restore the middle class
-- But populist demands can be coupled with demands to get the government out of the economy
-	- Usually a component of right-wing populist groups
-	- The government “distorts” the economy by taxing wealth and giving it to poor minorities
-	- Or to middle class bureaucrats 
+## "Chief Ripper-Offer"
 
-## Neoliberal Policy in the U.S. {.smaller}
+> "We've been ripped off by every country in the world, but China I would say is the leading candidate for the 'chief-ripper-offer.'"
 
-- Birthplace of neoliberalism 
-	- Home of “Washington Consensus”
-- Reaction to competitive challenges faced by U.S. business starting in the 1970s
-	- Factories in Western Europe and Japan
-	- Steel production throughout Asia
-	- Textile production in developing countries
-	
-## Neoliberal Policy in the U.S. {.smaller}
+— Donald Trump, Rose Garden, April 2, 2025
 
-- Business felt regulations and unions prevented them from competing
-	- Repressed unions 
-	- Moved factories abroad and to “right to work” states
-	- Hired more immigrant workers
-		- 1965 Immigration and Naturalization Act (Hart-Celler)
-		- From quota-based to family and skill-based immigration 
-	- Pushed for free trade agreements like NAFTA
-- Problem was that immigration and trade were not popular with most voters
+<br>
 
-# Populism in the United States 
+::: {.fragment}
+Trump's "Liberation Day" imposed tariffs of up to **145% on Chinese goods** and double-digit tariffs on virtually every other trading partner. China retaliated with tariffs of 84%+ on US goods. 
+:::
 
-## Populism in the U.S. I {.smaller}
+## The Retreat from Globalization {.smaller}
 
-- People’s Party in the U.S. (1890s) 
-	- Formed by members of Kansas Farmers’ Alliance and Knights of Labor
-	- Reaction to Grover Cleveland and "robber baron" capitalism of 19th century
-- Grew out of farm revolt of 1870s and 1880s
-	- Steep fall in agricultural prices
-	- Aggravated by increased transportation costs 
-		- Railroad monopolies
+- **2018–2019**: First Trump trade war imposed \$360 billion in Section 301 tariffs on Chinese goods (Trade Act of 1974) 
+- **2020**: Phase One deal promised no new tariffs if China purchased $200 billion of U.S. goods and services
+- **2021–2024**: Biden maintained and expanded Trump-era China tariffs as bipartisan consensus shifted on trade
+- **April 2, 2025**: "Liberation Day" imposed sweeping tariffs on nearly every trading partner
 
-## Populism in the U.S. I {.smaller}
+::: {.fragment}
+**The Political Question** - Why did free trade, long the orthodoxy in both parties, lose its public legitimacy?
 
-- Saw themselves as representing people vs. elites
-	- People = farmers and workers
-	- Elites = capitalists, speculators and mainstream parties
-- Won lots of seats in 1894 but was coopted by mainstream parties in subsequent years
+The answer may lie in the **China Shock**.
+:::
 
-## Populism in the U.S. II {.smaller}
+# Globalization: Concepts
 
-- Huey Long 
-	- Governor of Louisiana (1928-1932); U.S. Senator (1932-35) 
-	- Railed against power and influence of oil companies
-	- “Share Our Wealth Society”
-		- Proposed wealth cap ($5 million per family; $1 million per individual)
-		- Use revenue to fund guaranteed income
-	- Forced Roosevelt to pass “Second New Deal” that included social security, NLRA, WPA and wealth taxes
-	
-## Populism in the U.S. II {.smaller}
+## Globalization
 
-- George Wallace 
-  - Governor of Alabama (four terms)
-  - Government "full of rich people" who wanted to give their money to the poor
-  - Led conservative backlash to Civil Rights Act, Voting Rights Act and racial integration 
-  - Framed opposition to integration as defense against “big government”
+<br>
 
-## Populism in the U.S. III {.smaller}
+- At the broadest level, globalization is the increasing integration of people, cultures and institutions
 
-- Reaction to rise of neoliberalism 
-- Ross Perot
-	- Attacked trade deals and distortion of politics by big business
-	- [Ross Perot's Giant Sucking Sound](https://youtu.be/xQ7kn2-GEmM)
-- Pat Buchanan 
-	- Also attacked trade deals, but also immigration
-- Tea Party
-	- Attacked Obama’s mortgage bailouts, Obamacare and illegal immigration
-- Occupy Wall Street
-	- Attacked Obama for not being tough enough on bankers, focused on inequality
-	- [The Occupy Movement](https://youtu.be/KFOWci6yrSs)
+- IMF's four aspects: trade; investment; migration; knowledge
 
-# Populism in the U.S. Today
+- In economics, globalization typically refers to increasing trade and investment
 
-## Trump and Sanders {.smaller}
+## Benefits of Globalization
 
-- Trump
-	- Prior to running in 2016, he was a moderate on social issues (like abortion) and social spending (supported idea of universal health care)
-	- Always opposed free trade and immigration
-- Sanders
-	- Main target is the “billionaire class” (the 1%)
-	- Advocates Nordic-style social democracy as an antidote to rising inequality
+<br>
 
-## Discussion 
+- Increased capital flows
+- Sharing of knowledge & technology
+- Lower prices for consumers
+- Cultural exchange
+- New economic opportunities
+- Others?
 
-- Does Judis's explanation of populism help us to understand recent U.S. elections?
-- Was Trump's support more due to a reaction to neoliberalism, immigration or both? 
-- Why was Bernie Sanders, who focused on inequality and the one percent, ultimately less successful than Trump as a presidential candidate?  
-- In your discussion, reference the chapter you read from Judis's *The Populist Explosion*
+## Challenges of Globalization
 
+<br>
+
+- Exploitation and weak regulation
+- High start-up/investment costs
+- Localized job loss and displacement
+- Immigration pressures
+- Erosion of social contracts
+- Others?
+
+## Theory of Comparative Advantage {.smaller}
+
+<br>
+
+- **Ricardo (1817)**: a country should specialize in what it can produce at *lower opportunity cost*, even if it is absolutely better at everything
+
+- In a world of US–China trade:
+  - China has a comparative advantage in **labor-intensive manufacturing** (abundant, cheap labor)
+  - The US has a comparative advantage in **high-skill, technology-intensive sectors**
+
+- Standard prediction: trade liberalization **raises aggregate welfare**
+  - US workers displaced from manufacturing *should* reallocate to sectors where the US is competitive
+  - Adjustment is assumed to be relatively smooth and fast
+
+- **The critical assumption**: labor and capital move freely across sectors and regions
+
+# The China Shock
+
+## China's Rise {.smaller}
+
+<br>
+
+- In 1989, the *Wall Street Journal* predicted China would be a future *growth laggard*
+
+- Deng Xiaoping's 1992 "Southern Tour" relaunched market reforms:
+  - Special Economic Zones (SEZs): 20 in 1991 → 150 by 2010
+  - FDI inflows surged from 0.7% of GDP (1980s) to 4.2% (1990s–2000s)
+
+- China's share of world manufacturing exports: **2.3% (1991) → 18.8% (2013)**
+
+- WTO accession in 2001 accelerated the surge
+
+- US imports from China rose by **\$304 billion** between 1991 and 2007
+
+## US Imports from China {.smaller}
+
+```{r}
+#| fig-width: 9
+#| fig-height: 4.8
+
+ggplot(china_imports, aes(x = year, y = imports_bn)) +
+  geom_area(fill = "#e07b54", alpha = 0.2) +
+  geom_line(color = "#e07b54", linewidth = 1.4) +
+  annotate("segment", x = 2001, xend = 2001, y = 0, yend = 480,
+           linetype = "dashed", color = "grey50", linewidth = 0.8) +
+  annotate("text", x = 2001.5, y = 490, label = "China joins WTO",
+           color = "grey40", size = 3.5, hjust = 0) +
+  scale_x_continuous(breaks = seq(1990, 2022, by = 4)) +
+  scale_y_continuous(labels = scales::dollar_format(suffix = "B")) +
+  labs(x = NULL, y = "US Imports from China (USD billions)",
+       caption = "Source: FRED, series IMPCH (US Census Bureau / BEA). Annual totals.") +
+  theme_minimal()
+```
+
+## The Pre-2000 Consensus — and Its Challenge {.smaller}
+
+**Before China's rise, economists largely agreed**:
+
+1. Trade had *not* been a major cause of US manufacturing employment decline — technology was the main culprit
+2. Workers displaced by trade could *readily relocate* to other regions or sectors
+3. Any labor-market effects would be *nationally diffuse*, not locally concentrated
+
+. . .
+
+**Autor, Dorn & Hanson (2013/2016) challenge all three**:
+
+- Chinese import competition *did* substantially reduce US manufacturing employment
+- The shock was **geographically concentrated** — concentrated in specific communities
+- Local adjustment was **slow and painful**, not smooth
+
+## Methodology: Local Labor Markets {.smaller}
+
+<br>
+
+- ADH study **commuting zones (CZs)** — clusters of counties forming local labor markets (722 CZs in the contiguous US)
+
+- **Key insight**: US regions vary in their pre-existing industrial mix → some were far more exposed to Chinese imports than others
+
+- **The identification strategy**: to isolate the *China supply shock* from US demand shifts:
+  - Instrument US import growth from China using China's export growth to *other* high-income countries (Australia, Germany, Japan, etc.)
+  - If the same Chinese industries were flooding markets in both the US and Germany, it must be a **supply shock** from China — not a reflection of US demand
+
+- This allows a **causal claim**: Chinese import competition → local employment decline
+
+## Key Finding 1: Industry Employment {.smaller}
+
+<br>
+
+- Industries more exposed to Chinese import competition saw substantially larger declines in US manufacturing employment
+
+- **A 1 percentage-point rise in import penetration → 1.3 log-point reduction in industry employment** (Acemoglu et al. 2016)
+
+- The effect accelerated after China's WTO accession (1999–2007):
+  - Manufacturing industries contracted by **3.6 log points/year** in this period
+  - vs. only 0.3 log points/year during 1991–1999
+
+## Key Finding 2: Regional Losses Don't Wash Out {.smaller}
+
+- Standard trade theory predicts displaced workers *move*, spreading the shock nationally
+
+- ADH find the opposite. In commuting zones more exposed to Chinese imports:
+
+| Outcome | Effect of \$1,000 more per-worker import exposure |
+|:---|:---|
+| Manufacturing employment share | −0.60 pp |
+| Non-manufacturing employment share | −0.18 pp (not sig.) |
+| Unemployment rate | +0.22 pp |
+| Out of labor force | +0.55 pp |
+
+- Job losses were **not offset** by gains elsewhere in local economies
+- Labor mobility was low — especially among less-educated workers
+
+## Key Finding 3: Adjustment Is Slow {.smaller}
+
+<br>
+
+- Standard models assume quick adjustment to trade shocks
+
+- ADH find the adjustment is **remarkably slow**:
+  - Wages and labor-force participation remain depressed for **at least a full decade** after the shock begins
+  - Exposed workers experience greater job churning and significantly lower lifetime income
+  - Government transfer payments (disability, UI) rise substantially in exposed regions
+
+- **Bottom line**: the costs of the China Shock were large, geographically concentrated, and long-lasting — far beyond what standard comparative-advantage models predicted
+
+## Discussion: The Evidence
+
+- What is Autor et al.'s *main* challenge to standard trade theory?
+
+- Why does the methodology matter, e.g. why can't they just compare regions with more vs. fewer manufacturing jobs?
+
+- Does the evidence suggest free trade was a mistake, or that adjustment *support* failed? Is there a difference?
+
+- What does the "no geographic mobility" finding tell us about assumptions built into comparative advantage theory?
+
+# Political Implications
+
+## Did the China Shock Cause the Backlash? {.smaller}
+
+- **Autor, Dorn, Hanson & Majlesi (2020)**: congressional districts more exposed to Chinese imports experienced:
+  - Greater **political polarization**
+  - Shift toward more **conservative Republican** representatives
+  - Erosion of moderate Democrats in manufacturing-exposed districts
+
+- **Colantone & Stanig (2018)**: similar patterns in Europe — regions more exposed to Chinese imports moved toward **nationalist/populist parties**
+
+. . .
+
+This narrative is compelling: trade liberalization hurt specific communities → those communities turned to populist politicians → Trump, Brexit, and the broader wave of economic nationalism
+
+## The Pushback: Mechanism Is Unclear {.smaller}
+
+- The aggregate-to-individual link is **contested**:
+  - Research finds weak individual-level evidence that trade-exposed *workers* vote differently than similar workers in less-exposed areas
+  - Economic grievance may affect preferences modestly and temporarily (Margalit 2011)
+  - **The aggregation problem**: regional patterns may reflect community-level social change, not individual pocketbook voting
+
+- **Alternative explanations** (Inglehart & Norris): "cultural backlash"
+  - Identity and values, not just wallets, drive populist voting
+  - Affected communities also had high opioid mortality, family dissolution, declining social trust
+
+- **Key question**: Does the China Shock *cause* political change directly through economic grievance, or indirectly through community decline?
+
+## Remaining Questions {.smaller}
+
+<br>
+
+- Is the China Shock → political backlash link *causal*, or were affected regions already culturally/demographically primed for populism?
+
+- Does economic grievance **directly** drive votes, or does it work through:
+  - Social network erosion and community decline?
+  - Elite cue-taking and media framing (Fox News, etc.)?
+  - Identity concerns activated by visible economic loss?
+
+- ADH establish an important **economic** fact — localized, persistent harm from trade — but the **political transmission mechanism** remains an active area of research
+
+# The Bigger Debate
+
+## Two Camps {.smaller}
+
+::: columns
+::: {.column width="50%"}
+**Free trade's defenders**
+
+- Aggregate gains from trade are real and large
+- China's rise lifted 800 million people out of poverty
+- US consumers benefited from cheaper goods
+- The answer is better adjustment assistance, not protectionism
+- Tariffs invite retaliation and raise prices
+:::
+
+::: {.column width="50%"}
+**China Shock critics**
+
+- Aggregate gains masked severe local costs
+- Adjustment assistance was underfunded and ineffective
+- Communities — not just workers — were damaged
+- Trade policy is inseparable from distributional politics
+- The backlash was predictable, and economists ignored the warning signs
+:::
+:::
+
+## Discussion
+
+- Do you find the "China ripped us off" narrative convincing after reading ADH? What does the evidence actually say?
+
+- If adjustment costs are large and slow, what is the appropriate policy response?
+  - Better social insurance? Industrial policy? Trade restrictions?
+
+- Does the empirical evidence *justify* Trump's tariffs? Or is that the wrong question to ask of social science?
+
+- If pocketbook voting doesn't fully explain the Trump coalition, what does?

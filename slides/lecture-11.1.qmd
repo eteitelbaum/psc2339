@@ -1,6 +1,6 @@
 ---
 title: "Lecture 11.1"
-subtitle: "Unions and Collective Bargaining"
+subtitle: "Welfare States in the OECD"
 author: "Emmanuel Teitelbaum"
 footer: "[PSC 2339 Website](https://psc2339.com)"
 logo: "images/cpe_logo.png"
@@ -14,86 +14,147 @@ execute:
   freeze: auto
 ---
 
-# What do Unions Do?
+# Overview
 
-## What is a Labor (Trade) Union?
+## What is the OECD?
 
--   An organization of workers who coordinate to improve their terms and
-    conditions of employment
+![Source: Wikipedia](images/OECD_member_states_map.png)
 
--   Areas of coordination
-    -   Wages and benefits
-    -   Working conditions
-    -   Safety standards
-    -   Rules governing termination and promotion
-
--   Collective bargaining
-
--   Strategic withdrawal of labor (strikes)
-
-## Trade Union Presence {.smaller}
-
-![Source: ILO, retrieved from Wikimedia
-Commons](images/trade_union_density.png)
-
-## Workplace Democracy
-
--   Workers' councils
-    -   Codetermination
--   Representation on company boards
-    -   Parity of ownership
--   Worker ownership of means of production
-    -   e.g. socialism
--   Muncipal socialism
--   Industrial unionism (Eugene Debbs)
-
-## Trade Union Philosophies
-
--   [Select one
-    leader](https://aflcio.org/about/history/labor-history-people)
-
--   How did the leader you selected view unionism?
-    -   What was its broader purposes?
-    -   What goals would it achieve?
-    -   Did the bio change your understanding of unions?
-
-# Union Organizing in America
-
-## A Paradox
-
-::: columns
-::: {.column width="50%"}
-- Unions bring many benefits
-- 71% of Americans approve of unions (Gallop)
-- But only 10% belong
+::: notes
+-   Currently 38 members
+    -   Most recent: Costa Rica
+-   Club of developed countries with stable democracy
+    -   80% of world's trade and investment
+    -   discuss and promotes policies that enhance governance and
+        quality of life
+-   Also includes some high middle-income countries like Chile, Colombia
+    and Mexico
 :::
 
-::: {.column width="50%"}
-![](images/us_unionization_rate.png)
-:::
+## Key Questions
+
+-   What is the welfare state and how does it vary?
+    -   "Three worlds" of welfare capitalism
+    -   Reasons for three worlds
+-   Gender and the welfare state
+    -   How do welfare regimes affect women?
+    -   Why are some more supportive than others?
+-   Globalization and the three worlds
+    -   Will they endure?
+-   How Do We Get to Denmark?
+
+# Three Worlds of Welfare Capitalism
+
+## Definitions and Concepts {.smaller}
+
+<br>
+
+-   *Welfare state*--system of public benefits and services that address
+    human welfare needs
+    -   Cash benefits
+    -   Services
+-   *Social rights*---rights to the provision of basic services like
+    education, health care, and a basic standard of living
+-   *De-commodification*---state in which a person is not dependent on
+    selling her labor power in the market to ensure her survival
+-   *Universalism* ---the degree to which everyone has an equal right to
+    publicly provided benefits and services
+
+## Welfare State Regimes ("Three Worlds") {.smaller}
+
+<br>
+
+-   Liberal---emphasize means tested social assistance
+    -   Anglo-American countries
+    -   Examples: U.S., UK, Canada, Australia...
+-   Corporatist---ranked system of social insurance, emphasis on the
+    family, narrow provisioning
+    -   Continental European countries
+    -   Examples: Austria, Germany, Switzerland
+-   Social Democratic---universalistic, emphasis on full employment and
+    broad provisioning (Nordic countries)
+    -   Examples: Denmark, Norway, Sweden
+
+## Social Spending in OECD
+
+![OECD Social Expenditure Update, 2020](images/spending_gdp.png)
+
+## Social Spending By Category
+
+![OECD Social Expenditure Update, 2020](images/spending_by_category.png)
+
+## Means Tested Benefits
+
+![OECD Social Expenditure Update 2014](images/means_tested_cash_benefits.jpg){width=80%}
+
+::: notes
+Would be nice to update this one. Could I do it myself? 
 :::
 
-## Why is Union Organizing so Hard?
+## Pillars of Social Democracy
 
-::: columns
-::: {.column width="50%"}
-- Case 1: [Starbucks](https://www.nytimes.com/2022/10/24/business/economy/starbucks-union-campaign.html)
+-   Swedish Prime Minister Stefan Löfven
+    [video](https://www.youtube.com/watch?v=XRiE0ib-sjM&t=1493s)
 
-- Case 2: [Amazon](https://www.nytimes.com/2022/10/18/technology/amazon-labor-union-alb1.html)
-:::
-::: {.column width="50%"}
-- What are some of the obstacles organizers face? 
-- Why are many workers reluctant to join?
-:::
-:::
+-   Three pillars of the Nordic model
+    -   Full Employment
+    -   Universal and Generous Welfare System
+    -   Organized Labor Market
+
+-   Think about
+    -   How each pillar is important
+    -   How they work together to support the system
+
+## Origins of Three Worlds of Welfare Capitalism
+
+<br>
+
+-   Where do the three worlds come from?
+
+-   Esping-Andersen (pp. 146-148)
+    -   Labor unions and left parties only part of the story
+    -   Emphasizes "red-green coalitions"
+    -   Other factors
+        -   ethnicity
+        -   religion
+
+# Gender and the Welfare State
+
+## Gender and the Three Worlds
+
+<br>
+
+-   LMEs (Anglo-American countries): free market approach
+
+-   Corporatist (Germany, Austria, Italy, etc): traditional, male
+    breadwinner approach (historically, but recently more like
+    Scandinavia)
+
+-   Nordic SMEs (Scandinavia): transform gender relations; dual
+    wage-earner approach
+
+## Scandinavian Policies {.smaller}  
+
+-   Universal public day care
+-   Altered workday for parents
+-   Increased parental leave
+    -   Men equally entitled
+    -   Norway example (46 weeks)
+        -   Men and women both get 15 weeks after birth of child
+        -   Women get 3 weeks before birth
+        -   Then they can divide up an additional 16 weeks between them
+        -   Can stretch total out to 56 weeks at 80% pay
+-   Rationale: equality depends on changing men
 
 ## Discussion
 
-- How to improve unions?
-  - More effective response to globalization, automation
-  - Internal governance/democracy 
-  - Success at organizing
-- What kind of role should unions have?
-  - In economic governance
-  - In politics 
-  - In society
+<br>
+
+- [OECD data](https://data.oecd.org/socialexp/social-spending.htm#indicator-chart)
+
+- Explore various categories with a neighbor
+
+- How do spending patterns relate to "three worlds" concept? 
+
+- What world would you prefer to live in?
+

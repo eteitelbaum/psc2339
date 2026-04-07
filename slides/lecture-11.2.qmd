@@ -1,6 +1,6 @@
 ---
 title: "Lecture 11.2"
-subtitle: "Varieties of Capitalism"
+subtitle: "U.S. Exceptionalism"
 author: "Emmanuel Teitelbaum"
 footer: "[PSC 2339 Website](https://psc2339.com)"
 logo: "images/cpe_logo.png"
@@ -14,120 +14,58 @@ execute:
   freeze: auto
 ---
 
-# What are Varieties of Capitalism?
+# The Effects of Globalization
 
-## Coordinated Capitalism {.smaller}
+## Three Theories
 
-- How do "micro-agents" of capitalist systems structure their interactions?
-	- Employers
-	- Unions
-	- Banks
-- Some countries are more coordinated than others
-	- Nordic and continental European countries = more coordinated
-	- Anglo-American countries less so
+- Race to the bottom hypothesis
+	- Globalization induces states to drastically reduce publicly provided benefits and services
+- Embedded liberalism hypothesis
+	- Globalization induces states to spend more on benefits and services to cushion workers from increased labor market risks
+- Convergence
+	- Globalization forces states to provide similar levels and types of benefits and services
 
-- Varieties of capitalism mainly refers to this variation in coordination
+## Education Spending in Three Worlds {.smaller}  
 
-## Areas of Coordination {.smaller}
+![*Notes*: Data are from World Bank Development Indicators. Social democratic countries include Denmark, Finland, Netherlands, Norway,  and Sweden; Corporatist countries include Austria, France, Germany and Italy; Liberal countries include Australia, Canada, Ireland, Japan, New Zealand, the UK, and the U.S.](images/education_spending.jpg)
 
-- Industrial relations
-	- Coordinated wage setting
-	
-- Education and training
-	- Vocational training
-	- Company involvement in public education
-	
-- Company financing
-	- Role of banks versus stock markets
-	
-- Intercompany relations
-	- Technology sharing
-	- Standard setting
-	- Competition policy
+## Health Spending in Three Worlds {.smaller} 
 
-## Labor Market Coordination
+![*Notes*: Data are from the World Bank Development Indicators. Social democratic countries include Denmark, Finland, Netherlands, Norway,  and Sweden; Corporatist countries include Austria, France, Germany and Italy; Liberal countreis include Australia, Canada, Ireland, Japan, New Zealand, the UK, and the U.S.](images/health_spending.jpg)
 
-- Basis for generous welfare states
+## Reasons for Persistence
 
-- Key actors
-	- Employers’ federations
-	- Unions
+- Trade openness—induces countries to spend more to cushion workers (embedded liberalism)
+- Partisan politics—Christian democratic and social Democratic parties favor welfare state (but different kinds)
+- Electoral politics (voters like programs)
+- Bureaucratic inertia (vested interests)
+- Economic coordination (next week)
 
-- Three ‘levels’ of interest representation
-	- Highly centralized (peak associations)
-	- Moderately centralized (industry-level agreements)
-	- Decentralized (enterprise-level agreements)
+## Effects of Some Int'l and Domestic Factors
 
-# Centralized Bargaining {.smaller}
+![Source: Swank, "Globalization, the Welfare State and Inequality"](images/domestic_international.jpg)
 
-## Levels of Bargaining Centralization {.smaller}
+# How Do We Get to Denmark? 
 
-![](images/bargaining_schematic.jpg){fig-align="center"}
+## Barriers to a European Welfare State in U.S. (Alesina et. al.)
 
-*Notes*: Hypothetical bargaining scenario with two peak associations, two industries and two companies per industry.    
+- Electoral systems
 
-## Highly Centralized {.smaller} 
+- Federalism
 
-![](images\highly_centralized.jpg){fig-align="center"}
+- Courts 
 
-*Notes*: In this example, the national union (LO) for blue collar workers bargains with the national employer's federation (Confederation of Swedish Enterprise) and the agreement is binding for all industries and enterprises. This system was common in Nordic countries before the 1990s but no longer exists.   
+- Ethnic diversity
 
-## Moderately Centralized {.smaller}
+- What is the strongest factor? Missing factors?
 
-![](images/moderately_centralized.jpg){fig-align="center"}
+## Should We Go to Denmark?
 
-*Notes*: In this example, the German union for mining, chemical and engineering sector workers negotiates an agreement with employers from the chemicals sector while the metalworkers union negotiates an agreement for workers in the auto sector. This system is characteristic of Germany and Nordic countries today.   
+- [Video](https://www.youtube.com/watch?v=U_U5THLkbfA&t=38s)
 
-## Decentralized {.smaller}
+- What is your vision of the "American Dream"?
 
-![](images/decentralized.jpg){fig-align="center"}
+- Can “democratic socialism” work in the United States?
+	- Is it the American dream “for real”?
+	- Is it affordable?
 
-*Notes*: In this example, the United Steelworkers and United Autoworkers negotiate agreements for their workers separately for each company. There is no coordination among firms and unions at the sectoral level. This enterprise-level bargaining is common in the U.S. and other liberal market economies.    
-
-## Macroeconomic Effects of Coordination
-
-- Lowers competition
-	- Labor market
-	- Domestic product markets
-- Increases financial stability
-	- Banks
-	- ‘Patient capital’
-
-## Implications 
-
-- Makes long-term planning and investment easier
-- Result $\Rightarrow$ more investment in human capital/skills 
-- Institutional comparative advantage argument
-	- Diversified Quality Products (coordinated economies)
-		- Require skilled labor and long-term planning
-	- "Radical innovation" (liberal economies)
-		- Require more creativity and short-term investments
-
-## Theories of Emergence {.smaller}
-
-- *Power resources*: mobilization of labor at a crucial point in history pressured employers into collective bargaining (Korpi, Stephens)
-- *Party systems*: strength of left political parties predicts degree of coordination (Martin and Swank)
-- *Varieties of capitalism*: coordinated capitalism exists primarily because it helps employers to be more competitive (Hall and Soskice)
-- *Historical institutionalism*: coordination emerges out of pre-capitalist institutions like guilds that provided higher levels of vocational training and a more skilled workforce (Thelen)
-
-## Social Implications {.smaller}
-
-- Coordination has broader social effects
-- Union density $\Rightarrow$ stronger left parties
-- Strength of left parties affects social policy
-	- More redistributive policies
-	- ‘Decommodification’ of labor
- 	- Higher levels of public employment
-- Wage dispersion is lower
-	- Lowers inequality
-	- Large middle class, supportive of generous welfare policies
-- But also allows for a high degree of economic openness
-	- Nordic countries have high trade/GDP ratios 
-
-# The Effects of Globalization {.smaller}
-
-## Trends in Coordination
-
-![Source: Thelen, *Varieties of Liberalization*](images/coordination_trends.jpg) 
-
-# Questions
