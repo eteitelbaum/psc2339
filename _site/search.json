@@ -2607,8 +2607,8 @@
     "objectID": "slides/lecture-13.2.html#illustrative-statistics-from-stiglitz",
     "href": "slides/lecture-13.2.html#illustrative-statistics-from-stiglitz",
     "title": "Lecture 13.2",
-    "section": "",
-    "text": "20% of wage earners earn as much as bottom 80%\nTop 1% earn in a week what bottom 20% earns in a year\nTop .1% earn in a day what bottom 90% earns in a year\nWalton family controls as much wealth as is owned by bottom 30% of society (~$238 billion)"
+    "section": "Illustrative statistics from Stiglitz",
+    "text": "Illustrative statistics from Stiglitz\n\n\n20% of wage earners earn as much as bottom 80%\nTop 1% earn in a week what bottom 20% earns in a year\nTop .1% earn in a day what bottom 90% earns in a year\nWalton family controls as much wealth as is owned by bottom 30% of society (~$238 billion)"
   },
   {
     "objectID": "slides/lecture-13.2.html#common-inequality-measures",
@@ -2628,8 +2628,8 @@
     "objectID": "slides/lecture-13.2.html#income-vs.-wealth-inequality",
     "href": "slides/lecture-13.2.html#income-vs.-wealth-inequality",
     "title": "Lecture 13.2",
-    "section": "",
-    "text": "Income: what people earn from work and returns from investments like stocks, bonds and investment properties\nWealth: value of everything a person or family owns minus any debts\n\nNet worth: marketable assets minus debts\nFinancial wealth: non-home wealth"
+    "section": "Income vs. Wealth Inequality",
+    "text": "Income vs. Wealth Inequality\n\n\nIncome: what people earn from work and returns from investments like stocks, bonds and investment properties\nWealth: value of everything a person or family owns minus any debts\n\nNet worth: marketable assets minus debts\nFinancial wealth: non-home wealth"
   },
   {
     "objectID": "slides/lecture-13.2.html#bottom-90-vs.-top-10-wealth-shares-u.s.",
@@ -2650,7 +2650,7 @@
     "href": "slides/lecture-13.2.html#decomposing-the-1",
     "title": "Lecture 13.2",
     "section": "Decomposing the 1%",
-    "text": "Decomposing the 1%\n\n\n\n\n\n\n\n\n\n\nTop 1% as a whole see increased wealth shares of about 15% from 1975 to now, while top .5% doubles its wealth share; .1% and .01% tripple their wealth shares."
+    "text": "Decomposing the 1%\n\n\nTop 1% as a whole see increased wealth shares of about 15% from 1975 to now, while top .5% doubles its wealth share; .1% and .01% tripple their wealth shares."
   },
   {
     "objectID": "slides/lecture-13.2.html#wealth-shares-in-france",
@@ -3691,8 +3691,8 @@
     "objectID": "slides/lecture-13.2.html#measures-we-will-use",
     "href": "slides/lecture-13.2.html#measures-we-will-use",
     "title": "Lecture 13.2",
-    "section": "",
-    "text": "Income/wealth shares — what fraction of total income/wealth a group captures\nGini coefficient — summarizes the whole distribution (0 = perfect equality, 1 = perfect inequality)\nMedian household income — measures living standards at the middle; useful for tracking whether the middle is keeping up"
+    "section": "Measures We Will Use",
+    "text": "Measures We Will Use\n\n\nIncome/wealth shares — what fraction of total income/wealth a group captures\nGini coefficient — summarizes the whole distribution (0 = perfect equality, 1 = perfect inequality)\nMedian household income — measures living standards at the middle; useful for tracking whether the middle is keeping up"
   },
   {
     "objectID": "slides/lecture-13.2.html#piketty-why-wealth-concentrates",
@@ -3747,8 +3747,8 @@
     "objectID": "slides/lecture-13.2.html#lorenz-curve-and-gini-coefficient",
     "href": "slides/lecture-13.2.html#lorenz-curve-and-gini-coefficient",
     "title": "Lecture 13.2",
-    "section": "",
-    "text": "The diagonal is the line of equality — every X% of the population earns Y% of income. The bowed curve is the Lorenz curve (the actual distribution). Gini = A/(A+B): ranges from 0 (perfect equality) to 1 (perfect inequality).\n\n\nThe diagonal line represents perfect equality — every x% of the population earns x% of income. The Lorenz curve shows the actual distribution, bowed below the line of equality. Region A is the gap between the two; region B is the area under the Lorenz curve. The Gini coefficient is A/(A+B): the larger A is relative to the total triangle, the more unequal the distribution. It ranges from 0 (perfect equality) to 1 (perfect inequality)."
+    "section": "Lorenz Curve and Gini Coefficient",
+    "text": "Lorenz Curve and Gini Coefficient\n\n\n\nThe diagonal is the line of equality — every X% of the population earns Y% of income. The bowed curve is the Lorenz curve (the actual distribution). Gini = A/(A+B): ranges from 0 (perfect equality) to 1 (perfect inequality).\n\n\nThe diagonal line represents perfect equality — every x% of the population earns x% of income. The Lorenz curve shows the actual distribution, bowed below the line of equality. Region A is the gap between the two; region B is the area under the Lorenz curve. The Gini coefficient is A/(A+B): the larger A is relative to the total triangle, the more unequal the distribution. It ranges from 0 (perfect equality) to 1 (perfect inequality)."
   },
   {
     "objectID": "slides/lecture-13.2.html#exercise-testing-piketty",
