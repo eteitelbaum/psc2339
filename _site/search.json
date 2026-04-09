@@ -2608,7 +2608,7 @@
     "href": "slides/lecture-13.2.html#illustrative-statistics-from-stiglitz",
     "title": "Lecture 13.2",
     "section": "Illustrative statistics from Stiglitz",
-    "text": "Illustrative statistics from Stiglitz\n\n20% of wage earners earn as much as bottom 80%\nTop 1% earn in a week what bottom 20% earns in a year\nTop .1% earn in a day what bottom 90% earns in a year\nWalton family controls as much wealth as is owned by bottom 30% of society (~$238 billion)"
+    "text": "Illustrative statistics from Stiglitz\n\n\n20% of wage earners earn as much as bottom 80%\nTop 1% earn in a week what bottom 20% earns in a year\nTop .1% earn in a day what bottom 90% earns in a year\nWalton family controls as much wealth as is owned by bottom 30% of society (~$238 billion)"
   },
   {
     "objectID": "slides/lecture-13.2.html#common-inequality-measures",
@@ -2622,14 +2622,14 @@
     "href": "slides/lecture-13.2.html#lorenze-curve-and-gini-coefficient",
     "title": "Lecture 13.2",
     "section": "Lorenze Curve and Gini Coefficient",
-    "text": "Lorenze Curve and Gini Coefficient\n\n\n\nGini coefficient is A/(A+B)\nVaries from 0 (perfect equality) and 1 (perfect inequality)"
+    "text": "Lorenze Curve and Gini Coefficient\n\n\n\nThe diagonal line represents perfect equality — every x% of the population earns x% of income. The Lorenz curve shows the actual distribution, bowed below the line of equality. Region A is the gap between the two; region B is the area under the Lorenz curve. The Gini coefficient is A/(A+B): the larger A is relative to the total triangle, the more unequal the distribution. It ranges from 0 (perfect equality) to 1 (perfect inequality)."
   },
   {
     "objectID": "slides/lecture-13.2.html#income-vs.-wealth-inequality",
     "href": "slides/lecture-13.2.html#income-vs.-wealth-inequality",
     "title": "Lecture 13.2",
     "section": "Income vs. Wealth Inequality",
-    "text": "Income vs. Wealth Inequality\n\nIncome: what people earn from work and returns from investments like stocks, bonds and investment properties\nWealth: value of everything a person or family owns minus any debts\n\nNet worth: marketable assets minus debts\nFinancial wealth: non-home wealth"
+    "text": "Income vs. Wealth Inequality\n\n\nIncome: what people earn from work and returns from investments like stocks, bonds and investment properties\nWealth: value of everything a person or family owns minus any debts\n\nNet worth: marketable assets minus debts\nFinancial wealth: non-home wealth"
   },
   {
     "objectID": "slides/lecture-13.2.html#bottom-90-vs.-top-10-wealth-shares-u.s.",
@@ -3686,5 +3686,110 @@
     "title": "Lecture 13.1",
     "section": "Remaining Questions",
     "text": "Remaining Questions\n\n\nIs the China Shock → political backlash link causal, or were affected regions already culturally/demographically primed for populism?\nDoes economic grievance directly drive votes, or does it work through:\n\nSocial network erosion and community decline?\nElite cue-taking and media framing (Fox News, etc.)?\nIdentity concerns activated by visible economic loss?\n\nADH establish an important economic fact — localized, persistent harm from trade — but the political transmission mechanism remains an active area of research"
+  },
+  {
+    "objectID": "slides/lecture-13.2.html#measures-we-will-use",
+    "href": "slides/lecture-13.2.html#measures-we-will-use",
+    "title": "Lecture 13.2",
+    "section": "Measures We Will Use",
+    "text": "Measures We Will Use\n\n\nIncome/wealth shares — what fraction of total income/wealth a group captures\nGini coefficient — summarizes the whole distribution (0 = perfect equality, 1 = perfect inequality)\nMedian household income — measures living standards at the middle; useful for tracking whether the middle is keeping up"
+  },
+  {
+    "objectID": "slides/lecture-13.2.html#piketty-why-wealth-concentrates",
+    "href": "slides/lecture-13.2.html#piketty-why-wealth-concentrates",
+    "title": "Lecture 13.2",
+    "section": "Piketty: Why Wealth Concentrates",
+    "text": "Piketty: Why Wealth Concentrates\n\n\nThomas Piketty’s central argument: r &gt; g\n\nr = rate of return on capital (dividends, interest, rent, capital gains)\ng = rate of economic growth\n\nWhen r &gt; g, those who own wealth accumulate faster than the economy grows\nHistorical averages: r ≈ 4–5%, g ≈ 1–2% over the long run"
+  },
+  {
+    "objectID": "slides/lecture-13.2.html#the-mechanism",
+    "href": "slides/lecture-13.2.html#the-mechanism",
+    "title": "Lecture 13.2",
+    "section": "The Mechanism",
+    "text": "The Mechanism\n\n\nOwners of capital reinvest returns → wealth compounds over time\nWorkers depend on wage growth, which roughly tracks g\nOver time, capital’s share of total income rises relative to labor’s share\nInherited wealth comes to dominate over earned income\n\nPiketty: “the past devours the future”"
+  },
+  {
+    "objectID": "slides/lecture-13.2.html#limitations-of-r-g",
+    "href": "slides/lecture-13.2.html#limitations-of-r-g",
+    "title": "Lecture 13.2",
+    "section": "Limitations of r > g",
+    "text": "Limitations of r &gt; g\n\n\nPredicts slow, gradual concentration — but U.S. inequality rose sharply after ~1980\nMost Americans have little non-home wealth to compound, so r &gt; g doesn’t help them\nBetter at explaining wealth concentration than income inequality\n\nWe need a different theory for that"
+  },
+  {
+    "objectID": "slides/lecture-13.2.html#stiglitz-rent-seeking-and-market-power",
+    "href": "slides/lecture-13.2.html#stiglitz-rent-seeking-and-market-power",
+    "title": "Lecture 13.2",
+    "section": "Stiglitz: Rent-Seeking and Market Power",
+    "text": "Stiglitz: Rent-Seeking and Market Power\n\nJoseph Stiglitz argues inequality stems from rent-seeking\nEconomic rent = income earned by capturing value rather than creating it\n\nMonopoly pricing, financial speculation, control over intellectual property\n\nKey insight: market rules are not natural — they are shaped by those with power\n\nWho benefits from deregulation? From weak antitrust enforcement?"
+  },
+  {
+    "objectID": "slides/lecture-13.2.html#market-power-and-worker-wages",
+    "href": "slides/lecture-13.2.html#market-power-and-worker-wages",
+    "title": "Lecture 13.2",
+    "section": "Market Power and Worker Wages",
+    "text": "Market Power and Worker Wages\n\nMonopsony: when employers dominate local labor markets, they can suppress wages\n\nWorkers paid less than the value they produce\n\nNon-compete clauses trap workers and reduce their bargaining power\nFissured workplace: outsourcing, franchising, and gig economy shift risk onto workers\nConcentrated industries (healthcare, tech, retail) → lower wages for workers"
+  },
+  {
+    "objectID": "slides/lecture-13.2.html#executive-pay-vs.-worker-pay",
+    "href": "slides/lecture-13.2.html#executive-pay-vs.-worker-pay",
+    "title": "Lecture 13.2",
+    "section": "Executive Pay vs. Worker Pay",
+    "text": "Executive Pay vs. Worker Pay\n\nCEO pay has grown ~940% since 1978; typical worker pay ~12%\nExecutives sit on each other’s boards → mutual back-scratching on compensation\nShareholder primacy shifts gains to executives and shareholders at workers’ expense\nStock buybacks and options concentrate rewards at the very top\nThis is Stiglitz’s core target: inequality within firms, not just between them"
+  },
+  {
+    "objectID": "slides/lecture-13.2.html#beyond-piketty-and-stiglitz",
+    "href": "slides/lecture-13.2.html#beyond-piketty-and-stiglitz",
+    "title": "Lecture 13.2",
+    "section": "Beyond Piketty and Stiglitz",
+    "text": "Beyond Piketty and Stiglitz\n\nEconomic globalization\n\nTrade competition suppresses wages in exposed sectors\nInternationalization of finance expands returns to capital\n\nConservative economic policy (Reagan revolution)\n\nRemoval of capital controls\nDeregulation of finance and labor markets\nShifts in tax policy (cuts to top marginal rates, capital gains)\n\nTechnology and skill development\n\nReduced demand for low-skilled workers\nReturns to education and “skill-biased technical change”\n\nDecline of unions and left parties\nWeakening of redistributive institutions\n\nLower minimum wages, weaker safety net"
+  },
+  {
+    "objectID": "slides/lecture-13.2.html#lorenz-curve-and-gini-coefficient",
+    "href": "slides/lecture-13.2.html#lorenz-curve-and-gini-coefficient",
+    "title": "Lecture 13.2",
+    "section": "Lorenz Curve and Gini Coefficient",
+    "text": "Lorenz Curve and Gini Coefficient\n\n\n\nThe diagonal is the line of equality — every X% of the population earns Y% of income. The bowed curve is the Lorenz curve (the actual distribution). Gini = A/(A+B): ranges from 0 (perfect equality) to 1 (perfect inequality).\n\n\nThe diagonal line represents perfect equality — every x% of the population earns x% of income. The Lorenz curve shows the actual distribution, bowed below the line of equality. Region A is the gap between the two; region B is the area under the Lorenz curve. The Gini coefficient is A/(A+B): the larger A is relative to the total triangle, the more unequal the distribution. It ranges from 0 (perfect equality) to 1 (perfect inequality)."
+  },
+  {
+    "objectID": "slides/lecture-13.2.html#exercise-testing-piketty",
+    "href": "slides/lecture-13.2.html#exercise-testing-piketty",
+    "title": "Lecture 13.2",
+    "section": "Exercise: Testing Piketty",
+    "text": "Exercise: Testing Piketty\n\nGo to wid.world → Country graphs → Wealth inequality\nSelect a country: Canada, United Kingdom, Germany, France, Sweden, China, or India\nLook at top wealth shares over time and discuss:\n\nHas wealth concentrated at the top in your country?\nDoes the trend fit Piketty’s prediction — slow, steady concentration driven by capital returns?\nOr does the pattern look different? What might explain that?"
+  },
+  {
+    "objectID": "slides/lecture-13.2.html#stiglitzs-remedies",
+    "href": "slides/lecture-13.2.html#stiglitzs-remedies",
+    "title": "Lecture 13.2",
+    "section": "Stiglitz’s Remedies",
+    "text": "Stiglitz’s Remedies\n\n\nRevive antitrust enforcement — break up existing monopolies, block anticompetitive mergers\nBroaden the standard — move beyond consumer prices to consider worker welfare, innovation, and market structure\nRegulate platforms — prevent companies from competing on their own marketplace (Amazon selling against third-party sellers)\nReform corporate governance — give workers a seat at the table; rein in executive pay\nReduce political influence of corporations — money in politics perpetuates the rules that allow rent-seeking"
+  },
+  {
+    "objectID": "slides/lecture-13.2.html#lina-khan-and-the-new-antitrust",
+    "href": "slides/lecture-13.2.html#lina-khan-and-the-new-antitrust",
+    "title": "Lecture 13.2",
+    "section": "Lina Khan and the New Antitrust",
+    "text": "Lina Khan and the New Antitrust\n\n\n“Anti-monopoly is a governing philosophy that broadly views concentrations of power as a threat to freedom, recognizing that tyranny comes in many guises. Just as the Constitution creates checks and balances in our government, safeguarding against concentrated political control, anti-monopoly laws create checks against concentrations of economic power.”\n\n— Lina Khan, former FTC Chair (2021–2025)\n\n\n\nKhan argued the consumer welfare standard, antitrust’s focus on keeping prices low, is blind to how platforms accumulate and abuse market power\nHow does Khan’s argument follow from Stiglitz? Should we think of concentrated economic power as a threat to freedom?"
+  },
+  {
+    "objectID": "slides/lecture-13.2.html#debate-fixing-market-power",
+    "href": "slides/lecture-13.2.html#debate-fixing-market-power",
+    "title": "Lecture 13.2",
+    "section": "Debate: Fixing Market Power",
+    "text": "Debate: Fixing Market Power\n\nPick one of the major tech platforms: Meta, Amazon, Apple, Google, or Microsoft\nStiglitz proposes several remedies — which would you apply to your company, and why?\n\nBreak it up?\nRegulate it as a platform?\nReform its governance?\nSomething else?\n\nWho wins and who loses from your proposed remedy?"
+  },
+  {
+    "objectID": "slides/lecture-13.2.html#the-bigger-picture",
+    "href": "slides/lecture-13.2.html#the-bigger-picture",
+    "title": "Lecture 13.2",
+    "section": "The Bigger Picture",
+    "text": "The Bigger Picture\n\n\nPiketty and Stiglitz give us two complementary mechanisms:\n\nWealth inequality: capital compounds faster than economies grow → the wealthy pull away\nIncome inequality: market power suppresses wages and inflates executive pay → workers fall behind\n\nNeither theory alone is sufficient because inequality is overdetermined\n\nMultiple forces reinforced each other from the 1980s onward\n\nInequality is not an accident of markets\nIt reflects the rules of the game, and rules can be changed"
+  },
+  {
+    "objectID": "slides/lecture-13.2.html#other-forces-worth-noting",
+    "href": "slides/lecture-13.2.html#other-forces-worth-noting",
+    "title": "Lecture 13.2",
+    "section": "Other Forces Worth Noting",
+    "text": "Other Forces Worth Noting\n\nThese factors amplified the Piketty/Stiglitz dynamics rather than replacing them:\n\nEconomic globalization — trade competition suppressed wages in exposed sectors; financialization expanded returns to capital (Piketty)\nThe Reagan revolution — deregulation, removal of capital controls, and cuts to top marginal tax rates weakened redistribution and widened the gap between r and g (both)\nTechnology and skill change — reduced demand for low-skilled workers, increased returns to education (Stiglitz)\nDecline of unions and left parties — eroded worker bargaining power, accelerating wage stagnation (Stiglitz)\nWeakening redistribution — lower minimum wages and a thinner safety net allowed market inequality to translate more directly into living standards"
   }
 ]

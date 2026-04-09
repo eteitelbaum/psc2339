@@ -23,46 +23,82 @@ library(scales)
 library(wid)
 library(WDI)
 library(wbstats)
+library(paletteer)
+library(fredr)
+
+fredr_set_key(Sys.getenv("FRED_API_KEY"))
 
 theme_set(theme_minimal())
+options(ggplot2.discrete.colour = paletteer::paletteer_d("rcartocolor::Vivid"))
 ```
 
 # Inequality
 
 ## Illustrative statistics from Stiglitz 
 
+<br>
+
 - 20% of wage earners earn as much as bottom 80%
 - Top 1% earn in a week what bottom 20% earns in a year
 - Top .1% earn in a day what bottom 90% earns in a year
 - Walton family controls as much wealth as is owned by bottom 30% of society (~$238 billion)
 
-## Common Inequality Measures {.smaller}
+## Measures We Will Use 
 
-- Income/wealth shares
-	-What share a given subpopulation accounts for 
-- Ratios
-	- 20/20 ratio (highest 20/lowest 20)
-	- Palma ratio (highest 10/lowest 40)
-	- 90/10 ratio (lowest 90/highest 10)
-- Gini coefficient
-	- Based on the “Lorenz” curve
-	- Varies from 0 to 1
-- Others
-	- e.g. Thiel, Hoover
+<br>
 
-## Lorenze Curve and Gini Coefficient
+- Income/wealth shares — what fraction of total income/wealth a group captures
+- Gini coefficient — summarizes the whole distribution (0 = perfect equality, 1 = perfect inequality)
+- Median household income — measures living standards at the middle; useful for tracking whether the middle is keeping up
 
-::: columns
-:::: column
-- Gini coefficient is A/(A+B)
-- Varies from 0 (perfect equality) and 1 (perfect inequality)
-::::
-:::: column
-![](images/gini.jpg)
-::::
+## Lorenz Curve and Gini Coefficient
+
+<br>
+
+```{r}
+#| label: lorenz
+#| fig-height: 3.5
+#| fig-width: 6
+#| fig-align: center
+x <- seq(0, 1, length.out = 500)
+df <- data.frame(pop = x, equality = x, lorenz = x^2.5)
+
+ggplot(df, aes(x = pop)) +
+  geom_ribbon(aes(ymin = lorenz, ymax = equality), fill = "gray60", alpha = 0.4) +
+  geom_ribbon(aes(ymin = 0, ymax = lorenz), fill = "gray40", alpha = 0.3) +
+  geom_line(aes(y = equality), color = "gray80", linewidth = 1) +
+  geom_line(aes(y = lorenz),
+            color = paletteer::paletteer_d("rcartocolor::Vivid")[1], linewidth = 1) +
+  geom_segment(x = 0.4, xend = 0.4, y = 0, yend = 0.4^2.5,
+               linetype = "dashed", color = "gray60") +
+  geom_segment(x = 0, xend = 0.4, y = 0.4^2.5, yend = 0.4^2.5,
+               linetype = "dashed", color = "gray60") +
+  geom_segment(x = 0.8, xend = 0.8, y = 0, yend = 0.8^2.5,
+               linetype = "dashed", color = "gray60") +
+  geom_segment(x = 0, xend = 0.8, y = 0.8^2.5, yend = 0.8^2.5,
+               linetype = "dashed", color = "gray60") +
+  annotate("text", x = 0.50, y = 0.44, label = "A", size = 7,
+           color = "white", fontface = "bold") +
+  annotate("text", x = 0.75, y = 0.14, label = "B", size = 7,
+           color = "white", fontface = "bold") +
+  scale_x_continuous(labels = percent, breaks = c(0, 0.2, 0.4, 0.8, 1.0)) +
+  scale_y_continuous(labels = percent,
+                     breaks = c(0, 0.10, 0.40, round(0.8^2.5, 2), 1.0)) +
+  labs(x = "Population (poorest to richest)", y = "Cumulative income share")
+```
+
+:::{style="font-size: 0.6em"}
+The diagonal is the **line of equality** — every X% of the population earns Y% of income. The bowed curve is the **Lorenz curve** (the actual distribution). **Gini = A/(A+B)**: ranges from 0 (perfect equality) to 1 (perfect inequality).
 :::
 
+::: {.notes}
+The diagonal line represents perfect equality — every x% of the population earns x% of income. The Lorenz curve shows the actual distribution, bowed below the line of equality. Region A is the gap between the two; region B is the area under the Lorenz curve. The Gini coefficient is A/(A+B): the larger A is relative to the total triangle, the more unequal the distribution. It ranges from 0 (perfect equality) to 1 (perfect inequality).
+:::
+
+
 ## Income vs. Wealth Inequality
+
+<br>
 
 - Income: what people earn from work and *returns* from investments like stocks, bonds and investment properties 
 - Wealth: value of everything a person or family owns minus any debts
@@ -153,10 +189,48 @@ download_wid(
   	geom_line() +
   	scale_y_continuous(label=percent) +
   	scale_color_discrete(labels=c("p90p100"="top 10%", "p99p100"="top 1%")) +
-  	labs(title = "Top 1% and Top 10% Personal Wealth Shares in France", 
-  		 caption = "Source: World Inequality Database",  
+  	labs(title = "Top 1% and Top 10% Personal Wealth Shares in France",
+  		 caption = "Source: World Inequality Database",
   		 x = "Year", y = "Top Share")
 ```
+
+## Piketty: Why Wealth Concentrates
+
+<br>
+
+- Thomas Piketty's central argument: **r > g**
+  - *r* = rate of return on capital (dividends, interest, rent, capital gains)
+  - *g* = rate of economic growth
+- When r > g, those who own wealth accumulate faster than the economy grows
+- Historical averages: r ≈ 4–5%, g ≈ 1–2% over the long run
+
+## The Mechanism
+
+<br>
+
+- Owners of capital reinvest returns → wealth compounds over time
+- Workers depend on wage growth, which roughly tracks *g*
+- Over time, capital's share of total income rises relative to labor's share
+- Inherited wealth comes to dominate over earned income
+  - Piketty: "the past devours the future"
+
+## Exercise: Testing Piketty {.smaller}
+
+- Go to [wid.world](https://wid.world) → Country graphs → Wealth inequality
+- Select a country: Canada, United Kingdom, Germany, France, Sweden, China, or India
+- Look at top wealth shares over time and discuss:
+  - Has wealth concentrated at the top in your country?
+  - Does the trend fit Piketty's prediction — slow, steady concentration driven by capital returns?
+  - Or does the pattern look different? What might explain that?
+
+## Limitations of r > g
+
+<br>
+
+- Predicts slow, gradual concentration — but U.S. inequality rose sharply after ~1980
+- Most Americans have little non-home wealth to compound, so r > g doesn't help them
+- Better at explaining *wealth* concentration than *income* inequality
+  - We need a different theory for that
 
 # Income Inequality
 
@@ -166,7 +240,7 @@ download_wid(
 #| label: us_gini
 WDI(indicator="SI.POV.GINI", country='USA', start=1990) %>%
   ggplot(aes(year, SI.POV.GINI)) + 
-    geom_line(color = "deepskyblue") +
+    geom_line(color = paletteer::paletteer_d("rcartocolor::Vivid")[1]) +
   	labs(title = "Gini Index of Inequality in the U.S.", 
 		 caption = "Source: World Bank",  
 		 x = "Year", y = "Gini Index")
@@ -174,7 +248,16 @@ WDI(indicator="SI.POV.GINI", country='USA', start=1990) %>%
 
 ## United States Median Household Income
 
-![](images/median_income.png)
+```{r}
+#| label: median_income
+fredr(series_id = "MEHOINUSA672N", observation_start = as.Date("1984-01-01")) %>%
+  ggplot(aes(date, value)) +
+  geom_line(color = paletteer::paletteer_d("rcartocolor::Vivid")[1]) +
+  scale_y_continuous(label = comma) +
+  labs(title = "Real Median Household Income in the United States",
+       caption = "Source: U.S. Census Bureau via FRED",
+       x = "Year", y = "2021 CPI-U-RS Adjusted Dollars")
+```
 
 ## Bottom 90% vs. Top 10% Income Shares (U.S.)
 
@@ -215,59 +298,88 @@ download_wid(
 	    caption = "Source: World Inequality Database", x = "Year", y = "Dollars")
 ```
 
-## Exercise {.smaller}
+## Stiglitz: Rent-Seeking and Market Power
 
-- Go to [wid.world](https://wid.world) 
-- Country graphs section
-- Select a country
-	- Canada
-	- United Kingdom
-	- Germany
-	- France
-	- Sweden
-	- China
-	- India
-- How have pre-tax income shares changed over time? 
-- How does your country compare to the world and the U.S. in terms of shares of top 10%
+- Joseph Stiglitz argues inequality stems from **rent-seeking**
+- Economic rent = income earned by *capturing* value rather than *creating* it
+  - Monopoly pricing, financial speculation, control over intellectual property
+- Key insight: market rules are not natural — they are shaped by those with power
+  - Who benefits from deregulation? From weak antitrust enforcement?
 
-# Explanations
+## Market Power and Worker Wages
 
-## Pickety vs. Stiglitz {.smaller}
+- **Monopsony**: when employers dominate local labor markets, they can suppress wages
+  - Workers paid less than the value they produce
+- Non-compete clauses trap workers and reduce their bargaining power
+- Fissured workplace: outsourcing, franchising, and gig economy shift risk onto workers
+- Concentrated industries (healthcare, tech, retail) → lower wages for workers
 
-- Pickety: r > g
-  - There is some truth to "r > g" in the U.S.
-    - Most people do not have a lot of non-home wealth
-  - But upward slope of inequality sharper in U.S.
-- Stiglitz: "rent seeking"
-  - CEOs pay themselves rather than paying workers
-  - Rent is drawing income by capturing something 
-    - As opposed to producing something of value
-    - Grabbing wealth vs. creating wealth
+## Executive Pay vs. Worker Pay
 
-## Other Explanations {.smaller}
+- CEO pay has grown ~940% since 1978; typical worker pay ~12%
+- Executives sit on each other's boards → mutual back-scratching on compensation
+- Shareholder primacy shifts gains to executives and shareholders at workers' expense
+- Stock buybacks and options concentrate rewards at the very top
+- This is Stiglitz's core target: inequality *within* firms, not just between them
 
-- Economic globalization
-	- Trade
-	- Internationalization of finance 
-- Conservative economic policy (Regan revolution)
-	- Removal of capital controls 
-	- Deregulation
-	- Shifts in tax policy
-- Technology and skill development 
-	- Reduced demand for low-skilled workers
-- Immigration
-- Social norms and reward system
-- Decline of left parties and unions
-- Lack of redistribution
+## Stiglitz's Remedies {.smaller}
 
-## Debate: Should Big Tech be Broken Up {.smaller}
+<br>
 
-- Pick one of the FAANG companies 
-  - Facebook (Meta)
-  - Amazon
-  - Apple
-  - Netflix
-  - Google (Alphabet)
-- Should it be broken up into smaller companies?
-  - Winners and losers
-  - Relate your argument to inequality/Stiglitz
+- **Revive antitrust enforcement** — break up existing monopolies, block anticompetitive mergers
+- **Broaden the standard** — move beyond consumer prices to consider worker welfare, innovation, and market structure
+- **Regulate platforms** — prevent companies from competing on their own marketplace (Amazon selling against third-party sellers)
+- **Reform corporate governance** — give workers a seat at the table; rein in executive pay
+- **Reduce political influence of corporations** — money in politics perpetuates the rules that allow rent-seeking
+
+## Debate: Fixing Market Power 
+
+- Pick one of the major tech platforms: Meta, Amazon, Apple, Google, or Microsoft
+- Stiglitz proposes several remedies — which would you apply to your company, and why?
+  - Break it up?
+  - Regulate it as a platform?
+  - Reform its governance?
+  - Something else?
+- Who wins and who loses from your proposed remedy?
+
+## Lina Khan and the New Antitrust {.smaller}
+
+<br>
+
+> "Anti-monopoly is a governing philosophy that broadly views concentrations of power as a threat to freedom, recognizing that tyranny comes in many guises. Just as the Constitution creates checks and balances in our government, safeguarding against concentrated political control, anti-monopoly laws create checks against concentrations of economic power."
+
+— Lina Khan, former FTC Chair (2021–2025)
+
+<br>
+
+::: {.fragment}
+- Khan argued the **consumer welfare standard**, antitrust's focus on keeping prices low, is blind to how platforms accumulate and abuse market power
+- How does Khan's argument follow from Stiglitz? Should we think of concentrated economic power as a threat to freedom?  
+:::
+
+# Conclusion
+
+## The Bigger Picture {.smaller}
+
+<br>
+
+- Piketty and Stiglitz give us two complementary mechanisms:
+  - **Wealth inequality**: capital compounds faster than economies grow → the wealthy pull away
+  - **Income inequality**: market power suppresses wages and inflates executive pay → workers fall behind
+- Neither theory alone is sufficient because inequality is overdetermined
+  - Multiple forces reinforced each other from the 1980s onward
+- Inequality is not an accident of markets
+- It reflects the rules of the game, and rules can be changed
+
+## Other Forces Worth Noting {.smaller}
+
+<br>
+
+These factors amplified the Piketty/Stiglitz dynamics rather than replacing them:
+
+- **Economic globalization** — trade competition suppressed wages in exposed sectors; financialization expanded returns to capital (Piketty)
+- **The Reagan revolution** — deregulation, removal of capital controls, and cuts to top marginal tax rates weakened redistribution and widened the gap between r and g (both)
+- **Technology and skill change** — reduced demand for low-skilled workers, increased returns to education (Stiglitz)
+- **Decline of unions and left parties** — eroded worker bargaining power, accelerating wage stagnation (Stiglitz)
+- **Weakening redistribution** — lower minimum wages and a thinner safety net allowed market inequality to translate more directly into living standards
+
