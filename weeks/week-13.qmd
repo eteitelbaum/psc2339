@@ -1,7 +1,6 @@
 ---
 title: "Week 13"
 subtitle: "Globalization and Inequality"
-editor: visual
 ---
 
 ::: callout-important
