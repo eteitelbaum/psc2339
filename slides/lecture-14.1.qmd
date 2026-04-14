@@ -1,0 +1,45 @@
+---
+title: "Lecture 14.1"
+subtitle: "AI and Worker Adaptability"
+author: "Emmanuel Teitelbaum"
+footer: "[PSC 2339 Website](https://psc2339.com)"
+logo: "images/cpe_logo.png"
+format:
+  revealjs:
+    theme: moon
+    transition: fade
+    slide-number: true
+execute:
+  echo: false
+  freeze: auto
+---
+
+# AI and Worker Adaptability
+
+## Manning & Aguirre (2025)
+
+::: {.incremental}
+- AI exposure varies widely across occupations — but exposure ≠ job loss
+- Workers in high-exposure occupations often have **strong adaptive capacity** (education, earnings, transferable skills)
+- **~6.1 million workers** face both high AI exposure *and* low adaptive capacity — mostly in clerical and administrative roles
+- The risk is concentrated, not evenly spread
+:::
+
+## Discussion: Who Bears the Risk?
+
+- Manning & Aguirre find that many highly AI-exposed workers are relatively well-positioned to adapt. Does that reassure you, or does it raise new concerns?
+
+- The Washington Post [interactive](https://www.washingtonpost.com/technology/interactive/2026/jobs-most-affected-ai-automation/) maps the jobs most affected. Which occupations surprised you? What patterns did you notice?
+
+- How does the concept of **adaptive capacity** change how we should think about AI-driven displacement compared to earlier waves of automation (e.g., the China Shock)?
+
+## Discussion: Politics and Policy
+
+- The 6.1 million most vulnerable workers are concentrated in clerical and administrative roles. What does that tell us about *who* is likely to bear adjustment costs — and who isn't?
+
+- Should government intervene, and if so, how? Consider:
+  - Social insurance (unemployment, retraining)
+  - Industrial or technology policy
+  - Regulating the pace of AI adoption
+
+- Does the political economy of AI disruption look different from trade-induced job loss? Why or why not?

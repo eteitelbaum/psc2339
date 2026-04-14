@@ -10,6 +10,8 @@ editor: visual
 
 ## Slides
 
+🖥️ [AI and worker adaptability](/slides/lecture-14.1.html)
+
 🖥️ [AI and automation](/slides/lecture-11.1.html)
 
 🖥️ [The populist backlash](/slides/lecture-13.1.html)

@@ -1494,7 +1494,7 @@
     "href": "weeks/week-14.html#slides",
     "title": "Week 14",
     "section": "Slides",
-    "text": "Slides\n🖥️ AI and automation\n🖥️ The populist backlash\n\n\nBack to course schedule ⏎",
+    "text": "Slides\n🖥️ AI and worker adaptability\n🖥️ AI and automation\n🖥️ The populist backlash\n\n\nBack to course schedule ⏎",
     "crumbs": [
       "Weekly materials",
       "Week 14"
@@ -3798,5 +3798,33 @@
     "title": "Lecture 13.2",
     "section": "",
     "text": "20% of wage earners earn as much as bottom 80%\nTop 1% earn in a week what bottom 20% earns in a year\nTop .1% earn in a day what bottom 90% earns in a year\nWalton family controls as much wealth as is owned by bottom 30% of society (~$238 billion)\n\n\n\n\n\n\nIncome/wealth shares — what fraction of total income/wealth a group captures\nGini coefficient — summarizes the whole distribution (0 = perfect equality, 1 = perfect inequality)\nMedian household income — measures living standards at the middle; useful for tracking whether the middle is keeping up\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe diagonal is the line of equality — every X% of the population earns Y% of income. The bowed curve is the Lorenz curve (the actual distribution). Gini = A/(A+B): ranges from 0 (perfect equality) to 1 (perfect inequality).\n\n\nThe diagonal line represents perfect equality — every x% of the population earns x% of income. The Lorenz curve shows the actual distribution, bowed below the line of equality. Region A is the gap between the two; region B is the area under the Lorenz curve. The Gini coefficient is A/(A+B): the larger A is relative to the total triangle, the more unequal the distribution. It ranges from 0 (perfect equality) to 1 (perfect inequality).\n\n\n\n\n\n\nIncome: what people earn from work and returns from investments like stocks, bonds and investment properties\nWealth: value of everything a person or family owns minus any debts\n\nNet worth: marketable assets minus debts\nFinancial wealth: non-home wealth"
+  },
+  {
+    "objectID": "slides/lecture-14.1.html",
+    "href": "slides/lecture-14.1.html",
+    "title": "Lecture 14.1",
+    "section": "",
+    "text": "AI exposure varies widely across occupations — but exposure ≠ job loss\nWorkers in high-exposure occupations often have strong adaptive capacity (education, earnings, transferable skills)\n~6.1 million workers face both high AI exposure and low adaptive capacity — mostly in clerical and administrative roles\nThe risk is concentrated, not evenly spread\n\n\n\n\n\n\nManning & Aguirre find that many highly AI-exposed workers are relatively well-positioned to adapt. Does that reassure you, or does it raise new concerns?\nThe Washington Post interactive maps the jobs most affected. Which occupations surprised you? What patterns did you notice?\nHow does the concept of adaptive capacity change how we should think about AI-driven displacement compared to earlier waves of automation (e.g., the China Shock)?\n\n\n\n\n\nThe 6.1 million most vulnerable workers are concentrated in clerical and administrative roles. What does that tell us about who is likely to bear adjustment costs — and who isn’t?\nShould government intervene, and if so, how? Consider:\n\nSocial insurance (unemployment, retraining)\nIndustrial or technology policy\nRegulating the pace of AI adoption\n\nDoes the political economy of AI disruption look different from trade-induced job loss? Why or why not?"
+  },
+  {
+    "objectID": "slides/lecture-14.1.html#manning-aguirre-2025",
+    "href": "slides/lecture-14.1.html#manning-aguirre-2025",
+    "title": "Lecture 14.1",
+    "section": "Manning & Aguirre (2025)",
+    "text": "Manning & Aguirre (2025)\n\nAI exposure varies widely across occupations — but exposure ≠ job loss\nWorkers in high-exposure occupations often have strong adaptive capacity (education, earnings, transferable skills)\n~6.1 million workers face both high AI exposure and low adaptive capacity — mostly in clerical and administrative roles\nThe risk is concentrated, not evenly spread"
+  },
+  {
+    "objectID": "slides/lecture-14.1.html#discussion-who-bears-the-risk",
+    "href": "slides/lecture-14.1.html#discussion-who-bears-the-risk",
+    "title": "Lecture 14.1",
+    "section": "Discussion: Who Bears the Risk?",
+    "text": "Discussion: Who Bears the Risk?\n\nManning & Aguirre find that many highly AI-exposed workers are relatively well-positioned to adapt. Does that reassure you, or does it raise new concerns?\nThe Washington Post interactive maps the jobs most affected. Which occupations surprised you? What patterns did you notice?\nHow does the concept of adaptive capacity change how we should think about AI-driven displacement compared to earlier waves of automation (e.g., the China Shock)?"
+  },
+  {
+    "objectID": "slides/lecture-14.1.html#discussion-politics-and-policy",
+    "href": "slides/lecture-14.1.html#discussion-politics-and-policy",
+    "title": "Lecture 14.1",
+    "section": "Discussion: Politics and Policy",
+    "text": "Discussion: Politics and Policy\n\nThe 6.1 million most vulnerable workers are concentrated in clerical and administrative roles. What does that tell us about who is likely to bear adjustment costs — and who isn’t?\nShould government intervene, and if so, how? Consider:\n\nSocial insurance (unemployment, retraining)\nIndustrial or technology policy\nRegulating the pace of AI adoption\n\nDoes the political economy of AI disruption look different from trade-induced job loss? Why or why not?"
   }
 ]
