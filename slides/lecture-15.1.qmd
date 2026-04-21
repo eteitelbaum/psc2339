@@ -46,15 +46,17 @@ execute:
 
 ## Immigration 
 
+<br>
+
 - During the boom years, labor was in short supply, immigrants came for work
 
 - In the 1980s, however, new immigrants were asylum seekers
 
 - Most recent wave of refugees is from refugees trying to escape the violence in the Middle East 
 
-- [cool map](https://www.lucify.com/the-flow-towards-europe/) 
-
 ## The European Union 1 {.smaller}
+
+<br>
 
 - Precursors to the EU (1950s)
 	- European Coal and Steel Community
@@ -67,6 +69,8 @@ execute:
 
 ## The Europe Union 2 {.smaller}
 
+<br>
+
 - Stability and Growth Pact (1997)
 	- Members' deficits had to stay below 3% of GDP and debt below 60% of GDP
 	- Severely constrained government spending
@@ -76,13 +80,12 @@ execute:
 	- Unions opposed because companies could move to places with cheaper labor
 	- Right opposed because of influx of immigrants from poorer EU countries
 
-# Judis Discussion
+## Judis Discussion
 
-## Discussion Strategy
+<br>
 
 - Identify one chapter from Part II or Part III from Judis
 - Meet with other people who read chapter from same part of book
-- Now share findings with a group that read a chapter from different part
-- Question: should the U.S. abandon globalism? 
+- Discuss whether, based on Judis's findings, Europe is more, less or equally vulnerable to populism and democratic backsliding
 
 
