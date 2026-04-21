@@ -18,6 +18,8 @@ execute:
 
 ## What is Populism? {.smaller}
 
+<br>
+
 - A political movement that champions the people against the establishment 
 - Left-wing populism: dyadic and vertical, mobilized along class lines
 	- Government/elites have forgotten about the ordinary people
@@ -28,14 +30,14 @@ execute:
 -	Crucially, populists operate inside of a democratic system
 	- As opposed to fascists or left-wing extremists in Europe or Latin America
 
-## Where Does Populism Come From? {.smaller}
+## Where Does Populism Come From?
 
 - Reaction to changes in the economy (and immigration)
 - Often spurred by laissez-faire economic policies that benefit the rich
 - Frequently the long-term result of economic crisis (1870s-1880s, 1929, late-1970s, 2008, etc.)
 	- Populists accuse mainstream parties of ignoring crisis altogether, not addressing the root causes of the crisis, or selling out ordinary voters in order to resolve crisis  
 
-## Where Does Populism Come From? {.smaller}
+## Populism and the Economy 
 
 - Most left-wing populist movements demand government intervention that will reduce inequality and restore the middle class
 - But populist demands can be coupled with demands to get the government out of the economy
@@ -45,15 +47,11 @@ execute:
 
 ## Neoliberal Policy in the U.S. {.smaller}
 
-- Birthplace of neoliberalism 
-	- Home of “Washington Consensus”
+- Birthplace of neoliberalism (Washington Consensus)
 - Reaction to competitive challenges faced by U.S. business starting in the 1970s
 	- Factories in Western Europe and Japan
 	- Steel production throughout Asia
 	- Textile production in developing countries
-	
-## Neoliberal Policy in the U.S. {.smaller}
-
 - Business felt regulations and unions prevented them from competing
 	- Repressed unions 
 	- Moved factories abroad and to “right to work” states
@@ -74,9 +72,6 @@ execute:
 	- Steep fall in agricultural prices
 	- Aggravated by increased transportation costs 
 		- Railroad monopolies
-
-## Populism in the U.S. I {.smaller}
-
 - Saw themselves as representing people vs. elites
 	- People = farmers and workers
 	- Elites = capitalists, speculators and mainstream parties
@@ -91,9 +86,6 @@ execute:
 		- Proposed wealth cap ($5 million per family; $1 million per individual)
 		- Use revenue to fund guaranteed income
 	- Forced Roosevelt to pass “Second New Deal” that included social security, NLRA, WPA and wealth taxes
-	
-## Populism in the U.S. II {.smaller}
-
 - George Wallace 
   - Governor of Alabama (four terms)
   - Government "full of rich people" who wanted to give their money to the poor
@@ -116,7 +108,7 @@ execute:
 
 # Populism in the U.S. Today
 
-## Trump and Sanders {.smaller}
+## Trump and Sanders 
 
 - Trump
 	- Prior to running in 2016, he was a moderate on social issues (like abortion) and social spending (supported idea of universal health care)
