@@ -51,5 +51,5 @@ This page displays an outline of the topics, content, and assignments for the se
 | [14](/weeks/week-14.html) | `r advdate(tue,14)` | AI and automation | [📖](https://www.nber.org/papers/w34705?itid=lk_inline_enhanced-template "Manning and Aguire") |  | [🖥️](/slides/lecture-14.1.html "Lecture 14.1") |  |  |
 |  | `r advdate(thur,14)` | The populist backlash | [📖](https://www-jstor-org.proxygw.wrlc.org/stable/j.ctv2dzzqsn "Judis") |  | [🖥️](/slides/lecture-14.2.html "Lecture 14.2 slides") |  |  |
 | [15](/weeks/week-15.html) | `r advdate(tue,15)` | Extremist politics | [📖](https://www-jstor-org.proxygw.wrlc.org/stable/j.ctv2dzzqsn "Judis") |  | [🖥️](/slides/lecture-15.1.html "Lecture 15.1 slides") |  |  |
-|  | `r advdate(thur,15)` | Exam 3 |  |  |  |  | 📘 [✍️](/project/project-assignment-3.html "Project Assignment 3") |
+|  | `r advdate(thur,15)` | Exam 3 & final paper worshop |  |  |  |  | 📘 [✍️](/project/project-assignment-3.html "Project Assignment 3") |
 :::
